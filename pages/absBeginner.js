@@ -4,6 +4,11 @@ import Image from "next/image";
 import Link from "next/link";
 
 function absBeginner() {
+  const handleClick = (e, path) => {
+    if (path === "/absBigStart") {
+      console.log(`I clicked on it`);
+    }
+  };
   return (
     <div className={styles.bdy}>
       <div className={styles.bbdy}>
@@ -240,7 +245,11 @@ function absBeginner() {
         <div className={styles.sec}>00:30</div>
         <hr className={styles.vrs} />
 
-        <button className={styles.btn}>START</button>
+        <Link href={"/absBigStart"}>
+          <button className={styles.btn}>
+            <div onClick={(e) => handleClick(e, "absBigStart")}>START</div>
+          </button>
+        </Link>
       </div>
     </div>
   );

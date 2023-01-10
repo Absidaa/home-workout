@@ -161,8 +161,10 @@ function chestBeginner() {
           <div className={styles.jjak}>CHEST STRETCH</div>
           <div className={styles.sec}>00:20</div>
           <hr className={styles.vrs} />
-
-          <button className={styles.btn}>START</button>
+          <Link href={"/chBigStart"}>
+            {" "}
+            <button className={styles.btn}>START</button>
+          </Link>
         </div>
       </div>
     </>
