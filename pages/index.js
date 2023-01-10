@@ -2,6 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import { Inter } from "@next/font/google";
 import styles from "../styles/Home.module.css";
+import Link from "next/link";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -18,14 +19,16 @@ export default function Home() {
         <main className={styles.main}>
           <h1>Home workout</h1>
           <h4 className={styles.begin}>BEGINNER</h4>
-          <div className={styles.cad} class="card">
-            <Image
-              style={{ borderRadius: "8.5px" }}
-              src="/absbeginner.jpg"
-              height={137}
-              width={275}
-            />
-          </div>
+          <Link href={"/"}>
+            <div className={styles.cad} class="card">
+              <Image
+                style={{ borderRadius: "8.5px" }}
+                src="/absbeginner.jpg"
+                height={137}
+                width={275}
+              />
+            </div>
+          </Link>
           <div className={styles.cad} class="card">
             <Image
               style={{ borderRadius: "8.5px" }}
@@ -62,14 +65,14 @@ export default function Home() {
           <div className={styles.cad} class="card">
             <Image
               style={{ borderRadius: "8.5px" }}
-              src="/absbeginner.jpg"
+              src="/absinter.jpeg"
               height={137}
               width={275}
             />
             <div className={styles.cad} class="card">
               <Image
                 style={{ borderRadius: "8.5px" }}
-                src="/absbeginner.jpg"
+                src="/chestint.jpeg"
                 height={137}
                 width={275}
               />
@@ -77,7 +80,7 @@ export default function Home() {
             <div className={styles.cad} class="card">
               <Image
                 style={{ borderRadius: "8.5px" }}
-                src="/absbeginner.jpg"
+                src="/armint.jpeg"
                 height={137}
                 width={275}
               />
@@ -85,7 +88,7 @@ export default function Home() {
             <div className={styles.cad} class="card">
               <Image
                 style={{ borderRadius: "8.5px" }}
-                src="/absbeginner.jpg"
+                src="/legint.jpeg"
                 height={137}
                 width={275}
               />
@@ -93,7 +96,7 @@ export default function Home() {
             <div className={styles.cad} class="card">
               <Image
                 style={{ borderRadius: "8.5px" }}
-                src="/absbeginner.jpg"
+                src="/backint.jpeg"
                 height={137}
                 width={275}
               />
@@ -102,7 +105,7 @@ export default function Home() {
             <div className={styles.cad} class="card">
               <Image
                 style={{ borderRadius: "8.5px" }}
-                src="/absbeginner.jpg"
+                src="/advwk.jpeg"
                 height={137}
                 width={275}
               />
@@ -110,7 +113,7 @@ export default function Home() {
             <div className={styles.cad} class="card">
               <Image
                 style={{ borderRadius: "8.5px" }}
-                src="/absbeginner.jpg"
+                src="/advches.jpeg"
                 height={137}
                 width={275}
               />
@@ -118,7 +121,7 @@ export default function Home() {
             <div className={styles.cad} class="card">
               <Image
                 style={{ borderRadius: "8.5px" }}
-                src="/absbeginner.jpg"
+                src="/armadv.jpeg"
                 height={137}
                 width={275}
               />
@@ -126,7 +129,7 @@ export default function Home() {
             <div className={styles.cad} class="card">
               <Image
                 style={{ borderRadius: "8.5px" }}
-                src="/absbeginner.jpg"
+                src="/legadv.jpeg"
                 height={137}
                 width={275}
               />
@@ -134,7 +137,7 @@ export default function Home() {
             <div className={styles.cad} class="card">
               <Image
                 style={{ borderRadius: "8.5px" }}
-                src="/absbeginner.jpg"
+                src="/backadv.jpeg"
                 height={137}
                 width={275}
               />
