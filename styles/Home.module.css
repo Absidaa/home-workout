@@ -31,3 +31,90 @@
   width: 100%;
   text-align: center;
 }
+.bbdy {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem;
+  min-height: 100vh;
+  width: 50vh;
+  border: solid;
+  background-color: white;
+  margin-left: 35%;
+}
+.time {
+  margin-left: -30vh;
+  margin-top: 1px;
+}
+.vr {
+  width: 65vh;
+  margin-left: -47px;
+  font-weight: bolder;
+  margin-top: -10px;
+}
+.bgset {
+  margin-top: -5vh;
+}
+.jjak {
+  margin-left: 27vh;
+  margin-top: 20px;
+  margin-bottom: 18px;
+  font-weight: bold;
+}
+.sec {
+  margin-left: 12vh;
+  color: gray;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.vrs {
+  width: 65vh;
+  margin-left: -47px;
+  font-weight: bolder;
+  margin-top: 18px;
+}
+.x {
+  margin-left: 8vh;
+  color: gray;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.btwist {
+  margin-left: 25vh;
+  margin-top: 20px;
+  margin-bottom: 18px;
+  font-weight: bold;
+}
+.htoch {
+  margin-left: 21vh;
+  margin-top: 20px;
+  margin-bottom: 18px;
+  font-weight: bold;
+}
+.bplk {
+  margin-left: 14vh;
+  margin-top: 20px;
+  margin-bottom: 18px;
+  font-weight: bold;
+}
+.bleg {
+  margin-left: 20vh;
+  margin-top: 20px;
+  margin-bottom: 18px;
+  font-weight: bold;
+}
+.btn {
+  background-color: blue;
+  color: white;
+  border: solid;
+  border-radius: 15px;
+  height: 50px;
+  width: 55vh;
+  margin-top: 5px;
+  margin-bottom: -40px;
+}
+
+.back {
+  margin-left: -28vh;
+  margin-bottom: 10px;
+  margin-top: -24px;
+  font-size: 20px;
+}

@@ -17,6 +17,10 @@ export default function App({ Component, pageProps }) {
       <div>
         <Navbar />
         <Component {...pageProps} />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Acme&family=Lato:wght@700&family=Roboto:wght@300&family=Seymour+One&display=swap"
+          rel="stylesheet"
+        />
       </div>
     </>
   );
