@@ -118,6 +118,98 @@ function absBeginner() {
           height={80}
           width={80}
         />
+        <Image
+          style={{
+            marginLeft: "-30vh",
+            marginTop: "10px",
+            marginBottom: "-90px",
+          }}
+          src="/rigt.jpeg"
+          height={80}
+          width={80}
+        />
+        <div className={styles.jjak}>ABDOMINAL CRUNCHES</div>
+        <div className={styles.sec}>X12</div>
+        <hr className={styles.vrs} />
+
+        <Image
+          style={{
+            marginLeft: "-30vh",
+            marginTop: "10px",
+            marginBottom: "-90px",
+          }}
+          src="/rutwist.png"
+          height={80}
+          width={80}
+        />
+        <div className={styles.btwist}>RUSSIAN TWIST</div>
+        <div className={styles.x}>x20</div>
+        <hr className={styles.vrs} />
+        <Image
+          style={{
+            marginLeft: "-30vh",
+            marginTop: "10px",
+            marginBottom: "-90px",
+          }}
+          src="/moclim.jpg"
+          height={80}
+          width={80}
+        />
+
+        <div className={styles.jjak}>MOUNTAIN CLIMBER</div>
+        <div className={styles.x}>x12</div>
+        <hr className={styles.vrs} />
+        <Image
+          style={{
+            marginLeft: "-30vh",
+            marginTop: "10px",
+            marginBottom: "-90px",
+          }}
+          src="/htouch.jpg"
+          height={80}
+          width={80}
+        />
+        <div className={styles.htoch}>HEEL TOUCH</div>
+        <div className={styles.x}>x20</div>
+        <hr className={styles.vrs} />
+        <Image
+          style={{
+            marginLeft: "-30vh",
+            marginTop: "10px",
+            marginBottom: "-90px",
+          }}
+          src="/lraise.jpg"
+          height={80}
+          width={80}
+        />
+
+        <div className={styles.bleg}>LEG RAISES</div>
+        <div className={styles.x}>x14</div>
+        <hr className={styles.vrs} />
+        <Image
+          style={{
+            marginLeft: "-30vh",
+            marginTop: "10px",
+            marginBottom: "-90px",
+          }}
+          src="/plak.jpeg"
+          height={80}
+          width={80}
+        />
+
+        <div className={styles.bplk}>PLANK</div>
+        <div className={styles.sec}>00:30</div>
+        <hr className={styles.vrs} />
+        <Image
+          style={{
+            marginLeft: "-30vh",
+            marginTop: "10px",
+            marginBottom: "-90px",
+          }}
+          src="/costreh.jpg"
+          height={80}
+          width={80}
+        />
         <div className={styles.jjak}>COBRA STRECH</div>
         <div className={styles.sec}>00:30</div>
         <hr className={styles.vrs} />
