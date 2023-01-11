@@ -167,9 +167,6 @@ export default function Home() {
               />
             </div>
           </Link>
-          <div className={styles.cad} class="card">
-            discover more workout
-          </div>
         </main>
       </div>
     </>
