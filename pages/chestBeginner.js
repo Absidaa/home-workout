@@ -4,12 +4,19 @@ import Image from "next/image";
 import Link from "next/link";
 
 function chestBeginner() {
+  const handleClick = (e, path) => {
+    if (path === "/chesBigStart") {
+      console.log(`I clicked on it`);
+    }
+  };
   return (
     <>
       <div className={styles.bdy}>
         <div className={styles.bbdy}>
+          <div className={styles.abs}>CHEST BEGINNER</div>
+
           <Link href={"/"}>
-            <div className={styles.back}>←</div>
+            <button className={styles.back}>←</button>
           </Link>
           <h4 className={styles.bgset}>Set of Workouts</h4>
           <hr className={styles.vr} />
@@ -161,9 +168,10 @@ function chestBeginner() {
           <div className={styles.jjak}>CHEST STRETCH</div>
           <div className={styles.sec}>00:20</div>
           <hr className={styles.vrs} />
-          <Link href={"/chBigStart"}>
-            {" "}
-            <button className={styles.btn}>START</button>
+          <Link href={"/chesBigStart"}>
+            <button className={styles.btn}>
+              <div onClick={(e) => handleClick(e, "absBigStart")}>START</div>
+            </button>
           </Link>
         </div>
       </div>

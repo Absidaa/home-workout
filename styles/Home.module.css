@@ -29,7 +29,7 @@
   margin-bottom: 10px;
 }
 .adv {
-  margin-left: 1-4vh;
+  margin-left: -30vh;
   margin-bottom: 10px;
 }
 .cad {
@@ -50,9 +50,17 @@
   background-color: white;
   margin-left: 80vh;
 }
+.abs {
+  margin-top: -20px;
+  margin-bottom: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+}
 .time {
   margin-left: -30vh;
   margin-top: 1px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .vr {
   width: 65vh;
@@ -62,6 +70,7 @@
 }
 .bgset {
   margin-top: -5vh;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .jjak {
   margin-left: 27vh;

@@ -12,7 +12,7 @@ function absBeginner() {
   return (
     <div className={styles.bdy}>
       <div className={styles.bbdy}>
-        <div className={styles.abs}>ARM BEGINNER</div>
+        <div className={styles.abs}>LEG BEGINNER</div>
 
         <Link href={"/"}>
           <button className={styles.back}>←</button>

@@ -13,8 +13,10 @@ function absBeginner() {
     <>
       <div className={styles.abdy}>
         <div className={styles.bbdy}>
+          <div className={styles.abs}>ABS BEGINNER</div>
+
           <Link href={"/"}>
-            <div className={styles.back}>←</div>
+            <button className={styles.back}>←</button>
           </Link>
           <h4 className={styles.bgset}>Set of Workouts</h4>
           <hr className={styles.vr} />
