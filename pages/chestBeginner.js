@@ -11,7 +11,7 @@ function chestBeginner() {
           <Link href={"/"}>
             <div className={styles.back}>←</div>
           </Link>
-          <h4 className={styles.bgset}>Set of workouts</h4>
+          <h4 className={styles.bgset}>Set of Workouts</h4>
           <hr className={styles.vr} />
           <div className={styles.worksb} class="card">
             <h5 className={styles.time}>▼11 mins• 11 workouts</h5>

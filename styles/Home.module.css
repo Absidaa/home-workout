@@ -1,3 +1,6 @@
+.body {
+  width: 0;
+}
 .main {
   display: flex;
   flex-direction: column;
@@ -11,6 +14,11 @@
 }
 .bdy {
   background-color: rgb(110, 89, 89);
+  width: 100%;
+}
+.abdy {
+  background-color: rgb(110, 89, 89);
+  width: 100%;
 }
 .begin {
   margin-left: -30vh;
@@ -40,7 +48,7 @@
   width: 50vh;
   border: solid;
   background-color: white;
-  margin-left: 35%;
+  margin-left: 80vh;
 }
 .time {
   margin-left: -30vh;
@@ -117,4 +125,157 @@
   margin-bottom: 10px;
   margin-top: -24px;
   font-size: 20px;
+}
+.but {
+  margin-left: 37%;
+}
+@media only screen and (max-width: 800px) {
+  .main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem;
+    min-height: 100vh;
+    width: 50vh;
+    border: solid;
+    background-color: hsl(60, 100%, 50%);
+    margin-left: 20%;
+  }
+  .bbdy {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem;
+    min-height: 100vh;
+    width: 50vh;
+    border: solid;
+    background-color: white;
+    margin-left: 20%;
+  }
+  .but {
+    margin-left: 67px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem;
+    min-height: 100vh;
+    width: 25vh;
+    border: solid;
+    background-color: hsl(60, 100%, 50%);
+    margin-left: 10%;
+  }
+  .begin {
+    margin-left: -22vh;
+    margin-bottom: 10px;
+  }
+  .int {
+    margin-left: -17vh;
+    margin-bottom: 10px;
+  }
+  .adv {
+    margin-left: -22vh;
+    margin-bottom: 10px;
+  }
+  .abdy {
+    background-color: white;
+    width: 100%;
+    margin-top: -3px;
+  }
+  .bbdy {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    width: 50vh;
+    border: solid;
+    background-color: white;
+    margin-left: -1%;
+    margin-right: 10%;
+  }
+  .vr {
+    width: 60vh;
+    margin-left: -40px;
+    font-weight: bolder;
+    margin-top: -10px;
+  }
+
+  .vrs {
+    width: 60vh;
+    margin-left: -40px;
+    font-weight: bolder;
+    margin-top: 18px;
+  }
+  .sec {
+    margin-left: 11vh;
+    color: gray;
+    font-size: 30px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .x {
+    margin-left: 7vh;
+    color: gray;
+    font-size: 30px;
+
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .bgset {
+    margin-top: -2vh;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .back {
+    margin-left: -26vh;
+    margin-bottom: -9px;
+    margin-top: -30px;
+    font-size: 40px;
+  }
+  .time {
+    font-size: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: -20vh;
+  }
+  .jjak {
+    margin-left: 26vh;
+
+    font-weight: bold;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .btwist {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+  }
+  .htoch {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+  }
+  .bplk {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 18vh;
+    margin-left: 12vh;
+    font-weight: bold;
+  }
+  .bleg {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20vh;
+    font-weight: bold;
+  }
+  .btn {
+    font-size: 30px;
+    height: 60px;
+  }
+  .but {
+    margin-left: 12px;
+    margin-right: 10px;
+  }
 }

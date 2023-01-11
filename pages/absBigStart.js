@@ -1,4 +1,5 @@
 import React from "react";
+import styles from "../styles/Home.module.css";
 import { Paper, Text, Group, Button } from "@mantine/core";
 
 function bigStart() {
@@ -28,10 +29,10 @@ function bigStart() {
             </Text>
           </Group>
           <Group position="apart" mb={"lg"}>
-            <Text size={"md"}>Soon to be automated!</Text>
+            <Text size={"lg"}>Soon to be automated!</Text>
           </Group>
           <Group position="apart">
-            <Button style={{ left: "13vh" }}>
+            <Button className={styles.but}>
               <Text size="lg">Thank you 😊</Text>
             </Button>
           </Group>
