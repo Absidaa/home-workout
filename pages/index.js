@@ -117,7 +117,7 @@ export default function Home() {
             </div>
           </Link>
           <h4 className={styles.adv}>ADVANCED</h4>
-          <Link href={"/absAdvance"}>
+          <Link href={"ADVANCED/absAdvanced"}>
             <div className={styles.cad} class="card">
               <Image
                 style={{ borderRadius: "8.5px" }}
@@ -127,7 +127,7 @@ export default function Home() {
               />
             </div>
           </Link>
-          <Link href={"/chestAdvance"}>
+          <Link href={"ADVANCED/chestAdvanced"}>
             <div className={styles.cad} class="card">
               <Image
                 style={{ borderRadius: "8.5px" }}
@@ -137,7 +137,7 @@ export default function Home() {
               />
             </div>
           </Link>
-          <Link href={"/armAdvance"}>
+          <Link href={"ADVANCED/armAdvanced"}>
             <div className={styles.cad} class="card">
               <Image
                 style={{ borderRadius: "8.5px" }}
@@ -147,7 +147,7 @@ export default function Home() {
               />
             </div>
           </Link>
-          <Link href={"/legAdvance"}>
+          <Link href={"ADVANCED/legAdvanced"}>
             <div className={styles.cad} class="card">
               <Image
                 style={{ borderRadius: "8.5px" }}
@@ -157,7 +157,7 @@ export default function Home() {
               />
             </div>
           </Link>
-          <Link href={"/backAdvance"}>
+          <Link href={"ADVANCED/backAdvanced"}>
             <div className={styles.cad} class="card">
               <Image
                 style={{ borderRadius: "8.5px" }}
