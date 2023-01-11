@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "../styles/Home.module.css";
+import styles from "../../styles/Home.module.css";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -161,7 +161,7 @@ function chestBeginner() {
               marginTop: "10px",
               marginBottom: "-90px",
             }}
-            src="/strch.jpeg"
+            src="/chestreh.jpeg"
             height={80}
             width={80}
           />

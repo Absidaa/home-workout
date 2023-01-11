@@ -15,17 +15,20 @@ export default function Home() {
         <main className={styles.main}>
           <h1>Home workout</h1>
           <h4 className={styles.begin}>BEGINNER</h4>
-          <Link href={"/absBeginner"}>
-            <div className={styles.cad} class="card">
-              <Image
-                style={{ borderRadius: "8.5px" }}
-                src="/absbeginner.jpg"
-                height={137}
-                width={275}
-              />
-            </div>
-          </Link>
-          <Link href={"/chestBeginner"}>
+          <div>
+            <Link href={"BEGINNER/absBeginner"}>
+              <div className={styles.cad} class="card">
+                <Image
+                  style={{ borderRadius: "8.5px" }}
+                  src="/absbeginner.jpg"
+                  height={137}
+                  width={275}
+                />
+              </div>
+            </Link>
+            <div className={styles.abbin}>ABS BEGINNER</div>
+          </div>
+          <Link href={"BEGINNER/chestBeginner"}>
             <div className={styles.cad} class="card">
               <Image
                 style={{ borderRadius: "8.5px" }}
@@ -35,7 +38,7 @@ export default function Home() {
               />
             </div>
           </Link>
-          <Link href={"/armBeginner"}>
+          <Link href={"BEGINNER/armBeginner"}>
             <div className={styles.cad} class="card">
               <Image
                 style={{ borderRadius: "8.5px" }}
@@ -45,7 +48,7 @@ export default function Home() {
               />
             </div>
           </Link>
-          <Link href={"/legBeginner"}>
+          <Link href={"BEGINNER/legBeginner"}>
             <div className={styles.cad} class="card">
               <Image
                 style={{ borderRadius: "8.5px" }}
@@ -55,7 +58,7 @@ export default function Home() {
               />
             </div>
           </Link>
-          <Link href={"/backBeginner"}>
+          <Link href={"BEGINNER/backBeginner"}>
             <div className={styles.cad} class="card">
               <Image
                 style={{ borderRadius: "8.5px" }}
@@ -66,7 +69,7 @@ export default function Home() {
             </div>
           </Link>
           <h4 className={styles.int}>INTERMEDIATE</h4>
-          <Link href={"/absIntermediate"}>
+          <Link href={"INTERMEDIATE/absIntermediate"}>
             <div className={styles.cad} class="card">
               <Image
                 style={{ borderRadius: "8.5px" }}
@@ -76,7 +79,7 @@ export default function Home() {
               />
             </div>
           </Link>
-          <Link href={"/chestIntermediate"}>
+          <Link href={"INTERMEDIATE/chestIntermediate"}>
             <div className={styles.cad} class="card">
               <Image
                 style={{ borderRadius: "8.5px" }}
@@ -86,7 +89,7 @@ export default function Home() {
               />
             </div>
           </Link>
-          <Link href={"/armIntermediate"}>
+          <Link href={"INTERMEDIATE/armIntermediate"}>
             <div className={styles.cad} class="card">
               <Image
                 style={{ borderRadius: "8.5px" }}
@@ -96,7 +99,7 @@ export default function Home() {
               />
             </div>
           </Link>
-          <Link href={"/legIntermediate"}>
+          <Link href={"INTERMEDIATE/legIntermediate"}>
             <div className={styles.cad} class="card">
               <Image
                 style={{ borderRadius: "8.5px" }}
@@ -106,7 +109,7 @@ export default function Home() {
               />
             </div>
           </Link>
-          <Link href={"/backIntermediate"}>
+          <Link href={"INTERMEDIATE/backIntermediate"}>
             <div className={styles.cad} class="card">
               <Image
                 style={{ borderRadius: "8.5px" }}

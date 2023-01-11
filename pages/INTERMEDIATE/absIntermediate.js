@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import styles from "../styles/Home.module.css";
+import styles from "../../styles/Home.module.css";
 
 function absBeginner() {
   const handleClick = (e, path) => {
@@ -11,7 +11,7 @@ function absBeginner() {
   return (
     <div className={styles.bdy}>
       <div className={styles.bbdy}>
-        <div className={styles.abs}>LEG INTERMEDIATE</div>
+        <div className={styles.abs}>ABS INTERMEDIATE</div>
 
         <Link href={"/"}>
           <button className={styles.back}>

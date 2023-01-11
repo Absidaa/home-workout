@@ -5,7 +5,7 @@ import styles from "../styles/navbar.module.css"
 function navbar() {
     return (<>
         <div className={styles.navbar}>
-           <Link href={"/"}> <div className={styles.left}>Home</div></Link>
+           <Link href={"/"}> <div className={styles.left}><a>Home</a></div></Link>
         
         <div className={styles.right}>open</div>
         </div>
