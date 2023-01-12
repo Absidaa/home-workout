@@ -68,7 +68,7 @@ function chestBeginner() {
             height={80}
             width={80}
           />
-          <div className={styles.btwist}>KNEE PUSH-UPS</div>
+          <div className={styles.jjak}>KNEE PUSH-UPS</div>
           <div className={styles.x}>x12</div>
           <hr className={styles.vrs} />
           <Image
@@ -81,7 +81,7 @@ function chestBeginner() {
             height={80}
             width={80}
           />
-          <div className={styles.jjak}>PUSH-UPS</div>
+          <div className={styles.bleg}>PUSH-UPS</div>
           <div className={styles.x}>x10</div>
           <hr className={styles.vrs} />
           <Image
@@ -94,7 +94,7 @@ function chestBeginner() {
             height={80}
             width={80}
           />
-          <div className={styles.htoch}>WIDE ARM PUSH-UPS</div>
+          <div className={styles.jjak}>WIDE ARM PUSH-UPS</div>
           <div className={styles.x}>x10</div>
           <hr className={styles.vrs} />
           <Image
@@ -107,7 +107,7 @@ function chestBeginner() {
             height={80}
             width={80}
           />
-          <div className={styles.bleg}>INCLINE PUSH-UPS</div>
+          <div className={styles.jjak}>INCLINE PUSH-UPS</div>
           <div className={styles.x}>x12</div>
           <hr className={styles.vrs} />
           <Image
@@ -120,7 +120,7 @@ function chestBeginner() {
             height={80}
             width={80}
           />
-          <div className={styles.bplk}>BOX PUSH-UPS</div>
+          <div className={styles.jjak}>BOX PUSH-UPS</div>
           <div className={styles.sec}>X12</div>
           <hr className={styles.vrs} />
           <Image
@@ -134,7 +134,7 @@ function chestBeginner() {
             width={80}
           />
           <div className={styles.jjak}>WIDE ARM PUSH-UPS</div>
-          <div className={styles.sec}>x10</div>
+          <div className={styles.x}>x10</div>
           <hr className={styles.vrs} />
           <Image
             style={{
@@ -147,7 +147,7 @@ function chestBeginner() {
             width={80}
           />
           <div className={styles.jjak}>HINDU PUSH-UPS</div>
-          <div className={styles.sec}>x10</div>
+          <div className={styles.x}>x10</div>
           <hr className={styles.vrs} />
           <Image
             style={{

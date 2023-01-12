@@ -11,15 +11,24 @@ function absBeginner() {
   return (
     <div className={styles.bdy}>
       <div className={styles.bbdy}>
-        <div className={styles.abs}>ABS INTERMEDIATE</div>
+        <div className={styles.absb}>
+          <Image
+            alt="guy"
+            src={"/absi.jpeg"}
+            height={150}
+            width={300}
+            className={styles.im6}
+          />
+          <div className={styles.abs2}>ABS INTERMEDIATE</div>
 
-        <Link href={"/"}>
-          <button className={styles.back}>
-            <div>←</div>
-          </button>
-        </Link>
-        <h4 className={styles.bgset}>Set of workouts</h4>
-        <hr className={styles.vr} />
+          <Link href={"/"}>
+            <button className={styles.back6}>
+              <div>←</div>
+            </button>
+          </Link>
+          <h4 className={styles.bgset5}>Set of workouts</h4>
+          <hr className={styles.vrabi} />
+        </div>
         <div className={styles.worksb} class="card">
           <h5 className={styles.time}>▼20 mins• 16 workouts</h5>
         </div>

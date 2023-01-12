@@ -13,13 +13,22 @@ function chestBeginner() {
     <>
       <div className={styles.bdy}>
         <div className={styles.bbdy}>
-          <div className={styles.abs}>BACK ADVANCED</div>
+          <div className={styles.absb}>
+            <Image
+              alt="guy"
+              src={"/bacad.jpeg"}
+              height={150}
+              width={300}
+              className={styles.im11}
+            />
+            <div className={styles.abs10}>BACK ADVANCED</div>
 
-          <Link href={"/"}>
-            <button className={styles.back}>←</button>
-          </Link>
-          <h4 className={styles.bgset}>Set of Workouts</h4>
-          <hr className={styles.vr} />
+            <Link href={"/"}>
+              <button className={styles.back12}>←</button>
+            </Link>
+            <h4 className={styles.bgset13}>Set of Workouts</h4>
+            <hr className={styles.vrbacad} />
+          </div>
           <div className={styles.worksb} class="card">
             <h5 className={styles.time}>▼11 mins• 11 workouts</h5>
           </div>
