@@ -18,9 +18,9 @@ function absBeginner() {
             src={"/ar.jpeg"}
             height={150}
             width={300}
-            className={styles.im}
+            className={styles.im2}
           />
-          <div className={styles.abs}>ARM BEGINNER</div>
+          <div className={styles.arm}>ARM BEGINNER</div>
           <Link href={"/"}>
             <button className={styles.back}>←</button>
           </Link>
