@@ -31,7 +31,7 @@ function absBeginner() {
           <hr className={styles.vrb} />
         </div>
         <div className={styles.worksb} class="card">
-          <h5 className={styles.time4}>▼20 mins• 16 workouts</h5>
+          <h5 className={styles.time4}>▼17 mins• 17 workouts</h5>
         </div>
         <hr className={styles.vr} />
 
@@ -46,7 +46,7 @@ function absBeginner() {
           width={80}
         />
         <div className={styles.jjak}>JUMPING JACKS</div>
-        <div className={styles.sec}> 00:20</div>
+        <div className={styles.sec}> 00:30</div>
         <hr className={styles.vrs} />
         <Image
           style={{
@@ -58,8 +58,8 @@ function absBeginner() {
           height={80}
           width={80}
         />
-        <div className={styles.jjak}>ABDOMINAL CRUNCHES</div>
-        <div className={styles.x}>x16</div>
+        <div className={styles.btwist}>ARM RAISES</div>
+        <div className={styles.sec}>00:16</div>
         <hr className={styles.vrs} />
         <Image
           style={{
@@ -71,8 +71,8 @@ function absBeginner() {
           height={80}
           width={80}
         />
-        <div className={styles.btwist}>RUSSIAN TWIST</div>
-        <div className={styles.x}>x20</div>
+        <div className={styles.jjak}>RHOMBOID PULLS</div>
+        <div className={styles.x}>x14</div>
         <hr className={styles.vrs} />
         <Image
           style={{
@@ -84,8 +84,8 @@ function absBeginner() {
           height={80}
           width={80}
         />
-        <div className={styles.jjak}>MOUNTAIN CLIMBER</div>
-        <div className={styles.x}>x16</div>
+        <div className={styles.jjak}>SIDE ARM RAISES</div>
+        <div className={styles.sec}>00:16</div>
         <hr className={styles.vrs} />
         <Image
           style={{
@@ -97,8 +97,8 @@ function absBeginner() {
           height={80}
           width={80}
         />
-        <div className={styles.htoch}>HEEL TOUCH</div>
-        <div className={styles.x}>x20</div>
+        <div className={styles.jjak}>KNEE PUSH-UPS</div>
+        <div className={styles.x}>x14</div>
         <hr className={styles.vrs} />
         <Image
           style={{
@@ -110,8 +110,8 @@ function absBeginner() {
           height={80}
           width={80}
         />
-        <div className={styles.bleg}>LEG RAISES</div>
-        <div className={styles.x}>x14</div>
+        <div className={styles.jjak}>SIDE-FLOOR FLOOR STRETCH LEFT</div>
+        <div className={styles.sec}>00:30</div>
         <hr className={styles.vrs} />
         <Image
           style={{
@@ -123,7 +123,7 @@ function absBeginner() {
           height={80}
           width={80}
         />
-        <div className={styles.bplk}>PLANK</div>
+        <div className={styles.jjak}>SIDE-FLOOR FLOOR STRETCH RIGHT</div>
         <div className={styles.sec}>00:30</div>
         <hr className={styles.vrs} />
         <Image
@@ -146,8 +146,8 @@ function absBeginner() {
           height={80}
           width={80}
         />
-        <div className={styles.jjak}>ABDOMINAL CRUNCHES</div>
-        <div className={styles.sec}>X12</div>
+        <div className={styles.jjak}>ARM SCISSORS</div>
+        <div className={styles.sec}>00:30</div>
         <hr className={styles.vrs} />
 
         <Image
@@ -160,8 +160,8 @@ function absBeginner() {
           height={80}
           width={80}
         />
-        <div className={styles.btwist}>RUSSIAN TWIST</div>
-        <div className={styles.x}>x20</div>
+        <div className={styles.jjak}>RHOMBOID PULLS</div>
+        <div className={styles.x}>x12</div>
         <hr className={styles.vrs} />
         <Image
           style={{
@@ -174,8 +174,8 @@ function absBeginner() {
           width={80}
         />
 
-        <div className={styles.jjak}>MOUNTAIN CLIMBER</div>
-        <div className={styles.x}>x12</div>
+        <div className={styles.jjak}>SIDE ARM RAISES</div>
+        <div className={styles.sec}>00:14</div>
         <hr className={styles.vrs} />
         <Image
           style={{
@@ -187,8 +187,8 @@ function absBeginner() {
           height={80}
           width={80}
         />
-        <div className={styles.htoch}>HEEL TOUCH</div>
-        <div className={styles.x}>x20</div>
+        <div className={styles.jjak}>KNEE PUSH-UPS</div>
+        <div className={styles.x}>x12</div>
         <hr className={styles.vrs} />
         <Image
           style={{
@@ -201,8 +201,8 @@ function absBeginner() {
           width={80}
         />
 
-        <div className={styles.bleg}>LEG RAISES</div>
-        <div className={styles.x}>x14</div>
+        <div className={styles.jjak}>CAT COW POSE</div>
+        <div className={styles.sec}>00:30</div>
         <hr className={styles.vrs} />
         <Image
           style={{
@@ -215,8 +215,8 @@ function absBeginner() {
           width={80}
         />
 
-        <div className={styles.bplk}>PLANK</div>
-        <div className={styles.sec}>00:30</div>
+        <div className={styles.jjak}>PRONE TRICEPS PUSH-UPS</div>
+        <div className={styles.x}>x14</div>
         <hr className={styles.vrs} />
         <Image
           style={{
@@ -228,8 +228,8 @@ function absBeginner() {
           height={80}
           width={80}
         />
-        <div className={styles.jjak}>COBRA STRECH</div>
-        <div className={styles.sec}>00:30</div>
+        <div className={styles.jjak}>RECLINED RHOMBOID SQUEEZES</div>
+        <div className={styles.x}>x12</div>
         <hr className={styles.vrs} />
         <Image
           style={{
@@ -241,8 +241,8 @@ function absBeginner() {
           height={80}
           width={80}
         />
-        <div className={styles.jjak}>SPINE LUMBER TWIST STRECH LEFT</div>
-        <div className={styles.sec}>00:30</div>
+        <div className={styles.jjak}>PRONE TRICEPS PUSH-UPS</div>
+        <div className={styles.x}>x14</div>
         <hr className={styles.vrs} />
         <Image
           style={{
@@ -254,7 +254,20 @@ function absBeginner() {
           height={80}
           width={80}
         />
-        <div className={styles.jjak}>SPINE LUMBER TWIST STRECH RIGHT</div>
+        <div className={styles.jjak}>RECLINED RHOMBOID SQUEEZES</div>
+        <div className={styles.x}>x12</div>
+        <hr className={styles.vrs} />
+        <Image
+          style={{
+            marginLeft: "-30vh",
+            marginTop: "10px",
+            marginBottom: "-90px",
+          }}
+          src="/rigt.jpeg"
+          height={80}
+          width={80}
+        />
+        <div className={styles.btwist}>CHILD'S POSE</div>
         <div className={styles.sec}>00:30</div>
         <hr className={styles.vrs} />
 
