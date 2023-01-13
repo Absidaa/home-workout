@@ -42,7 +42,7 @@ function absTimer() {
             <hr className={styles.vrabsb} />
           </div>
           <div className={styles.worksb} class="card">
-            <h5 className={styles.time}>▼17 mins • 19 workouts</h5>
+            <h5 className={styles.time}>▼14 mins • 16 workouts</h5>
           </div>
           <hr className={styles.vr} />
 
@@ -78,7 +78,7 @@ function absTimer() {
               <MdArrowForwardIos />
             </Link>
           </div>
-          <h5>1 out of 19</h5>
+          <h5>1 out of 16</h5>
         </div>
       </div>
     </div>

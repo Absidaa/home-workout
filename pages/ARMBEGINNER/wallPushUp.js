@@ -2,7 +2,11 @@ import React from "react";
 import Image from "next/image";
 import styles from "../../styles/Home.module.css";
 import Link from "next/link";
-import { MdArrowForwardIos, MdArrowBackIosNew } from "react-icons/md";
+import {
+  MdArrowForwardIos,
+  MdHomeFilled,
+  MdArrowBackIosNew,
+} from "react-icons/md";
 
 function absTimer() {
   return (
@@ -21,7 +25,9 @@ function absTimer() {
 
             <Link href={"/"}>
               <button className={styles.back2}>
-                <div>home</div>
+                <div>
+                  <MdHomeFilled />
+                </div>
               </button>
             </Link>
             <h4 className={styles.bgsetabs}>Wall Push-Ups</h4>
