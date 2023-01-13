@@ -53,7 +53,7 @@
 .arbak {
   margin-top: -15px;
   height: 30vh;
-  margin-left: 8px;
+  margin-left: 15px;
 }
 .im {
   margin-left: 52px;
@@ -429,8 +429,8 @@
   color: rgb(0, 116, 0);
 }
 .vrr {
-  width: 66vh;
-  margin-left: -10px;
+  width: 65vh;
+  margin-left: -15px;
   font-weight: bolder;
   margin-top: -10px;
 }
@@ -790,6 +790,15 @@
   font-weight: bold;
   color: rgb(0, 116, 0);
 }
+.che1 {
+  margin-top: -55px;
+  margin-bottom: 35px;
+  margin-left: 12vh;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 29px;
+  font-weight: bold;
+  color: rgb(0, 116, 0);
+}
 .vrche {
   width: 66vh;
   margin-left: -45px;
@@ -831,7 +840,7 @@
   height: 30px;
 }
 .jumtim {
-  margin-top: -30px;
+  margin-top: -10px;
   margin-bottom: 30px;
   font-size: large;
   font-weight: bold;
@@ -844,14 +853,17 @@
   margin-bottom: 10px;
   margin-left: 42px;
 }
-.nextexer {
-  margin-top: 25px;
-  color: white;
-  background-color: blue;
-  height: 40px;
-  border-color: white;
-  border-radius: 15px;
-  font-size: 20px;
+.backWard {
+  margin-left: -50vh;
+  color: blue;
+  font-size: 30px;
+  width: 10px;
+}
+.forWard {
+  margin-top: -5vh;
+  margin-left: 45vh;
+  color: blue;
+  font-size: 30px;
 }
 @media only screen and (max-width: 800px) {
   .main {
@@ -896,6 +908,7 @@
     padding: 3rem;
     min-height: 100vh;
     width: 25vh;
+
     border: solid;
     background-color: hsl(60, 100%, 50%);
     margin-left: 10%;
@@ -1009,5 +1022,15 @@
   .but {
     margin-left: 12px;
     margin-right: 10px;
+  }
+  .bbdy {
+    min-height: 123.5vh;
+    width: 50vh;
+  }
+}
+@media only screen and (max-width: 300px) {
+  .bbdy {
+    min-height: 137.9vh;
+    width: 50vh;
   }
 }

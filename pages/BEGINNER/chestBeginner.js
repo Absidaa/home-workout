@@ -175,7 +175,7 @@ function chestBeginner() {
           <div className={styles.jjak}>CHEST STRETCH</div>
           <div className={styles.sec}>00:20</div>
           <hr className={styles.vrs} />
-          <Link href={"/chesBigStart"}>
+          <Link href={"/chBigStart"}>
             <button className={styles.btn}>
               <div onClick={(e) => handleClick(e, "absBigStart")}>START</div>
             </button>

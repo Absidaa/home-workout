@@ -1,5 +1,6 @@
 import React from "react";
 import { Paper, Text, Group, Button } from "@mantine/core";
+import Link from "next/link";
 
 function bigStart() {
   return (
@@ -31,9 +32,12 @@ function bigStart() {
             <Text size={"md"}>Soon to be automated!</Text>
           </Group>
           <Group position="apart">
-            <Button style={{ left: "13vh" }}>
-              <Text size="lg">Thank you 😊</Text>
-            </Button>
+            <Link href={"/CHESTBEGINNER/chestJumpingJack"}>
+              {" "}
+              <Button style={{ left: "13vh" }}>
+                <Text size="lg">Thank you 😊</Text>
+              </Button>
+            </Link>
           </Group>
         </Paper>
       </div>

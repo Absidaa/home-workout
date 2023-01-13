@@ -28,7 +28,7 @@ function absBeginner() {
           <hr className={styles.vrr} />
         </div>
         <div className={styles.worksb} class="card">
-          <h5 className={styles.time}>▼17 mins • 17 workouts</h5>
+          <h5 className={styles.time}>▼14 mins • 16 workouts</h5>
         </div>
         <hr className={styles.vr} />
         <Image
@@ -123,19 +123,6 @@ function absBeginner() {
         <div className={styles.sec}>00:30</div>
         <hr className={styles.vrs} />
 
-        <Image
-          style={{
-            marginLeft: "-30vh",
-            marginTop: "10px",
-            marginBottom: "-90px",
-          }}
-          src="/walbox.webp"
-          height={80}
-          width={80}
-        />
-        <div className={styles.jjak}>CHEST PRESS PLUSE</div>
-        <div className={styles.sec}>00:16</div>
-        <hr className={styles.vrs} />
         <Image
           style={{
             marginLeft: "-30vh",
@@ -253,7 +240,7 @@ function absBeginner() {
         <div className={styles.jjak}>STANDING BICEPS STRETCH RIGHT</div>
         <div className={styles.sec}>00:30</div>
         <hr className={styles.vrs} />
-        <Link href={"/absBigStart"}>
+        <Link href={"/armBigStart"}>
           <button className={styles.btn}>
             <div onClick={(e) => handleClick(e, "absBigStart")}>START</div>
           </button>

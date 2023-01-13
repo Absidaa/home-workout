@@ -24,7 +24,9 @@ function absBeginner() {
             <div className={styles.abs}>ABS BEGINNER</div>
 
             <Link href={"/"}>
-              <button className={styles.back2}>←</button>
+              <button className={styles.back2}>
+                <div>←</div>
+              </button>
             </Link>
             <h4 className={styles.bgsetabs}>Set of Workouts</h4>
             <hr className={styles.vrabsb} />

@@ -33,7 +33,7 @@ function bigStart() {
             <Text size={"lg"}>Soon to be automated!</Text>
           </Group>
           <Group position="apart">
-            <Link href={"BEGINNER/absTimer"}>
+            <Link href={"ABSBEGINNERWORKOUT/jumpingJack"}>
               <Button className={styles.but}>
                 <Text size="lg">Thank you 😊</Text>
               </Button>
