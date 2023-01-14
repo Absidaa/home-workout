@@ -32,7 +32,7 @@ function bigStart() {
             <Text size={"md"}>Soon to be automated!</Text>
           </Group>
           <Group position="apart">
-            <Link href={"/CHESTBEGINNER/chestJumpingJack"}>
+            <Link href={"/BACKBEGINNER/jumpingJack"}>
               {" "}
               <Button style={{ left: "13vh" }}>
                 <Text size="lg">Thank you 😊</Text>

@@ -48,7 +48,7 @@ function absTimer() {
 
           <Image
             alt="guy with the greates image ever"
-            src={"/plak.jpeg"}
+            src={"/diaplak.png"}
             height={200}
             width={200}
           />

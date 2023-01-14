@@ -28,10 +28,10 @@ function absBeginner() {
             </button>
           </Link>
           <h4 className={styles.bgset4}>Set of Workouts</h4>
-          <hr className={styles.vrb} />
+          <hr className={styles.vrl} />
         </div>
         <div className={styles.worksb} class="card">
-          <h5 className={styles.time4}>▼17 mins• 17 workouts</h5>
+          <h5 className={styles.time4}>▼11 mins• 12 workouts</h5>
         </div>
         <hr className={styles.vr} />
 
@@ -54,7 +54,7 @@ function absBeginner() {
             marginTop: "10px",
             marginBottom: "-90px",
           }}
-          src="/crun.jpeg"
+          src="/armRaises.jpeg"
           height={80}
           width={80}
         />
@@ -67,7 +67,7 @@ function absBeginner() {
             marginTop: "10px",
             marginBottom: "-90px",
           }}
-          src="/rutwist.png"
+          src="/rhomboidPulls.jpeg"
           height={80}
           width={80}
         />
@@ -80,7 +80,7 @@ function absBeginner() {
             marginTop: "10px",
             marginBottom: "-90px",
           }}
-          src="/moclim.jpg"
+          src="/sidarm.jpg"
           height={80}
           width={80}
         />
@@ -93,7 +93,7 @@ function absBeginner() {
             marginTop: "10px",
             marginBottom: "-90px",
           }}
-          src="/htouch.jpg"
+          src="/knepush.jpg"
           height={80}
           width={80}
         />
@@ -106,7 +106,7 @@ function absBeginner() {
             marginTop: "10px",
             marginBottom: "-90px",
           }}
-          src="/lraise.jpg"
+          src="/sideLiftLeft.jpeg"
           height={80}
           width={80}
         />
@@ -119,7 +119,7 @@ function absBeginner() {
             marginTop: "10px",
             marginBottom: "-90px",
           }}
-          src="/plak.jpeg"
+          src="/sideLiftRight.jpeg"
           height={80}
           width={80}
         />
@@ -132,20 +132,11 @@ function absBeginner() {
             marginTop: "10px",
             marginBottom: "-90px",
           }}
-          src="/costreh.jpg"
+          src="/armScissors.jpeg"
           height={80}
           width={80}
         />
-        <Image
-          style={{
-            marginLeft: "-30vh",
-            marginTop: "10px",
-            marginBottom: "-90px",
-          }}
-          src="/rigt.jpeg"
-          height={80}
-          width={80}
-        />
+
         <div className={styles.jjak}>ARM SCISSORS</div>
         <div className={styles.sec}>00:30</div>
         <hr className={styles.vrs} />
@@ -156,47 +147,7 @@ function absBeginner() {
             marginTop: "10px",
             marginBottom: "-90px",
           }}
-          src="/rutwist.png"
-          height={80}
-          width={80}
-        />
-        <div className={styles.jjak}>RHOMBOID PULLS</div>
-        <div className={styles.x}>x12</div>
-        <hr className={styles.vrs} />
-        <Image
-          style={{
-            marginLeft: "-30vh",
-            marginTop: "10px",
-            marginBottom: "-90px",
-          }}
-          src="/moclim.jpg"
-          height={80}
-          width={80}
-        />
-
-        <div className={styles.jjak}>SIDE ARM RAISES</div>
-        <div className={styles.sec}>00:14</div>
-        <hr className={styles.vrs} />
-        <Image
-          style={{
-            marginLeft: "-30vh",
-            marginTop: "10px",
-            marginBottom: "-90px",
-          }}
-          src="/htouch.jpg"
-          height={80}
-          width={80}
-        />
-        <div className={styles.jjak}>KNEE PUSH-UPS</div>
-        <div className={styles.x}>x12</div>
-        <hr className={styles.vrs} />
-        <Image
-          style={{
-            marginLeft: "-30vh",
-            marginTop: "10px",
-            marginBottom: "-90px",
-          }}
-          src="/lraise.jpg"
+          src="/catCow.jpeg"
           height={80}
           width={80}
         />
@@ -210,7 +161,7 @@ function absBeginner() {
             marginTop: "10px",
             marginBottom: "-90px",
           }}
-          src="/plak.jpeg"
+          src="/proneTriceps.jpg"
           height={80}
           width={80}
         />
@@ -224,7 +175,7 @@ function absBeginner() {
             marginTop: "10px",
             marginBottom: "-90px",
           }}
-          src="/costreh.jpg"
+          src="/reclineRhomboid.jpeg"
           height={80}
           width={80}
         />
@@ -237,33 +188,7 @@ function absBeginner() {
             marginTop: "10px",
             marginBottom: "-90px",
           }}
-          src="/lft.jpg"
-          height={80}
-          width={80}
-        />
-        <div className={styles.jjak}>PRONE TRICEPS PUSH-UPS</div>
-        <div className={styles.x}>x14</div>
-        <hr className={styles.vrs} />
-        <Image
-          style={{
-            marginLeft: "-30vh",
-            marginTop: "10px",
-            marginBottom: "-90px",
-          }}
-          src="/rigt.jpeg"
-          height={80}
-          width={80}
-        />
-        <div className={styles.jjak}>RECLINED RHOMBOID SQUEEZES</div>
-        <div className={styles.x}>x12</div>
-        <hr className={styles.vrs} />
-        <Image
-          style={{
-            marginLeft: "-30vh",
-            marginTop: "10px",
-            marginBottom: "-90px",
-          }}
-          src="/rigt.jpeg"
+          src="/childPose.jpeg"
           height={80}
           width={80}
         />
@@ -271,7 +196,7 @@ function absBeginner() {
         <div className={styles.sec}>00:30</div>
         <hr className={styles.vrs} />
 
-        <Link href={"/absBigStart"}>
+        <Link href={"/backBigStart"}>
           <button className={styles.btn}>
             <div onClick={(e) => handleClick(e, "absBigStart")}>START</div>
           </button>

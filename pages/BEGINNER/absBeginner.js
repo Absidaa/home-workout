@@ -120,7 +120,7 @@ function absBeginner() {
               marginTop: "10px",
               marginBottom: "-90px",
             }}
-            src="/plak.jpeg"
+            src="/diaplak.png"
             height={80}
             width={80}
           />
@@ -143,7 +143,7 @@ function absBeginner() {
               marginTop: "10px",
               marginBottom: "-90px",
             }}
-            src="/rigt.jpeg"
+            src="/crun.jpeg"
             height={80}
             width={80}
           />
@@ -211,7 +211,7 @@ function absBeginner() {
               marginTop: "10px",
               marginBottom: "-90px",
             }}
-            src="/plak.jpeg"
+            src="/diaplak.png"
             height={80}
             width={80}
           />

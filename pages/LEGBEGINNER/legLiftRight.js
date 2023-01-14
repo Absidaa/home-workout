@@ -47,13 +47,13 @@ function absTimer() {
           <div className={styles.jumtim}>x12</div>
 
           <div className={styles.backWard}>
-            <Link href={"/LEGBEGINNER/LegLiftLeft"}>
+            <Link href={"/LEGBEGINNER/legLiftLeft"}>
               <MdArrowBackIosNew />
             </Link>
           </div>
 
           <div className={styles.forWard}>
-            <Link href={"/LEGBEGINNER/backwardLung"}>
+            <Link href={"/LEGBEGINNER/backwardLunge"}>
               <MdArrowForwardIos />
             </Link>
           </div>

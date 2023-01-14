@@ -53,7 +53,7 @@ function absTimer() {
           </div>
 
           <div className={styles.forWard}>
-            <Link href={"/LEGBEGINNER/LegLiftLeft"}>
+            <Link href={"/LEGBEGINNER/legLiftLeft"}>
               <MdArrowForwardIos />
             </Link>
           </div>
