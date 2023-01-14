@@ -131,12 +131,12 @@ function absBeginner() {
             marginTop: "10px",
             marginBottom: "-90px",
           }}
-          src="/cobrastretchGif.gif"
+          src="/cobrastretchGif.jpg"
           height={80}
           width={80}
         />
 
-        <div className={styles.jjak}>COBRA STRECH</div>
+        <div className={styles.jjak}>COBRA STRETCH</div>
         <div className={styles.sec}>00:30</div>
         <hr className={styles.vrs} />
         <Image

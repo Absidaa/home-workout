@@ -37,11 +37,9 @@ function absTimer() {
             />
             <div className={styles.che1}>ABS INTERMEDIATE</div>
 
-            <Link href={"/"}>
+            <Link href={"/INTERMEDIATE/absIntermediate"}>
               <button className={styles.back7}>
-                <div>
-                  <MdHomeFilled />
-                </div>
+                <div>←</div>
               </button>
             </Link>
             <h4 className={styles.bgsetabs}>Jumping Jacks</h4>
@@ -80,7 +78,7 @@ function absTimer() {
           </div>
 
           <div className={styles.forWard}>
-            <Link href={"/ABSINTERMEDIATE/heelTouch"}>
+            <Link href={"/ABSINTERMEDIATE/abdominalCrunches"}>
               <MdArrowForwardIos />
             </Link>
           </div>

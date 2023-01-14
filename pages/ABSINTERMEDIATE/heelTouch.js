@@ -30,7 +30,7 @@ function absTimer() {
                 </div>
               </button>
             </Link>
-            <h4 className={styles.bgsetabs}>Jumping Jacks</h4>
+            <h4 className={styles.bgsetabs}>Heel Touch</h4>
             <hr className={styles.vrabsb} />
           </div>
           <div className={styles.worksb} class="card">
@@ -40,23 +40,23 @@ function absTimer() {
 
           <Image
             alt="guy with the greates image ever"
-            src={"/jumpingjackGif.gif"}
+            src={"/heeltouchGif.gif"}
             height={200}
             width={200}
           />
-          <div className={styles.jumtim}>00:30</div>
+          <div className={styles.jumtim}>x20</div>
 
           <div className={styles.backWard}>
-            <Link href={"/ABSINTERMEDIATE/jumpingJack"}>
+            <Link href={"/ABSINTERMEDIATE/mountainClimber"}>
               <MdArrowBackIosNew />
             </Link>
           </div>
           <div className={styles.forWard}>
-            <Link href={"/ABSINTERMEDIATE/AbdominalCrunches"}>
+            <Link href={"/ABSINTERMEDIATE/legRaises"}>
               <MdArrowForwardIos />
             </Link>
           </div>
-          <h5>1 out of 10</h5>
+          <h5>5 out of 10</h5>
         </div>
       </div>
     </div>
