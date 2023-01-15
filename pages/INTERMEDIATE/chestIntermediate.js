@@ -4,7 +4,7 @@ import styles from "../../styles/Home.module.css";
 
 function absBeginner() {
   const handleClick = (e, path) => {
-    if (path === "/absBigStart") {
+    if (path === "/cheInterStart") {
       console.log(`I clicked on it`);
     }
   };
@@ -30,7 +30,7 @@ function absBeginner() {
           <hr className={styles.vrchein} />
         </div>
         <div className={styles.worksb} class="card">
-          <h5 className={styles.time}>▼20 mins• 16 workouts</h5>
+          <h5 className={styles.time}>▼11 mins • 13 workouts</h5>
         </div>
         <hr className={styles.vr} />
 
@@ -40,12 +40,12 @@ function absBeginner() {
             marginTop: "10px",
             marginBottom: "-90px",
           }}
-          src="/jupjak.jpeg"
+          src="/jumpingjackGif.gif"
           height={80}
           width={80}
         />
         <div className={styles.jjak}>JUMPING JACKS</div>
-        <div className={styles.sec}> 00:20</div>
+        <div className={styles.sec}> 00:30</div>
         <hr className={styles.vrs} />
         <Image
           style={{
@@ -53,11 +53,50 @@ function absBeginner() {
             marginTop: "10px",
             marginBottom: "-90px",
           }}
-          src="/crun.jpeg"
+          src="/ArmCirclesGif.gif"
           height={80}
           width={80}
         />
-        <div className={styles.jjak}>ABDOMINAL CRUNCHES</div>
+        <div className={styles.jjak}>ARM CIRCLES </div>
+        <div className={styles.x}>x20</div>
+        <hr className={styles.vrs} />
+        <Image
+          style={{
+            marginLeft: "-30vh",
+            marginTop: "10px",
+            marginBottom: "-90px",
+          }}
+          src="/shoulderStretchGif.gif"
+          height={80}
+          width={80}
+        />
+        <div className={styles.btwist}>SHOULDER STRETCH</div>
+        <div className={styles.x}>x00:30</div>
+        <hr className={styles.vrs} />
+        <Image
+          style={{
+            marginLeft: "-30vh",
+            marginTop: "10px",
+            marginBottom: "-90px",
+          }}
+          src="/burpeeGif.gif"
+          height={80}
+          width={80}
+        />
+        <div className={styles.jjak}>BURPEES</div>
+        <div className={styles.x}>x10</div>
+        <hr className={styles.vrs} />
+        <Image
+          style={{
+            marginLeft: "-30vh",
+            marginTop: "10px",
+            marginBottom: "-90px",
+          }}
+          src="/staggeredPushUpGif.gif"
+          height={80}
+          width={80}
+        />
+        <div className={styles.htoch}>STAGGERED PUSH-UPS</div>
         <div className={styles.x}>x16</div>
         <hr className={styles.vrs} />
         <Image
@@ -66,24 +105,11 @@ function absBeginner() {
             marginTop: "10px",
             marginBottom: "-90px",
           }}
-          src="/rutwist.png"
+          src="/hinduPushUpGif.gif"
           height={80}
           width={80}
         />
-        <div className={styles.btwist}>RUSSIAN TWIST</div>
-        <div className={styles.x}>x20</div>
-        <hr className={styles.vrs} />
-        <Image
-          style={{
-            marginLeft: "-30vh",
-            marginTop: "10px",
-            marginBottom: "-90px",
-          }}
-          src="/moclim.jpg"
-          height={80}
-          width={80}
-        />
-        <div className={styles.jjak}>MOUNTAIN CLIMBER</div>
+        <div className={styles.bleg}>HINDU PUSH-UPS</div>
         <div className={styles.x}>x16</div>
         <hr className={styles.vrs} />
         <Image
@@ -92,61 +118,12 @@ function absBeginner() {
             marginTop: "10px",
             marginBottom: "-90px",
           }}
-          src="/htouch.jpg"
+          src="/pushUpRotationGif.gif"
           height={80}
           width={80}
         />
-        <div className={styles.htoch}>HEEL TOUCH</div>
-        <div className={styles.x}>x20</div>
-        <hr className={styles.vrs} />
-        <Image
-          style={{
-            marginLeft: "-30vh",
-            marginTop: "10px",
-            marginBottom: "-90px",
-          }}
-          src="/lraise.jpg"
-          height={80}
-          width={80}
-        />
-        <div className={styles.bleg}>LEG RAISES</div>
-        <div className={styles.x}>x14</div>
-        <hr className={styles.vrs} />
-        <Image
-          style={{
-            marginLeft: "-30vh",
-            marginTop: "10px",
-            marginBottom: "-90px",
-          }}
-          src="/plak.jpeg"
-          height={80}
-          width={80}
-        />
-        <div className={styles.bplk}>PLANK</div>
-        <div className={styles.sec}>00:30</div>
-        <hr className={styles.vrs} />
-        <Image
-          style={{
-            marginLeft: "-30vh",
-            marginTop: "10px",
-            marginBottom: "-90px",
-          }}
-          src="/costreh.jpg"
-          height={80}
-          width={80}
-        />
-        <Image
-          style={{
-            marginLeft: "-30vh",
-            marginTop: "10px",
-            marginBottom: "-90px",
-          }}
-          src="/rigt.jpeg"
-          height={80}
-          width={80}
-        />
-        <div className={styles.jjak}>ABDOMINAL CRUNCHES</div>
-        <div className={styles.sec}>X12</div>
+        <div className={styles.bplk}>PUSH-UPS & ROTATION</div>
+        <div className={styles.sec}>x12</div>
         <hr className={styles.vrs} />
 
         <Image
@@ -155,25 +132,25 @@ function absBeginner() {
             marginTop: "10px",
             marginBottom: "-90px",
           }}
-          src="/rutwist.png"
+          src="/diamondPushUpGif.gif"
           height={80}
           width={80}
         />
-        <div className={styles.btwist}>RUSSIAN TWIST</div>
-        <div className={styles.x}>x20</div>
+        <div className={styles.jjak}>DIAMOND PUSH-UPS</div>
+        <div className={styles.sec}>X16</div>
         <hr className={styles.vrs} />
+
         <Image
           style={{
             marginLeft: "-30vh",
             marginTop: "10px",
             marginBottom: "-90px",
           }}
-          src="/moclim.jpg"
+          src="/boxPushUpGif.gif"
           height={80}
           width={80}
         />
-
-        <div className={styles.jjak}>MOUNTAIN CLIMBER</div>
+        <div className={styles.btwist}>BOX PUSH-UPS</div>
         <div className={styles.x}>x12</div>
         <hr className={styles.vrs} />
         <Image
@@ -182,11 +159,12 @@ function absBeginner() {
             marginTop: "10px",
             marginBottom: "-90px",
           }}
-          src="/htouch.jpg"
+          src="/spidermanPushUpGif.gif"
           height={80}
           width={80}
         />
-        <div className={styles.htoch}>HEEL TOUCH</div>
+
+        <div className={styles.jjak}>SPIDERMAN PUSH-UPS</div>
         <div className={styles.x}>x20</div>
         <hr className={styles.vrs} />
         <Image
@@ -195,13 +173,26 @@ function absBeginner() {
             marginTop: "10px",
             marginBottom: "-90px",
           }}
-          src="/lraise.jpg"
+          src="/declinePushUpGif.gif"
+          height={80}
+          width={80}
+        />
+        <div className={styles.htoch}>DECLINED PUSH-UPS</div>
+        <div className={styles.x}>x12</div>
+        <hr className={styles.vrs} />
+        <Image
+          style={{
+            marginLeft: "-30vh",
+            marginTop: "10px",
+            marginBottom: "-90px",
+          }}
+          src="/CobraStretchGif.gif"
           height={80}
           width={80}
         />
 
-        <div className={styles.bleg}>LEG RAISES</div>
-        <div className={styles.x}>x14</div>
+        <div className={styles.bleg}>COBRA STRETCH</div>
+        <div className={styles.x}>00:30</div>
         <hr className={styles.vrs} />
         <Image
           style={{
@@ -209,57 +200,18 @@ function absBeginner() {
             marginTop: "10px",
             marginBottom: "-90px",
           }}
-          src="/plak.jpeg"
+          src="/chestreh.jpeg"
           height={80}
           width={80}
         />
 
-        <div className={styles.bplk}>PLANK</div>
-        <div className={styles.sec}>00:30</div>
-        <hr className={styles.vrs} />
-        <Image
-          style={{
-            marginLeft: "-30vh",
-            marginTop: "10px",
-            marginBottom: "-90px",
-          }}
-          src="/costreh.jpg"
-          height={80}
-          width={80}
-        />
-        <div className={styles.jjak}>COBRA STRECH</div>
-        <div className={styles.sec}>00:30</div>
-        <hr className={styles.vrs} />
-        <Image
-          style={{
-            marginLeft: "-30vh",
-            marginTop: "10px",
-            marginBottom: "-90px",
-          }}
-          src="/lft.jpg"
-          height={80}
-          width={80}
-        />
-        <div className={styles.jjak}>SPINE LUMBER TWIST STRECH LEFT</div>
-        <div className={styles.sec}>00:30</div>
-        <hr className={styles.vrs} />
-        <Image
-          style={{
-            marginLeft: "-30vh",
-            marginTop: "10px",
-            marginBottom: "-90px",
-          }}
-          src="/rigt.jpeg"
-          height={80}
-          width={80}
-        />
-        <div className={styles.jjak}>SPINE LUMBER TWIST STRECH RIGHT</div>
+        <div className={styles.bplk}>CHEST STRETECH</div>
         <div className={styles.sec}>00:30</div>
         <hr className={styles.vrs} />
 
-        <Link href={"/absBigStart"}>
+        <Link href={"/CHESTINTERMEDIATE/cheInterStart"}>
           <button className={styles.btn}>
-            <div onClick={(e) => handleClick(e, "absBigStart")}>START</div>
+            <div onClick={(e) => handleClick(e, "cheInterStart")}>START</div>
           </button>
         </Link>
       </div>

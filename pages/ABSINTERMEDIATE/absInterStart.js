@@ -9,7 +9,7 @@ function interStart() {
         position: "static",
         height: "100vh",
         backgroundImage:
-          "url('https://littlevisuals.co/images/atlantic_ridge.jpg')",
+          "url('https://i.gifer.com/embedded/download/BCml.gif')",
         backgroundSize: "cover",
       }}
     >
@@ -29,7 +29,7 @@ function interStart() {
             </Text>
           </Group>
           <Group position="apart" mb={"lg"}>
-            <Text size={"md"}>Soon to be automated!</Text>
+            <Text size={"md"}>Soon to be fully automated!</Text>
           </Group>
           <Group position="apart">
             <Link href={"/ABSINTERMEDIATE/jumpingJack"}>
