@@ -19,6 +19,7 @@ export default function Home() {
             <Link href={"BEGINNER/absBeginner"}>
               <div className={styles.cad} class="card">
                 <Image
+                  alt="the greates worout ever"
                   style={{ borderRadius: "8.5px" }}
                   src="/absbeginner.jpg"
                   height={137}

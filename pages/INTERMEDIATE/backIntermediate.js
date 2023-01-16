@@ -255,9 +255,9 @@ function absBeginner() {
         <div className={styles.sec}>00:30</div>
         <hr className={styles.vrs} />
 
-        <Link href={"/absBigStart"}>
+        <Link href={"/BACKINTERMEDIATE/backInterStart"}>
           <button className={styles.btn}>
-            <div onClick={(e) => handleClick(e, "absBigStart")}>START</div>
+            <div onClick={(e) => handleClick(e, "backinterStart")}>START</div>
           </button>
         </Link>
       </div>

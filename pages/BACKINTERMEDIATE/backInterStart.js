@@ -8,7 +8,8 @@ function interStart() {
       style={{
         position: "static",
         height: "100vh",
-        backgroundImage: "url('https://i.gifer.com/CjnH.gif')",
+        backgroundImage:
+          "url('https://i.pinimg.com/originals/4e/78/4f/4e784fbe6fec6a363d677dd20dabd464.gif')",
         backgroundSize: "cover",
       }}
     >
@@ -31,7 +32,7 @@ function interStart() {
             <Text size={"md"}>Soon to be fully automated!</Text>
           </Group>
           <Group position="apart">
-            <Link href={"/ARMINTERMEDIATE/armCircles"}>
+            <Link href={"/BAKINTERMEDIATE/jumpingJack"}>
               <Button style={{ left: "13vh" }}>
                 <Text size="lg">Thank you 😊</Text>
               </Button>

@@ -17,7 +17,7 @@ function absBeginner() {
             src={"/armi.jpeg"}
             height={150}
             width={270}
-            className={styles.im7}
+            className={styles.im}
           />
           <div className={styles.abs4}>ARM INTERMEDIATE</div>
 
@@ -27,7 +27,7 @@ function absBeginner() {
             </button>
           </Link>
           <h4 className={styles.bgset7}>Set of workouts</h4>
-          <hr className={styles.vrarm} />
+          <hr className={styles.vrabsb} />
         </div>
         <div className={styles.worksb} class="card">
           <h5 className={styles.time}>▼11 mins • 13 workouts</h5>
@@ -40,7 +40,7 @@ function absBeginner() {
             marginTop: "10px",
             marginBottom: "-90px",
           }}
-          src="/jupjak.jpeg"
+          src="/ArmCirclesGif.gif"
           height={80}
           width={80}
         />
@@ -53,7 +53,7 @@ function absBeginner() {
             marginTop: "10px",
             marginBottom: "-90px",
           }}
-          src="/crun.jpeg"
+          src="/TricepsDipsGif.gif"
           height={80}
           width={80}
         />
@@ -66,7 +66,7 @@ function absBeginner() {
             marginTop: "10px",
             marginBottom: "-90px",
           }}
-          src="/rutwist.png"
+          src="/militaryPushUpGif.gif"
           height={80}
           width={80}
         />
@@ -79,7 +79,7 @@ function absBeginner() {
             marginTop: "10px",
             marginBottom: "-90px",
           }}
-          src="/moclim.jpg"
+          src="/AlternatingHooksGif.gif"
           height={80}
           width={80}
         />
@@ -92,7 +92,7 @@ function absBeginner() {
             marginTop: "10px",
             marginBottom: "-90px",
           }}
-          src="/htouch.jpg"
+          src="/pushUpRotationGif.gif"
           height={80}
           width={80}
         />
@@ -105,7 +105,7 @@ function absBeginner() {
             marginTop: "10px",
             marginBottom: "-90px",
           }}
-          src="/lraise.jpg"
+          src="/skipWitouRopeGif.gif"
           height={80}
           width={80}
         />
@@ -118,7 +118,7 @@ function absBeginner() {
             marginTop: "10px",
             marginBottom: "-90px",
           }}
-          src="/plak.jpeg"
+          src="/PushUpGif.gif"
           height={80}
           width={80}
         />
@@ -131,17 +131,7 @@ function absBeginner() {
             marginTop: "10px",
             marginBottom: "-90px",
           }}
-          src="/costreh.jpg"
-          height={80}
-          width={80}
-        />
-        <Image
-          style={{
-            marginLeft: "-30vh",
-            marginTop: "10px",
-            marginBottom: "-90px",
-          }}
-          src="/rigt.jpeg"
+          src="/burpeeGif.gif"
           height={80}
           width={80}
         />
@@ -155,7 +145,7 @@ function absBeginner() {
             marginTop: "10px",
             marginBottom: "-90px",
           }}
-          src="/rutwist.png"
+          src="/amrScissorsGif.webp"
           height={80}
           width={80}
         />
@@ -168,7 +158,7 @@ function absBeginner() {
             marginTop: "10px",
             marginBottom: "-90px",
           }}
-          src="/moclim.jpg"
+          src="/tricepsStretchLeftGif.png"
           height={80}
           width={80}
         />
@@ -182,7 +172,7 @@ function absBeginner() {
             marginTop: "10px",
             marginBottom: "-90px",
           }}
-          src="/htouch.jpg"
+          src="/tricepStretchRightGif.gif"
           height={80}
           width={80}
         />
@@ -195,7 +185,7 @@ function absBeginner() {
             marginTop: "10px",
             marginBottom: "-90px",
           }}
-          src="/lraise.jpg"
+          src="/stbice.jpeg"
           height={80}
           width={80}
         />
@@ -209,7 +199,7 @@ function absBeginner() {
             marginTop: "10px",
             marginBottom: "-90px",
           }}
-          src="/plak.jpeg"
+          src="/stbice2.jpeg"
           height={80}
           width={80}
         />
@@ -218,7 +208,7 @@ function absBeginner() {
         <div className={styles.sec}>00:30</div>
         <hr className={styles.vrs} />
 
-        <Link href={"/armInterStart"}>
+        <Link href={"/ARMINTERMEDIATE/armInterStart"}>
           <button className={styles.btn}>
             <div onClick={(e) => handleClick(e, "armInterStart")}>START</div>
           </button>
