@@ -116,7 +116,7 @@ function absBeginner() {
             marginTop: "10px",
             marginBottom: "-90px",
           }}
-          src="/plak.jpeg"
+          src="/hipHingeGif.gif"
           height={80}
           width={80}
         />
@@ -129,20 +129,11 @@ function absBeginner() {
             marginTop: "10px",
             marginBottom: "-90px",
           }}
-          src="/costreh.jpg"
+          src="/sideLyingFloorRightGif.gif"
           height={80}
           width={80}
         />
-        <Image
-          style={{
-            marginLeft: "-30vh",
-            marginTop: "10px",
-            marginBottom: "-90px",
-          }}
-          src="/rigt.jpeg"
-          height={80}
-          width={80}
-        />
+
         <div className={styles.jjak}>SIDE LYING FLOOR STRETCH LEFT</div>
         <div className={styles.sec}>00:30</div>
         <hr className={styles.vrs} />
@@ -153,7 +144,7 @@ function absBeginner() {
             marginTop: "10px",
             marginBottom: "-90px",
           }}
-          src="/rutwist.png"
+          src="/sideLiftLeft.jpeg"
           height={80}
           width={80}
         />
@@ -166,7 +157,7 @@ function absBeginner() {
             marginTop: "10px",
             marginBottom: "-90px",
           }}
-          src="/moclim.jpg"
+          src="/hoverPushUpGif.gif"
           height={80}
           width={80}
         />
@@ -180,7 +171,7 @@ function absBeginner() {
             marginTop: "10px",
             marginBottom: "-90px",
           }}
-          src="/htouch.jpg"
+          src="/SwimmerSupermanGif.gif"
           height={80}
           width={80}
         />
@@ -193,7 +184,7 @@ function absBeginner() {
             marginTop: "10px",
             marginBottom: "-90px",
           }}
-          src="/lraise.jpg"
+          src="/childPoseGif.gif"
           height={80}
           width={80}
         />
