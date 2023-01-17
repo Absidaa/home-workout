@@ -32,7 +32,7 @@ function absTimer() {
               alt="guy"
               src={"/backi.jpeg"}
               height={150}
-              width={280}
+              width={300}
               className={styles.im11}
             />
             <div className={styles.abs3}>BACK INTERMEDIATE</div>
@@ -54,7 +54,7 @@ function absTimer() {
 
           <Image
             alt="guy with the greates image ever"
-            src={"/sideLyingFloorLeftGif.gif"}
+            src={"/sideLiftLeft.jpeg"}
             height={200}
             width={200}
           />
@@ -84,11 +84,11 @@ function absTimer() {
             </Link>
           </div>
           <div className={styles.forWard}>
-            <Link href={"/BACKINTERMEDIATE/sideFloorKickLeft"}>
+            <Link href={"/BACKINTERMEDIATE/sideFloorKicksRight"}>
               <MdArrowForwardIos />
             </Link>
           </div>
-          <h5>8 out of 13</h5>
+          <h5>8 out of 12</h5>
         </div>
       </div>
     </div>

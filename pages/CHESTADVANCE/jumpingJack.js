@@ -29,32 +29,31 @@ function absTimer() {
         <div className={styles.bbdy}>
           <div className={styles.absb}>
             <Image
+              style={{ borderRadius: "20px" }}
               alt="guy"
-              src={"/backi.jpeg"}
-              height={150}
-              width={300}
+              src={"/chead.jpeg"}
+              height={170}
+              width={308}
               className={styles.im11}
             />
-            <div className={styles.abs3}>BACK INTERMEDIATE</div>
+            <div className={styles.abs8}>CHEST ADVANCED</div>
 
-            <Link href={"/INTERMEDIATE/chestIntermediate"}>
+            <Link href={"/ADVANCED/chestAdvanced"}>
               <button className={styles.back7}>
-                <div>
-                  <MdHomeFilled />
-                </div>
+                <div>←</div>
               </button>
             </Link>
-            <h4 className={styles.bgsetabs}>Cat Cow Pose</h4>
+            <h4 className={styles.bgsetabs}>Jumping Jacks</h4>
             <hr className={styles.vrabsb} />
           </div>
           <div className={styles.worksb} class="card">
-            <h5 className={styles.time}>▼14 mins • 12 workouts</h5>
+            <h5 className={styles.time}>▼15 mins • 13 workouts</h5>
           </div>
           <hr className={styles.vr} />
 
           <Image
             alt="guy with the greates image ever"
-            src={"/catCowGif.webp"}
+            src={"/jumpingjackGif.gif"}
             height={200}
             width={200}
           />
@@ -78,17 +77,13 @@ function absTimer() {
               </button>
             </div>
           </div>
-          <div className={styles.backWard}>
-            <Link href={"/BACKINTERMEDIATE/floorTricepDips"}>
-              <MdArrowBackIosNew />
-            </Link>
-          </div>
+
           <div className={styles.forWard}>
-            <Link href={"/BACKINTERMEDIATE/hipHinge"}>
+            <Link href={"/CHESTADVANCE/armCircle"}>
               <MdArrowForwardIos />
             </Link>
           </div>
-          <h5>6 out of 12</h5>
+          <h5>1 out of 13</h5>
         </div>
       </div>
     </div>

@@ -30,36 +30,35 @@ function absTimer() {
           <div className={styles.absb}>
             <Image
               alt="guy"
-              src={"/backi.jpeg"}
+              src={"/absad.jpeg"}
               height={150}
               width={300}
               className={styles.im11}
             />
-            <div className={styles.abs3}>BACK INTERMEDIATE</div>
+            <div className={styles.abs7}>ABS ADVANCED</div>
 
-            <Link href={"/INTERMEDIATE/chestIntermediate"}>
+            <Link href={"/"}>
               <button className={styles.back7}>
                 <div>
                   <MdHomeFilled />
                 </div>
               </button>
             </Link>
-            <h4 className={styles.bgsetabs}>Cat Cow Pose</h4>
+            <h4 className={styles.bgsetabs}>Spine Lumber Twist Right</h4>
             <hr className={styles.vrabsb} />
           </div>
           <div className={styles.worksb} class="card">
-            <h5 className={styles.time}>▼14 mins • 12 workouts</h5>
+            <h5 className={styles.time}>▼25 mins • 19 workouts</h5>
           </div>
           <hr className={styles.vr} />
 
           <Image
             alt="guy with the greates image ever"
-            src={"/catCowGif.webp"}
+            src={"/jumpingjackGif.gif"}
             height={200}
             width={200}
           />
           <div className={styles.jumtim}>00:30</div>
-
           <div className="stopwatch">
             <div className={styles.numbers}>
               <span>{("0" + Math.floor((time / 60000) % 60)).slice(-2)}:</span>
@@ -79,16 +78,16 @@ function absTimer() {
             </div>
           </div>
           <div className={styles.backWard}>
-            <Link href={"/BACKINTERMEDIATE/floorTricepDips"}>
+            <Link href={"/ABSADVANCE/spineLumberTwistLeft"}>
               <MdArrowBackIosNew />
             </Link>
           </div>
           <div className={styles.forWard}>
-            <Link href={"/BACKINTERMEDIATE/hipHinge"}>
+            <Link href={"/ABSADVANCE/"}>
               <MdArrowForwardIos />
             </Link>
           </div>
-          <h5>6 out of 12</h5>
+          <h5>19 out of 19</h5>
         </div>
       </div>
     </div>

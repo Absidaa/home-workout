@@ -32,14 +32,16 @@ function absTimer() {
               alt="guy"
               src={"/backi.jpeg"}
               height={150}
-              width={280}
+              width={300}
               className={styles.im11}
             />
             <div className={styles.abs3}>BACK INTERMEDIATE</div>
 
-            <Link href={"/INTERMEDIATE/chestIntermediate"}>
-              <button className={styles.back7}>
-                <div>←</div>
+            <Link href={"/"}>
+              <button className={styles.back9}>
+                <div>
+                  <MdHomeFilled />
+                </div>
               </button>
             </Link>
             <h4 className={styles.bgsetabs}>Jumping Jacks</h4>

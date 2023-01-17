@@ -29,66 +29,50 @@ function absTimer() {
         <div className={styles.bbdy}>
           <div className={styles.absb}>
             <Image
+              style={{ borderRadius: "20px" }}
               alt="guy"
-              src={"/backi.jpeg"}
-              height={150}
-              width={300}
+              src={"/chead.jpeg"}
+              height={170}
+              width={308}
               className={styles.im11}
             />
-            <div className={styles.abs3}>BACK INTERMEDIATE</div>
+            <div className={styles.abs8}>CHEST ADVANCED</div>
 
-            <Link href={"/INTERMEDIATE/chestIntermediate"}>
+            <Link href={"/"}>
               <button className={styles.back7}>
                 <div>
                   <MdHomeFilled />
                 </div>
               </button>
             </Link>
-            <h4 className={styles.bgsetabs}>Cat Cow Pose</h4>
+            <h4 className={styles.bgsetabs}>Spiderman Push-Ups</h4>
             <hr className={styles.vrabsb} />
           </div>
           <div className={styles.worksb} class="card">
-            <h5 className={styles.time}>▼14 mins • 12 workouts</h5>
+            <h5 className={styles.time}>▼15 mins • 13 workouts</h5>
           </div>
           <hr className={styles.vr} />
 
           <Image
             alt="guy with the greates image ever"
-            src={"/catCowGif.webp"}
+            src={"/spidermanPushUpGif.gif"}
             height={200}
             width={200}
           />
-          <div className={styles.jumtim}>00:30</div>
+          <div className={styles.jumtim}>x20</div>
 
-          <div className="stopwatch">
-            <div className={styles.numbers}>
-              <span>{("0" + Math.floor((time / 60000) % 60)).slice(-2)}:</span>
-              <span>{("0" + Math.floor((time / 1000) % 60)).slice(-2)}:</span>
-              <span>{("0" + ((time / 10) % 100)).slice(-2)}</span>
-            </div>
-            <div className="buttons">
-              <button className={styles.start} onClick={() => setRunning(true)}>
-                <div>Start</div>
-              </button>
-              <button className={styles.stop} onClick={() => setRunning(false)}>
-                <div>Stop</div>
-              </button>
-              <button className={styles.reset} onClick={() => setTime(0)}>
-                <div> Reset</div>
-              </button>
-            </div>
-          </div>
           <div className={styles.backWard}>
-            <Link href={"/BACKINTERMEDIATE/floorTricepDips"}>
+            <Link href={"/CHESTADVANCE/boxPushUp"}>
               <MdArrowBackIosNew />
             </Link>
           </div>
+
           <div className={styles.forWard}>
-            <Link href={"/BACKINTERMEDIATE/hipHinge"}>
+            <Link href={"/CHESTADVANCE/declinePushUp"}>
               <MdArrowForwardIos />
             </Link>
           </div>
-          <h5>6 out of 12</h5>
+          <h5>10 out of 13</h5>
         </div>
       </div>
     </div>

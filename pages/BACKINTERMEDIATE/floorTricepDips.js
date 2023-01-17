@@ -32,7 +32,7 @@ function absTimer() {
               alt="guy"
               src={"/backi.jpeg"}
               height={150}
-              width={280}
+              width={300}
               className={styles.im11}
             />
             <div className={styles.abs3}>BACK INTERMEDIATE</div>
@@ -70,7 +70,7 @@ function absTimer() {
               <MdArrowForwardIos />
             </Link>
           </div>
-          <h5>5 out of 13</h5>
+          <h5>5 out of 12</h5>
         </div>
       </div>
     </div>

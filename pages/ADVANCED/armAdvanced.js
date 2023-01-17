@@ -15,16 +15,19 @@ function chestBeginner() {
         <div className={styles.bbdy}>
           <div className={styles.absb}>
             <Image
+              style={{ borderRadius: "20px" }}
               alt="guy"
               src={"/armad.jpeg"}
               height={150}
-              width={300}
+              width={320}
               className={styles.im11}
             />
             <div className={styles.abs9}>ARM ADVANCED</div>
 
             <Link href={"/"}>
-              <button className={styles.back11}>←</button>
+              <button className={styles.back11}>
+                <div>←</div>
+              </button>
             </Link>
             <h4 className={styles.bgset11}>Set of Workouts</h4>
             <hr className={styles.vrarmad} />
@@ -40,11 +43,11 @@ function chestBeginner() {
               marginTop: "10px",
               marginBottom: "-90px",
             }}
-            src="/jupjak.jpeg"
+            src="/ArmCirclesFrontGif.gif"
             height={80}
             width={80}
           />
-          <div className={styles.jjak}>JUMPING JACKS</div>
+          <div className={styles.jjak}>ARM CIRCLES CLOCKWISE</div>
           <div className={styles.sec}> 00:30</div>
           <hr className={styles.vrs} />
           <Image
@@ -53,11 +56,24 @@ function chestBeginner() {
               marginTop: "10px",
               marginBottom: "-90px",
             }}
-            src="/inclipus.jpg"
+            src="/ArmCirclesGif.gif"
             height={80}
             width={80}
           />
-          <div className={styles.jjak}>INCLINE PUSH-UPS</div>
+          <div className={styles.jjak}>ARM CIRCLES COUNTER CLOCKWISE</div>
+          <div className={styles.sec}>00:30</div>
+          <hr className={styles.vrs} />
+          <Image
+            style={{
+              marginLeft: "-30vh",
+              marginTop: "10px",
+              marginBottom: "-90px",
+            }}
+            src="/legBarellCurlLeftGif.gif"
+            height={80}
+            width={80}
+          />
+          <div className={styles.jjak}>LEG BARBELL CURL LEFT</div>
           <div className={styles.x}>x16</div>
           <hr className={styles.vrs} />
           <Image
@@ -66,12 +82,12 @@ function chestBeginner() {
               marginTop: "10px",
               marginBottom: "-90px",
             }}
-            src="/knepush.jpg"
+            src="/legBarellCurlLeftGif.gif"
             height={80}
             width={80}
           />
-          <div className={styles.btwist}>KNEE PUSH-UPS</div>
-          <div className={styles.x}>x12</div>
+          <div className={styles.jjak}>LEG BARBELL CURL RIGHT</div>
+          <div className={styles.x}>x16</div>
           <hr className={styles.vrs} />
           <Image
             style={{
@@ -79,25 +95,12 @@ function chestBeginner() {
               marginTop: "10px",
               marginBottom: "-90px",
             }}
-            src="/pushu.png"
+            src="/burpeeGif.gif"
             height={80}
             width={80}
           />
-          <div className={styles.jjak}>PUSH-UPS</div>
-          <div className={styles.x}>x10</div>
-          <hr className={styles.vrs} />
-          <Image
-            style={{
-              marginLeft: "-30vh",
-              marginTop: "10px",
-              marginBottom: "-90px",
-            }}
-            src="/wide.png"
-            height={80}
-            width={80}
-          />
-          <div className={styles.htoch}>WIDE ARM PUSH-UPS</div>
-          <div className={styles.x}>x10</div>
+          <div className={styles.htoch}>BURPEES</div>
+          <div className={styles.x}>x16</div>
           <hr className={styles.vrs} />
           <Image
             style={{
@@ -109,8 +112,8 @@ function chestBeginner() {
             height={80}
             width={80}
           />
-          <div className={styles.bleg}>INCLINE PUSH-UPS</div>
-          <div className={styles.x}>x12</div>
+          <div className={styles.jjak}>ARM CURLS CRUNCH LEFT</div>
+          <div className={styles.x}>x14</div>
           <hr className={styles.vrs} />
           <Image
             style={{
@@ -122,8 +125,8 @@ function chestBeginner() {
             height={80}
             width={80}
           />
-          <div className={styles.bplk}>BOX PUSH-UPS</div>
-          <div className={styles.sec}>X12</div>
+          <div className={styles.jjak}>ARM CURLS CRUNCH RIGHT</div>
+          <div className={styles.x}>X14</div>
           <hr className={styles.vrs} />
           <Image
             style={{
@@ -131,12 +134,12 @@ function chestBeginner() {
               marginTop: "10px",
               marginBottom: "-90px",
             }}
-            src="/wide.png"
+            src="/TricepsDipsGif.gif"
             height={80}
             width={80}
           />
-          <div className={styles.jjak}>WIDE ARM PUSH-UPS</div>
-          <div className={styles.sec}>x10</div>
+          <div className={styles.jjak}>FLOOR TRICEP DIPS</div>
+          <div className={styles.x}>x18</div>
           <hr className={styles.vrs} />
           <Image
             style={{
@@ -144,12 +147,12 @@ function chestBeginner() {
               marginTop: "10px",
               marginBottom: "-90px",
             }}
-            src="/hindps.jpeg"
+            src="/AlternatingHooksGif.gif"
             height={80}
             width={80}
           />
-          <div className={styles.jjak}>HINDU PUSH-UPS</div>
-          <div className={styles.sec}>x10</div>
+          <div className={styles.jjak}>ALTERNATING HOOKS</div>
+          <div className={styles.sec}>00:30</div>
           <hr className={styles.vrs} />
           <Image
             style={{
@@ -157,12 +160,12 @@ function chestBeginner() {
               marginTop: "10px",
               marginBottom: "-90px",
             }}
-            src="/costreh.jpg"
+            src="/militaryPushUpGif.gif"
             height={80}
             width={80}
           />
-          <div className={styles.jjak}>COBRA STRETCH</div>
-          <div className={styles.sec}>00:20</div>
+          <div className={styles.jjak}>MILITARY PUSH-UPS</div>
+          <div className={styles.x}>x14</div>
           <hr className={styles.vrs} />
           <Image
             style={{
@@ -174,12 +177,117 @@ function chestBeginner() {
             height={80}
             width={80}
           />
-          <div className={styles.jjak}>CHEST STRETCH</div>
-          <div className={styles.sec}>00:20</div>
+          <div className={styles.jjak}>SHOULDER GATORS</div>
+          <div className={styles.x}>x16</div>
           <hr className={styles.vrs} />
-          <Link href={"/chesBigStart"}>
+
+          <Image
+            style={{
+              marginLeft: "-30vh",
+              marginTop: "10px",
+              marginBottom: "-90px",
+            }}
+            src="/pushu.png"
+            height={80}
+            width={80}
+          />
+          <div className={styles.jjak}>DOORWAY CURLS LEFT</div>
+          <div className={styles.x}>x8</div>
+          <hr className={styles.vrs} />
+          <Image
+            style={{
+              marginLeft: "-30vh",
+              marginTop: "10px",
+              marginBottom: "-90px",
+            }}
+            src="/wide.png"
+            height={80}
+            width={80}
+          />
+          <div className={styles.jjak}>DOORWAY CURLS RIGHT</div>
+          <div className={styles.x}>x8</div>
+          <hr className={styles.vrs} />
+          <Image
+            style={{
+              marginLeft: "-30vh",
+              marginTop: "10px",
+              marginBottom: "-90px",
+            }}
+            src="/inclipus.jpg"
+            height={80}
+            width={80}
+          />
+          <div className={styles.jjak}>MODIFIED PUSH-UPS LOW HOLD</div>
+          <div className={styles.sec}>00:30</div>
+          <hr className={styles.vrs} />
+          <Image
+            style={{
+              marginLeft: "-30vh",
+              marginTop: "10px",
+              marginBottom: "-90px",
+            }}
+            src="/pushUpRotationGif.gif"
+            height={80}
+            width={80}
+          />
+          <div className={styles.jjak}>PUSH-UPS AND ROTATION</div>
+          <div className={styles.x}>X12</div>
+          <hr className={styles.vrs} />
+          <Image
+            style={{
+              marginLeft: "-30vh",
+              marginTop: "10px",
+              marginBottom: "-90px",
+            }}
+            src="/wide.png"
+            height={80}
+            width={80}
+          />
+          <div className={styles.jjak}>TRICEPS STRETCH LEFT</div>
+          <div className={styles.sec}>00:30</div>
+          <hr className={styles.vrs} />
+          <Image
+            style={{
+              marginLeft: "-30vh",
+              marginTop: "10px",
+              marginBottom: "-90px",
+            }}
+            src="/hindps.jpeg"
+            height={80}
+            width={80}
+          />
+          <div className={styles.jjak}>TRICEPS STRETCH RIGHT</div>
+          <div className={styles.sec}>00:30</div>
+          <hr className={styles.vrs} />
+          <Image
+            style={{
+              marginLeft: "-30vh",
+              marginTop: "10px",
+              marginBottom: "-90px",
+            }}
+            src="/stbice.jpeg"
+            height={80}
+            width={80}
+          />
+          <div className={styles.jjak}>STANDING BICEPS STRETCH LEFT</div>
+          <div className={styles.sec}>00:30</div>
+          <hr className={styles.vrs} />
+          <Image
+            style={{
+              marginLeft: "-30vh",
+              marginTop: "10px",
+              marginBottom: "-90px",
+            }}
+            src="/standingBicepStretchRightGif.jpg"
+            height={80}
+            width={80}
+          />
+          <div className={styles.jjak}>STANDING BICEPS STRETCH RIGHT</div>
+          <div className={styles.x}>x16</div>
+          <hr className={styles.vrs} />
+          <Link href={"/ARMADVANCE/armAdvanStart"}>
             <button className={styles.btn}>
-              <div onClick={(e) => handleClick(e, "absBigStart")}>START</div>
+              <div onClick={(e) => handleClick(e, "armAdvancStart")}>START</div>
             </button>
           </Link>
         </div>

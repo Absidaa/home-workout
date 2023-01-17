@@ -16,16 +16,18 @@ function absBeginner() {
             alt="guy"
             src={"/backi.jpeg"}
             height={150}
-            width={280}
-            className={styles.im9}
+            width={300}
+            className={styles.im11}
           />
-          <div className={styles.abs6}>BACK INTERMEDIATE</div>
+          <div className={styles.abs3}>BACK INTERMEDIATE</div>
 
           <Link href={"/"}>
-            <button className={styles.back8}>←</button>
+            <button className={styles.back9}>
+              <div>←</div>
+            </button>
           </Link>
-          <h4 className={styles.bgset9}>Set of workouts</h4>
-          <hr className={styles.vrbac} />
+          <h4 className={styles.bgsetabs}>Set of workouts</h4>
+          <hr className={styles.vrabsb} />
         </div>
         <div className={styles.worksb} class="card">
           <h5 className={styles.time}>▼14 mins • 12 workouts</h5>
