@@ -32,7 +32,7 @@ function interStart() {
             <Text size={"md"}>Soon to be fully automated!</Text>
           </Group>
           <Group position="apart">
-            <Link href={"/BAKINTERMEDIATE/jumpingJack"}>
+            <Link href={"/BACKINTERMEDIATE/jumpingJack"}>
               <Button style={{ left: "13vh" }}>
                 <Text size="lg">Thank you 😊</Text>
               </Button>
