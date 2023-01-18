@@ -43,7 +43,7 @@ function chestBeginner() {
               marginTop: "10px",
               marginBottom: "-90px",
             }}
-            src="/jupjak.jpeg"
+            src="/jumpingjackGif.gif"
             height={80}
             width={80}
           />
@@ -69,7 +69,7 @@ function chestBeginner() {
               marginTop: "10px",
               marginBottom: "-90px",
             }}
-            src="/knepush.jpg"
+            src="/pikePushUpGif.gif"
             height={80}
             width={80}
           />
@@ -82,7 +82,7 @@ function chestBeginner() {
               marginTop: "10px",
               marginBottom: "-90px",
             }}
-            src="/pushu.png"
+            src="/reversePushUpGif.gif"
             height={80}
             width={80}
           />
@@ -95,7 +95,7 @@ function chestBeginner() {
               marginTop: "10px",
               marginBottom: "-90px",
             }}
-            src="/wide.png"
+            src="/inchWormGif.gif"
             height={80}
             width={80}
           />
@@ -108,7 +108,7 @@ function chestBeginner() {
               marginTop: "10px",
               marginBottom: "-90px",
             }}
-            src="/inclipus.jpg"
+            src="/catCowGif.webp"
             height={80}
             width={80}
           />
@@ -121,7 +121,7 @@ function chestBeginner() {
               marginTop: "10px",
               marginBottom: "-90px",
             }}
-            src="/walbox.webp"
+            src="/supinePushUpGif.gif"
             height={80}
             width={80}
           />
@@ -134,7 +134,7 @@ function chestBeginner() {
               marginTop: "10px",
               marginBottom: "-90px",
             }}
-            src="/wide.png"
+            src="/floorYRaisesGif.gif"
             height={80}
             width={80}
           />
@@ -147,7 +147,7 @@ function chestBeginner() {
               marginTop: "10px",
               marginBottom: "-90px",
             }}
-            src="/hindps.jpeg"
+            src="/reverseSnowAngelsGif.gif"
             height={80}
             width={80}
           />
@@ -160,7 +160,7 @@ function chestBeginner() {
               marginTop: "10px",
               marginBottom: "-90px",
             }}
-            src="/costreh.jpg"
+            src="/CobraStretchGif.gif"
             height={80}
             width={80}
           />
@@ -168,7 +168,7 @@ function chestBeginner() {
           <div className={styles.sec}>00:30</div>
           <hr className={styles.vrs} />
 
-          <Link href={"/chesBigStart"}>
+          <Link href={"/BACKADVANCE/backAdvanStart"}>
             <button className={styles.btn}>
               <div onClick={(e) => handleClick(e, "absBigStart")}>START</div>
             </button>
