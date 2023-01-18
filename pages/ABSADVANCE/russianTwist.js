@@ -29,9 +29,10 @@ function absTimer() {
         <div className={styles.bbdy}>
           <div className={styles.absb}>
             <Image
+              style={{ borderRadius: "20px" }}
               alt="guy"
               src={"/absad.jpeg"}
-              height={150}
+              height={160}
               width={300}
               className={styles.im11}
             />
@@ -45,7 +46,7 @@ function absTimer() {
               </button>
             </Link>
             <h4 className={styles.bgsetabs}>Russian Twist</h4>
-            <hr className={styles.vrabsb} />
+            <hr className={styles.vrabsa} />
           </div>
           <div className={styles.worksb} class="card">
             <h5 className={styles.time}>▼25 mins • 19 workouts</h5>

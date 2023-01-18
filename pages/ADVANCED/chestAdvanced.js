@@ -19,7 +19,7 @@ function chestBeginner() {
               alt="guy"
               src={"/chead.jpeg"}
               height={170}
-              width={308}
+              width={300}
               className={styles.im11}
             />
             <div className={styles.abs8}>CHEST ADVANCED</div>
@@ -30,7 +30,7 @@ function chestBeginner() {
               </button>
             </Link>
             <h4 className={styles.bgset10}>Set of Workouts</h4>
-            <hr className={styles.vrabsb} />
+            <hr className={styles.vrchead} />
           </div>
           <div className={styles.worksb} class="card">
             <h5 className={styles.time}>▼15 mins • 13 workouts</h5>

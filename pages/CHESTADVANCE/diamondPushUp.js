@@ -33,7 +33,7 @@ function absTimer() {
               alt="guy"
               src={"/chead.jpeg"}
               height={170}
-              width={308}
+              width={300}
               className={styles.im11}
             />
             <div className={styles.abs8}>CHEST ADVANCED</div>
@@ -46,7 +46,7 @@ function absTimer() {
               </button>
             </Link>
             <h4 className={styles.bgsetabs}>Diamond Push-Ups</h4>
-            <hr className={styles.vrabsb} />
+            <hr className={styles.vrchead} />
           </div>
           <div className={styles.worksb} class="card">
             <h5 className={styles.time}>▼15 mins • 13 workouts</h5>

@@ -19,7 +19,7 @@ function chestBeginner() {
               alt="guy"
               src={"/armad.jpeg"}
               height={150}
-              width={320}
+              width={300}
               className={styles.im11}
             />
             <div className={styles.abs9}>ARM ADVANCED</div>
@@ -33,7 +33,7 @@ function chestBeginner() {
             <hr className={styles.vrarmad} />
           </div>
           <div className={styles.worksb} class="card">
-            <h5 className={styles.time}>▼11 mins• 11 workouts</h5>
+            <h5 className={styles.time}>▼25 mins • 18 workouts</h5>
           </div>
           <hr className={styles.vr} />
 
@@ -50,6 +50,7 @@ function chestBeginner() {
           <div className={styles.jjak}>ARM CIRCLES CLOCKWISE</div>
           <div className={styles.sec}> 00:30</div>
           <hr className={styles.vrs} />
+
           <Image
             style={{
               marginLeft: "-30vh",
@@ -62,6 +63,19 @@ function chestBeginner() {
           />
           <div className={styles.jjak}>ARM CIRCLES COUNTER CLOCKWISE</div>
           <div className={styles.sec}>00:30</div>
+          <hr className={styles.vrs} />
+          <Image
+            style={{
+              marginLeft: "-30vh",
+              marginTop: "10px",
+              marginBottom: "-90px",
+            }}
+            src="/skipWitouRopeGif.gif"
+            height={80}
+            width={80}
+          />
+          <div className={styles.jjak}>SKIP WITHOUT ROPE</div>
+          <div className={styles.sec}> 00:30</div>
           <hr className={styles.vrs} />
           <Image
             style={{
@@ -102,32 +116,7 @@ function chestBeginner() {
           <div className={styles.htoch}>BURPEES</div>
           <div className={styles.x}>x16</div>
           <hr className={styles.vrs} />
-          <Image
-            style={{
-              marginLeft: "-30vh",
-              marginTop: "10px",
-              marginBottom: "-90px",
-            }}
-            src="/inclipus.jpg"
-            height={80}
-            width={80}
-          />
-          <div className={styles.jjak}>ARM CURLS CRUNCH LEFT</div>
-          <div className={styles.x}>x14</div>
-          <hr className={styles.vrs} />
-          <Image
-            style={{
-              marginLeft: "-30vh",
-              marginTop: "10px",
-              marginBottom: "-90px",
-            }}
-            src="/walbox.webp"
-            height={80}
-            width={80}
-          />
-          <div className={styles.jjak}>ARM CURLS CRUNCH RIGHT</div>
-          <div className={styles.x}>X14</div>
-          <hr className={styles.vrs} />
+
           <Image
             style={{
               marginLeft: "-30vh",
@@ -173,7 +162,7 @@ function chestBeginner() {
               marginTop: "10px",
               marginBottom: "-90px",
             }}
-            src="/strch.jpeg"
+            src="/shoulderGatorGif.gif"
             height={80}
             width={80}
           />
@@ -187,7 +176,7 @@ function chestBeginner() {
               marginTop: "10px",
               marginBottom: "-90px",
             }}
-            src="/pushu.png"
+            src="/doorwayCurlsRightGif.gif"
             height={80}
             width={80}
           />
@@ -200,7 +189,7 @@ function chestBeginner() {
               marginTop: "10px",
               marginBottom: "-90px",
             }}
-            src="/wide.png"
+            src="/doorwayCurlLeft.jpeg"
             height={80}
             width={80}
           />
@@ -213,7 +202,7 @@ function chestBeginner() {
               marginTop: "10px",
               marginBottom: "-90px",
             }}
-            src="/inclipus.jpg"
+            src="/modifyPushUpGif.webp"
             height={80}
             width={80}
           />
@@ -239,7 +228,7 @@ function chestBeginner() {
               marginTop: "10px",
               marginBottom: "-90px",
             }}
-            src="/wide.png"
+            src="/TricepStretchLeftGif.jpg"
             height={80}
             width={80}
           />
@@ -252,7 +241,7 @@ function chestBeginner() {
               marginTop: "10px",
               marginBottom: "-90px",
             }}
-            src="/hindps.jpeg"
+            src="/TricepStretchRightGif.jpg"
             height={80}
             width={80}
           />
@@ -265,7 +254,7 @@ function chestBeginner() {
               marginTop: "10px",
               marginBottom: "-90px",
             }}
-            src="/stbice.jpeg"
+            src="/standingBicepStretchLeftGif.jpg"
             height={80}
             width={80}
           />
@@ -283,7 +272,7 @@ function chestBeginner() {
             width={80}
           />
           <div className={styles.jjak}>STANDING BICEPS STRETCH RIGHT</div>
-          <div className={styles.x}>x16</div>
+          <div className={styles.sec}>00:30</div>
           <hr className={styles.vrs} />
           <Link href={"/ARMADVANCE/armAdvanStart"}>
             <button className={styles.btn}>

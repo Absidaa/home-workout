@@ -15,10 +15,11 @@ function chestBeginner() {
         <div className={styles.bbdy}>
           <div className={styles.absb}>
             <Image
+              style={{ borderRadius: "20px" }}
               alt="guy"
               src={"/absad.jpeg"}
-              height={180}
-              width={320}
+              height={160}
+              width={300}
               className={styles.im11}
             />
             <div className={styles.abs7}>ABS ADVANCED</div>
@@ -55,7 +56,7 @@ function chestBeginner() {
               marginTop: "10px",
               marginBottom: "-90px",
             }}
-            src="/inclipus.jpg"
+            src="/sitUpGif.gif"
             height={80}
             width={80}
           />
@@ -68,7 +69,7 @@ function chestBeginner() {
               marginTop: "10px",
               marginBottom: "-90px",
             }}
-            src="/knepush.jpg"
+            src="/SidePlankHipLiftGif.gif"
             height={80}
             width={80}
           />
@@ -81,7 +82,7 @@ function chestBeginner() {
               marginTop: "10px",
               marginBottom: "-90px",
             }}
-            src="/pushu.png"
+            src="/SidePlankHipRightGif.gif"
             height={80}
             width={80}
           />
@@ -107,7 +108,7 @@ function chestBeginner() {
               marginTop: "10px",
               marginBottom: "-90px",
             }}
-            src="/inclipus.jpg"
+            src="/bicycleCrunchesGif.gif"
             height={80}
             width={80}
           />
@@ -120,7 +121,7 @@ function chestBeginner() {
               marginTop: "10px",
               marginBottom: "-90px",
             }}
-            src="/walbox.webp"
+            src="/sidePlankLeftGif.gif"
             height={80}
             width={80}
           />
@@ -133,7 +134,7 @@ function chestBeginner() {
               marginTop: "10px",
               marginBottom: "-90px",
             }}
-            src="/wide.png"
+            src="/sidePlankRightGif.gif"
             height={80}
             width={80}
           />
@@ -146,7 +147,7 @@ function chestBeginner() {
               marginTop: "10px",
               marginBottom: "-90px",
             }}
-            src="/hindps.jpeg"
+            src="/vUpGif.gif"
             height={80}
             width={80}
           />
@@ -186,7 +187,7 @@ function chestBeginner() {
               marginTop: "10px",
               marginBottom: "-90px",
             }}
-            src="/wide.png"
+            src="/buttBridgGif.gif"
             height={80}
             width={80}
           />
@@ -225,11 +226,11 @@ function chestBeginner() {
               marginTop: "10px",
               marginBottom: "-90px",
             }}
-            src="/strch.jpeg"
+            src="/crossoverCrunchGif.gif"
             height={80}
             width={80}
           />
-          <div className={styles.jjak}>CROSSOVER CRUNCHE</div>
+          <div className={styles.jjak}>CROSSOVER CRUNCH</div>
           <div className={styles.x}>x24</div>
           <hr className={styles.vrs} />
 
@@ -265,7 +266,7 @@ function chestBeginner() {
               marginTop: "10px",
               marginBottom: "-90px",
             }}
-            src="/costreh.jpg"
+            src="/spineLumbarTwistLeftGif.jpg"
             height={80}
             width={80}
           />
@@ -278,7 +279,7 @@ function chestBeginner() {
               marginTop: "10px",
               marginBottom: "-90px",
             }}
-            src="/strch.jpeg"
+            src="/spineLumbarTwistRightGif.jpg"
             height={80}
             width={80}
           />
