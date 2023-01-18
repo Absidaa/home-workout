@@ -15,6 +15,7 @@ function chestBeginner() {
         <div className={styles.bbdy}>
           <div className={styles.absb}>
             <Image
+              style={{ borderRadius: "20px" }}
               alt="guy"
               src={"/bacad.jpeg"}
               height={150}
@@ -24,13 +25,15 @@ function chestBeginner() {
             <div className={styles.abs10}>BACK ADVANCED</div>
 
             <Link href={"/"}>
-              <button className={styles.back12}>←</button>
+              <button className={styles.back12}>
+                <div>←</div>
+              </button>
             </Link>
             <h4 className={styles.bgset13}>Set of Workouts</h4>
             <hr className={styles.vrbacad} />
           </div>
           <div className={styles.worksb} class="card">
-            <h5 className={styles.time}>▼11 mins• 11 workouts</h5>
+            <h5 className={styles.time}>▼15 mins • 10 workouts</h5>
           </div>
           <hr className={styles.vr} />
 
@@ -53,12 +56,12 @@ function chestBeginner() {
               marginTop: "10px",
               marginBottom: "-90px",
             }}
-            src="/inclipus.jpg"
+            src="/hyperextensionGif.gif"
             height={80}
             width={80}
           />
-          <div className={styles.jjak}>INCLINE PUSH-UPS</div>
-          <div className={styles.x}>x16</div>
+          <div className={styles.jjak}>HYPEREXTENSION</div>
+          <div className={styles.x}>x14</div>
           <hr className={styles.vrs} />
           <Image
             style={{
@@ -70,8 +73,8 @@ function chestBeginner() {
             height={80}
             width={80}
           />
-          <div className={styles.btwist}>KNEE PUSH-UPS</div>
-          <div className={styles.x}>x12</div>
+          <div className={styles.btwist}>PIKE PUSH-UPS</div>
+          <div className={styles.x}>x14</div>
           <hr className={styles.vrs} />
           <Image
             style={{
@@ -83,8 +86,8 @@ function chestBeginner() {
             height={80}
             width={80}
           />
-          <div className={styles.jjak}>PUSH-UPS</div>
-          <div className={styles.x}>x10</div>
+          <div className={styles.jjak}>REVERSE PUSH-UPS</div>
+          <div className={styles.x}>x12</div>
           <hr className={styles.vrs} />
           <Image
             style={{
@@ -96,8 +99,8 @@ function chestBeginner() {
             height={80}
             width={80}
           />
-          <div className={styles.htoch}>WIDE ARM PUSH-UPS</div>
-          <div className={styles.x}>x10</div>
+          <div className={styles.htoch}>INCHWORMS</div>
+          <div className={styles.x}>x16</div>
           <hr className={styles.vrs} />
           <Image
             style={{
@@ -109,8 +112,8 @@ function chestBeginner() {
             height={80}
             width={80}
           />
-          <div className={styles.bleg}>INCLINE PUSH-UPS</div>
-          <div className={styles.x}>x12</div>
+          <div className={styles.bleg}>CAT COW</div>
+          <div className={styles.x}>00:30</div>
           <hr className={styles.vrs} />
           <Image
             style={{
@@ -122,8 +125,8 @@ function chestBeginner() {
             height={80}
             width={80}
           />
-          <div className={styles.bplk}>BOX PUSH-UPS</div>
-          <div className={styles.sec}>X12</div>
+          <div className={styles.bplk}>SUPINE PUSH-UPS</div>
+          <div className={styles.sec}>X14</div>
           <hr className={styles.vrs} />
           <Image
             style={{
@@ -135,8 +138,8 @@ function chestBeginner() {
             height={80}
             width={80}
           />
-          <div className={styles.jjak}>WIDE ARM PUSH-UPS</div>
-          <div className={styles.sec}>x10</div>
+          <div className={styles.jjak}>FLOOR Y RAISES</div>
+          <div className={styles.sec}>x14</div>
           <hr className={styles.vrs} />
           <Image
             style={{
@@ -148,8 +151,8 @@ function chestBeginner() {
             height={80}
             width={80}
           />
-          <div className={styles.jjak}>HINDU PUSH-UPS</div>
-          <div className={styles.sec}>x10</div>
+          <div className={styles.jjak}>REVERSE SNOW ANGELS</div>
+          <div className={styles.sec}>x12</div>
           <hr className={styles.vrs} />
           <Image
             style={{
@@ -162,21 +165,9 @@ function chestBeginner() {
             width={80}
           />
           <div className={styles.jjak}>COBRA STRETCH</div>
-          <div className={styles.sec}>00:20</div>
+          <div className={styles.sec}>00:30</div>
           <hr className={styles.vrs} />
-          <Image
-            style={{
-              marginLeft: "-30vh",
-              marginTop: "10px",
-              marginBottom: "-90px",
-            }}
-            src="/strch.jpeg"
-            height={80}
-            width={80}
-          />
-          <div className={styles.jjak}>CHEST STRETCH</div>
-          <div className={styles.sec}>00:20</div>
-          <hr className={styles.vrs} />
+
           <Link href={"/chesBigStart"}>
             <button className={styles.btn}>
               <div onClick={(e) => handleClick(e, "absBigStart")}>START</div>
