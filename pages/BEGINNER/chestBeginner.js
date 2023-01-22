@@ -3,7 +3,7 @@ import styles from "../../styles/Home.module.css";
 import Image from "next/image";
 import Link from "next/link";
 
-function chestBeginner() {
+export default function ChestBeginner() {
   const handleClick = (e, path) => {
     if (path === "/chesBigStart") {
       console.log(`I clicked on it`);
@@ -39,6 +39,7 @@ function chestBeginner() {
               marginTop: "10px",
               marginBottom: "-90px",
             }}
+            alt="the pic of the greatest guy ever"
             src="/jupjak.jpeg"
             height={80}
             width={80}
@@ -52,6 +53,7 @@ function chestBeginner() {
               marginTop: "10px",
               marginBottom: "-90px",
             }}
+            alt="the pic of the greatest guy ever"
             src="/inclipus.jpg"
             height={80}
             width={80}
@@ -65,6 +67,7 @@ function chestBeginner() {
               marginTop: "10px",
               marginBottom: "-90px",
             }}
+            alt="the pic of the greatest guy ever"
             src="/knepush.jpg"
             height={80}
             width={80}
@@ -78,6 +81,7 @@ function chestBeginner() {
               marginTop: "10px",
               marginBottom: "-90px",
             }}
+            alt="the pic of the greatest guy ever"
             src="/pushu.png"
             height={80}
             width={80}
@@ -91,6 +95,7 @@ function chestBeginner() {
               marginTop: "10px",
               marginBottom: "-90px",
             }}
+            alt="the pic of the greatest guy ever"
             src="/wide.png"
             height={80}
             width={80}
@@ -104,6 +109,7 @@ function chestBeginner() {
               marginTop: "10px",
               marginBottom: "-90px",
             }}
+            alt="the pic of the greatest guy ever"
             src="/inclipus.jpg"
             height={80}
             width={80}
@@ -117,6 +123,7 @@ function chestBeginner() {
               marginTop: "10px",
               marginBottom: "-90px",
             }}
+            alt="the pic of the greatest guy ever"
             src="/walbox.webp"
             height={80}
             width={80}
@@ -130,6 +137,7 @@ function chestBeginner() {
               marginTop: "10px",
               marginBottom: "-90px",
             }}
+            alt="the pic of the greatest guy ever"
             src="/wide.png"
             height={80}
             width={80}
@@ -143,6 +151,7 @@ function chestBeginner() {
               marginTop: "10px",
               marginBottom: "-90px",
             }}
+            alt="the pic of the greatest guy ever"
             src="/hindps.jpeg"
             height={80}
             width={80}
@@ -156,6 +165,7 @@ function chestBeginner() {
               marginTop: "10px",
               marginBottom: "-90px",
             }}
+            alt="the pic of the greatest guy ever"
             src="/costreh.jpg"
             height={80}
             width={80}
@@ -169,6 +179,7 @@ function chestBeginner() {
               marginTop: "10px",
               marginBottom: "-90px",
             }}
+            alt="the pic of the greatest guy ever"
             src="/chestreh.jpeg"
             height={80}
             width={80}
@@ -186,5 +197,3 @@ function chestBeginner() {
     </>
   );
 }
-
-export default chestBeginner;

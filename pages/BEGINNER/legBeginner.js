@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { MdMoreVert } from "react-icons/md";
 
-function absBeginner() {
+export default function LegBeginner() {
   const handleClick = (e, path) => {
     if (path === "/absBigStart") {
       console.log(`I clicked on it`);
@@ -46,6 +46,7 @@ function absBeginner() {
               marginTop: "10px",
               marginBottom: "-90px",
             }}
+            alt="the pic of the greatest guy ever"
             src="/sidehop.jpg"
             height={80}
             width={80}
@@ -59,6 +60,7 @@ function absBeginner() {
               marginTop: "10px",
               marginBottom: "-90px",
             }}
+            alt="the pic of the greatest guy ever"
             src="/squat.jpeg"
             height={80}
             width={80}
@@ -72,6 +74,7 @@ function absBeginner() {
               marginTop: "10px",
               marginBottom: "-90px",
             }}
+            alt="the pic of the greatest guy ever"
             src="/sideLiftLeft.jpeg"
             height={80}
             width={80}
@@ -85,6 +88,7 @@ function absBeginner() {
               marginTop: "10px",
               marginBottom: "-90px",
             }}
+            alt="the pic of the greatest guy ever"
             src="/sideLiftRight.jpeg"
             height={80}
             width={80}
@@ -98,6 +102,7 @@ function absBeginner() {
               marginTop: "10px",
               marginBottom: "-90px",
             }}
+            alt="the pic of the greatest guy ever"
             src="/backwardlung.png"
             height={80}
             width={80}
@@ -113,6 +118,7 @@ function absBeginner() {
               marginTop: "10px",
               marginBottom: "-90px",
             }}
+            alt="the pic of the greatest guy ever"
             src="/donkeykicklft.jpeg"
             height={80}
             width={80}
@@ -127,6 +133,7 @@ function absBeginner() {
               marginTop: "10px",
               marginBottom: "-90px",
             }}
+            alt="the pic of the greatest guy ever"
             src="/donkeykickright.jpeg"
             height={80}
             width={80}
@@ -141,6 +148,7 @@ function absBeginner() {
               marginTop: "10px",
               marginBottom: "-90px",
             }}
+            alt="the pic of the greatest guy ever"
             src="/SquadLeft.png"
             height={80}
             width={80}
@@ -154,6 +162,7 @@ function absBeginner() {
               marginTop: "10px",
               marginBottom: "-90px",
             }}
+            alt="the pic of the greatest guy ever"
             src="/SquadRight.png"
             height={80}
             width={80}
@@ -167,6 +176,7 @@ function absBeginner() {
               marginTop: "10px",
               marginBottom: "-90px",
             }}
+            alt="the pic of the greatest guy ever"
             src="/wallCallRaises.png"
             height={80}
             width={80}
@@ -181,6 +191,7 @@ function absBeginner() {
               marginTop: "10px",
               marginBottom: "-90px",
             }}
+            alt="the pic of the greatest guy ever"
             src="/sumoSquatWall.jpg"
             height={80}
             width={80}
@@ -194,6 +205,7 @@ function absBeginner() {
               marginTop: "10px",
               marginBottom: "-90px",
             }}
+            alt="the pic of the greatest guy ever"
             src="/calfStretchLeft.jpeg"
             height={80}
             width={80}
@@ -207,6 +219,7 @@ function absBeginner() {
               marginTop: "10px",
               marginBottom: "-90px",
             }}
+            alt="the pic of the greatest guy ever"
             src="/calfStretchRight.jpeg"
             height={80}
             width={80}
@@ -225,5 +238,3 @@ function absBeginner() {
     </>
   );
 }
-
-export default absBeginner;

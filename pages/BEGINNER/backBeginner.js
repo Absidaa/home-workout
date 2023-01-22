@@ -3,7 +3,7 @@ import styles from "../../styles/Home.module.css";
 import Image from "next/image";
 import Link from "next/link";
 
-function absBeginner() {
+export default function BackBeginner() {
   const handleClick = (e, path) => {
     if (path === "/absBigStart") {
       console.log(`I clicked on it`);
@@ -44,6 +44,7 @@ function absBeginner() {
             marginTop: "10px",
             marginBottom: "-90px",
           }}
+          alt="the pic of the greatest guy ever"
           src="/jupjak.jpeg"
           height={80}
           width={80}
@@ -57,6 +58,7 @@ function absBeginner() {
             marginTop: "10px",
             marginBottom: "-90px",
           }}
+          alt="the pic of the greatest guy ever"
           src="/armRaises.jpeg"
           height={80}
           width={80}
@@ -70,6 +72,7 @@ function absBeginner() {
             marginTop: "10px",
             marginBottom: "-90px",
           }}
+          alt="the pic of the greatest guy ever"
           src="/rhomboidPulls.jpeg"
           height={80}
           width={80}
@@ -83,6 +86,7 @@ function absBeginner() {
             marginTop: "10px",
             marginBottom: "-90px",
           }}
+          alt="the pic of the greatest guy ever"
           src="/sidarm.jpg"
           height={80}
           width={80}
@@ -96,6 +100,7 @@ function absBeginner() {
             marginTop: "10px",
             marginBottom: "-90px",
           }}
+          alt="the pic of the greatest guy ever"
           src="/knepush.jpg"
           height={80}
           width={80}
@@ -109,6 +114,7 @@ function absBeginner() {
             marginTop: "10px",
             marginBottom: "-90px",
           }}
+          alt="the pic of the greatest guy ever"
           src="/sideLiftLeft.jpeg"
           height={80}
           width={80}
@@ -122,6 +128,7 @@ function absBeginner() {
             marginTop: "10px",
             marginBottom: "-90px",
           }}
+          alt="the pic of the greatest guy ever"
           src="/sideLiftRight.jpeg"
           height={80}
           width={80}
@@ -135,6 +142,7 @@ function absBeginner() {
             marginTop: "10px",
             marginBottom: "-90px",
           }}
+          alt="the pic of the greatest guy ever"
           src="/armScissors.jpeg"
           height={80}
           width={80}
@@ -150,6 +158,7 @@ function absBeginner() {
             marginTop: "10px",
             marginBottom: "-90px",
           }}
+          alt="the pic of the greatest guy ever"
           src="/catCow.jpeg"
           height={80}
           width={80}
@@ -164,6 +173,7 @@ function absBeginner() {
             marginTop: "10px",
             marginBottom: "-90px",
           }}
+          alt="the pic of the greatest guy ever"
           src="/proneTriceps.jpg"
           height={80}
           width={80}
@@ -178,6 +188,7 @@ function absBeginner() {
             marginTop: "10px",
             marginBottom: "-90px",
           }}
+          alt="the pic of the greatest guy ever"
           src="/reclineRhomboid.jpeg"
           height={80}
           width={80}
@@ -191,11 +202,12 @@ function absBeginner() {
             marginTop: "10px",
             marginBottom: "-90px",
           }}
+          alt="the pic of the greatest guy ever"
           src="/childPose.jpeg"
           height={80}
           width={80}
         />
-        <div className={styles.btwist}>CHILD'S POSE</div>
+        <div className={styles.btwist}>CHILD&apos;S POSE</div>
         <div className={styles.sec}>00:30</div>
         <hr className={styles.vrs} />
 
@@ -208,5 +220,3 @@ function absBeginner() {
     </div>
   );
 }
-
-export default absBeginner;

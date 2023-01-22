@@ -3,7 +3,7 @@ import styles from "../../styles/Home.module.css";
 import Image from "next/image";
 import Link from "next/link";
 
-function absBeginner() {
+export default function AbsBeginner() {
   const handleClick = (e, path) => {
     if (path === "/absBigStart") {
       console.log(`I clicked on it`);
@@ -45,6 +45,7 @@ function absBeginner() {
               marginTop: "10px",
               marginBottom: "-90px",
             }}
+            alt="the pic of the greatest guy ever"
             src="/jupjak.jpeg"
             height={80}
             width={80}
@@ -58,6 +59,7 @@ function absBeginner() {
               marginTop: "10px",
               marginBottom: "-90px",
             }}
+            alt="the pic of the greatest guy ever"
             src="/crun.jpeg"
             height={80}
             width={80}
@@ -71,6 +73,7 @@ function absBeginner() {
               marginTop: "10px",
               marginBottom: "-90px",
             }}
+            alt="the pic of the greatest guy ever"
             src="/rutwist.png"
             height={80}
             width={80}
@@ -84,6 +87,7 @@ function absBeginner() {
               marginTop: "10px",
               marginBottom: "-90px",
             }}
+            alt="the pic of the greatest guy ever"
             src="/moclim.jpg"
             height={80}
             width={80}
@@ -97,6 +101,7 @@ function absBeginner() {
               marginTop: "10px",
               marginBottom: "-90px",
             }}
+            alt="the pic of the greatest guy ever"
             src="/htouch.jpg"
             height={80}
             width={80}
@@ -110,6 +115,7 @@ function absBeginner() {
               marginTop: "10px",
               marginBottom: "-90px",
             }}
+            alt="the pic of the greatest guy ever"
             src="/lraise.jpg"
             height={80}
             width={80}
@@ -123,6 +129,7 @@ function absBeginner() {
               marginTop: "10px",
               marginBottom: "-90px",
             }}
+            alt="the pic of the greatest guy ever"
             src="/diaplak.png"
             height={80}
             width={80}
@@ -136,6 +143,7 @@ function absBeginner() {
               marginTop: "10px",
               marginBottom: "-90px",
             }}
+            alt="the pic of the greatest guy ever"
             src="/costreh.jpg"
             height={80}
             width={80}
@@ -146,6 +154,7 @@ function absBeginner() {
               marginTop: "10px",
               marginBottom: "-90px",
             }}
+            alt="the pic of the greatest guy ever"
             src="/crun.jpeg"
             height={80}
             width={80}
@@ -160,6 +169,7 @@ function absBeginner() {
               marginTop: "10px",
               marginBottom: "-90px",
             }}
+            alt="the pic of the greatest guy ever"
             src="/rutwist.png"
             height={80}
             width={80}
@@ -173,6 +183,7 @@ function absBeginner() {
               marginTop: "10px",
               marginBottom: "-90px",
             }}
+            alt="the pic of the greatest guy ever"
             src="/moclim.jpg"
             height={80}
             width={80}
@@ -187,6 +198,7 @@ function absBeginner() {
               marginTop: "10px",
               marginBottom: "-90px",
             }}
+            alt="the pic of the greatest guy ever"
             src="/htouch.jpg"
             height={80}
             width={80}
@@ -200,6 +212,7 @@ function absBeginner() {
               marginTop: "10px",
               marginBottom: "-90px",
             }}
+            alt="the pic of the greatest guy ever"
             src="/lraise.jpg"
             height={80}
             width={80}
@@ -214,6 +227,7 @@ function absBeginner() {
               marginTop: "10px",
               marginBottom: "-90px",
             }}
+            alt="the pic of the greatest guy ever"
             src="/diaplak.png"
             height={80}
             width={80}
@@ -228,6 +242,7 @@ function absBeginner() {
               marginTop: "10px",
               marginBottom: "-90px",
             }}
+            alt="the pic of the greatest guy ever"
             src="/costreh.jpg"
             height={80}
             width={80}
@@ -241,6 +256,7 @@ function absBeginner() {
               marginTop: "10px",
               marginBottom: "-90px",
             }}
+            alt="the pic of the greatest guy ever"
             src="/lft.jpg"
             height={80}
             width={80}
@@ -254,6 +270,7 @@ function absBeginner() {
               marginTop: "10px",
               marginBottom: "-90px",
             }}
+            alt="the pic of the greatest guy ever"
             src="/rigt.jpeg"
             height={80}
             width={80}
@@ -272,5 +289,3 @@ function absBeginner() {
     </>
   );
 }
-
-export default absBeginner;

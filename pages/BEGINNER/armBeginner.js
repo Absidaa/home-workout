@@ -3,7 +3,7 @@ import styles from "../../styles/Home.module.css";
 import Image from "next/image";
 import Link from "next/link";
 
-function absBeginner() {
+export default function ArmBeginner() {
   const handleClick = (e, path) => {
     if (path === "/absBigStart") {
       console.log(`I clicked on it`);
@@ -42,6 +42,7 @@ function absBeginner() {
             marginTop: "10px",
             marginBottom: "-90px",
           }}
+          alt="the pic of the greatest guy ever"
           src="/armraises.webp"
           height={80}
           width={80}
@@ -55,6 +56,7 @@ function absBeginner() {
             marginTop: "10px",
             marginBottom: "-90px",
           }}
+          alt="the pic of the greatest guy ever"
           src="/sidarm.jpg"
           height={80}
           width={80}
@@ -68,6 +70,7 @@ function absBeginner() {
             marginTop: "10px",
             marginBottom: "-90px",
           }}
+          alt="the pic of the greatest guy ever"
           src="/dips.jpg"
           height={80}
           width={80}
@@ -81,6 +84,7 @@ function absBeginner() {
             marginTop: "10px",
             marginBottom: "-90px",
           }}
+          alt="the pic of the greatest guy ever"
           src="/acirc.webp"
           height={80}
           width={80}
@@ -94,6 +98,7 @@ function absBeginner() {
             marginTop: "10px",
             marginBottom: "-90px",
           }}
+          alt="the pic of the greatest guy ever"
           src="/acirc.webp"
           height={80}
           width={80}
@@ -107,6 +112,7 @@ function absBeginner() {
             marginTop: "10px",
             marginBottom: "-90px",
           }}
+          alt="the pic of the greatest guy ever"
           src="/dups.jpg"
           height={80}
           width={80}
@@ -120,6 +126,7 @@ function absBeginner() {
             marginTop: "10px",
             marginBottom: "-90px",
           }}
+          alt="the pic of the greatest guy ever"
           src="/jupjak.jpeg"
           height={80}
           width={80}
@@ -134,6 +141,7 @@ function absBeginner() {
             marginTop: "10px",
             marginBottom: "-90px",
           }}
+          alt="the pic of the greatest guy ever"
           src="/diaplak.png"
           height={80}
           width={80}
@@ -147,6 +155,7 @@ function absBeginner() {
             marginTop: "10px",
             marginBottom: "-90px",
           }}
+          alt="the pic of the greatest guy ever"
           src="/puch.png"
           height={80}
           width={80}
@@ -160,6 +169,7 @@ function absBeginner() {
             marginTop: "10px",
             marginBottom: "-90px",
           }}
+          alt="the pic of the greatest guy ever"
           src="/pushu.png"
           height={80}
           width={80}
@@ -173,6 +183,7 @@ function absBeginner() {
             marginTop: "10px",
             marginBottom: "-90px",
           }}
+          alt="the pic of the greatest guy ever"
           src="/wor.jpg"
           height={80}
           width={80}
@@ -186,6 +197,7 @@ function absBeginner() {
             marginTop: "10px",
             marginBottom: "-90px",
           }}
+          alt="the pic of the greatest guy ever"
           src="/walbox.webp"
           height={80}
           width={80}
@@ -199,6 +211,7 @@ function absBeginner() {
             marginTop: "10px",
             marginBottom: "-90px",
           }}
+          alt="the pic of the greatest guy ever"
           src="/tsrelf2.jpeg"
           height={80}
           width={80}
@@ -212,6 +225,7 @@ function absBeginner() {
             marginTop: "10px",
             marginBottom: "-90px",
           }}
+          alt="the pic of the greatest guy ever"
           src="/tsrelf.jpeg"
           height={80}
           width={80}
@@ -225,6 +239,7 @@ function absBeginner() {
             marginTop: "10px",
             marginBottom: "-90px",
           }}
+          alt="the pic of the greatest guy ever"
           src="/stbice2.jpeg"
           height={80}
           width={80}
@@ -238,6 +253,7 @@ function absBeginner() {
             marginTop: "10px",
             marginBottom: "-90px",
           }}
+          alt="the pic of the greatest guy ever"
           src="/stbice.jpeg"
           height={80}
           width={80}
@@ -254,5 +270,3 @@ function absBeginner() {
     </div>
   );
 }
-
-export default absBeginner;
