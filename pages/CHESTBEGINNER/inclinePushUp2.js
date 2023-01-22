@@ -8,7 +8,7 @@ import {
   MdHomeFilled,
 } from "react-icons/md";
 
-function absTimer() {
+export default function InclinePushUp2() {
   return (
     <div>
       <div className={styles.abdy}>
@@ -70,5 +70,3 @@ function absTimer() {
     </div>
   );
 }
-
-export default absTimer;

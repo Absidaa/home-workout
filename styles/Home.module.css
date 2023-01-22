@@ -516,7 +516,7 @@
   width: 64vh;
   margin-left: 15px;
   font-weight: bolder;
-  margin-top: -10px;
+  margin-top: 1px;
 }
 .bgsetabs {
   margin-top: -5vh;
@@ -1219,6 +1219,13 @@
     margin-left: -40px;
     font-weight: bolder;
     margin-top: 18px;
+  }
+
+  .vrabsb {
+    width: 64vh;
+    margin-left: 15px;
+    font-weight: bolder;
+    margin-top: -6px;
   }
   .sec {
     margin-left: 11vh;

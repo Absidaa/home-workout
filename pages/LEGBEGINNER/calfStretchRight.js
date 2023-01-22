@@ -9,7 +9,7 @@ import {
   MdArrowBackIosNew,
 } from "react-icons/md";
 
-function absTimer() {
+export default function CalfStretchRight() {
   const [time, setTime] = useState(0);
   const [running, setRunning] = useState(false);
   useEffect(() => {
@@ -90,5 +90,3 @@ function absTimer() {
     </div>
   );
 }
-
-export default absTimer;

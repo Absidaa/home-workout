@@ -10,7 +10,7 @@ import {
   MdHomeFilled,
 } from "react-icons/md";
 
-function absTimer() {
+export default function JumpingJack() {
   const [time, setTime] = useState(0);
   const [running, setRunning] = useState(false);
   useEffect(() => {
@@ -52,7 +52,7 @@ function absTimer() {
             <hr className={styles.vrabsb} />
           </div>
           <div className={styles.worksb} class="card">
-            <h5 className={styles.time}>▼11 mins• 11 workouts</h5>
+            <h5 className={styles.time}>▼11 mins • 11 workouts</h5>
           </div>
           <hr className={styles.vr} />
 
@@ -97,5 +97,3 @@ function absTimer() {
     </div>
   );
 }
-
-export default absTimer;

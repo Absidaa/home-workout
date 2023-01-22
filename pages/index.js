@@ -37,6 +37,7 @@ export default function Home() {
             <Link href={"BEGINNER/chestBeginner"}>
               <div className={styles.cad} class="card">
                 <Image
+                  alt="the greates worout ever"
                   style={{ borderRadius: "8.5px" }}
                   src="/chet.jpeg"
                   height={137}
@@ -50,6 +51,7 @@ export default function Home() {
             <Link href={"BEGINNER/armBeginner"}>
               <div className={styles.cad} class="card">
                 <Image
+                  alt="the greates worout ever"
                   style={{ borderRadius: "8.5px" }}
                   src="/armwork.jpeg"
                   height={137}
@@ -63,6 +65,7 @@ export default function Home() {
             <Link href={"BEGINNER/legBeginner"}>
               <div className={styles.cad} class="card">
                 <Image
+                  alt="the greates worout ever"
                   style={{ borderRadius: "8.5px" }}
                   src="/legwork.jpeg"
                   height={137}
@@ -76,6 +79,7 @@ export default function Home() {
             <Link href={"BEGINNER/backBeginner"}>
               <div className={styles.cad} class="card">
                 <Image
+                  alt="the greates worout ever"
                   style={{ borderRadius: "8.5px" }}
                   src="/backwork.jpeg"
                   height={137}
@@ -90,6 +94,7 @@ export default function Home() {
             <Link href={"INTERMEDIATE/absIntermediate"}>
               <div className={styles.cad} class="card">
                 <Image
+                  alt="the greates worout ever"
                   style={{ borderRadius: "8.5px" }}
                   src="/absinter.jpeg"
                   height={137}
@@ -103,6 +108,7 @@ export default function Home() {
             <Link href={"INTERMEDIATE/chestIntermediate"}>
               <div className={styles.cad} class="card">
                 <Image
+                  alt="the greates worout ever"
                   style={{ borderRadius: "8.5px" }}
                   src="/chestint.jpeg"
                   height={137}
@@ -116,6 +122,7 @@ export default function Home() {
             <Link href={"INTERMEDIATE/armIntermediate"}>
               <div className={styles.cad} class="card">
                 <Image
+                  alt="the greates worout ever"
                   style={{ borderRadius: "8.5px" }}
                   src="/armint.jpeg"
                   height={137}
@@ -129,6 +136,7 @@ export default function Home() {
             <Link href={"INTERMEDIATE/legIntermediate"}>
               <div className={styles.cad} class="card">
                 <Image
+                  alt="the greates worout ever"
                   style={{ borderRadius: "8.5px" }}
                   src="/legint.jpeg"
                   height={137}
@@ -142,6 +150,7 @@ export default function Home() {
             <Link href={"INTERMEDIATE/backIntermediate"}>
               <div className={styles.cad} class="card">
                 <Image
+                  alt="the greates worout ever"
                   style={{ borderRadius: "8.5px" }}
                   src="/backint.jpeg"
                   height={137}
@@ -156,6 +165,7 @@ export default function Home() {
             <Link href={"ADVANCED/absAdvanced"}>
               <div className={styles.cad} class="card">
                 <Image
+                  alt="the greates worout ever"
                   style={{ borderRadius: "8.5px" }}
                   src="/advwk.jpeg"
                   height={137}
@@ -169,6 +179,7 @@ export default function Home() {
             <Link href={"ADVANCED/chestAdvanced"}>
               <div className={styles.cad} class="card">
                 <Image
+                  alt="the greates worout ever"
                   style={{ borderRadius: "8.5px" }}
                   src="/chesta.jpeg"
                   height={137}
@@ -182,6 +193,7 @@ export default function Home() {
             <Link href={"ADVANCED/armAdvanced"}>
               <div className={styles.cad} class="card">
                 <Image
+                  alt="the greates worout ever"
                   style={{ borderRadius: "8.5px" }}
                   src="/armadv.jpeg"
                   height={137}
@@ -195,6 +207,7 @@ export default function Home() {
             <Link href={"ADVANCED/legAdvanced"}>
               <div className={styles.cad} class="card">
                 <Image
+                  alt="the greates worout ever"
                   style={{ borderRadius: "8.5px" }}
                   src="/legadv.jpeg"
                   height={137}
@@ -208,6 +221,7 @@ export default function Home() {
             <Link href={"ADVANCED/backAdvanced"}>
               <div className={styles.cad} class="card">
                 <Image
+                  alt="the greates worout ever"
                   style={{ borderRadius: "8.5px" }}
                   src="/backadv.jpeg"
                   height={137}
