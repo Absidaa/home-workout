@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import styles from "../../styles/Home.module.css";
 
-function absBeginner() {
+export default function LegInterMediate() {
   const handleClick = (e, path) => {
     if (path === "/absBigStart") {
       console.log(`I clicked on it`);
@@ -43,6 +43,7 @@ function absBeginner() {
             marginTop: "10px",
             marginBottom: "-90px",
           }}
+          alt="the pic of the greatest guy ever"
           src="/jumpingjackGif.gif"
           height={80}
           width={80}
@@ -56,6 +57,7 @@ function absBeginner() {
             marginTop: "10px",
             marginBottom: "-90px",
           }}
+          alt="the pic of the greatest guy ever"
           src="/squatGif.gif"
           height={80}
           width={80}
@@ -69,6 +71,7 @@ function absBeginner() {
             marginTop: "10px",
             marginBottom: "-90px",
           }}
+          alt="the pic of the greatest guy ever"
           src="/fireHydrantLeftGif.webp"
           height={80}
           width={80}
@@ -82,6 +85,7 @@ function absBeginner() {
             marginTop: "10px",
             marginBottom: "-90px",
           }}
+          alt="the pic of the greatest guy ever"
           src="/fireHydrantGif.gif"
           height={80}
           width={80}
@@ -96,6 +100,7 @@ function absBeginner() {
             marginTop: "10px",
             marginBottom: "-90px",
           }}
+          alt="the pic of the greatest guy ever"
           src="/lungeGif.gif"
           height={80}
           width={80}
@@ -110,6 +115,7 @@ function absBeginner() {
             marginTop: "10px",
             marginBottom: "-90px",
           }}
+          alt="the pic of the greatest guy ever"
           src="/sumoSquatGif.gif"
           height={80}
           width={80}
@@ -123,6 +129,7 @@ function absBeginner() {
             marginTop: "10px",
             marginBottom: "-90px",
           }}
+          alt="the pic of the greatest guy ever"
           src="/flutterKicksGif.gif"
           height={80}
           width={80}
@@ -138,6 +145,7 @@ function absBeginner() {
             marginTop: "10px",
             marginBottom: "-90px",
           }}
+          alt="the pic of the greatest guy ever"
           src="/wallsitGif.gif"
           height={80}
           width={80}
@@ -152,6 +160,7 @@ function absBeginner() {
             marginTop: "10px",
             marginBottom: "-90px",
           }}
+          alt="the pic of the greatest guy ever"
           src="/quadLeftGif.gif"
           height={80}
           width={80}
@@ -166,6 +175,7 @@ function absBeginner() {
             marginTop: "10px",
             marginBottom: "-90px",
           }}
+          alt="the pic of the greatest guy ever"
           src="/quad.gif"
           height={80}
           width={80}
@@ -179,6 +189,7 @@ function absBeginner() {
             marginTop: "10px",
             marginBottom: "-90px",
           }}
+          alt="the pic of the greatest guy ever"
           src="/kneeToChestGif.gif"
           height={80}
           width={80}
@@ -192,6 +203,7 @@ function absBeginner() {
             marginTop: "10px",
             marginBottom: "-90px",
           }}
+          alt="the pic of the greatest guy ever"
           src="/kneeToChestRightGif.jpeg"
           height={80}
           width={80}
@@ -206,6 +218,7 @@ function absBeginner() {
             marginTop: "10px",
             marginBottom: "-90px",
           }}
+          alt="the pic of the greatest guy ever"
           src="/CalfRaisesGif.gif"
           height={80}
           width={80}
@@ -219,6 +232,7 @@ function absBeginner() {
             marginTop: "10px",
             marginBottom: "-90px",
           }}
+          alt="the pic of the greatest guy ever"
           src="/SingleLegCalfRaisesGif.gif"
           height={80}
           width={80}
@@ -232,6 +246,7 @@ function absBeginner() {
             marginTop: "10px",
             marginBottom: "-90px",
           }}
+          alt="the pic of the greatest guy ever"
           src="/SingleLegCalfRaisesGif.gif"
           height={80}
           width={80}
@@ -246,6 +261,7 @@ function absBeginner() {
             marginTop: "10px",
             marginBottom: "-90px",
           }}
+          alt="the pic of the greatest guy ever"
           src="/calfStretchLeft.jpeg"
           height={80}
           width={80}
@@ -259,6 +275,7 @@ function absBeginner() {
             marginTop: "10px",
             marginBottom: "-90px",
           }}
+          alt="the pic of the greatest guy ever"
           src="/calfStretchRight.jpeg"
           height={80}
           width={80}
@@ -276,5 +293,3 @@ function absBeginner() {
     </div>
   );
 }
-
-export default absBeginner;

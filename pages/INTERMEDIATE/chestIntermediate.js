@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import styles from "../../styles/Home.module.css";
 
-function absBeginner() {
+export default function ChestInterMediate() {
   const handleClick = (e, path) => {
     if (path === "/cheInterStart") {
       console.log(`I clicked on it`);
@@ -43,6 +43,7 @@ function absBeginner() {
             marginTop: "10px",
             marginBottom: "-90px",
           }}
+          alt="the pic of the greatest guy ever"
           src="/jumpingjackGif.gif"
           height={80}
           width={80}
@@ -56,6 +57,7 @@ function absBeginner() {
             marginTop: "10px",
             marginBottom: "-90px",
           }}
+          alt="the pic of the greatest guy ever"
           src="/ArmCirclesGif.gif"
           height={80}
           width={80}
@@ -69,6 +71,7 @@ function absBeginner() {
             marginTop: "10px",
             marginBottom: "-90px",
           }}
+          alt="the pic of the greatest guy ever"
           src="/shoulderStretchGif.gif"
           height={80}
           width={80}
@@ -82,6 +85,7 @@ function absBeginner() {
             marginTop: "10px",
             marginBottom: "-90px",
           }}
+          alt="the pic of the greatest guy ever"
           src="/burpeeGif.gif"
           height={80}
           width={80}
@@ -95,6 +99,7 @@ function absBeginner() {
             marginTop: "10px",
             marginBottom: "-90px",
           }}
+          alt="the pic of the greatest guy ever"
           src="/staggeredPushUpGif.gif"
           height={80}
           width={80}
@@ -108,6 +113,7 @@ function absBeginner() {
             marginTop: "10px",
             marginBottom: "-90px",
           }}
+          alt="the pic of the greatest guy ever"
           src="/hinduPushUpGif.gif"
           height={80}
           width={80}
@@ -121,6 +127,7 @@ function absBeginner() {
             marginTop: "10px",
             marginBottom: "-90px",
           }}
+          alt="the pic of the greatest guy ever"
           src="/pushUpRotationGif.gif"
           height={80}
           width={80}
@@ -135,6 +142,7 @@ function absBeginner() {
             marginTop: "10px",
             marginBottom: "-90px",
           }}
+          alt="the pic of the greatest guy ever"
           src="/diamondPushUpGif.gif"
           height={80}
           width={80}
@@ -149,6 +157,7 @@ function absBeginner() {
             marginTop: "10px",
             marginBottom: "-90px",
           }}
+          alt="the pic of the greatest guy ever"
           src="/boxPushUpGif.gif"
           height={80}
           width={80}
@@ -162,6 +171,7 @@ function absBeginner() {
             marginTop: "10px",
             marginBottom: "-90px",
           }}
+          alt="the pic of the greatest guy ever"
           src="/spidermanPushUpGif.gif"
           height={80}
           width={80}
@@ -176,6 +186,7 @@ function absBeginner() {
             marginTop: "10px",
             marginBottom: "-90px",
           }}
+          alt="the pic of the greatest guy ever"
           src="/declinePushUpGif.gif"
           height={80}
           width={80}
@@ -189,6 +200,7 @@ function absBeginner() {
             marginTop: "10px",
             marginBottom: "-90px",
           }}
+          alt="the pic of the greatest guy ever"
           src="/CobraStretchGif.gif"
           height={80}
           width={80}
@@ -203,6 +215,7 @@ function absBeginner() {
             marginTop: "10px",
             marginBottom: "-90px",
           }}
+          alt="the pic of the greatest guy ever"
           src="/chestreh.jpeg"
           height={80}
           width={80}
@@ -221,5 +234,3 @@ function absBeginner() {
     </div>
   );
 }
-
-export default absBeginner;
