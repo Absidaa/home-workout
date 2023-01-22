@@ -3,7 +3,7 @@ import { Paper, Text, Group, Button } from "@mantine/core";
 import Link from "next/link";
 import styles from "../../styles/Home.module.css";
 
-function bigStart() {
+export default function LegAdvanStart() {
   return (
     <div
       style={{
@@ -45,5 +45,3 @@ function bigStart() {
     </div>
   );
 }
-
-export default bigStart;
