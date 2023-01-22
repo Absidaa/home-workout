@@ -3,7 +3,7 @@ import styles from "../../styles/Home.module.css";
 import Image from "next/image";
 import Link from "next/link";
 
-function chestBeginner() {
+export default function BackAdvanced() {
   const handleClick = (e, path) => {
     if (path === "/chesBigStart") {
       console.log(`I clicked on it`);
@@ -46,6 +46,7 @@ function chestBeginner() {
               marginTop: "10px",
               marginBottom: "-90px",
             }}
+            alt="the pic of the greatest guy ever"
             src="/jumpingjackGif.gif"
             height={80}
             width={80}
@@ -59,6 +60,7 @@ function chestBeginner() {
               marginTop: "10px",
               marginBottom: "-90px",
             }}
+            alt="the pic of the greatest guy ever"
             src="/hyperextensionGif.gif"
             height={80}
             width={80}
@@ -72,6 +74,7 @@ function chestBeginner() {
               marginTop: "10px",
               marginBottom: "-90px",
             }}
+            alt="the pic of the greatest guy ever"
             src="/pikePushUpGif.gif"
             height={80}
             width={80}
@@ -85,6 +88,7 @@ function chestBeginner() {
               marginTop: "10px",
               marginBottom: "-90px",
             }}
+            alt="the pic of the greatest guy ever"
             src="/reversePushUpGif.gif"
             height={80}
             width={80}
@@ -98,6 +102,7 @@ function chestBeginner() {
               marginTop: "10px",
               marginBottom: "-90px",
             }}
+            alt="the pic of the greatest guy ever"
             src="/inchWormGif.gif"
             height={80}
             width={80}
@@ -111,6 +116,7 @@ function chestBeginner() {
               marginTop: "10px",
               marginBottom: "-90px",
             }}
+            alt="the pic of the greatest guy ever"
             src="/catCowGif.webp"
             height={80}
             width={80}
@@ -124,6 +130,7 @@ function chestBeginner() {
               marginTop: "10px",
               marginBottom: "-90px",
             }}
+            alt="the pic of the greatest guy ever"
             src="/supinePushUpGif.gif"
             height={80}
             width={80}
@@ -137,6 +144,7 @@ function chestBeginner() {
               marginTop: "10px",
               marginBottom: "-90px",
             }}
+            alt="the pic of the greatest guy ever"
             src="/floorYRaisesGif.gif"
             height={80}
             width={80}
@@ -150,6 +158,7 @@ function chestBeginner() {
               marginTop: "10px",
               marginBottom: "-90px",
             }}
+            alt="the pic of the greatest guy ever"
             src="/reverseSnowAngelsGif.gif"
             height={80}
             width={80}
@@ -163,6 +172,7 @@ function chestBeginner() {
               marginTop: "10px",
               marginBottom: "-90px",
             }}
+            alt="the pic of the greatest guy ever"
             src="/CobraStretchGif.gif"
             height={80}
             width={80}
@@ -181,5 +191,3 @@ function chestBeginner() {
     </>
   );
 }
-
-export default chestBeginner;

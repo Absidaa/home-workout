@@ -3,7 +3,7 @@ import styles from "../../styles/Home.module.css";
 import Image from "next/image";
 import Link from "next/link";
 
-function chestBeginner() {
+export default function LegAdvanced() {
   const handleClick = (e, path) => {
     if (path === "/chesBigStart") {
       console.log(`I clicked on it`);
@@ -45,6 +45,7 @@ function chestBeginner() {
               marginTop: "10px",
               marginBottom: "-90px",
             }}
+            alt="the pic of the greatest guy ever"
             src="/burpeeGif.gif"
             height={80}
             width={80}
@@ -58,6 +59,7 @@ function chestBeginner() {
               marginTop: "10px",
               marginBottom: "-90px",
             }}
+            alt="the pic of the greatest guy ever"
             src="/squatGif.gif"
             height={80}
             width={80}
@@ -71,6 +73,7 @@ function chestBeginner() {
               marginTop: "10px",
               marginBottom: "-90px",
             }}
+            alt="the pic of the greatest guy ever"
             src="/CurtsyLungeGif.gif"
             height={80}
             width={80}
@@ -84,6 +87,7 @@ function chestBeginner() {
               marginTop: "10px",
               marginBottom: "-90px",
             }}
+            alt="the pic of the greatest guy ever"
             src="/LyingSideLegCircleGif.gif"
             height={80}
             width={80}
@@ -97,6 +101,7 @@ function chestBeginner() {
               marginTop: "10px",
               marginBottom: "-90px",
             }}
+            alt="the pic of the greatest guy ever"
             src="/LyingSideLegCircleGif.gif"
             height={80}
             width={80}
@@ -110,6 +115,7 @@ function chestBeginner() {
               marginTop: "10px",
               marginBottom: "-90px",
             }}
+            alt="the pic of the greatest guy ever"
             src="/jumpingSquatsGif.gif"
             height={80}
             width={80}
@@ -123,6 +129,7 @@ function chestBeginner() {
               marginTop: "10px",
               marginBottom: "-90px",
             }}
+            alt="the pic of the greatest guy ever"
             src="/glutterKickLeftGif.png"
             height={80}
             width={80}
@@ -136,6 +143,7 @@ function chestBeginner() {
               marginTop: "10px",
               marginBottom: "-90px",
             }}
+            alt="the pic of the greatest guy ever"
             src="/glutterKickRightGif.png"
             height={80}
             width={80}
@@ -149,6 +157,7 @@ function chestBeginner() {
               marginTop: "10px",
               marginBottom: "-90px",
             }}
+            alt="the pic of the greatest guy ever"
             src="/wallsitGif.gif"
             height={80}
             width={80}
@@ -162,6 +171,7 @@ function chestBeginner() {
               marginTop: "10px",
               marginBottom: "-90px",
             }}
+            alt="the pic of the greatest guy ever"
             src="/SquadLeft.png"
             height={80}
             width={80}
@@ -175,6 +185,7 @@ function chestBeginner() {
               marginTop: "10px",
               marginBottom: "-90px",
             }}
+            alt="the pic of the greatest guy ever"
             src="/SquadRight.png"
             height={80}
             width={80}
@@ -188,6 +199,7 @@ function chestBeginner() {
               marginTop: "10px",
               marginBottom: "-90px",
             }}
+            alt="the pic of the greatest guy ever"
             src="/calfStretchLeft.jpeg"
             height={80}
             width={80}
@@ -201,6 +213,7 @@ function chestBeginner() {
               marginTop: "10px",
               marginBottom: "-90px",
             }}
+            alt="the pic of the greatest guy ever"
             src="/calfStretchRight.jpeg"
             height={80}
             width={80}
@@ -218,5 +231,3 @@ function chestBeginner() {
     </>
   );
 }
-
-export default chestBeginner;

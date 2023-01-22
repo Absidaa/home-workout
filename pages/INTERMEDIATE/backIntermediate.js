@@ -206,7 +206,7 @@ export default function BackInterMediate() {
           width={80}
         />
 
-        <div className={styles.jjak}>CHILD'S POSE</div>
+        <div className={styles.jjak}>CHILD&apos;S POSE</div>
         <div className={styles.sec}>00:30</div>
         <hr className={styles.vrs} />
 
