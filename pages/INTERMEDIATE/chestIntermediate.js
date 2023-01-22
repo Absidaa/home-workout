@@ -12,13 +12,16 @@ function absBeginner() {
     <div className={styles.bdy}>
       <div className={styles.bbdy}>
         <div className={styles.absb}>
-          <Image
-            alt="guy"
-            src={"/cheinter.jpeg"}
-            height={160}
-            width={270}
-            className={styles.im6}
-          />
+          <div className={styles.phoneView}>
+            <Image
+              style={{ borderRadius: "20px" }}
+              alt="guy"
+              src={"/cheinter.jpeg"}
+              height={170}
+              width={308}
+              className={styles.im6}
+            />
+          </div>
           <div className={styles.abs3}>CHEST INTERMEDIATE</div>
 
           <Link href={"/"}>
@@ -57,7 +60,7 @@ function absBeginner() {
           height={80}
           width={80}
         />
-        <div className={styles.jjak}>ARM CIRCLES </div>
+        <div className={styles.btwist}>ARM CIRCLES </div>
         <div className={styles.x}>x20</div>
         <hr className={styles.vrs} />
         <Image
@@ -70,8 +73,8 @@ function absBeginner() {
           height={80}
           width={80}
         />
-        <div className={styles.btwist}>SHOULDER STRETCH</div>
-        <div className={styles.x}>x00:30</div>
+        <div className={styles.jjak}>SHOULDER STRETCH</div>
+        <div className={styles.sec}>00:30</div>
         <hr className={styles.vrs} />
         <Image
           style={{
@@ -83,7 +86,7 @@ function absBeginner() {
           height={80}
           width={80}
         />
-        <div className={styles.jjak}>BURPEES</div>
+        <div className={styles.bleg}>BURPEES</div>
         <div className={styles.x}>x10</div>
         <hr className={styles.vrs} />
         <Image
@@ -96,7 +99,7 @@ function absBeginner() {
           height={80}
           width={80}
         />
-        <div className={styles.htoch}>STAGGERED PUSH-UPS</div>
+        <div className={styles.jjak}>STAGGERED PUSH-UPS</div>
         <div className={styles.x}>x16</div>
         <hr className={styles.vrs} />
         <Image
@@ -109,7 +112,7 @@ function absBeginner() {
           height={80}
           width={80}
         />
-        <div className={styles.bleg}>HINDU PUSH-UPS</div>
+        <div className={styles.jjak}>HINDU PUSH-UPS</div>
         <div className={styles.x}>x16</div>
         <hr className={styles.vrs} />
         <Image
@@ -122,8 +125,8 @@ function absBeginner() {
           height={80}
           width={80}
         />
-        <div className={styles.bplk}>PUSH-UPS & ROTATION</div>
-        <div className={styles.sec}>x12</div>
+        <div className={styles.jjak}>PUSH-UPS & ROTATION</div>
+        <div className={styles.x}>x12</div>
         <hr className={styles.vrs} />
 
         <Image
@@ -137,7 +140,7 @@ function absBeginner() {
           width={80}
         />
         <div className={styles.jjak}>DIAMOND PUSH-UPS</div>
-        <div className={styles.sec}>X16</div>
+        <div className={styles.x}>X16</div>
         <hr className={styles.vrs} />
 
         <Image
@@ -177,7 +180,7 @@ function absBeginner() {
           height={80}
           width={80}
         />
-        <div className={styles.htoch}>DECLINED PUSH-UPS</div>
+        <div className={styles.jjak}>DECLINED PUSH-UPS</div>
         <div className={styles.x}>x12</div>
         <hr className={styles.vrs} />
         <Image
@@ -191,8 +194,8 @@ function absBeginner() {
           width={80}
         />
 
-        <div className={styles.bleg}>COBRA STRETCH</div>
-        <div className={styles.x}>00:30</div>
+        <div className={styles.jjak}>COBRA STRETCH</div>
+        <div className={styles.sec}>00:30</div>
         <hr className={styles.vrs} />
         <Image
           style={{
@@ -205,7 +208,7 @@ function absBeginner() {
           width={80}
         />
 
-        <div className={styles.bplk}>CHEST STRETECH</div>
+        <div className={styles.jjak}>CHEST STRETECH</div>
         <div className={styles.sec}>00:30</div>
         <hr className={styles.vrs} />
 

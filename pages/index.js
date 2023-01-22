@@ -2,6 +2,7 @@ import Image from "next/image";
 import { Inter } from "@next/font/google";
 import styles from "../styles/Home.module.css";
 import Link from "next/link";
+import { FaDumbbell } from "react-icons/fa";
 import Navbar from "../components/navbar";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -13,7 +14,10 @@ export default function Home() {
 
       <div className={styles.bdy}>
         <main className={styles.main}>
-          <h1>Home Workout</h1>
+          <h1 className={styles.home}>Home Session</h1>
+          <span>
+            <FaDumbbell size={20} />
+          </span>
           <h4 className={styles.begin}>BEGINNER</h4>
           <div>
             <Link href={"BEGINNER/absBeginner"}>

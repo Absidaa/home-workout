@@ -12,13 +12,16 @@ function absBeginner() {
     <div className={styles.bdy}>
       <div className={styles.bbdy}>
         <div className={styles.absb}>
-          <Image
-            alt="guy"
-            src={"/armi.jpeg"}
-            height={150}
-            width={270}
-            className={styles.im}
-          />
+          <div className={styles.phoneView}>
+            <Image
+              style={{ borderRadius: "20px" }}
+              alt="guy"
+              src={"/armi.jpeg"}
+              height={150}
+              width={270}
+              className={styles.im}
+            />
+          </div>
           <div className={styles.abs4}>ARM INTERMEDIATE</div>
 
           <Link href={"/"}>

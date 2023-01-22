@@ -2,7 +2,11 @@ import React from "react";
 import Image from "next/image";
 import styles from "../../styles/Home.module.css";
 import Link from "next/link";
-import { MdArrowBackIosNew, MdArrowForwardIos } from "react-icons/md";
+import {
+  MdArrowBackIosNew,
+  MdArrowForwardIos,
+  MdHomeFilled,
+} from "react-icons/md";
 
 function absTimer() {
   return (
@@ -10,18 +14,24 @@ function absTimer() {
       <div className={styles.abdy}>
         <div className={styles.bbdy}>
           <div className={styles.absb}>
-            <Image
-              alt="guy"
-              src={"/absb.jpeg"}
-              height={150}
-              width={300}
-              className={styles.im}
-            />
+            <div className={styles.phoneView}>
+              {" "}
+              <Image
+                style={{ borderRadius: "20px" }}
+                alt="guy"
+                src={"/absb.jpeg"}
+                height={150}
+                width={320}
+                className={styles.im}
+              />
+            </div>
             <div className={styles.abs}>ABS BEGINNER</div>
 
             <Link href={"/"}>
               <button className={styles.back2}>
-                <div>home</div>
+                <div>
+                  <MdHomeFilled />
+                </div>
               </button>
             </Link>
             <h4 className={styles.bgsetabs}>Russian Twist</h4>
@@ -32,12 +42,14 @@ function absTimer() {
           </div>
           <hr className={styles.vr} />
 
-          <Image
-            alt="guy with the greates image ever"
-            src={"/rutwist.png"}
-            height={200}
-            width={200}
-          />
+          <div className={styles.animation}>
+            <Image
+              alt="guy with the greates image ever"
+              src={"/rutwist.png"}
+              height={250}
+              width={250}
+            />
+          </div>
           <div className={styles.jumtim}>x32</div>
 
           <div className={styles.backWard}>
@@ -50,7 +62,7 @@ function absTimer() {
               <MdArrowForwardIos />
             </Link>
           </div>
-          <h5>9 out of 16</h5>
+          <h5 className={styles.doneOutOfRemaining}>9 out of 16</h5>
         </div>
       </div>
     </div>

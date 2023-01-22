@@ -1,6 +1,7 @@
 import React from "react";
 import { Paper, Text, Group, Button } from "@mantine/core";
 import Link from "next/link";
+import styles from "../styles/Home.module.css";
 
 function bigStart() {
   return (
@@ -34,7 +35,7 @@ function bigStart() {
           <Group position="apart">
             <Link href={"/BACKBEGINNER/jumpingJack"}>
               {" "}
-              <Button style={{ left: "13vh" }}>
+              <Button className={styles.but}>
                 <Text size="lg">Thank you 😊</Text>
               </Button>
             </Link>

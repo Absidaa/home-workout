@@ -1,9 +1,14 @@
 import React from "react";
 import { useState, useEffect } from "react";
+
 import Image from "next/image";
 import styles from "../../styles/Home.module.css";
 import Link from "next/link";
-import { MdArrowForwardIos } from "react-icons/md";
+import {
+  MdArrowBackIosNew,
+  MdArrowForwardIos,
+  MdHomeFilled,
+} from "react-icons/md";
 
 function absTimer() {
   const [time, setTime] = useState(0);
@@ -25,28 +30,29 @@ function absTimer() {
         <div className={styles.bbdy}>
           <div className={styles.absb}>
             <div className={styles.phoneView}>
-              {" "}
               <Image
                 style={{ borderRadius: "20px" }}
                 alt="guy"
-                src={"/absb.jpeg"}
-                height={150}
+                src={"/ch.jpeg"}
+                height={170}
                 width={320}
                 className={styles.im}
               />
             </div>
-            <div className={styles.abs}>ABS BEGINNER</div>
+            <div className={styles.che1}>CHEST BEGINNER</div>
 
-            <Link href={"/BEGINNER/absBeginner"}>
+            <Link href={"/"}>
               <button className={styles.back2}>
-                <div>←</div>
+                <div>
+                  <MdHomeFilled />
+                </div>
               </button>
             </Link>
-            <h4 className={styles.bgsetabs}>Jumping Jack</h4>
+            <h4 className={styles.bgsetabs}>Jumping Jacks</h4>
             <hr className={styles.vrabsb} />
           </div>
           <div className={styles.worksb} class="card">
-            <h5 className={styles.time}>▼20 mins• 16 workouts</h5>
+            <h5 className={styles.time}>▼11 mins• 11 workouts</h5>
           </div>
           <hr className={styles.vr} />
 
@@ -58,7 +64,7 @@ function absTimer() {
               width={250}
             />
           </div>
-          <div className={styles.jumtim}>00:30</div>
+          <div className={styles.jumtim}>00:20</div>
 
           <div className="stopwatch">
             <div className={styles.numbers}>
@@ -80,11 +86,12 @@ function absTimer() {
           </div>
 
           <div className={styles.forWard}>
-            <Link href={"/ABSBEGINNERWORKOUT/abdominalCrunches"}>
+            <Link href={"/CHESTBEGINNER/inclinePushUp"}>
               <MdArrowForwardIos />
             </Link>
           </div>
-          <h5 className={styles.doneOutOfRemaining}>1 out of 16</h5>
+
+          <h5 className={styles.doneOutOfRemaining}>1 out of 11</h5>
         </div>
       </div>
     </div>
@@ -92,13 +99,3 @@ function absTimer() {
 }
 
 export default absTimer;
-
-//<CountdownCircleTimer
-//  isPlaying
-//  duration={19}
-//  colors={["#004777", "0.33", "#F7B801", "0.33", "#A30000", "0.33"]}
-//  size={80}
-//>
-//  {({ remainingTime }) => remainingTime}
-//</CountdownCircleTimer>;
-//

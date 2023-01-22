@@ -38,7 +38,7 @@ function absTimer() {
             />
             <div className={styles.abs8}>BACK ADVANCED</div>
 
-            <Link href={"/ADVANCED/bakcAdvanced"}>
+            <Link href={"/ADVANCED/backAdvanced"}>
               <button className={styles.back7}>
                 <div>←</div>
               </button>

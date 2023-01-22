@@ -28,14 +28,16 @@ function absTimer() {
       <div className={styles.abdy}>
         <div className={styles.bbdy}>
           <div className={styles.absb}>
-            <Image
-              style={{ borderRadius: "20px" }}
-              alt="guy"
-              src={"/absad.jpeg"}
-              height={160}
-              width={300}
-              className={styles.im11}
-            />
+            <div className={styles.phoneView}>
+              <Image
+                style={{ borderRadius: "20px" }}
+                alt="guy"
+                src={"/absad.jpeg"}
+                height={160}
+                width={320}
+                className={styles.im11}
+              />
+            </div>
             <div className={styles.abs7}>ABS ADVANCED</div>
 
             <Link href={"/ADVANCED/absAdvanced"}>

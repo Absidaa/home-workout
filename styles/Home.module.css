@@ -610,7 +610,7 @@
 }
 
 .but {
-  margin-left: 37%;
+  margin-left: 27vh;
 }
 .barm {
   margin-left: 21vh;
@@ -876,6 +876,22 @@
   color: blue;
   font-size: 30px;
 }
+.phoneView {
+  margin-left: 1px;
+}
+.bgsetabss {
+  font-size: 15px;
+  margin-top: -10px;
+  margin-left: 25vh;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 20px;
+}
+.back2 {
+  margin-bottom: -20px;
+  margin-left: 10vh;
+  margin-top: 10px;
+  font-size: 20px;
+}
 @media only screen and (max-width: 800px) {
   .main {
     display: flex;
@@ -912,7 +928,7 @@
     font-weight: bolder;
   }
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 400px) {
   .main {
     display: flex;
     flex-direction: column;
@@ -946,12 +962,250 @@
     flex-direction: column;
     align-items: center;
     min-height: 100vh;
-    width: 50vh;
+    width: 52vh;
     border: solid;
-    border-radius: 20px;
+    border-radius: 1px;
     background-color: white;
     margin-left: -1%;
     margin-right: 10%;
+  }
+  .abs {
+    margin-top: -5px;
+    margin-bottom: 60px;
+    margin-left: 15vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(0, 116, 0);
+  }
+  .phoneView {
+    margin-left: 70px;
+    margin-top: 30px;
+    margin-bottom: -60px;
+  }
+  .arm {
+    margin-top: -50px;
+    margin-bottom: 20px;
+    margin-left: 12vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 38px;
+    font-weight: bold;
+    color: rgb(0, 116, 0);
+  }
+
+  .abs2 {
+    margin-top: 40px;
+    margin-bottom: 70px;
+    margin-left: 20vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(0, 116, 0);
+  }
+  .abs3 {
+    margin-top: 46px;
+    margin-bottom: 55px;
+    margin-left: 20vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(0, 116, 0);
+  }
+  .abs4 {
+    margin-top: 46px;
+    margin-bottom: 55px;
+    margin-left: 17vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+    color: rgb(0, 116, 0);
+  }
+  .abs7 {
+    margin-top: 40px;
+    margin-bottom: 60px;
+    margin-left: 22vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 33px;
+    font-weight: bold;
+    color: rgb(0, 116, 0);
+  }
+  .abs8 {
+    margin-top: 40px;
+    margin-bottom: 60px;
+    margin-left: 20vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    color: rgb(0, 116, 0);
+  }
+  .abs9 {
+    margin-top: 40px;
+    margin-bottom: 60px;
+    margin-left: 20vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    color: rgb(0, 116, 0);
+  }
+  .abs10 {
+    margin-top: 40px;
+    margin-bottom: 60px;
+    margin-left: 20vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 33px;
+    font-weight: bold;
+    color: rgb(0, 116, 0);
+  }
+  .abs30 {
+    margin-top: 43px;
+    margin-bottom: 55px;
+    margin-left: 20vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    color: rgb(0, 116, 0);
+  }
+  .leg1 {
+    margin-top: 43px;
+    margin-bottom: 60px;
+    margin-left: 12vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 37px;
+    font-weight: bold;
+    color: rgb(0, 116, 0);
+  }
+  .bak1 {
+    margin-top: 50px;
+    margin-bottom: 100px;
+    margin-left: 12vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 33px;
+    font-weight: bolder;
+    color: rgb(0, 116, 0);
+  }
+  .back2 {
+    margin-top: -20px;
+    margin-bottom: 13px;
+    margin-left: 10vh;
+    font-size: 30px;
+  }
+  .back3 {
+    margin-top: 20px;
+    margin-bottom: -50px;
+    margin-left: -25vh;
+    font-size: 30px;
+  }
+  .back5 {
+    margin-left: 50px;
+    margin-bottom: -20px;
+    font-size: 30px;
+  }
+  .back6 {
+    margin-left: 80px;
+    margin-bottom: -30px;
+    margin-top: -30px;
+    font-size: 30px;
+  }
+  .back9 {
+    margin-left: 80px;
+    margin-bottom: 2px;
+    margin-top: -20px;
+    font-size: 30px;
+  }
+  .back8 {
+    margin-left: 80px;
+    margin-bottom: 2px;
+    margin-top: -20px;
+    font-size: 30px;
+  }
+  .back9 {
+    margin-left: 80px;
+    margin-bottom: 20px;
+    margin-top: -20px;
+    font-size: 30px;
+  }
+  .back10 {
+    margin-left: 80px;
+    margin-bottom: 20px;
+    margin-top: -20px;
+    font-size: 30px;
+  }
+  .back11 {
+    margin-left: 80px;
+    margin-bottom: 10px;
+    margin-top: -20px;
+    font-size: 30px;
+  }
+  .back12 {
+    margin-left: 80px;
+    margin-bottom: -1px;
+    margin-top: -10px;
+    font-size: 30px;
+  }
+  .bgsetabs {
+    font-size: 27px;
+  }
+  .bgsetabss {
+    font-size: 27px;
+    margin-top: -50px;
+    margin-left: 25vh;
+    margin-bottom: 20px;
+  }
+  .bgset2 {
+    font-size: 25px;
+    margin-top: -20px;
+  }
+  .bgset4 {
+    font-size: 25px;
+  }
+  .bgset5 {
+    font-size: 25px;
+    margin-bottom: -15px;
+  }
+
+  .bgset6 {
+    font-size: 25px;
+  }
+  .bgset7 {
+    font-size: 25px;
+    margin-bottom: 25px;
+    margin-top: -40px;
+  }
+  .bgset8 {
+    font-size: 25px;
+    margin-bottom: 25px;
+    margin-top: -40px;
+  }
+  .bgset10 {
+    font-size: 25px;
+    margin-bottom: 25px;
+    margin-top: -40px;
+  }
+  .bgset11 {
+    font-size: 25px;
+    margin-bottom: -22px;
+    margin-top: -40px;
+  }
+  .bgset12 {
+    font-size: 25px;
+    margin-bottom: -40px;
+    margin-top: -10px;
+  }
+  .bgset13 {
+    font-size: 25px;
+    margin-bottom: -20px;
+    margin-top: -30px;
+  }
+  .time3 {
+    font-size: 25px;
+    margin-top: 1vh;
+    margin-bottom: 13vh;
+    margin-left: -22vh;
+  }
+
+  .time4 {
+    margin-left: -25vh;
+    font-size: 22px;
   }
   .vr {
     width: 60vh;
@@ -986,10 +1240,15 @@
     font-family: Arial, Helvetica, sans-serif;
   }
   .back {
-    margin-left: -26vh;
-    margin-bottom: -9px;
-    margin-top: -30px;
+    margin-left: 5vh;
+    margin-bottom: -10px;
+    margin-top: 8px;
     font-size: 40px;
+  }
+  .che1 {
+    margin-top: 8px;
+    margin-left: 17vh;
+    font-size: 30px;
   }
   .time {
     font-size: 26px;
@@ -1004,6 +1263,27 @@
     font-size: 24px;
     font-family: Arial, Helvetica, sans-serif;
   }
+  .barm {
+    margin-left: 20vh;
+    font-size: 23px;
+  }
+  .bpun {
+    margin-left: 15vh;
+    font-size: 25px;
+  }
+  .bups {
+    margin-left: 16vh;
+    font-size: 25px;
+  }
+  .binch {
+    margin-left: 20vh;
+    font-size: 25px;
+  }
+  .bwal {
+    margin-left: 25vh;
+    font-size: 25px;
+  }
+
   .btwist {
     font-size: 25px;
     font-family: Arial, Helvetica, sans-serif;
@@ -1037,7 +1317,7 @@
   }
   .bbdy {
     min-height: 123.5vh;
-    width: 50vh;
+    width: 52vh;
   }
 
   .abbin {
@@ -1157,6 +1437,7 @@
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
   }
+
   .lega {
     margin-bottom: 13.5vh;
     margin-top: -16vh;
@@ -1175,10 +1456,16 @@
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
   }
-}
-@media only screen and (max-width: 300px) {
-  .bbdy {
-    min-height: 137.9vh;
-    width: 50vh;
+  .home {
+    font-size: 31.8px;
+  }
+  .animation {
+    margin-top: 10vh;
+  }
+  .doneOutOfRemaining {
+    font-size: 30px;
+  }
+  .jumtim {
+    font-size: 26px;
   }
 }

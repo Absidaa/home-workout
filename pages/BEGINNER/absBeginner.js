@@ -14,13 +14,16 @@ function absBeginner() {
       <div className={styles.abdy}>
         <div className={styles.bbdy}>
           <div className={styles.absb}>
-            <Image
-              alt="guy"
-              src={"/absb.jpeg"}
-              height={150}
-              width={300}
-              className={styles.im}
-            />
+            <div className={styles.phoneView}>
+              <Image
+                style={{ borderRadius: "20px" }}
+                alt="guy"
+                src={"/absb.jpeg"}
+                height={150}
+                width={315}
+                className={styles.im}
+              />
+            </div>
             <div className={styles.abs}>ABS BEGINNER</div>
 
             <Link href={"/"}>
@@ -28,7 +31,7 @@ function absBeginner() {
                 <div>←</div>
               </button>
             </Link>
-            <h4 className={styles.bgsetabs}>Set of Workouts</h4>
+            <h4 className={styles.bgsetabss}>Set of Workouts</h4>
             <hr className={styles.vrabsb} />
           </div>
           <div className={styles.worksb} class="card">

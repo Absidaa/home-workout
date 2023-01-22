@@ -29,6 +29,10 @@
   display: flex;
   justify-content: right;
   padding-right: 25px;
+  margin-top: 20px;
+}
+.navbar .right :hover {
+  cursor: pointer;
 }
 @media only screen and (max-width: 800px) {
   .navbar a {

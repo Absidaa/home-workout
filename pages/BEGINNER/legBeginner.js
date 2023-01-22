@@ -15,13 +15,16 @@ function absBeginner() {
       <div className={styles.bdy}>
         <div className={styles.bbdy}>
           <div className={styles.arbak}>
-            <Image
-              alt="guy"
-              src={"/leg.jpeg"}
-              height={150}
-              width={300}
-              className={styles.im4}
-            />
+            <div className={styles.phoneView}>
+              <Image
+                style={{ borderRadius: "20px" }}
+                alt="guy"
+                src={"/leg.jpeg"}
+                height={150}
+                width={300}
+                className={styles.im4}
+              />
+            </div>
             <div className={styles.leg1}>LEG BEGINNER</div>
 
             <Link href={"/"}>

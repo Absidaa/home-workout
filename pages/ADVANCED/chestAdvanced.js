@@ -14,14 +14,16 @@ function chestBeginner() {
       <div className={styles.bdy}>
         <div className={styles.bbdy}>
           <div className={styles.absb}>
-            <Image
-              style={{ borderRadius: "20px" }}
-              alt="guy"
-              src={"/chead.jpeg"}
-              height={170}
-              width={300}
-              className={styles.im11}
-            />
+            <div className={styles.phoneView}>
+              <Image
+                style={{ borderRadius: "20px" }}
+                alt="guy"
+                src={"/chead.jpeg"}
+                height={170}
+                width={320}
+                className={styles.im11}
+              />
+            </div>
             <div className={styles.abs8}>CHEST ADVANCED</div>
 
             <Link href={"/"}>

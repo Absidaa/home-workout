@@ -4,7 +4,11 @@ import { useState, useEffect } from "react";
 import Image from "next/image";
 import styles from "../../styles/Home.module.css";
 import Link from "next/link";
-import { MdArrowBackIosNew, MdArrowForwardIos } from "react-icons/md";
+import {
+  MdArrowBackIosNew,
+  MdArrowForwardIos,
+  MdHomeFilled,
+} from "react-icons/md";
 
 function absTimer() {
   const [time, setTime] = useState(0);
@@ -25,34 +29,41 @@ function absTimer() {
       <div className={styles.abdy}>
         <div className={styles.bbdy}>
           <div className={styles.absb}>
-            <Image
-              alt="guy"
-              src={"/ch.jpeg"}
-              height={150}
-              width={300}
-              className={styles.im}
-            />
+            <div className={styles.phoneView}>
+              <Image
+                style={{ borderRadius: "20px" }}
+                alt="guy"
+                src={"/ch.jpeg"}
+                height={170}
+                width={320}
+                className={styles.im}
+              />
+            </div>
             <div className={styles.che1}>CHEST BEGINNER</div>
 
             <Link href={"/"}>
               <button className={styles.back2}>
-                <div>home</div>
+                <div>
+                  <MdHomeFilled />
+                </div>
               </button>
             </Link>
             <h4 className={styles.bgsetabs}>Chest Stretch</h4>
             <hr className={styles.vrabsb} />
           </div>
           <div className={styles.worksb} class="card">
-            <h5 className={styles.time}>▼11 mins• 11 workouts</h5>
+            <h5 className={styles.time}>▼11 mins • 11 workouts</h5>
           </div>
           <hr className={styles.vr} />
 
-          <Image
-            alt="guy with the greates image ever"
-            src={"/chestreh.jpeg"}
-            height={200}
-            width={200}
-          />
+          <div className={styles.animation}>
+            <Image
+              alt="guy with the greates image ever"
+              src={"/chestreh.jpeg"}
+              height={250}
+              width={250}
+            />
+          </div>
           <div className={styles.jumtim}>00:20</div>
 
           <div className="stopwatch">
@@ -74,12 +85,12 @@ function absTimer() {
             </div>
           </div>
           <div className={styles.backWard}>
-            <Link href={"/BEGINNER/cobraStretch"}>
+            <Link href={"/CHESTBEGINNER/cobraStretch"}>
               <MdArrowBackIosNew />
             </Link>
           </div>
 
-          <h5>11 out of 11</h5>
+          <h5 className={styles.doneOutOfRemaining}>11 out of 11</h5>
         </div>
       </div>
     </div>

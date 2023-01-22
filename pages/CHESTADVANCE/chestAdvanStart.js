@@ -1,6 +1,7 @@
 import React from "react";
 import { Paper, Text, Group, Button } from "@mantine/core";
 import Link from "next/link";
+import styles from "../../styles/Home.module.css";
 
 function interStart() {
   return (

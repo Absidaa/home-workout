@@ -14,10 +14,11 @@ function chestBeginner() {
       <div className={styles.bdy}>
         <div className={styles.bbdy}>
           <Image
+            style={{ borderRadius: "20px" }}
             alt="guy"
             src={"/ch.jpeg"}
             height={150}
-            width={300}
+            width={308}
             className={styles.im3}
           />
           <div className={styles.che}>CHEST BEGINNER</div>
