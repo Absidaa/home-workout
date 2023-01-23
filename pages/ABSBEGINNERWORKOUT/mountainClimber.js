@@ -8,7 +8,7 @@ import {
   MdHomeFilled,
 } from "react-icons/md";
 
-function absTimer() {
+export default function MountainClimber() {
   return (
     <div>
       <div className={styles.abdy}>
@@ -66,5 +66,3 @@ function absTimer() {
     </div>
   );
 }
-
-export default absTimer;

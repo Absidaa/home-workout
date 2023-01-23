@@ -8,7 +8,7 @@ import {
   MdHomeFilled,
 } from "react-icons/md";
 
-export default function absTimer() {
+export default function AbdominalCrunches() {
   return (
     <div>
       <div className={styles.abdy}>

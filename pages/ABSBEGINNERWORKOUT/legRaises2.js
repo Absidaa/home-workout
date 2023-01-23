@@ -8,7 +8,7 @@ import {
   MdArrowForwardIos,
 } from "react-icons/md";
 
-function absTimer() {
+export default function LegRaises() {
   return (
     <div>
       <div className={styles.abdy}>
@@ -68,5 +68,3 @@ function absTimer() {
     </div>
   );
 }
-
-export default absTimer;
