@@ -19,8 +19,8 @@ export default function LegLiftLeft() {
                 style={{ borderRadius: "20px" }}
                 alt="guy"
                 src={"/leg.jpeg"}
-                height={150}
-                width={300}
+                height={170}
+                width={320}
                 className={styles.im}
               />
             </div>
@@ -60,7 +60,7 @@ export default function LegLiftLeft() {
               <MdArrowForwardIos />
             </Link>
           </div>
-          <h5>3 out of 13</h5>
+          <h5 className={styles.doneOutOfRemaining}>3 out of 13</h5>
         </div>
       </div>
     </div>

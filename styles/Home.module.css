@@ -821,9 +821,9 @@
 .leg1 {
   margin-top: -20px;
   margin-bottom: 20px;
-  margin-left: 55px;
+  margin-left: 60px;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 30px;
+  font-size: 33px;
   font-weight: bold;
   color: rgb(0, 116, 0);
 }
@@ -1622,9 +1622,9 @@
     color: rgb(0, 116, 0);
   }
   .leg1 {
-    margin-top: 43px;
+    margin-top: 40px;
     margin-bottom: 60px;
-    margin-left: 12vh;
+    margin-left: 10vh;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 37px;
     font-weight: bold;
@@ -1699,17 +1699,21 @@
     font-size: 30px;
   }
   .bgsetabs {
-    font-size: 27px;
+    font-size: 20px;
+    margin-left: 25vh;
   }
   .bgsetabss {
-    font-size: 27px;
+    font-size: 20px;
     margin-top: -50px;
     margin-left: 25vh;
     margin-bottom: 20px;
   }
   .bgset2 {
-    font-size: 25px;
+    font-size: 20px;
     margin-top: -20px;
+  }
+  .bgset3 {
+    font-size: 20px;
   }
   .bgset4 {
     font-size: 25px;
@@ -1752,8 +1756,16 @@
     margin-bottom: -20px;
     margin-top: -30px;
   }
+
+  .time {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: -20vh;
+    margin-top: 17vh;
+  }
   .time3 {
-    font-size: 25px;
+    font-size: 20px;
     margin-top: 1vh;
     margin-bottom: 13vh;
     margin-left: -22vh;
@@ -1761,7 +1773,7 @@
 
   .time4 {
     margin-left: -25vh;
-    font-size: 22px;
+    font-size: 20px;
   }
   .vr {
     width: 60vh;
@@ -1808,17 +1820,15 @@
     margin-top: 8px;
     font-size: 40px;
   }
+  .che0 {
+    margin-top: -10px;
+    margin-bottom: 70px;
+    margin-left: 7.5rem;
+  }
   .che1 {
     margin-top: 2px;
     margin-left: 15vh;
     font-size: 30px;
-  }
-  .time {
-    font-size: 26px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    margin-left: -20vh;
-    margin-top: 17.2vh;
   }
   .jjak {
     margin-left: 26vh;

@@ -19,7 +19,7 @@ export default function Squats() {
                 style={{ borderRadius: "20px" }}
                 alt="guy"
                 src={"/leg.jpeg"}
-                height={160}
+                height={165}
                 width={320}
                 className={styles.im}
               />
@@ -60,7 +60,7 @@ export default function Squats() {
               <MdArrowForwardIos />
             </Link>
           </div>
-          <h5>2 out of 13</h5>
+          <h5 className={styles.doneOutOfRemaining}>2 out of 13</h5>
         </div>
       </div>
     </div>

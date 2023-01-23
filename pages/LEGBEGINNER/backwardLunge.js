@@ -19,7 +19,7 @@ export default function BackWardLunge() {
                 style={{ borderRadius: "20px" }}
                 alt="guy"
                 src={"/leg.jpeg"}
-                height={160}
+                height={170}
                 width={320}
                 className={styles.im}
               />
@@ -60,7 +60,7 @@ export default function BackWardLunge() {
               <MdArrowForwardIos />
             </Link>
           </div>
-          <h5>5 out of 13</h5>
+          <h5 className={styles.doneOutOfRemaining}>5 out of 13</h5>
         </div>
       </div>
     </div>

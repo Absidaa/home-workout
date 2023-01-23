@@ -17,11 +17,11 @@ export default function LegBeginner() {
           <div className={styles.arbak}>
             <div className={styles.phoneView}>
               <Image
-                style={{ radiusBorder: "30vh" }}
+                style={{ borderRadius: "20px" }}
                 alt="guy"
                 src={"/leg.jpeg"}
-                height={150}
-                width={300}
+                height={170}
+                width={320}
                 className={styles.im4}
               />
             </div>

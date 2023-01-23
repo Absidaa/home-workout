@@ -33,7 +33,7 @@ export default function CalfStretchLeft() {
                 style={{ borderRadius: "20px" }}
                 alt="guy"
                 src={"/leg.jpeg"}
-                height={160}
+                height={170}
                 width={320}
                 className={styles.im}
               />
@@ -92,7 +92,7 @@ export default function CalfStretchLeft() {
               <MdArrowForwardIos />
             </Link>
           </div>
-          <h5>12 out of 13</h5>
+          <h5 className={styles.doneOutOfRemaining}>12 out of 13</h5>
         </div>
       </div>
     </div>

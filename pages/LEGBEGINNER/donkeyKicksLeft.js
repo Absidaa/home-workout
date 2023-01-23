@@ -19,8 +19,8 @@ export default function DonkeyKickLeft() {
                 style={{ borderRadius: "20px" }}
                 alt="guy"
                 src={"/leg.jpeg"}
-                height={150}
-                width={300}
+                height={170}
+                width={320}
                 className={styles.im}
               />
             </div>
@@ -60,7 +60,7 @@ export default function DonkeyKickLeft() {
               <MdArrowForwardIos />
             </Link>
           </div>
-          <h5>6 out of 13</h5>
+          <h5 className={styles.doneOutOfRemaining}>6 out of 13</h5>
         </div>
       </div>
     </div>

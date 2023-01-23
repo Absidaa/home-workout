@@ -33,7 +33,7 @@ export default function CalfStretchRight() {
                 style={{ borderRadius: "20px" }}
                 alt="guy"
                 src={"/leg.jpeg"}
-                height={160}
+                height={170}
                 width={320}
                 className={styles.im}
               />
@@ -87,7 +87,7 @@ export default function CalfStretchRight() {
             </Link>
           </div>
 
-          <h5>13 out of 13</h5>
+          <h5 className={styles.doneOutOfRemaining}>13 out of 13</h5>
         </div>
       </div>
     </div>

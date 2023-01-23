@@ -33,12 +33,14 @@ export default function RightQuadStretch() {
                 style={{ borderRadius: "20px" }}
                 alt="guy"
                 src={"/leg.jpeg"}
-                height={150}
-                width={300}
+                height={170}
+                width={320}
                 className={styles.im}
               />
             </div>
-            <div className={styles.che0}>LEG BEGINNER</div>
+            <div className={styles.che0} style={{ marginTop: "-55px" }}>
+              LEG BEGINNER
+            </div>
 
             <Link href={"/"}>
               <button className={styles.back2}>
@@ -92,7 +94,7 @@ export default function RightQuadStretch() {
               <MdArrowForwardIos />
             </Link>
           </div>
-          <h5>9 out of 13</h5>
+          <h5 className={styles.doneOutOfRemaining}>9 out of 13</h5>
         </div>
       </div>
     </div>

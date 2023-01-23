@@ -33,8 +33,8 @@ export default function WallCalfRaise() {
                 style={{ borderRadius: "20px" }}
                 alt="guy"
                 src={"/leg.jpeg"}
-                height={150}
-                width={300}
+                height={170}
+                width={320}
                 className={styles.im}
               />
             </div>
@@ -74,7 +74,7 @@ export default function WallCalfRaise() {
               <MdArrowForwardIos />
             </Link>
           </div>
-          <h5>10 out of 13</h5>
+          <h5 className={styles.doneOutOfRemaining}>10 out of 13</h5>
         </div>
       </div>
     </div>

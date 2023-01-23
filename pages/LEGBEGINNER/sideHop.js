@@ -33,7 +33,7 @@ export default function SideHop() {
                 style={{ borderRadius: "20px" }}
                 alt="guy"
                 src={"/leg.jpeg"}
-                height={150}
+                height={170}
                 width={320}
                 className={styles.im}
               />
@@ -87,7 +87,7 @@ export default function SideHop() {
               <MdArrowForwardIos />
             </Link>
           </div>
-          <h5>1 out of 13</h5>
+          <h5 className={styles.doneOutOfRemaining}>1 out of 13</h5>
         </div>
       </div>
     </div>
