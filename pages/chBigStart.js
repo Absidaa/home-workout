@@ -3,7 +3,7 @@ import { Paper, Text, Group, Button } from "@mantine/core";
 import Link from "next/link";
 import styles from "../styles/Home.module.css";
 
-function bigStart() {
+function CheBigStart() {
   return (
     <div
       style={{
@@ -33,7 +33,7 @@ function bigStart() {
             <Text size={"md"}>Soon to be automated!</Text>
           </Group>
           <Group position="apart">
-            <Link href={"/CHESTBEGINNER/chestJumpingJack"}>
+            <Link href={"/CHESTBEGINNER/jumpingJack"}>
               {" "}
               <Button className={styles.but}>
                 <Text size="lg">Thank you 😊</Text>
@@ -46,4 +46,4 @@ function bigStart() {
   );
 }
 
-export default bigStart;
+export default CheBigStart;

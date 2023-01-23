@@ -52,7 +52,7 @@ export default function PushUp() {
           <div className={styles.jumtim}>x10</div>
 
           <div className={styles.backWard}>
-            <Link href={"/CHESTBEGINNER/pushUp"}>
+            <Link href={"/CHESTBEGINNER/kneePushUp"}>
               <MdArrowBackIosNew />
             </Link>
           </div>

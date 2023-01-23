@@ -34,7 +34,7 @@ export default function JumpingJack() {
                 style={{ borderRadius: "20px" }}
                 alt="guy"
                 src={"/ch.jpeg"}
-                height={170}
+                height={160}
                 width={320}
                 className={styles.im}
               />
@@ -86,7 +86,7 @@ export default function JumpingJack() {
           </div>
 
           <div className={styles.forWard}>
-            <Link href={"/CHESTBEGINNER/inclinePushUp"}>
+            <Link href={"/CHESTBEGINNER/kneePushUp"}>
               <MdArrowForwardIos />
             </Link>
           </div>

@@ -124,7 +124,7 @@
 .back2 {
   margin-left: 8vh;
   margin-bottom: 10px;
-  margin-top: -24px;
+  margin-top: -3vh;
   font-size: 20px;
   color: white;
   background-color: blue;
@@ -516,10 +516,11 @@
   width: 64vh;
   margin-left: 15px;
   font-weight: bolder;
-  margin-top: 1px;
+  margin-top: -2px;
 }
 .bgsetabs {
   margin-top: -5vh;
+  margin-bottom: 15px;
   font-family: Arial, Helvetica, sans-serif;
   margin-left: 27vh;
 }
@@ -803,7 +804,7 @@
 }
 .che1 {
   margin-top: -55px;
-  margin-bottom: 35px;
+  margin-bottom: 20px;
   margin-left: 12vh;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 29px;
@@ -936,10 +937,11 @@
     padding: 3rem;
     min-height: 100vh;
     width: 25vh;
-    border: solid;
+    border: none;
     background-color: hsl(60, 100%, 50%);
     margin-left: 10%;
   }
+
   .begin {
     margin-left: -22vh;
     margin-bottom: 10px;
@@ -1325,6 +1327,7 @@
   .bbdy {
     min-height: 123.5vh;
     width: 52vh;
+    border: none;
   }
 
   .abbin {
@@ -1459,6 +1462,556 @@
     margin-top: -16vh;
     color: white;
     margin-left: 11vh;
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+  }
+  .home {
+    font-size: 31.8px;
+  }
+  .animation {
+    margin-top: 10vh;
+  }
+  .doneOutOfRemaining {
+    font-size: 30px;
+  }
+  .jumtim {
+    font-size: 26px;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem;
+    min-height: 100vh;
+    width: 30vh;
+    border: none;
+    background-color: hsl(60, 100%, 50%);
+    margin-left: 10%;
+  }
+
+  .begin {
+    margin-left: -22vh;
+    margin-bottom: 10px;
+  }
+  .int {
+    margin-left: -17vh;
+    margin-bottom: 10px;
+  }
+  .adv {
+    margin-left: -22vh;
+    margin-bottom: 10px;
+  }
+  .abdy {
+    background-color: white;
+    width: -10%;
+    margin-top: -3px;
+  }
+  .bbdy {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    width: 52vh;
+    border: solid;
+    border-radius: 1px;
+    background-color: white;
+    margin-left: -1%;
+    margin-right: 10%;
+  }
+  .abs {
+    margin-top: -5px;
+    margin-bottom: 60px;
+    margin-left: 15vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(0, 116, 0);
+  }
+  .phoneView {
+    margin-left: 70px;
+    margin-top: 30px;
+    margin-bottom: -60px;
+  }
+  .arm {
+    margin-top: -50px;
+    margin-bottom: 20px;
+    margin-left: 12vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 38px;
+    font-weight: bold;
+    color: rgb(0, 116, 0);
+  }
+
+  .abs2 {
+    margin-top: 40px;
+    margin-bottom: 70px;
+    margin-left: 20vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(0, 116, 0);
+  }
+  .abs3 {
+    margin-top: 46px;
+    margin-bottom: 55px;
+    margin-left: 20vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(0, 116, 0);
+  }
+  .abs4 {
+    margin-top: 46px;
+    margin-bottom: 55px;
+    margin-left: 17vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+    color: rgb(0, 116, 0);
+  }
+  .abs7 {
+    margin-top: 40px;
+    margin-bottom: 60px;
+    margin-left: 22vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 33px;
+    font-weight: bold;
+    color: rgb(0, 116, 0);
+  }
+  .abs8 {
+    margin-top: 40px;
+    margin-bottom: 60px;
+    margin-left: 20vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    color: rgb(0, 116, 0);
+  }
+  .abs9 {
+    margin-top: 40px;
+    margin-bottom: 60px;
+    margin-left: 20vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    color: rgb(0, 116, 0);
+  }
+  .abs10 {
+    margin-top: 40px;
+    margin-bottom: 60px;
+    margin-left: 20vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 33px;
+    font-weight: bold;
+    color: rgb(0, 116, 0);
+  }
+  .abs30 {
+    margin-top: 43px;
+    margin-bottom: 55px;
+    margin-left: 20vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    color: rgb(0, 116, 0);
+  }
+  .leg1 {
+    margin-top: 43px;
+    margin-bottom: 60px;
+    margin-left: 12vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 37px;
+    font-weight: bold;
+    color: rgb(0, 116, 0);
+  }
+  .bak1 {
+    margin-top: 50px;
+    margin-bottom: 100px;
+    margin-left: 12vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 33px;
+    font-weight: bolder;
+    color: rgb(0, 116, 0);
+  }
+  .back2 {
+    margin-top: -20px;
+    margin-bottom: 13px;
+    margin-left: 10vh;
+    font-size: 30px;
+  }
+  .back3 {
+    margin-top: 20px;
+    margin-bottom: -50px;
+    margin-left: -25vh;
+    font-size: 30px;
+  }
+  .back5 {
+    margin-left: 50px;
+    margin-bottom: -20px;
+    font-size: 30px;
+  }
+  .back6 {
+    margin-left: 80px;
+    margin-bottom: -30px;
+    margin-top: -30px;
+    font-size: 30px;
+  }
+  .back9 {
+    margin-left: 80px;
+    margin-bottom: 2px;
+    margin-top: -20px;
+    font-size: 30px;
+  }
+  .back8 {
+    margin-left: 80px;
+    margin-bottom: 2px;
+    margin-top: -20px;
+    font-size: 30px;
+  }
+  .back9 {
+    margin-left: 80px;
+    margin-bottom: 20px;
+    margin-top: -20px;
+    font-size: 30px;
+  }
+  .back10 {
+    margin-left: 80px;
+    margin-bottom: 20px;
+    margin-top: -20px;
+    font-size: 30px;
+  }
+  .back11 {
+    margin-left: 80px;
+    margin-bottom: 10px;
+    margin-top: -20px;
+    font-size: 30px;
+  }
+  .back12 {
+    margin-left: 80px;
+    margin-bottom: -1px;
+    margin-top: -10px;
+    font-size: 30px;
+  }
+  .bgsetabs {
+    font-size: 27px;
+  }
+  .bgsetabss {
+    font-size: 27px;
+    margin-top: -50px;
+    margin-left: 25vh;
+    margin-bottom: 20px;
+  }
+  .bgset2 {
+    font-size: 25px;
+    margin-top: -20px;
+  }
+  .bgset4 {
+    font-size: 25px;
+  }
+  .bgset5 {
+    font-size: 25px;
+    margin-bottom: -15px;
+  }
+
+  .bgset6 {
+    font-size: 25px;
+  }
+  .bgset7 {
+    font-size: 25px;
+    margin-bottom: 25px;
+    margin-top: -40px;
+  }
+  .bgset8 {
+    font-size: 25px;
+    margin-bottom: 25px;
+    margin-top: -40px;
+  }
+  .bgset10 {
+    font-size: 25px;
+    margin-bottom: 25px;
+    margin-top: -40px;
+  }
+  .bgset11 {
+    font-size: 25px;
+    margin-bottom: -22px;
+    margin-top: -40px;
+  }
+  .bgset12 {
+    font-size: 25px;
+    margin-bottom: -40px;
+    margin-top: -10px;
+  }
+  .bgset13 {
+    font-size: 25px;
+    margin-bottom: -20px;
+    margin-top: -30px;
+  }
+  .time3 {
+    font-size: 25px;
+    margin-top: 1vh;
+    margin-bottom: 13vh;
+    margin-left: -22vh;
+  }
+
+  .time4 {
+    margin-left: -25vh;
+    font-size: 22px;
+  }
+  .vr {
+    width: 60vh;
+    margin-left: -40px;
+    font-weight: bolder;
+    margin-top: -10px;
+  }
+
+  .vrs {
+    width: 60vh;
+    margin-left: -40px;
+    font-weight: bolder;
+    margin-top: 18px;
+  }
+
+  .vrabsb {
+    width: 64vh;
+    margin-left: 15px;
+    font-weight: bolder;
+    margin-top: -6px;
+  }
+  .sec {
+    margin-left: 11vh;
+    color: gray;
+    font-size: 30px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .x {
+    margin-left: 7vh;
+    color: gray;
+    font-size: 30px;
+
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .bgset {
+    margin-top: -2vh;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .back {
+    margin-left: 5vh;
+    margin-bottom: -10px;
+    margin-top: 8px;
+    font-size: 40px;
+  }
+  .che1 {
+    margin-top: 8px;
+    margin-left: 17vh;
+    font-size: 30px;
+  }
+  .time {
+    font-size: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: -20vh;
+  }
+  .jjak {
+    margin-left: 26vh;
+
+    font-weight: bold;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .barm {
+    margin-left: 20vh;
+    font-size: 23px;
+  }
+  .bpun {
+    margin-left: 15vh;
+    font-size: 25px;
+  }
+  .bups {
+    margin-left: 16vh;
+    font-size: 25px;
+  }
+  .binch {
+    margin-left: 20vh;
+    font-size: 25px;
+  }
+  .bwal {
+    margin-left: 25vh;
+    font-size: 25px;
+  }
+
+  .btwist {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+  }
+  .htoch {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+  }
+  .bplk {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 18vh;
+    margin-left: 12vh;
+    font-weight: bold;
+  }
+  .bleg {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20vh;
+    font-weight: bold;
+  }
+  .btn {
+    font-size: 30px;
+    height: 60px;
+  }
+  .but {
+    margin-left: 12px;
+    margin-right: 10px;
+  }
+  .bbdy {
+    min-height: 123.5vh;
+    width: 52vh;
+    border: none;
+  }
+
+  .abbin {
+    margin-top: -20vh;
+    margin-bottom: 16.7vh;
+    margin-left: 18vh;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    font-weight: bolder;
+  }
+  .chest {
+    margin-top: -20vh;
+    margin-bottom: 16.7vh;
+    margin-left: 14.5vh;
+    color: white;
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+  }
+  .armb {
+    margin-bottom: 16.7vh;
+    margin-top: -20vh;
+    color: white;
+    margin-left: 18vh;
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+  }
+  .legb {
+    margin-bottom: 16.7vh;
+    margin-top: -20vh;
+    color: white;
+    margin-left: 18vh;
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+  }
+  .backb {
+    margin-bottom: 16.7vh;
+    margin-top: -20vh;
+    color: white;
+    margin-left: 16vh;
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+  }
+  .absi {
+    margin-bottom: 16.7vh;
+    margin-top: -20vh;
+    color: white;
+    margin-left: 12vh;
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+  }
+  .chesti {
+    margin-bottom: 16.7vh;
+    margin-top: -20vh;
+    color: white;
+    margin-left: 8vh;
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+  }
+  .armi {
+    margin-bottom: 16.7vh;
+    margin-top: -20vh;
+    color: white;
+    margin-left: 11vh;
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+  }
+  .legi {
+    margin-bottom: 16.7vh;
+    margin-top: -20vh;
+    color: white;
+    margin-left: 11vh;
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+  }
+  .backi {
+    margin-bottom: 16.7vh;
+    margin-top: -20vh;
+    color: white;
+    margin-left: 9vh;
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+  }
+  .absa {
+    margin-bottom: 16.7vh;
+    margin-top: -20vh;
+    color: white;
+    margin-left: 17vh;
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+  }
+  .chesta {
+    margin-bottom: 16.7vh;
+    margin-top: -20vh;
+    color: white;
+    margin-left: 13vh;
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+  }
+  .arma {
+    margin-bottom: 16.7vh;
+    margin-top: -20vh;
+    color: white;
+    margin-left: 16vh;
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+  }
+
+  .lega {
+    margin-bottom: 16.7vh;
+    margin-top: -20vh;
+    color: white;
+    margin-left: 16vh;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+  }
+  .backa {
+    margin-bottom: 16.7vh;
+    margin-top: -20vh;
+    color: white;
+    margin-left: 15.2vh;
     font-size: 19px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;

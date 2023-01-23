@@ -52,7 +52,7 @@ export default function KneePushUp() {
           <div className={styles.jumtim}>x12</div>
 
           <div className={styles.backWard}>
-            <Link href={"/CHESTBEGINNER/inclinePushUp"}>
+            <Link href={"/CHESTBEGINNER/jumpingJack"}>
               <MdArrowBackIosNew />
             </Link>
           </div>
