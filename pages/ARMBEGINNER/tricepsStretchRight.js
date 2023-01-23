@@ -24,9 +24,7 @@ export default function TricepStretchRight() {
                 className={styles.im}
               />
             </div>
-            <div className={styles.che1} style={{ marginLeft: "6.7rem" }}>
-              ARM BEGINNER
-            </div>
+            <div className={styles.che1}>ARM BEGINNER</div>
 
             <Link href={"/"}>
               <button className={styles.back2}>

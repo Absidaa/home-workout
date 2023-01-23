@@ -24,9 +24,7 @@ export default function PushUp() {
                 className={styles.im}
               />
             </div>
-            <div className={styles.che1} styles={{ marginLeft: "6.2rem" }}>
-              ARM BEGINNER
-            </div>
+            <div className={styles.che1}>ARM BEGINNER</div>
 
             <Link href={"/"}>
               <button className={styles.back2}>

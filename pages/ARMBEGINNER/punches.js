@@ -38,9 +38,7 @@ export default function Punches() {
                 className={styles.im}
               />
             </div>
-            <div className={styles.che1} style={{ marginLeft: "6.2rem" }}>
-              ARM BEGINNER
-            </div>
+            <div className={styles.che1}>ARM BEGINNER</div>
 
             <Link href={"/"}>
               <button className={styles.back2}>

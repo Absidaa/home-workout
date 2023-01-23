@@ -34,9 +34,7 @@ export default function ArmRaises() {
                 className={styles.im}
               />
             </div>
-            <div className={styles.che1} style={{ marginLeft: "17vh" }}>
-              ARM BEGINNER
-            </div>
+            <div className={styles.che1}>ARM BEGINNER</div>
 
             <Link href={"/BEGINNER/armBeginner"}>
               <button className={styles.back2}>

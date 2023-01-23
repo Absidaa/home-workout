@@ -50,7 +50,7 @@ export default function ArmCircleCounterClockWise() {
                 </div>
               </button>
             </Link>
-            <h4 className={styles.bgsetabs}>Arm Circle Counter Clock Wise</h4>
+            <h4 className={styles.bgsetabs}>Arm Counter Clock Wise</h4>
             <hr className={styles.vrabsb} />
           </div>
           <div className={styles.worksb} class="card">

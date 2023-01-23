@@ -18,7 +18,7 @@ export default function ArmBeginner() {
               style={{ borderRadius: "20px" }}
               alt="guy"
               src={"/ar.jpeg"}
-              height={160}
+              height={170}
               width={320}
               className={styles.im2}
             />
@@ -29,7 +29,9 @@ export default function ArmBeginner() {
               <div>←</div>
             </button>
           </Link>
-          <h4 className={styles.bgset}>Set of workouts</h4>
+          <h4 className={styles.bgset} style={{ fontSize: "16px" }}>
+            Set of workouts
+          </h4>
           <hr className={styles.vrr} />
         </div>
         <div className={styles.worksb} class="card">

@@ -238,6 +238,7 @@
   margin-top: -5vh;
   font-family: Arial, Helvetica, sans-serif;
   margin-left: 20vh;
+  font-size: 15px;
 }
 .bgset2 {
   margin-top: -2vh;
@@ -1525,15 +1526,7 @@
     margin-left: -1%;
     margin-right: 10%;
   }
-  .abs {
-    margin-top: -5px;
-    margin-bottom: 60px;
-    margin-left: 14vh;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 35px;
-    font-weight: bold;
-    color: rgb(0, 116, 0);
-  }
+
   .phoneView {
     margin-left: 20px;
     margin-top: 3px;
@@ -1548,7 +1541,15 @@
     font-weight: bold;
     color: rgb(0, 116, 0);
   }
-
+  .abs {
+    margin-top: -5px;
+    margin-bottom: 11vh;
+    margin-left: 14vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    color: rgb(0, 116, 0);
+  }
   .abs2 {
     margin-top: 40px;
     margin-bottom: 70px;
@@ -1630,6 +1631,12 @@
     font-weight: bold;
     color: rgb(0, 116, 0);
   }
+  .back {
+    margin-left: 5vh;
+    margin-bottom: -10px;
+    margin-top: 8px;
+    font-size: 25px;
+  }
   .bak1 {
     margin-top: 50px;
     margin-bottom: 100px;
@@ -1643,7 +1650,7 @@
     margin-top: -20px;
     margin-bottom: 10px;
     margin-left: 10vh;
-    font-size: 30px;
+    font-size: 25px;
   }
   .back3 {
     margin-top: 20px;
@@ -1698,6 +1705,13 @@
     margin-top: -10px;
     font-size: 30px;
   }
+  .bgset {
+    margin-top: -5vh;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20vh;
+    font-size: 150px;
+  }
+
   .bgsetabs {
     font-size: 20px;
     margin-left: 25vh;
@@ -1814,20 +1828,15 @@
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
   }
-  .back {
-    margin-left: 5vh;
-    margin-bottom: -10px;
-    margin-top: 8px;
-    font-size: 40px;
-  }
   .che0 {
     margin-top: -10px;
     margin-bottom: 70px;
     margin-left: 7.5rem;
   }
   .che1 {
-    margin-top: 2px;
-    margin-left: 15vh;
+    margin-top: -2px;
+    margin-left: 17vh;
+    margin-bottom: 70px;
     font-size: 30px;
   }
   .jjak {

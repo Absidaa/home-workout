@@ -38,9 +38,7 @@ export default function JumpigJack() {
                 className={styles.im}
               />
             </div>
-            <div className={styles.che1} style={{ borderRadius: "20px" }}>
-              ARM BEGINNER
-            </div>
+            <div className={styles.che1}>ARM BEGINNER</div>
 
             <Link href={"/"}>
               <button className={styles.back2}>
