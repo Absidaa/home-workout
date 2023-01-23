@@ -58,8 +58,8 @@ export default function CalfStretchRight() {
           <Image
             alt="guy with the greates image ever"
             src={"/calfStretchRight.jpeg"}
-            height={200}
-            width={200}
+            height={210}
+            width={210}
           />
           <div className={styles.jumtim}>00:30</div>
 
