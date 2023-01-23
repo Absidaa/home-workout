@@ -45,7 +45,8 @@
 }
 @media only screen and (max-width: 375px) {
   .navbar {
-    width: 55vh;
+    width: 56.2vh;
     margin-top: -1vh;
+    margin-left: -7px;
   }
 }
