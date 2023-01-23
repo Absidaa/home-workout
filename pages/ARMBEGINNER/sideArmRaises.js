@@ -94,7 +94,7 @@ export default function SideArmRaises() {
               <MdArrowForwardIos />
             </Link>
           </div>
-          <h5>2 out of 16</h5>
+          <h5 className={styles.doneOutOfRemaining}>2 out of 16</h5>
         </div>
       </div>
     </div>

@@ -28,14 +28,20 @@ export default function DiamondPushUp() {
       <div className={styles.abdy}>
         <div className={styles.bbdy}>
           <div className={styles.absb}>
-            <Image
-              alt="guy"
-              src={"/ar.jpeg"}
-              height={150}
-              width={300}
-              className={styles.im}
-            />
-            <div className={styles.che1}>ARM BEGINNER</div>
+            <div className={styles.phoneView}>
+              {" "}
+              <Image
+                style={{ borderRadius: "20px" }}
+                alt="guy"
+                src={"/ar.jpeg"}
+                height={170}
+                width={320}
+                className={styles.im}
+              />
+            </div>
+            <div className={styles.che1} style={{ marginLeft: "6.5rem" }}>
+              ARM BEGINNER
+            </div>
 
             <Link href={"/"}>
               <button className={styles.back2}>
@@ -71,7 +77,7 @@ export default function DiamondPushUp() {
               <MdArrowForwardIos />
             </Link>
           </div>
-          <h5>6 out of 16</h5>
+          <h5 className={styles.doneOutOfRemaining}>6 out of 16</h5>
         </div>
       </div>
     </div>

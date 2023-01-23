@@ -25,7 +25,6 @@ export default function ArmRaises() {
         <div className={styles.bbdy}>
           <div className={styles.absb}>
             <div className={styles.phoneView}>
-              {" "}
               <Image
                 style={{ borderRadius: "20px" }}
                 alt="guy"
@@ -84,7 +83,7 @@ export default function ArmRaises() {
               <MdArrowForwardIos />
             </Link>
           </div>
-          <h5>1 out of 16</h5>
+          <h5 className={styles.doneOutOfRemaining}>1 out of 16</h5>
         </div>
       </div>
     </div>

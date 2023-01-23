@@ -14,14 +14,19 @@ export default function TricepStretchRight() {
       <div className={styles.abdy}>
         <div className={styles.bbdy}>
           <div className={styles.absb}>
-            <Image
-              alt="guy"
-              src={"/ar.jpeg"}
-              height={150}
-              width={300}
-              className={styles.im}
-            />
-            <div className={styles.che1}>ARM BEGINNER</div>
+            <div className={styles.phoneView}>
+              <Image
+                style={{ borderRadius: "20px" }}
+                alt="guy"
+                src={"/ar.jpeg"}
+                height={170}
+                width={320}
+                className={styles.im}
+              />
+            </div>
+            <div className={styles.che1} style={{ marginLeft: "6.7rem" }}>
+              ARM BEGINNER
+            </div>
 
             <Link href={"/"}>
               <button className={styles.back2}>
@@ -57,7 +62,7 @@ export default function TricepStretchRight() {
               <MdArrowForwardIos />
             </Link>
           </div>
-          <h5>14 out of 16</h5>
+          <h5 className={styles.doneOutOfRemaining}>14 out of 16</h5>
         </div>
       </div>
     </div>

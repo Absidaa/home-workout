@@ -30,6 +30,7 @@ export default function ArmCircleClockWise() {
           <div className={styles.absb}>
             <div className={styles.phoneView}>
               <Image
+                style={{ borderRadius: "20px" }}
                 alt="guy"
                 src={"/ar.jpeg"}
                 height={170}
@@ -91,7 +92,7 @@ export default function ArmCircleClockWise() {
               <MdArrowForwardIos />
             </Link>
           </div>
-          <h5>4 out of 16</h5>
+          <h5 className={styles.doneOutOfRemaining}>4 out of 16</h5>
         </div>
       </div>
     </div>
