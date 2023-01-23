@@ -8,7 +8,7 @@ import {
   MdArrowBackIosNew,
 } from "react-icons/md";
 
-function absTimer() {
+export default function RhomboidPull() {
   return (
     <div>
       <div className={styles.abdy}>
@@ -62,5 +62,3 @@ function absTimer() {
     </div>
   );
 }
-
-export default absTimer;

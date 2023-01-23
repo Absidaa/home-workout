@@ -3,7 +3,7 @@ import { Paper, Text, Group, Button } from "@mantine/core";
 import Link from "next/link";
 import styles from "../../styles/Home.module.css";
 
-function interStart() {
+export default function InterStart() {
   return (
     <div
       style={{
@@ -44,5 +44,3 @@ function interStart() {
     </div>
   );
 }
-
-export default interStart;

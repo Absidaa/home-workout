@@ -9,7 +9,7 @@ import {
   MdArrowBackIosNew,
 } from "react-icons/md";
 
-function absTimer() {
+export default function ChildPose() {
   const [time, setTime] = useState(0);
   const [running, setRunning] = useState(false);
   useEffect(() => {
@@ -44,7 +44,7 @@ function absTimer() {
                 </div>
               </button>
             </Link>
-            <h4 className={styles.bgsetabs}>Child's Pose</h4>
+            <h4 className={styles.bgsetabs}>Child&apos;s Pose</h4>
             <hr className={styles.vrabsb} />
           </div>
           <div className={styles.worksb} class="card">
@@ -90,5 +90,3 @@ function absTimer() {
     </div>
   );
 }
-
-export default absTimer;
