@@ -18,8 +18,8 @@ export default function ArmBeginner() {
               style={{ borderRadius: "20px" }}
               alt="guy"
               src={"/ar.jpeg"}
-              height={150}
-              width={308}
+              height={160}
+              width={320}
               className={styles.im2}
             />
           </div>

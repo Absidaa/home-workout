@@ -17,8 +17,8 @@ export default function ChestBeginner() {
             style={{ borderRadius: "20px" }}
             alt="guy"
             src={"/ch.jpeg"}
-            height={150}
-            width={308}
+            height={170}
+            width={320}
             className={styles.im3}
           />
           <div className={styles.che}>CHEST BEGINNER</div>
@@ -31,7 +31,7 @@ export default function ChestBeginner() {
           <div className={styles.worksb} class="card">
             <h5 className={styles.time3}>▼11 mins• 11 workouts</h5>
           </div>
-          <hr className={styles.vrche} />
+          <hr className={styles.vrche} style={{ marginTop: "-75px" }} />
 
           <Image
             style={{

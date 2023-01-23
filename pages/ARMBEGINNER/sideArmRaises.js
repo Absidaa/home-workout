@@ -28,14 +28,19 @@ export default function SideArmRaises() {
       <div className={styles.abdy}>
         <div className={styles.bbdy}>
           <div className={styles.absb}>
-            <Image
-              alt="guy"
-              src={"/ar.jpeg"}
-              height={150}
-              width={300}
-              className={styles.im}
-            />
-            <div className={styles.che1}>ARM BEGINNER</div>
+            <div className={styles.phoneView}>
+              <Image
+                style={{ borderRadius: "20px" }}
+                alt="guy"
+                src={"/ar.jpeg"}
+                height={170}
+                width={320}
+                className={styles.im}
+              />
+            </div>
+            <div className={styles.che1} style={{ marginLeft: "17vh" }}>
+              ARM BEGINNER
+            </div>
 
             <Link href={"/"}>
               <button className={styles.back2}>

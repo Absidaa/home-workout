@@ -34,27 +34,27 @@ export default function JumpingJack() {
                 style={{ borderRadius: "20px" }}
                 alt="guy"
                 src={"/ch.jpeg"}
-                height={160}
+                height={170}
                 width={320}
                 className={styles.im}
               />
             </div>
             <div className={styles.che1}>CHEST BEGINNER</div>
 
-            <Link href={"/"}>
+            <Link href={"/BEGINNER/chestBeginner"}>
               <button className={styles.back2}>
-                <div>
-                  <MdHomeFilled />
-                </div>
+                <div>←</div>
               </button>
             </Link>
             <h4 className={styles.bgsetabs}>Jumping Jacks</h4>
             <hr className={styles.vrabsb} />
           </div>
           <div className={styles.worksb} class="card">
-            <h5 className={styles.time}>▼11 mins • 11 workouts</h5>
+            <h5 className={styles.time} style={{ marginTop: "65px" }}>
+              ▼11 mins • 11 workouts
+            </h5>
           </div>
-          <hr className={styles.vr} />
+          <hr className={styles.vr} style={{ marginTop: "-10px" }} />
 
           <div className={styles.animation}>
             <Image
