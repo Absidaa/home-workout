@@ -9,7 +9,7 @@ import {
   MdArrowBackIosNew,
 } from "react-icons/md";
 
-export default function heelTouch() {
+export default function HeelTouch() {
   const [time, setTime] = useState(0);
   const [running, setRunning] = useState(false);
   useEffect(() => {
