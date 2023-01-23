@@ -43,3 +43,9 @@
     font-weight: bolder;
   }
 }
+@media only screen and (max-width: 375px) {
+  .navbar {
+    width: 55vh;
+    margin-top: -1vh;
+  }
+}

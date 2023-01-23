@@ -1489,7 +1489,10 @@
     width: 30vh;
     border: none;
     background-color: hsl(60, 100%, 50%);
-    margin-left: 10%;
+    margin-left: 9%;
+  }
+  .bdy {
+    width: 55vh;
   }
 
   .begin {
