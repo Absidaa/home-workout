@@ -28,13 +28,16 @@ export default function SideHop() {
       <div className={styles.abdy}>
         <div className={styles.bbdy}>
           <div className={styles.absb}>
-            <Image
-              alt="guy"
-              src={"/leg.jpeg"}
-              height={150}
-              width={300}
-              className={styles.im}
-            />
+            <div className={styles.phoneView}>
+              <Image
+                style={{ borderRadius: "20px" }}
+                alt="guy"
+                src={"/leg.jpeg"}
+                height={150}
+                width={320}
+                className={styles.im}
+              />
+            </div>
             <div className={styles.che0}>LEG BEGINNER</div>
 
             <Link href={"/"}>
