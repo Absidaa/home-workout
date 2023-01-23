@@ -21,7 +21,7 @@ export default function LegRaises() {
                 alt="guy"
                 src={"/absb.jpeg"}
                 height={170}
-                width={300}
+                width={320}
                 className={styles.im}
               />
             </div>

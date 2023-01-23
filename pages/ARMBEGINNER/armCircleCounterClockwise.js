@@ -31,8 +31,8 @@ export default function ArmCircleCounterClockWise() {
             <Image
               alt="guy"
               src={"/ar.jpeg"}
-              height={150}
-              width={300}
+              height={170}
+              width={320}
               className={styles.im}
             />
             <div className={styles.che1}>ARM BEGINNER</div>
