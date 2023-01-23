@@ -5,7 +5,7 @@ import styles from "../../styles/Home.module.css";
 import Link from "next/link";
 import { MdArrowBackIosNew, MdHomeFilled } from "react-icons/md";
 
-function absTimer() {
+export default function StandingBicepStretchLeft() {
   const [time, setTime] = useState(0);
   const [running, setRunning] = useState(false);
   useEffect(() => {
@@ -87,5 +87,3 @@ function absTimer() {
     </div>
   );
 }
-
-export default absTimer;
