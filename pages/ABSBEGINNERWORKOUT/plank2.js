@@ -34,7 +34,7 @@ export default function Plank() {
                 style={{ borderRadius: "20px" }}
                 alt="guy"
                 src={"/absb.jpeg"}
-                height={150}
+                height={170}
                 width={320}
                 className={styles.im}
               />
@@ -60,7 +60,7 @@ export default function Plank() {
             <Image
               alt="guy with the greates image ever"
               src={"/diaplak.png"}
-              height={250}
+              height={270}
               width={250}
             />
           </div>

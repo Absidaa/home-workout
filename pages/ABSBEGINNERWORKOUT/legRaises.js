@@ -20,7 +20,7 @@ export default function LegRaises() {
                 style={{ borderRadius: "20px" }}
                 alt="guy"
                 src={"/absb.jpeg"}
-                height={150}
+                height={170}
                 width={320}
                 className={styles.im}
               />

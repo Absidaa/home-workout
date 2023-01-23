@@ -19,7 +19,7 @@ export default function AbsBeginner() {
                 style={{ borderRadius: "20px" }}
                 alt="guy"
                 src={"/absb.jpeg"}
-                height={150}
+                height={151}
                 width={315}
                 className={styles.im}
               />

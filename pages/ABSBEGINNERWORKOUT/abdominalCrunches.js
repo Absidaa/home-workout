@@ -19,7 +19,7 @@ export default function AbdominalCrunches() {
                 style={{ borderRadius: "20px" }}
                 alt="guy"
                 src={"/absb.jpeg"}
-                height={150}
+                height={148}
                 width={320}
                 className={styles.im}
               />
