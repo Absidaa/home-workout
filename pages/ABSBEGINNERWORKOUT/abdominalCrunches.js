@@ -19,7 +19,7 @@ export default function AbdominalCrunches() {
                 style={{ borderRadius: "20px" }}
                 alt="guy"
                 src={"/absb.jpeg"}
-                height={158}
+                height={170}
                 width={320}
                 className={styles.im}
               />
@@ -27,13 +27,18 @@ export default function AbdominalCrunches() {
             <div className={styles.abs}>ABS BEGINNER</div>
 
             <Link href={"/"}>
-              <button className={styles.back2}>
+              <button className={styles.back2} style={{ marginTop: "-5vh" }}>
                 <div>
                   <MdHomeFilled />
                 </div>
               </button>
             </Link>
-            <h4 className={styles.bgsetabs}>Abdominal Crunches</h4>
+            <h4
+              className={styles.bgsetabs}
+              style={{ marginBottom: "8px", marginTop: "-20px" }}
+            >
+              Abdominal Crunches
+            </h4>
             <hr className={styles.vrabsb} />
           </div>
           <div className={styles.worksb} class="card">
