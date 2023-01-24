@@ -29,12 +29,11 @@ export default function JumpingJack() {
         <div className={styles.bbdy}>
           <div className={styles.absb}>
             <div className={styles.phoneView}>
-              {" "}
               <Image
                 style={{ borderRadius: "20px" }}
                 alt="guy"
                 src={"/back.webp"}
-                height={170}
+                height={180}
                 width={320}
                 className={styles.im}
               />
@@ -88,7 +87,7 @@ export default function JumpingJack() {
               <MdArrowForwardIos />
             </Link>
           </div>
-          <h5>1 out of 12</h5>
+          <h5 className={styles.doneOutOfRemaining}>1 out of 12</h5>
         </div>
       </div>
     </div>

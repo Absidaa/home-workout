@@ -15,7 +15,7 @@ export default function BackBeginner() {
         <div className={styles.arbak}>
           <div className={styles.phoneView}>
             <Image
-              style={{ borderRadius: "20px" }}
+              style={{ borderRadius: "20px", position: "stick" }}
               alt="guy"
               src={"/back.webp"}
               height={200}
