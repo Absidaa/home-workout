@@ -3,7 +3,11 @@ import { useState, useEffect } from "react";
 import Image from "next/image";
 import styles from "../../styles/Home.module.css";
 import Link from "next/link";
-import { MdArrowForwardIos, MdArrowBackIosNew } from "react-icons/md";
+import {
+  MdArrowForwardIos,
+  MdArrowBackIosNew,
+  MdHomeFilled,
+} from "react-icons/md";
 
 export default function CobraStretch() {
   const [time, setTime] = useState(0);
@@ -36,9 +40,11 @@ export default function CobraStretch() {
             </div>
             <div className={styles.che1}>CHEST BEGINNER</div>
 
-            <Link href={"/BEGINNER/chestBeginner"}>
+            <Link href={"/"}>
               <button className={styles.back2}>
-                <div>←</div>
+                <div>
+                  <MdHomeFilled />
+                </div>
               </button>
             </Link>
             <h4 className={styles.bgsetabs}>Cobra Stretch</h4>
