@@ -46,15 +46,20 @@ export default function JumpingJack() {
                 <div>←</div>
               </button>
             </Link>
-            <h4 className={styles.bgsetabs}>Jumping Jacks</h4>
+            <h4
+              className={styles.bgsetabs}
+              style={{ marginBottom: "1vh", marginTop: "-20px" }}
+            >
+              Jumping Jacks
+            </h4>
             <hr className={styles.vrabsb} />
           </div>
           <div className={styles.worksb} class="card">
-            <h5 className={styles.time} style={{ marginTop: "65px" }}>
+            <h5 className={styles.time} style={{ marginBottom: "15px" }}>
               ▼11 mins • 11 workouts
             </h5>
           </div>
-          <hr className={styles.vr} style={{ marginTop: "-10px" }} />
+          <hr className={styles.vr} />
 
           <div className={styles.animation}>
             <Image
