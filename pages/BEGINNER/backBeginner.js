@@ -19,7 +19,7 @@ export default function BackBeginner() {
               alt="guy"
               src={"/back.webp"}
               height={200}
-              width={310}
+              width={320}
               className={styles.im5}
             />
           </div>
