@@ -19,7 +19,7 @@ export default function AbsBeginner() {
                 style={{ borderRadius: "20px" }}
                 alt="guy"
                 src={"/absb.jpeg"}
-                height={151}
+                height={170}
                 width={315}
                 className={styles.im}
               />
@@ -31,7 +31,7 @@ export default function AbsBeginner() {
                 <div>←</div>
               </button>
             </Link>
-            <h4 className={styles.bgsetabss}>Set of Workouts</h4>
+            <h4 className={styles.bgsetabs}>Set of Workouts</h4>
             <hr className={styles.vrabsb} />
           </div>
           <div className={styles.worksb} class="card">
