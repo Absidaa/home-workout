@@ -339,6 +339,25 @@
   margin-bottom: -2vh;
   word-spacing: 2.5px;
 }
+
+.absi {
+  margin-bottom: 19.4vh;
+  margin-top: -23vh;
+  color: white;
+  margin-left: 14vh;
+  font-size: 19px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+}
+.absInt {
+  margin-top: -55px;
+  margin-bottom: 5vh;
+  margin-left: 14vh;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  color: rgb(0, 116, 0);
+}
 .abs {
   margin-top: -55px;
   margin-bottom: 20px;
@@ -702,24 +721,6 @@
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bolder;
 }
-.absi {
-  margin-bottom: 19.4vh;
-  margin-top: -23vh;
-  color: white;
-  margin-left: 14vh;
-  font-size: 19px;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: bolder;
-}
-.absInt {
-  margin-top: -55px;
-  margin-bottom: 5vh;
-  margin-left: 14vh;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 25px;
-  font-weight: bold;
-  color: rgb(0, 116, 0);
-}
 .chesti {
   margin-bottom: 19.4vh;
   margin-top: -23vh;
@@ -982,15 +983,6 @@
     margin-left: -1%;
     margin-right: 10%;
   }
-  .abs {
-    margin-top: -5px;
-    margin-bottom: 60px;
-    margin-left: 15vh;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 40px;
-    font-weight: bold;
-    color: rgb(0, 116, 0);
-  }
   .phoneView {
     margin-left: 70px;
     margin-top: 30px;
@@ -1002,6 +994,42 @@
     margin-left: 12vh;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 38px;
+    font-weight: bold;
+    color: rgb(0, 116, 0);
+  }
+  .abs {
+    margin-top: -5px;
+    margin-bottom: 60px;
+    margin-left: 15vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(0, 116, 0);
+  }
+  .absi {
+    margin-bottom: 13.5vh;
+    margin-top: -16vh;
+    color: white;
+    margin-left: 9vh;
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+  }
+  .absa {
+    margin-bottom: 13.5vh;
+    margin-top: -16vh;
+    color: white;
+    margin-left: 13vh;
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+  }
+  .absInt {
+    margin-top: -5px;
+    margin-bottom: 8vh;
+    margin-left: 17vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
     font-weight: bold;
     color: rgb(0, 116, 0);
   }
@@ -1386,15 +1414,6 @@
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
   }
-  .absi {
-    margin-bottom: 13.5vh;
-    margin-top: -16vh;
-    color: white;
-    margin-left: 9vh;
-    font-size: 19px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bolder;
-  }
   .chesti {
     margin-bottom: 13.5vh;
     margin-top: -16vh;
@@ -1431,15 +1450,7 @@
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
   }
-  .absa {
-    margin-bottom: 13.5vh;
-    margin-top: -16vh;
-    color: white;
-    margin-left: 13vh;
-    font-size: 19px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bolder;
-  }
+
   .chesta {
     margin-bottom: 13.5vh;
     margin-top: -16vh;
