@@ -14,14 +14,18 @@ export default function HeelTouch() {
       <div className={styles.abdy}>
         <div className={styles.bbdy}>
           <div className={styles.absb}>
-            <Image
-              alt="guy"
-              src={"/absi.jpeg"}
-              height={150}
-              width={300}
-              className={styles.im}
-            />
-            <div className={styles.che1}>ABS INTERMEDIATE</div>
+            <div className={styles.phoneView}>
+              {" "}
+              <Image
+                style={{ borderRadius: "20px" }}
+                alt="guy"
+                src={"/absi.jpeg"}
+                height={170}
+                width={320}
+                className={styles.im}
+              />
+            </div>
+            <div className={styles.absInt}>ABS INTERMEDIATE</div>
 
             <Link href={"/"}>
               <button className={styles.back7}>
@@ -38,12 +42,14 @@ export default function HeelTouch() {
           </div>
           <hr className={styles.vr} />
 
-          <Image
-            alt="guy with the greates image ever"
-            src={"/heeltouchGif.gif"}
-            height={200}
-            width={200}
-          />
+          <div className={styles.animation}>
+            <Image
+              alt="guy with the greates image ever"
+              src={"/heeltouchGif.gif"}
+              height={200}
+              width={200}
+            />
+          </div>
           <div className={styles.jumtim}>x20</div>
 
           <div className={styles.backWard}>
@@ -56,7 +62,7 @@ export default function HeelTouch() {
               <MdArrowForwardIos />
             </Link>
           </div>
-          <h5>5 out of 10</h5>
+          <h5 className={styles.doneOutOfRemaining}>5 out of 10</h5>
         </div>
       </div>
     </div>
