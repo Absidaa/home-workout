@@ -28,14 +28,17 @@ export default function CobraStretch() {
       <div className={styles.abdy}>
         <div className={styles.bbdy}>
           <div className={styles.absb}>
-            <Image
-              alt="guy"
-              src={"/absi.jpeg"}
-              height={150}
-              width={300}
-              className={styles.im}
-            />
-            <div className={styles.che1}>ABS INTERMEDIATE</div>
+            <div className={styles.phoneView}>
+              <Image
+                style={{ borderRadius: "20px" }}
+                alt="guy"
+                src={"/absi.jpeg"}
+                height={170}
+                width={320}
+                className={styles.im}
+              />
+            </div>
+            <div className={styles.absInt}>ABS INTERMEDIATE</div>
 
             <Link href={"/"}>
               <button className={styles.back7}>
@@ -89,7 +92,7 @@ export default function CobraStretch() {
               <MdArrowForwardIos />
             </Link>
           </div>
-          <h5>8 out of 10</h5>
+          <h5 className={styles.doneOutOfRemaining}>8 out of 10</h5>
         </div>
       </div>
     </div>
