@@ -18,7 +18,7 @@ export default function ChestInterMediate() {
               alt="guy"
               src={"/cheinter.jpeg"}
               height={170}
-              width={320}
+              width={310}
               className={styles.im6}
             />
           </div>
