@@ -711,6 +711,15 @@
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bolder;
 }
+.absInt {
+  margin-top: -55px;
+  margin-bottom: 5vh;
+  margin-left: 14vh;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  color: rgb(0, 116, 0);
+}
 .chesti {
   margin-bottom: 19.4vh;
   margin-top: -23vh;
@@ -1542,6 +1551,33 @@
     font-weight: bold;
     color: rgb(0, 116, 0);
   }
+  .absa {
+    margin-bottom: 16.7vh;
+    margin-top: -20vh;
+    color: white;
+    margin-left: 17vh;
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+  }
+  .absi {
+    margin-bottom: 16.7vh;
+    margin-top: -20vh;
+    color: white;
+    margin-left: 12vh;
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+  }
+  .absInt {
+    margin-top: -5px;
+    margin-bottom: 12vh;
+    margin-left: 14vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    color: rgb(0, 116, 0);
+  }
   .abs {
     margin-top: -5px;
     margin-bottom: 11vh;
@@ -1552,11 +1588,11 @@
     color: rgb(0, 116, 0);
   }
   .abs2 {
-    margin-top: 40px;
+    margin-top: 38px;
     margin-bottom: 70px;
-    margin-left: 20vh;
+    margin-left: 16vh;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 30px;
+    font-size: 28px;
     font-weight: bold;
     color: rgb(0, 116, 0);
   }
@@ -1950,15 +1986,7 @@
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
   }
-  .absi {
-    margin-bottom: 16.7vh;
-    margin-top: -20vh;
-    color: white;
-    margin-left: 12vh;
-    font-size: 19px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bolder;
-  }
+
   .chesti {
     margin-bottom: 16.7vh;
     margin-top: -20vh;
