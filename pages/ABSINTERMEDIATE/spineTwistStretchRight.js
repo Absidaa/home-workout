@@ -28,14 +28,17 @@ export default function SpineTwistStretchRight() {
       <div className={styles.abdy}>
         <div className={styles.bbdy}>
           <div className={styles.absb}>
-            <Image
-              alt="guy"
-              src={"/absi.jpeg"}
-              height={150}
-              width={300}
-              className={styles.im}
-            />
-            <div className={styles.che1}>ABS INTERMEDIATE</div>
+            <div className={styles.phoneView}>
+              <Image
+                style={{ borderRadius: "20px" }}
+                alt="guy"
+                src={"/absi.jpeg"}
+                height={170}
+                width={320}
+                className={styles.im}
+              />
+            </div>
+            <div className={styles.absInt}>ABS INTERMEDIATE</div>
 
             <Link href={"/"}>
               <button className={styles.back7}>
@@ -52,12 +55,15 @@ export default function SpineTwistStretchRight() {
           </div>
           <hr className={styles.vr} />
 
-          <Image
-            alt="guy with the greates image ever"
-            src={"/rigt.jpeg"}
-            height={200}
-            width={200}
-          />
+          <div className={styles.animation}>
+            {" "}
+            <Image
+              alt="guy with the greates image ever"
+              src={"/rigt.jpeg"}
+              height={200}
+              width={200}
+            />
+          </div>
           <div className={styles.jumtim}>00:30</div>
 
           <div className="stopwatch">
@@ -89,7 +95,7 @@ export default function SpineTwistStretchRight() {
               <MdArrowForwardIos />
             </Link>
           </div>
-          <h5>10 out of 10</h5>
+          <h5 className={styles.doneOutOfRemaining}>10 out of 10</h5>
         </div>
       </div>
     </div>
