@@ -56,7 +56,6 @@ export default function RhomboidPull() {
           <hr className={styles.vr} />
 
           <div className={styles.animation}>
-            {" "}
             <Image
               alt="guy with the greates image ever"
               src={"/roboidPullGif.gif"}
