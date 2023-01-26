@@ -28,14 +28,16 @@ export default function BicycleCrunches() {
       <div className={styles.abdy}>
         <div className={styles.bbdy}>
           <div className={styles.absb}>
-            <Image
-              style={{ borderRadius: "20px" }}
-              alt="guy"
-              src={"/absad.jpeg"}
-              height={160}
-              width={300}
-              className={styles.im11}
-            />
+            <div className={styles.phoneView}>
+              <Image
+                style={{ borderRadius: "20px" }}
+                alt="guy"
+                src={"/absad.jpeg"}
+                height={170}
+                width={320}
+                className={styles.im11}
+              />
+            </div>
             <div className={styles.abs7}>ABS ADVANCED</div>
 
             <Link href={"/"}>
@@ -52,13 +54,14 @@ export default function BicycleCrunches() {
             <h5 className={styles.time}>▼25 mins • 19 workouts</h5>
           </div>
           <hr className={styles.vr} />
-
-          <Image
-            alt="guy with the greates image ever"
-            src={"/bicycleCrunchesGif.gif"}
-            height={200}
-            width={200}
-          />
+          <div className={styles.animation}>
+            <Image
+              alt="guy with the greates image ever"
+              src={"/bicycleCrunchesGif.gif"}
+              height={200}
+              width={200}
+            />
+          </div>
           <div className={styles.jumtim}>x24</div>
 
           <div className={styles.backWard}>
@@ -71,7 +74,7 @@ export default function BicycleCrunches() {
               <MdArrowForwardIos />
             </Link>
           </div>
-          <h5>6 out of 19</h5>
+          <h5 className={styles.doneOutOfRemaining}>6 out of 19</h5>
         </div>
       </div>
     </div>
