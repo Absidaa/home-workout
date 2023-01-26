@@ -28,13 +28,16 @@ export default function JumpingJack() {
       <div className={styles.abdy}>
         <div className={styles.bbdy}>
           <div className={styles.absb}>
-            <Image
-              alt="guy"
-              src={"/backi.jpeg"}
-              height={150}
-              width={300}
-              className={styles.im11}
-            />
+            <div className={styles.phoneView}>
+              <Image
+                style={{ borderRadius: "20px" }}
+                alt="guy"
+                src={"/backi.jpeg"}
+                height={170}
+                width={320}
+                className={styles.im7}
+              />
+            </div>
             <div className={styles.abs3}>BACK INTERMEDIATE</div>
 
             <Link href={"/"}>
@@ -52,12 +55,14 @@ export default function JumpingJack() {
           </div>
           <hr className={styles.vr} />
 
-          <Image
-            alt="guy with the greates image ever"
-            src={"/jumpingjackGif.gif"}
-            height={200}
-            width={200}
-          />
+          <div className={styles.animation}>
+            <Image
+              alt="guy with the greates image ever"
+              src={"/jumpingjackGif.gif"}
+              height={200}
+              width={200}
+            />
+          </div>
           <div className={styles.jumtim}>00:30</div>
 
           <div className="stopwatch">
@@ -84,7 +89,7 @@ export default function JumpingJack() {
               <MdArrowForwardIos />
             </Link>
           </div>
-          <h5>1 out of 12</h5>
+          <h5 className={styles.doneOutOfRemaining}>1 out of 12</h5>
         </div>
       </div>
     </div>

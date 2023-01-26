@@ -14,7 +14,7 @@ export default function Home() {
 
       <div className={styles.bdy}>
         <main className={styles.main}>
-          <h1 className={styles.home}>Home Session</h1>
+          <h1 className={styles.home}>Stay Fit</h1>
           <span>
             <FaDumbbell size={20} />
           </span>
