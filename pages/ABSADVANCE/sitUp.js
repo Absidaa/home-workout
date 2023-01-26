@@ -41,7 +41,7 @@ export default function SitUp() {
             <div className={styles.abs7}>ABS ADVANCED</div>
 
             <Link href={"/"}>
-              <button className={styles.back9}>
+              <button className={styles.back7}>
                 <div>
                   <MdHomeFilled />
                 </div>

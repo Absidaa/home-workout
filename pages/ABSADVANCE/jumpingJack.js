@@ -41,7 +41,7 @@ export default function JumpigJack() {
             <div className={styles.abs7}>ABS ADVANCED</div>
 
             <Link href={"/ADVANCED/absAdvanced"}>
-              <button className={styles.back9}>
+              <button className={styles.back7}>
                 <div>←</div>
               </button>
             </Link>
