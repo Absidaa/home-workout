@@ -29,7 +29,6 @@ export default function FireHydrateRight() {
         <div className={styles.bbdy}>
           <div className={styles.absb}>
             <div className={styles.phoneView}>
-              {" "}
               <Image
                 style={{ borderRadius: "20px" }}
                 alt="guy"
@@ -39,7 +38,7 @@ export default function FireHydrateRight() {
                 className={styles.im11}
               />
             </div>
-            <div className={styles.abs3}>LEG INTERMEDIATE</div>
+            <div className={styles.abs30}>LEG INTERMEDIATE</div>
 
             <Link href={"/"}>
               <button className={styles.back7}>
