@@ -34,7 +34,7 @@ export default function Squats() {
                 alt="guy"
                 src={"/legin.jpeg"}
                 height={170}
-                width={305}
+                width={300}
                 className={styles.im11}
               />
             </div>
