@@ -105,11 +105,6 @@
   margin-left: 10vh;
   margin-bottom: 2px;
 }
-.absb {
-  margin-top: -15px;
-  height: 30vh;
-  margin-left: -22px;
-}
 
 .back {
   margin-left: 3vh;
@@ -340,6 +335,11 @@
   word-spacing: 2.5px;
 }
 
+.absb {
+  margin-top: -15px;
+  height: 30vh;
+  margin-left: -22px;
+}
 .absa {
   margin-bottom: 19.4vh;
   margin-top: -23vh;
@@ -396,8 +396,8 @@
   color: rgb(0, 116, 0);
 }
 .abs4 {
-  margin-top: -17px;
-  margin-bottom: 20px;
+  margin-top: -37px;
+  margin-bottom: 25px;
   margin-left: 13vh;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 25px;
@@ -1618,8 +1618,8 @@
     color: rgb(0, 116, 0);
   }
   .abs4 {
-    margin-top: 46px;
-    margin-bottom: 55px;
+    margin-top: 25px;
+    margin-bottom: 65px;
     margin-left: 17vh;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 26px;

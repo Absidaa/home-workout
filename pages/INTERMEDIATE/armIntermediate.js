@@ -17,8 +17,8 @@ export default function ArmInterMediate() {
               style={{ borderRadius: "20px" }}
               alt="guy"
               src={"/armi.jpeg"}
-              height={150}
-              width={270}
+              height={155}
+              width={310}
               className={styles.im}
             />
           </div>
