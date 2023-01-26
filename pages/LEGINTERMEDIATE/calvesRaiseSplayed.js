@@ -28,14 +28,17 @@ export default function CalvesRaisesSplayed() {
       <div className={styles.abdy}>
         <div className={styles.bbdy}>
           <div className={styles.absb}>
-            <Image
-              alt="guy"
-              src={"/legin.jpeg"}
-              height={150}
-              width={280}
-              className={styles.im11}
-            />
-            <div className={styles.abs3}>LEG INTERMEDIATE</div>
+            <div className={styles.phoneView}>
+              <Image
+                style={{ borderRadius: "20px" }}
+                alt="guy"
+                src={"/legin.jpeg"}
+                height={170}
+                width={300}
+                className={styles.im11}
+              />
+            </div>
+            <div className={styles.abs30}>LEG INTERMEDIATE</div>
 
             <Link href={"/"}>
               <button className={styles.back7}>
@@ -44,7 +47,7 @@ export default function CalvesRaisesSplayed() {
                 </div>
               </button>
             </Link>
-            <h4 className={styles.bgsetabs}>Calves Raises </h4>
+            <h4 className={styles.bgsetabs}>Calves Raises Splayed </h4>
             <hr className={styles.vrabsb} />
           </div>
           <div className={styles.worksb} class="card">
@@ -52,12 +55,15 @@ export default function CalvesRaisesSplayed() {
           </div>
           <hr className={styles.vr} />
 
-          <Image
-            alt="guy with the greates image ever"
-            src={"/CalfRaisesGif.gif"}
-            height={200}
-            width={200}
-          />
+          <div className={styles.animation}>
+            {" "}
+            <Image
+              alt="guy with the greates image ever"
+              src={"/CalfRaisesGif.gif"}
+              height={200}
+              width={200}
+            />
+          </div>
           <div className={styles.jumtim}>x12</div>
 
           <div className={styles.backWard}>
@@ -70,7 +76,7 @@ export default function CalvesRaisesSplayed() {
               <MdArrowForwardIos />
             </Link>
           </div>
-          <h5>13 out of 17</h5>
+          <h5 className={styles.doneOutOfRemaining}>13 out of 17</h5>
         </div>
       </div>
     </div>

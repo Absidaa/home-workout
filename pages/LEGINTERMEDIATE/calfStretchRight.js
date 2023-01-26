@@ -28,14 +28,18 @@ export default function CalfStretchRight() {
       <div className={styles.abdy}>
         <div className={styles.bbdy}>
           <div className={styles.absb}>
-            <Image
-              alt="guy"
-              src={"/legin.jpeg"}
-              height={150}
-              width={280}
-              className={styles.im11}
-            />
-            <div className={styles.abs3}>LEG INTERMEDIATE</div>
+            <div className={styles.phoneView}>
+              {" "}
+              <Image
+                style={{ borderRadius: "20px" }}
+                alt="guy"
+                src={"/legin.jpeg"}
+                height={170}
+                width={300}
+                className={styles.im11}
+              />
+            </div>
+            <div className={styles.abs30}>LEG INTERMEDIATE</div>
 
             <Link href={"/"}>
               <button className={styles.back7}>
@@ -52,12 +56,14 @@ export default function CalfStretchRight() {
           </div>
           <hr className={styles.vr} />
 
-          <Image
-            alt="guy with the greates image ever"
-            src={"/calfStretchRight.jpeg"}
-            height={200}
-            width={200}
-          />
+          <div className={styles.animation}>
+            <Image
+              alt="guy with the greates image ever"
+              src={"/calfStretchRight.jpeg"}
+              height={200}
+              width={200}
+            />
+          </div>
           <div className={styles.jumtim}>00:30</div>
 
           <div className="stopwatch">
@@ -88,7 +94,7 @@ export default function CalfStretchRight() {
               <MdArrowForwardIos />
             </Link>
           </div>
-          <h5>17 out of 17</h5>
+          <h5 className={styles.doneOutOfRemaining}>17 out of 17</h5>
         </div>
       </div>
     </div>
