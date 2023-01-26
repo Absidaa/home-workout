@@ -33,7 +33,7 @@ export default function SitUp() {
                 style={{ borderRadius: "20px" }}
                 alt="guy"
                 src={"/absad.jpeg"}
-                height={160}
+                height={170}
                 width={320}
                 className={styles.im11}
               />
@@ -41,7 +41,7 @@ export default function SitUp() {
             <div className={styles.abs7}>ABS ADVANCED</div>
 
             <Link href={"/"}>
-              <button className={styles.back7}>
+              <button className={styles.back9}>
                 <div>
                   <MdHomeFilled />
                 </div>
@@ -73,7 +73,7 @@ export default function SitUp() {
               <MdArrowForwardIos />
             </Link>
           </div>
-          <h5>2 out of 19</h5>
+          <h5 className={styles.doneOutOfRemaining}>2 out of 19</h5>
         </div>
       </div>
     </div>
