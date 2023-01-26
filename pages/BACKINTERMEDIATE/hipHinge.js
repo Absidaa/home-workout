@@ -28,13 +28,16 @@ export default function HipHinge() {
       <div className={styles.abdy}>
         <div className={styles.bbdy}>
           <div className={styles.absb}>
-            <Image
-              alt="guy"
-              src={"/backi.jpeg"}
-              height={150}
-              width={300}
-              className={styles.im11}
-            />
+            <div className={styles.phoneView}>
+              <Image
+                style={{ borderRadius: "20px" }}
+                alt="guy"
+                src={"/backi.jpeg"}
+                height={170}
+                width={320}
+                className={styles.im7}
+              />
+            </div>
             <div className={styles.abs3}>BACK INTERMEDIATE</div>
 
             <Link href={"/"}>
@@ -52,12 +55,14 @@ export default function HipHinge() {
           </div>
           <hr className={styles.vr} />
 
-          <Image
-            alt="guy with the greates image ever"
-            src={"/hipHingeGif.gif"}
-            height={200}
-            width={200}
-          />
+          <div className={styles.animation}>
+            <Image
+              alt="guy with the greates image ever"
+              src={"/hipHingeGif.gif"}
+              height={200}
+              width={200}
+            />
+          </div>
           <div className={styles.jumtim}>x10</div>
 
           <div className={styles.backWard}>
@@ -70,7 +75,7 @@ export default function HipHinge() {
               <MdArrowForwardIos />
             </Link>
           </div>
-          <h5>7 out of 12</h5>
+          <h5 className={styles.doneOutOfRemaining}>7 out of 12</h5>
         </div>
       </div>
     </div>
