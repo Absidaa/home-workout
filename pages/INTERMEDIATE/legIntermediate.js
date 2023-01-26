@@ -18,7 +18,7 @@ export default function LegInterMediate() {
               alt="guy"
               src={"/legin.jpeg"}
               height={170}
-              width={300}
+              width={305}
               className={styles.im11}
             />
           </div>
