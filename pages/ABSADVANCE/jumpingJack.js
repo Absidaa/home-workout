@@ -33,7 +33,7 @@ export default function JumpigJack() {
                 style={{ borderRadius: "20px" }}
                 alt="guy"
                 src={"/absad.jpeg"}
-                height={160}
+                height={170}
                 width={320}
                 className={styles.im11}
               />
@@ -41,7 +41,7 @@ export default function JumpigJack() {
             <div className={styles.abs7}>ABS ADVANCED</div>
 
             <Link href={"/ADVANCED/absAdvanced"}>
-              <button className={styles.back7}>
+              <button className={styles.back9}>
                 <div>←</div>
               </button>
             </Link>

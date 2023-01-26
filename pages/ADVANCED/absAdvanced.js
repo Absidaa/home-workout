@@ -19,8 +19,8 @@ export default function AbsAdvanced() {
                 style={{ borderRadius: "20px" }}
                 alt="guy"
                 src={"/absad.jpeg"}
-                height={160}
-                width={317}
+                height={170}
+                width={320}
                 className={styles.im11}
               />
             </div>

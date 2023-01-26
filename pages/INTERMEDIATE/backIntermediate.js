@@ -18,8 +18,8 @@ export default function BackInterMediate() {
               alt="guy"
               src={"/backi.jpeg"}
               height={170}
-              width={308}
-              className={styles.im11}
+              width={320}
+              className={styles.im7}
             />
           </div>
           <div className={styles.abs3}>BACK INTERMEDIATE</div>
