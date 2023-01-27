@@ -28,14 +28,16 @@ export default function DoorWayCurlRight() {
       <div className={styles.abdy}>
         <div className={styles.bbdy}>
           <div className={styles.absb}>
-            <Image
-              style={{ borderRadius: "20px" }}
-              alt="guy"
-              src={"/armad.jpeg"}
-              height={160}
-              width={300}
-              className={styles.im11}
-            />
+            <div className={styles.phoneView}>
+              <Image
+                style={{ borderRadius: "20px" }}
+                alt="guy"
+                src={"/armad.jpeg"}
+                height={170}
+                width={320}
+                className={styles.im11}
+              />
+            </div>
             <div className={styles.abs7}>ARM ADVANCED</div>
 
             <Link href={"/"}>
@@ -45,7 +47,7 @@ export default function DoorWayCurlRight() {
                 </div>
               </button>
             </Link>
-            <h4 className={styles.bgsetabs}>Door Way Curls Left</h4>
+            <h4 className={styles.bgsetabs}>Door Way Curls Right</h4>
             <hr className={styles.vrabsa} />
           </div>
           <div className={styles.worksb} class="card">
@@ -53,12 +55,14 @@ export default function DoorWayCurlRight() {
           </div>
           <hr className={styles.vr} />
 
-          <Image
-            alt="guy with the greates image ever"
-            src={"/doorwayCurlsRightGif.gif"}
-            height={200}
-            width={200}
-          />
+          <div className={styles.animation}>
+            <Image
+              alt="guy with the greates image ever"
+              src={"/doorwayCurlsRightGif.gif"}
+              height={200}
+              width={200}
+            />
+          </div>
           <div className={styles.jumtim}>x8</div>
 
           <div className={styles.backWard}>
@@ -71,7 +75,7 @@ export default function DoorWayCurlRight() {
               <MdArrowForwardIos />
             </Link>
           </div>
-          <h5>12 out of 18</h5>
+          <h5 className={styles.doneOutOfRemaining}>12 out of 18</h5>
         </div>
       </div>
     </div>
