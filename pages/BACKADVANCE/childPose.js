@@ -28,15 +28,17 @@ export default function ChildPose() {
       <div className={styles.abdy}>
         <div className={styles.bbdy}>
           <div className={styles.absb}>
-            <Image
-              style={{ borderRadius: "20px" }}
-              alt="guy"
-              src={"/bacad.jpeg"}
-              height={170}
-              width={300}
-              className={styles.im11}
-            />
-            <div className={styles.abs8}>BACK ADVANCED</div>
+            <div className={styles.phoneView}>
+              <Image
+                style={{ borderRadius: "20px" }}
+                alt="guy"
+                src={"/bacad.jpeg"}
+                height={170}
+                width={320}
+                className={styles.im11}
+              />
+            </div>
+            <div className={styles.abs10}>BACK ADVANCED</div>
 
             <Link href={"/"}>
               <button className={styles.back7}>
@@ -53,12 +55,15 @@ export default function ChildPose() {
           </div>
           <hr className={styles.vr} />
 
-          <Image
-            alt="guy with the greates image ever"
-            src={"/childPoseGif.gif"}
-            height={200}
-            width={200}
-          />
+          <div className={styles.animation}>
+            {" "}
+            <Image
+              alt="guy with the greates image ever"
+              src={"/childPoseGif.gif"}
+              height={200}
+              width={200}
+            />
+          </div>
           <div className={styles.jumtim}>x16</div>
 
           <div className={styles.backWard}>
@@ -71,7 +76,7 @@ export default function ChildPose() {
               <MdArrowForwardIos />
             </Link>
           </div>
-          <h5>10 out of 10</h5>
+          <h5 className={styles.doneOutOfRemaining}>10 out of 10</h5>
         </div>
       </div>
     </div>
