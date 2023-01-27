@@ -28,14 +28,16 @@ export default function PushUpRotation() {
       <div className={styles.abdy}>
         <div className={styles.bbdy}>
           <div className={styles.absb}>
-            <Image
-              style={{ borderRadius: "20px" }}
-              alt="guy"
-              src={"/chead.jpeg"}
-              height={170}
-              width={300}
-              className={styles.im11}
-            />
+            <div className={styles.phoneView}>
+              <Image
+                style={{ borderRadius: "20px" }}
+                alt="guy"
+                src={"/chead.jpeg"}
+                height={170}
+                width={320}
+                className={styles.im11}
+              />
+            </div>
             <div className={styles.abs8}>CHEST ADVANCED</div>
 
             <Link href={"/"}>
@@ -53,12 +55,14 @@ export default function PushUpRotation() {
           </div>
           <hr className={styles.vr} />
 
-          <Image
-            alt="guy with the greates image ever"
-            src={"/pushUpRotationGif.gif"}
-            height={200}
-            width={200}
-          />
+          <div className={styles.animation}>
+            <Image
+              alt="guy with the greates image ever"
+              src={"/pushUpRotationGif.gif"}
+              height={200}
+              width={200}
+            />
+          </div>
           <div className={styles.jumtim}>x12</div>
 
           <div className={styles.backWard}>
@@ -72,7 +76,7 @@ export default function PushUpRotation() {
               <MdArrowForwardIos />
             </Link>
           </div>
-          <h5>7 out of 13</h5>
+          <h5 className={styles.doneOutOfRemaining}>7 out of 13</h5>
         </div>
       </div>
     </div>
