@@ -33,7 +33,7 @@ export default function ChestInterStart() {
           </Group>
           <Group position="apart">
             <Link href={"/CHESTADVANCE/jumpingJack"}>
-              <Button style={{ left: "13vh" }}>
+              <Button className={styles.but}>
                 <Text size="lg">Thank you 😊</Text>
               </Button>
             </Link>
