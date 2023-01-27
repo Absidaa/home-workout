@@ -28,14 +28,16 @@ export default function Burpee() {
       <div className={styles.abdy}>
         <div className={styles.bbdy}>
           <div className={styles.absb}>
-            <Image
-              style={{ borderRadius: "20px" }}
-              alt="guy"
-              src={"/armad.jpeg"}
-              height={160}
-              width={300}
-              className={styles.im11}
-            />
+            <div className={styles.phoneView}>
+              <Image
+                style={{ borderRadius: "20px" }}
+                alt="guy"
+                src={"/armad.jpeg"}
+                height={170}
+                width={320}
+                className={styles.im11}
+              />
+            </div>
             <div className={styles.abs7}>ARM ADVANCED</div>
 
             <Link href={"/"}>
@@ -53,12 +55,14 @@ export default function Burpee() {
           </div>
           <hr className={styles.vr} />
 
-          <Image
-            alt="guy with the greates image ever"
-            src={"/burpeeGif.gif"}
-            height={200}
-            width={200}
-          />
+          <div className={styles.animation}>
+            <Image
+              alt="guy with the greates image ever"
+              src={"/burpeeGif.gif"}
+              height={200}
+              width={200}
+            />
+          </div>
           <div className={styles.jumtim}>x16</div>
 
           <div className={styles.backWard}>
@@ -71,7 +75,7 @@ export default function Burpee() {
               <MdArrowForwardIos />
             </Link>
           </div>
-          <h5>6 out of 18</h5>
+          <h5 className={styles.doneOutOfRemaining}>6 out of 18</h5>
         </div>
       </div>
     </div>
