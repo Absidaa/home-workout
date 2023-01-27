@@ -38,7 +38,7 @@ export default function LeftQuadStretch() {
                 className={styles.im11}
               />
             </div>
-            <div className={styles.abs7}>LEG ADVANCED</div>
+            <div className={styles.abs9}>LEG ADVANCED</div>
 
             <Link href={"/"}>
               <button className={styles.back7}>
