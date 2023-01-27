@@ -19,8 +19,8 @@ export default function LegAdvanced() {
                 style={{ borderRadius: "20px" }}
                 alt="guy"
                 src={"/lega.jpeg"}
-                height={150}
-                width={300}
+                height={170}
+                width={320}
                 className={styles.im11}
               />
             </div>

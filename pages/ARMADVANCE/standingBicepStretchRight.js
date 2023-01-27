@@ -33,8 +33,8 @@ export default function StandingBicepStretchRight() {
                 style={{ borderRadius: "20px" }}
                 alt="guy"
                 src={"/armad.jpeg"}
-                height={160}
-                width={300}
+                height={170}
+                width={320}
                 className={styles.im11}
               />
             </div>
