@@ -370,7 +370,7 @@
 }
 .abs {
   margin-top: -55px;
-  margin-bottom: 20px;
+  margin-bottom: -3px;
   margin-left: 90px;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 30px;
@@ -388,7 +388,7 @@
 }
 .abs3 {
   margin-top: -17px;
-  margin-bottom: 25px;
+  margin-bottom: 2px;
   margin-left: 14vh;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 24px;
@@ -442,7 +442,7 @@
 }
 .abs9 {
   margin-top: -17px;
-  margin-bottom: 20px;
+  margin-bottom: 14px;
   margin-left: 18vh;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 29px;
@@ -1617,7 +1617,7 @@
   }
   .abs {
     margin-top: -5px;
-    margin-bottom: 11vh;
+    margin-bottom: 5vh;
     margin-left: 14vh;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 35px;
@@ -1635,7 +1635,7 @@
   }
   .abs3 {
     margin-top: 39px;
-    margin-bottom: 80px;
+    margin-bottom: 60px;
     margin-left: 17.3vh;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 23px;

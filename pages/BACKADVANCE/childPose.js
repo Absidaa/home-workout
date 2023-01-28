@@ -56,7 +56,6 @@ export default function ChildPose() {
           <hr className={styles.vr} />
 
           <div className={styles.animation}>
-            {" "}
             <Image
               alt="guy with the greates image ever"
               src={"/childPoseGif.gif"}
@@ -72,10 +71,11 @@ export default function ChildPose() {
             </Link>
           </div>
           <div className={styles.forWard}>
-            <Link href={"/BACKADVANCE/"}>
+            <Link href={"/BACKADVANCE/congrats"}>
               <MdArrowForwardIos />
             </Link>
           </div>
+
           <h5 className={styles.doneOutOfRemaining}>10 out of 10</h5>
         </div>
       </div>
