@@ -38,7 +38,7 @@ export default function StandingBicepStretchRight() {
                 className={styles.im}
               />
             </div>
-            <div className={styles.abs4}>ARM INTERMEDIATE</div>
+            <div className={styles.armItermediate}>ARM INTERMEDIATE</div>
 
             <Link href={"/"}>
               <button className={styles.back7}>
@@ -89,7 +89,7 @@ export default function StandingBicepStretchRight() {
             </Link>
           </div>
           <div className={styles.forWard}>
-            <Link href={"/ARMINTERMEDIATE/"}>
+            <Link href={"/ARMINTERMEDIATE/congrats"}>
               <MdArrowForwardIos />
             </Link>
           </div>

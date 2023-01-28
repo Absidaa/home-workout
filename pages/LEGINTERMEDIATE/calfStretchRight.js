@@ -38,7 +38,7 @@ export default function CalfStretchRight() {
                 className={styles.im11}
               />
             </div>
-            <div className={styles.abs30}>LEG INTERMEDIATE</div>
+            <div className={styles.abs3}>LEG INTERMEDIATE</div>
 
             <Link href={"/"}>
               <button className={styles.back7}>
@@ -89,7 +89,7 @@ export default function CalfStretchRight() {
             </Link>
           </div>
           <div className={styles.forWard}>
-            <Link href={"/LEGINTERMEDIATE/"}>
+            <Link href={"/LEGINTERMEDIATE/congrats"}>
               <MdArrowForwardIos />
             </Link>
           </div>

@@ -56,7 +56,6 @@ export default function SpineTwistStretchRight() {
           <hr className={styles.vr} />
 
           <div className={styles.animation}>
-            {" "}
             <Image
               alt="guy with the greates image ever"
               src={"/rigt.jpeg"}
@@ -91,7 +90,7 @@ export default function SpineTwistStretchRight() {
             </Link>
           </div>
           <div className={styles.forWard}>
-            <Link href={"/ABSINTERMEDIATE/Cobra Stretch"}>
+            <Link href={"/ABSINTERMEDIATE/congrats"}>
               <MdArrowForwardIos />
             </Link>
           </div>

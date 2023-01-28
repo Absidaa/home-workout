@@ -89,7 +89,7 @@ export default function Cheststretch() {
             </Link>
           </div>
           <div className={styles.forWard}>
-            <Link href={"/CHESTINTERMEDIATE/"}>
+            <Link href={"/CHESTINTERMEDIATE/congrats"}>
               <MdArrowForwardIos />
             </Link>
           </div>

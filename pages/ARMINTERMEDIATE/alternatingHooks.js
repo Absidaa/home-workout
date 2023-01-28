@@ -38,7 +38,7 @@ export default function AlternatingHooks() {
                 className={styles.im}
               />
             </div>
-            <div className={styles.abs4}>ARM INTERMEDIATE</div>
+            <div className={styles.armItermediate}>ARM INTERMEDIATE</div>
 
             <Link href={"/"}>
               <button className={styles.back7}>

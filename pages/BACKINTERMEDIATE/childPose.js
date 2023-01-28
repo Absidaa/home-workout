@@ -90,7 +90,7 @@ export default function ChildPose() {
             </Link>
           </div>
           <div className={styles.forWard}>
-            <Link href={"/BACKINTERMEDIATE/"}>
+            <Link href={"/BACKINTERMEDIATE/congrats"}>
               <MdArrowForwardIos />
             </Link>
           </div>

@@ -15,13 +15,15 @@ export default function Congrats() {
                 <Image
                   style={{ borderRadius: "20px", marginLeft: "20px" }}
                   alt="guy"
-                  src={"/armad.jpeg"}
+                  src={"/cheinter.jpeg"}
                   height={175}
                   width={300}
                   className={styles.im11}
                 />
               </div>
-              <div className={styles.congrats}>ARM ADVANCED</div>
+              <div className={styles.backIntermediateCongrats}>
+                CHEST INTERMEDIATE
+              </div>
             </div>
             <div className={styles.worksb} class="card"></div>
             <hr className={styles.vr} style={{ marginTop: "13vh" }} />
@@ -41,7 +43,7 @@ export default function Congrats() {
               Some progress made today. 😊
             </p>
             <div className={styles.backWard}>
-              <Link href={"/ARMADVANCE/standingBicepStretchRight"}>
+              <Link href={"/CHESTINTERMEDIATE/chestStretch"}>
                 <MdArrowBackIosNew
                   style={{ marginLeft: "3vh", marginTop: "-10vh" }}
                 />

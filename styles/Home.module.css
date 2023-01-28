@@ -360,8 +360,8 @@
   font-weight: bolder;
 }
 .absInt {
-  margin-top: -55px;
-  margin-bottom: 5vh;
+  margin-top: -53px;
+  margin-bottom: 1vh;
   margin-left: 14vh;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 25px;
@@ -482,6 +482,22 @@
   margin-top: 40px;
   color: rgb(255, 189, 22);
   font-weight: bolder;
+}
+.backIntermediateCongrats {
+  font-size: 25px;
+  margin-left: 5vh;
+  margin-top: 40px;
+  color: rgb(255, 189, 22);
+  font-weight: bolder;
+}
+.armItermediate {
+  margin-top: -50px;
+  margin-bottom: 10px;
+  margin-left: 58px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(0, 116, 0);
 }
 .vrr {
   width: 65vh;
