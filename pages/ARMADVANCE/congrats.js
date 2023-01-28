@@ -15,22 +15,13 @@ export default function Congrats() {
                 <Image
                   style={{ borderRadius: "20px", marginLeft: "20px" }}
                   alt="guy"
-                  src={"/bacad.jpeg"}
+                  src={"/armad.jpeg"}
                   height={175}
                   width={300}
                   className={styles.im11}
                 />
               </div>
-              <div
-                className={styles.abs2}
-                style={{
-                  marginLeft: "58px",
-                  marginTop: "20px",
-                  fontSize: "28px",
-                }}
-              >
-                BACK ADVANCED
-              </div>
+              <div className={styles.congrats}>ARM ADVANCED</div>
             </div>
             <div className={styles.worksb} class="card"></div>
             <hr className={styles.vr} style={{ marginTop: "13vh" }} />
@@ -46,6 +37,9 @@ export default function Congrats() {
                 />
               </div>
             </div>
+            <p style={{ fontWeight: "bolder", fontFamily: "Roboto" }}>
+              Some progress made today. 😊
+            </p>
             <div className={styles.backWard}>
               <Link href={"/BACKADVANCE/standingBicepStretchRight"}>
                 <MdArrowBackIosNew

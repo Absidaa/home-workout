@@ -22,10 +22,10 @@ export default function Congrats() {
                 />
               </div>
               <div
-                className={styles.abs2}
+                className={styles.congrats}
                 style={{
-                  marginLeft: "58px",
-                  marginTop: "20px",
+                  marginLeft: "55px",
+                  marginTop: "35px",
                   fontSize: "28px",
                 }}
               >
@@ -46,6 +46,9 @@ export default function Congrats() {
                 />
               </div>
             </div>
+            <p style={{ fontWeight: "bolder", fontFamily: "Roboto" }}>
+              Some progress made today. 😊
+            </p>
             <div className={styles.backWard}>
               <Link href={"/BACKADVANCE/childPose"}>
                 <MdArrowBackIosNew

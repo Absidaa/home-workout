@@ -53,8 +53,17 @@ export default function CatCow() {
           <div className={styles.worksb} class="card">
             <h5 className={styles.time}>▼15 mins • 10 workouts</h5>
           </div>
+
           <hr className={styles.vr} />
-          <div className={styles.animation}></div>
+
+          <div className={styles.animation}>
+            <Image
+              alt="catCow Animation"
+              src={"/catCowGif.webp"}
+              height={200}
+              width={200}
+            />
+          </div>
           <div className={styles.jumtim}>00:30</div>
 
           <div className="stopwatch">

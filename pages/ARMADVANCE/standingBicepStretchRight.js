@@ -89,7 +89,7 @@ export default function StandingBicepStretchRight() {
             </Link>
           </div>
           <div className={styles.forWard}>
-            <Link href={"/ARMADVANCE/"}>
+            <Link href={"/ARMADVANCE/congrats"}>
               <MdArrowForwardIos />
             </Link>
           </div>
