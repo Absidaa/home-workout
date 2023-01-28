@@ -48,5 +48,6 @@
     width: 56.2vh;
     margin-top: -1vh;
     margin-left: -7px;
+    display: none;
   }
 }

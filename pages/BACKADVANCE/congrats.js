@@ -21,16 +21,7 @@ export default function Congrats() {
                   className={styles.im11}
                 />
               </div>
-              <div
-                className={styles.congrats}
-                style={{
-                  marginLeft: "55px",
-                  marginTop: "35px",
-                  fontSize: "28px",
-                }}
-              >
-                BACK ADVANCED
-              </div>
+              <div className={styles.congrats}>BACK ADVANCED</div>
             </div>
             <div className={styles.worksb} class="card"></div>
             <hr className={styles.vr} style={{ marginTop: "13vh" }} />
