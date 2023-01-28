@@ -89,6 +89,11 @@ export default function TwistStretchRight() {
               <MdArrowBackIosNew />
             </Link>
           </div>
+          <div className={styles.forWard}>
+            <Link href={"/ABSBEGINNERWORKOUT/congrats"}>
+              <MdArrowForwardIos />
+            </Link>
+          </div>
 
           <h5 className={styles.doneOutOfRemaining}>16 out of 16</h5>
         </div>

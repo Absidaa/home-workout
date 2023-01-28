@@ -34,7 +34,12 @@ export default function HinduPushUp() {
                 </div>
               </button>
             </Link>
-            <h4 className={styles.bgsetabs}>Hindu Push-Ups</h4>
+            <h4
+              className={styles.bgsetabs}
+              style={{ marginBottom: "1vh", marginTop: "-20px" }}
+            >
+              Hindu Push-Ups
+            </h4>
             <hr className={styles.vrabsb} />
           </div>
           <div className={styles.worksb} class="card">

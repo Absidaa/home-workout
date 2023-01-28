@@ -38,16 +38,24 @@ export default function CatCowPose() {
                 className={styles.im}
               />
             </div>
-            <div className={styles.che1}>BACK BEGINNER</div>
+            <div className={styles.backBeginner}>BACK BEGINNER</div>
 
             <Link href={"/"}>
-              <button className={styles.back9}>
+              <button
+                className={styles.back9}
+                style={{ marginBottom: "-39px", marginTop: "20px" }}
+              >
                 <div>
                   <MdHomeFilled />
                 </div>
               </button>
             </Link>
-            <h4 className={styles.bgsetabs}>Cat Cow Pose</h4>
+            <h4
+              className={styles.bgsetabs}
+              style={{ marginBottom: "4px", marginTop: "-10px" }}
+            >
+              Cat Cow Pose
+            </h4>
             <hr className={styles.vrabsb} />
           </div>
           <div className={styles.worksb} class="card">
@@ -56,7 +64,6 @@ export default function CatCowPose() {
           <hr className={styles.vr} />
 
           <div className={styles.animation}>
-            {" "}
             <Image
               alt="guy with the greates image ever"
               src={"/catCow.jpeg"}

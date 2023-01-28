@@ -38,16 +38,18 @@ export default function CalfStretchRight() {
                 className={styles.im}
               />
             </div>
-            <div className={styles.che0}>LEG BEGINNER</div>
+            <div className={styles.legBeginner}>LEG BEGINNER</div>
 
             <Link href={"/"}>
-              <button className={styles.back2}>
+              <button className={styles.back2} style={{ marginTop: "25px" }}>
                 <div>
                   <MdHomeFilled />
                 </div>
               </button>
             </Link>
-            <h4 className={styles.bgsetabs}>Calf Stretch Right</h4>
+            <h4 className={styles.bgsetabs} style={{ marginBottom: "4px" }}>
+              Calf Stretch Right
+            </h4>
             <hr className={styles.vrabsb} />
           </div>
           <div className={styles.worksb} class="card">
@@ -84,6 +86,11 @@ export default function CalfStretchRight() {
           <div className={styles.backWard}>
             <Link href={"/LEGBEGINNER/calfStretchLeft"}>
               <MdArrowBackIosNew />
+            </Link>
+          </div>
+          <div className={styles.forWard}>
+            <Link href={"/LEGBEGINNER/congrats"}>
+              <MdArrowForwardIos />
             </Link>
           </div>
 

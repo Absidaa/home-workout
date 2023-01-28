@@ -334,6 +334,24 @@
   margin-bottom: -2vh;
   word-spacing: 2.5px;
 }
+.backBeginner {
+  margin-top: -53px;
+  margin-bottom: -2vh;
+  margin-left: 14vh;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(0, 116, 0);
+}
+.legBeginner {
+  margin-top: -53px;
+  margin-bottom: -2vh;
+  margin-left: 14vh;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 35px;
+  font-weight: bold;
+  color: rgb(0, 116, 0);
+}
 
 .absb {
   margin-top: -15px;

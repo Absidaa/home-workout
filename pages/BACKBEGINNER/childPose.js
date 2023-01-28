@@ -38,16 +38,24 @@ export default function ChildPose() {
                 className={styles.im}
               />
             </div>
-            <div className={styles.che1}>BACK BEGINNER</div>
+            <div className={styles.backBeginner}>BACK BEGINNER</div>
 
             <Link href={"/"}>
-              <button className={styles.back9}>
+              <button
+                className={styles.back9}
+                style={{ marginBottom: "-39px", marginTop: "20px" }}
+              >
                 <div>
                   <MdHomeFilled />
                 </div>
               </button>
             </Link>
-            <h4 className={styles.bgsetabs}>Child&apos;s Pose</h4>
+            <h4
+              className={styles.bgsetabs}
+              style={{ marginBottom: "4px", marginTop: "-10px" }}
+            >
+              Child&apos;s Pose
+            </h4>
             <hr className={styles.vrabsb} />
           </div>
           <div className={styles.worksb} class="card">
@@ -86,6 +94,11 @@ export default function ChildPose() {
           <div className={styles.backWard}>
             <Link href={"/BACKBEGINNER/reclinedRhomboidSqueezes"}>
               <MdArrowBackIosNew />
+            </Link>
+          </div>
+          <div className={styles.forWard}>
+            <Link href={"/BACKBEGINNER/congrats"}>
+              <MdArrowForwardIos />
             </Link>
           </div>
 

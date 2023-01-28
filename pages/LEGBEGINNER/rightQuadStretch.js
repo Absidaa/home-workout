@@ -38,18 +38,20 @@ export default function RightQuadStretch() {
                 className={styles.im}
               />
             </div>
-            <div className={styles.che0} style={{ marginTop: "-55px" }}>
+            <div className={styles.legBeginner} style={{ marginTop: "-55px" }}>
               LEG BEGINNER
             </div>
 
             <Link href={"/"}>
-              <button className={styles.back2}>
+              <button className={styles.back2} style={{ marginTop: "25px" }}>
                 <div>
                   <MdHomeFilled />
                 </div>
               </button>
             </Link>
-            <h4 className={styles.bgsetabs}>Right Quad Stretch</h4>
+            <h4 className={styles.bgsetabs} style={{ marginBottom: "4px" }}>
+              Right Quad Stretch
+            </h4>
             <hr className={styles.vrabsb} />
           </div>
           <div className={styles.worksb} class="card">

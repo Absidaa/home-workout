@@ -48,7 +48,12 @@ export default function HestStretch() {
                 </div>
               </button>
             </Link>
-            <h4 className={styles.bgsetabs}>Chest Stretch</h4>
+            <h4
+              className={styles.bgsetabs}
+              style={{ marginBottom: "1vh", marginTop: "-20px" }}
+            >
+              Chest Stretch
+            </h4>
             <hr className={styles.vrabsb} />
           </div>
           <div className={styles.worksb} class="card">
@@ -87,6 +92,11 @@ export default function HestStretch() {
           <div className={styles.backWard}>
             <Link href={"/CHESTBEGINNER/cobraStretch"}>
               <MdArrowBackIosNew />
+            </Link>
+          </div>
+          <div className={styles.forWard}>
+            <Link href={"/CHESTBEGINNER/congrats"}>
+              <MdArrowForwardIos />
             </Link>
           </div>
 

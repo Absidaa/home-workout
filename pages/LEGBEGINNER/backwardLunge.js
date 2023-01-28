@@ -24,16 +24,18 @@ export default function BackWardLunge() {
                 className={styles.im}
               />
             </div>
-            <div className={styles.che0}>LEG BEGINNER</div>
+            <div className={styles.legBeginner}>LEG BEGINNER</div>
 
             <Link href={"/"}>
-              <button className={styles.back2}>
+              <button className={styles.back2} style={{ marginTop: "25px" }}>
                 <div>
                   <MdHomeFilled />
                 </div>
               </button>
             </Link>
-            <h4 className={styles.bgsetabs}>Backward Lunge</h4>
+            <h4 className={styles.bgsetabs} style={{ marginBottom: "4px" }}>
+              Backward Lunge
+            </h4>
             <hr className={styles.vrabsb} />
           </div>
           <div className={styles.worksb} class="card">

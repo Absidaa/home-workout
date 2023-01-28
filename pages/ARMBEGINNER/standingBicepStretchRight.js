@@ -3,7 +3,11 @@ import Image from "next/image";
 import { useState, useEffect } from "react";
 import styles from "../../styles/Home.module.css";
 import Link from "next/link";
-import { MdArrowBackIosNew, MdHomeFilled } from "react-icons/md";
+import {
+  MdArrowBackIosNew,
+  MdArrowForwardIos,
+  MdHomeFilled,
+} from "react-icons/md";
 
 export default function StandingBicepStretchLeft() {
   const [time, setTime] = useState(0);
@@ -43,7 +47,13 @@ export default function StandingBicepStretchLeft() {
                 </div>
               </button>
             </Link>
-            <h4 className={styles.bgsetabs}> Biceps Stretch Right</h4>
+            <h4
+              className={styles.bgsetabs}
+              style={{ marginBottom: "1vh", marginTop: "-20px" }}
+            >
+              {" "}
+              Biceps Stretch Right
+            </h4>
             <hr className={styles.vrabsb} />
           </div>
           <div className={styles.worksb} class="card">
@@ -81,6 +91,11 @@ export default function StandingBicepStretchLeft() {
           <div className={styles.backWard}>
             <Link href={"/ARMBEGINNER/standingBicepStretchLeft"}>
               <MdArrowBackIosNew />
+            </Link>
+          </div>
+          <div className={styles.forWard}>
+            <Link href={"/ARMBEGINNER/congrats"}>
+              <MdArrowForwardIos />
             </Link>
           </div>
 

@@ -38,16 +38,24 @@ export default function KneePushUp() {
                 className={styles.im}
               />
             </div>
-            <div className={styles.che1}>BACK BEGINNER</div>
+            <div className={styles.backBeginner}>BACK BEGINNER</div>
 
             <Link href={"/"}>
-              <button className={styles.back9}>
+              <button
+                className={styles.back9}
+                style={{ marginBottom: "-39px", marginTop: "20px" }}
+              >
                 <div>
                   <MdHomeFilled />
                 </div>
               </button>
             </Link>
-            <h4 className={styles.bgsetabs}>Knee Push-Ups</h4>
+            <h4
+              className={styles.bgsetabs}
+              style={{ marginBottom: "4px", marginTop: "-10px" }}
+            >
+              Knee Push-Ups
+            </h4>
             <hr className={styles.vrabsb} />
           </div>
           <div className={styles.worksb} class="card">
