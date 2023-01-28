@@ -88,7 +88,7 @@ export default function SpineTwisRight() {
             </Link>
           </div>
           <div className={styles.forWard}>
-            <Link href={"/ABSADVANCE/"}>
+            <Link href={"/ABSADVANCE/congrats"}>
               <MdArrowForwardIos />
             </Link>
           </div>

@@ -89,7 +89,7 @@ export default function CalfStretchRight() {
             </Link>
           </div>
           <div className={styles.forWard}>
-            <Link href={"/LEGADVANCE/"}>
+            <Link href={"/LEGADVANCE/congrats"}>
               <MdArrowForwardIos />
             </Link>
           </div>
