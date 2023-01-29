@@ -13,7 +13,7 @@ export default function Congrats() {
             <div className={styles.absb}>
               <div className={styles.phoneView}>
                 <Image
-                  style={{ borderRadius: "20px", marginLeft: "20px" }}
+                  style={{ borderRadius: "20px", marginLeft: "10px" }}
                   alt="guy"
                   src={"/bacad.jpeg"}
                   height={175}
