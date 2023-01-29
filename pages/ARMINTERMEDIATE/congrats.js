@@ -22,7 +22,7 @@ export default function Congrats() {
                 />
               </div>
               <div className={styles.backIntermediateCongrats}>
-                BACK INTERMEDIATE
+                ARM INTERMEDIATE
               </div>
             </div>
             <div className={styles.worksb} class="card"></div>
