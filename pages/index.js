@@ -232,13 +232,8 @@ export default function Home() {
             <div className={styles.backa}>BACK ADVANCED</div>
           </div>
         </main>
-        <div style={{ color: "rgb(110, 89, 89)" }}>
-          <div>gyuvdbhlasiào sahibò sazbiuJ</div>
-          sa
-          <div>
-            <p>ihjjjjjdcasionjxisdaok</p>
-          </div>
-        </div>
+
+        <div style={{ color: "rgb(110, 89, 89)" }}></div>
       </div>
     </>
   );
