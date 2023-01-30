@@ -2178,7 +2178,7 @@
     color: rgb(0, 116, 0);
   }
 }
-@media only screen and (min-device-width: 410px) and (max-device-width: 770px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+@media only screen and (min-device-width: 410px) and (max-device-width: 770px) {
   .main {
     display: flex;
     flex-direction: column;
@@ -2188,7 +2188,7 @@
     width: 30vh;
     border: none;
     background-color: hsl(60, 100%, 50%);
-    margin-left: 11%;
+    margin-left: 15%;
   }
   .bdy {
     width: 56.2vh;
@@ -2239,24 +2239,7 @@
     font-weight: bold;
     color: rgb(0, 116, 0);
   }
-  .absa {
-    margin-bottom: 16.7vh;
-    margin-top: -20vh;
-    color: white;
-    margin-left: 17vh;
-    font-size: 19px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bolder;
-  }
-  .absi {
-    margin-bottom: 16.7vh;
-    margin-top: -20vh;
-    color: white;
-    margin-left: 12vh;
-    font-size: 19px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bolder;
-  }
+
   .absInt {
     margin-top: -5px;
     margin-bottom: 12vh;
@@ -2267,10 +2250,10 @@
     color: rgb(0, 116, 0);
   }
   .absa {
-    margin-bottom: 16.7vh;
-    margin-top: -20vh;
+    margin-bottom: 13vh;
+    margin-top: -15vh;
     color: white;
-    margin-left: 17vh;
+    margin-left: 12.3vh;
     font-size: 19px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
@@ -2641,121 +2624,130 @@
   }
 
   .abbin {
-    margin-top: -20vh;
-    margin-bottom: 16.7vh;
-    margin-left: 18vh;
+    margin-top: -15vh;
+    margin-bottom: 13.1vh;
+    margin-left: 13vh;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 19px;
     font-weight: bolder;
   }
   .chest {
-    margin-top: -20vh;
-    margin-bottom: 16.7vh;
-    margin-left: 14.5vh;
+    margin-top: -15vh;
+    margin-bottom: 13vh;
+    margin-left: 10vh;
     color: white;
     font-size: 19px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
   }
   .armb {
-    margin-bottom: 16.7vh;
-    margin-top: -20vh;
+    margin-bottom: 13vh;
+    margin-top: -15vh;
     color: white;
-    margin-left: 18vh;
+    margin-left: 12vh;
     font-size: 19px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
   }
   .legb {
-    margin-bottom: 16.7vh;
-    margin-top: -20vh;
-    color: white;
-    margin-left: 18vh;
-    font-size: 19px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bolder;
-  }
-  .backb {
-    margin-bottom: 16.7vh;
-    margin-top: -20vh;
-    color: white;
-    margin-left: 16vh;
-    font-size: 19px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bolder;
-  }
-
-  .chesti {
-    margin-bottom: 16.7vh;
-    margin-top: -20vh;
-    color: white;
-    margin-left: 8vh;
-    font-size: 19px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bolder;
-  }
-  .armi {
-    margin-bottom: 16.7vh;
-    margin-top: -20vh;
-    color: white;
-    margin-left: 11vh;
-    font-size: 19px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bolder;
-  }
-  .legi {
-    margin-bottom: 16.7vh;
-    margin-top: -20vh;
-    color: white;
-    margin-left: 11vh;
-    font-size: 19px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bolder;
-  }
-  .backi {
-    margin-bottom: 16.7vh;
-    margin-top: -20vh;
-    color: white;
-    margin-left: 9vh;
-    font-size: 19px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bolder;
-  }
-
-  .chesta {
-    margin-bottom: 16.7vh;
-    margin-top: -20vh;
+    margin-bottom: 13vh;
+    margin-top: -15vh;
     color: white;
     margin-left: 13vh;
     font-size: 19px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
   }
-  .arma {
-    margin-bottom: 16.7vh;
-    margin-top: -20vh;
+  .backb {
+    margin-bottom: 16vh;
+    margin-top: -15vh;
     color: white;
-    margin-left: 16vh;
+    margin-left: 11vh;
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+  }
+  .absi {
+    margin-bottom: 13vh;
+    margin-top: -15vh;
+    color: white;
+    margin-left: 8vh;
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+  }
+
+  .chesti {
+    margin-bottom: 13vh;
+    margin-top: -15vh;
+    color: white;
+    margin-left: 5vh;
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+  }
+  .armi {
+    margin-bottom: 13vh;
+    margin-top: -15vh;
+    color: white;
+    margin-left: 8vh;
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+  }
+  .legi {
+    margin-bottom: 13vh;
+    margin-top: -15vh;
+    color: white;
+    margin-left: 8vh;
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+  }
+  .backi {
+    margin-bottom: 16vh;
+    margin-top: -15vh;
+    color: white;
+    margin-left: 6vh;
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+  }
+
+  .chesta {
+    margin-bottom: 13vh;
+    margin-top: -15vh;
+    color: white;
+    margin-left: 9vh;
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+  }
+  .arma {
+    margin-bottom: 13vh;
+    margin-top: -15vh;
+    color: white;
+    margin-left: 12vh;
     font-size: 19px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
   }
 
   .lega {
-    margin-bottom: 16.7vh;
-    margin-top: -20vh;
+    margin-bottom: 13vh;
+    margin-top: -15vh;
     color: white;
-    margin-left: 16vh;
+    margin-left: 11vh;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
   }
   .backa {
-    margin-bottom: 16.7vh;
-    margin-top: -20vh;
+    margin-bottom: 13vh;
+    margin-top: -15vh;
     color: white;
-    margin-left: 15.2vh;
+    margin-left: 10vh;
     font-size: 19px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
@@ -2798,7 +2790,7 @@
   }
 }
 
-@media only screen and (min-device-width: 380px) and (max-device-width: 409px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+@media only screen and (min-device-width: 380px) and (max-device-width: 409px) {
   .abdy {
     background-color: white;
     width: -10%;
@@ -2853,15 +2845,7 @@
     font-weight: bold;
     color: rgb(0, 116, 0);
   }
-  .absa {
-    margin-bottom: 13.5vh;
-    margin-top: -16vh;
-    color: white;
-    margin-left: 12vh;
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bolder;
-  }
+
   .abs {
     margin-top: -5px;
     margin-bottom: 5vh;
@@ -3268,8 +3252,749 @@
     font-weight: bold;
     color: rgb(0, 116, 0);
   }
+
+  .abbin {
+    margin-top: -15vh;
+    margin-bottom: 13.1vh;
+    margin-left: 13vh;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    font-weight: bolder;
+  }
+  .chest {
+    margin-top: -15vh;
+    margin-bottom: 13vh;
+    margin-left: 10vh;
+    color: white;
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+  }
+  .armb {
+    margin-bottom: 13vh;
+    margin-top: -15vh;
+    color: white;
+    margin-left: 12vh;
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+  }
+  .legb {
+    margin-bottom: 13vh;
+    margin-top: -15vh;
+    color: white;
+    margin-left: 13vh;
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+  }
+  .backb {
+    margin-bottom: 16vh;
+    margin-top: -15vh;
+    color: white;
+    margin-left: 11vh;
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+  }
+  .absi {
+    margin-bottom: 13vh;
+    margin-top: -15vh;
+    color: white;
+    margin-left: 8vh;
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+  }
+
+  .chesti {
+    margin-bottom: 13vh;
+    margin-top: -15vh;
+    color: white;
+    margin-left: 5vh;
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+  }
+  .armi {
+    margin-bottom: 13vh;
+    margin-top: -15vh;
+    color: white;
+    margin-left: 8vh;
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+  }
+  .legi {
+    margin-bottom: 13vh;
+    margin-top: -15vh;
+    color: white;
+    margin-left: 8vh;
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+  }
+  .backi {
+    margin-bottom: 16vh;
+    margin-top: -15vh;
+    color: white;
+    margin-left: 6vh;
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+  }
+
+  .chesta {
+    margin-bottom: 13vh;
+    margin-top: -15vh;
+    color: white;
+    margin-left: 9vh;
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+  }
+  .arma {
+    margin-bottom: 13vh;
+    margin-top: -15vh;
+    color: white;
+    margin-left: 12vh;
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+  }
+
+  .lega {
+    margin-bottom: 13vh;
+    margin-top: -15vh;
+    color: white;
+    margin-left: 11vh;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+  }
+  .backa {
+    margin-bottom: 13vh;
+    margin-top: -15vh;
+    color: white;
+    margin-left: 10vh;
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+  }
+  .absa {
+    margin-bottom: 14vh;
+    margin-top: -16vh;
+    color: white;
+    margin-left: 12vh;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+  }
 }
 
+@media only screen and (max-width: 360px) {
+  .abdy {
+    background-color: white;
+    width: -10%;
+    margin-top: -3px;
+  }
+  .bbdy {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    width: 52vh;
+    border: solid;
+    border-radius: 1px;
+    background-color: white;
+    margin-left: -1%;
+    margin-right: 10%;
+  }
+
+  .arm {
+    margin-top: -50px;
+    margin-bottom: 20px;
+    margin-left: 11vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    color: rgb(0, 116, 0);
+  }
+  .absa {
+    margin-bottom: 16.7vh;
+    margin-top: -20vh;
+    color: white;
+    margin-left: 17vh;
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+  }
+  .absi {
+    margin-bottom: 16.7vh;
+    margin-top: -20vh;
+    color: white;
+    margin-left: 12vh;
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+  }
+  .absInt {
+    margin-top: -5px;
+    margin-bottom: 12vh;
+    margin-left: 14vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    color: rgb(0, 116, 0);
+  }
+
+  .abs {
+    margin-top: -5px;
+    margin-bottom: 5vh;
+    margin-left: 14vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    color: rgb(0, 116, 0);
+  }
+  .abs2 {
+    margin-top: 38px;
+    margin-bottom: 70px;
+    margin-left: 16vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    color: rgb(0, 116, 0);
+  }
+  .abs3 {
+    margin-top: 39px;
+    margin-bottom: 60px;
+    margin-left: 17.3vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+    font-weight: bold;
+    color: rgb(0, 116, 0);
+  }
+  .abs4 {
+    margin-top: 25px;
+    margin-bottom: 65px;
+    margin-left: 17vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+    color: rgb(0, 116, 0);
+  }
+  .abs7 {
+    margin-top: 38px;
+    margin-bottom: 72px;
+    margin-left: 19vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(0, 116, 0);
+  }
+  .abs8 {
+    margin-top: 40px;
+    margin-bottom: 65px;
+    margin-left: 16vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(0, 116, 0);
+  }
+  .abs9 {
+    margin-top: 38px;
+    margin-bottom: 63px;
+    margin-left: 18.4vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    color: rgb(0, 116, 0);
+  }
+  .abs10 {
+    margin-top: -10vh;
+    margin-bottom: 15vh;
+    margin-left: 21.2vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(0, 116, 0);
+  }
+  .abs30 {
+    margin-top: 40px;
+    margin-bottom: 75px;
+    margin-left: 18.1vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(0, 116, 0);
+  }
+  .leg1 {
+    margin-top: 40px;
+    margin-bottom: 60px;
+    margin-left: 10vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 37px;
+    font-weight: bold;
+    color: rgb(0, 116, 0);
+  }
+  .back {
+    margin-left: 5vh;
+    margin-bottom: -10px;
+    margin-top: 8px;
+    font-size: 25px;
+  }
+  .bak1 {
+    margin-top: 35px;
+    margin-bottom: 60px;
+    margin-left: 10vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 33px;
+    font-weight: bolder;
+    color: rgb(0, 116, 0);
+  }
+  .back2 {
+    margin-top: -20px;
+    margin-bottom: 10px;
+    margin-left: 10vh;
+    font-size: 25px;
+  }
+  .back3 {
+    margin-top: 20px;
+    margin-bottom: -50px;
+    margin-left: -25vh;
+    font-size: 30px;
+  }
+  .back5 {
+    margin-left: 50px;
+    margin-bottom: -20px;
+    font-size: 30px;
+  }
+  .back6 {
+    margin-left: 80px;
+    margin-bottom: -30px;
+    margin-top: -30px;
+    font-size: 30px;
+  }
+  .back9 {
+    margin-left: 80px;
+    margin-bottom: 2px;
+    margin-top: -20px;
+    font-size: 30px;
+  }
+  .back8 {
+    margin-left: 80px;
+    margin-bottom: 2px;
+    margin-top: -20px;
+    font-size: 30px;
+  }
+  .back9 {
+    margin-left: 80px;
+    margin-bottom: 11px;
+    margin-top: -20px;
+    font-size: 30px;
+  }
+  .back10 {
+    margin-left: 80px;
+    margin-bottom: 20px;
+    margin-top: -20px;
+    font-size: 30px;
+  }
+  .back11 {
+    margin-left: 80px;
+    margin-bottom: 10px;
+    margin-top: -20px;
+    font-size: 30px;
+  }
+  .back12 {
+    margin-left: 80px;
+    margin-bottom: -1px;
+    margin-top: -10px;
+    font-size: 30px;
+  }
+  .bgset {
+    margin-top: -5vh;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20vh;
+    font-size: 150px;
+  }
+
+  .bgsetabs {
+    font-size: 20px;
+    margin-left: 25vh;
+    margin-bottom: 41px;
+    margin-top: -40px;
+  }
+  .bgsetabss {
+    font-size: 20px;
+    margin-top: -50px;
+    margin-left: 25vh;
+    margin-bottom: 20px;
+  }
+  .bgset2 {
+    font-size: 20px;
+    margin-top: -20px;
+  }
+  .bgset3 {
+    font-size: 20px;
+  }
+  .bgset4 {
+    font-size: 25px;
+  }
+  .bgset5 {
+    font-size: 25px;
+    margin-bottom: -15px;
+  }
+
+  .bgset6 {
+    font-size: 25px;
+  }
+  .bgset7 {
+    font-size: 25px;
+    margin-bottom: 25px;
+    margin-top: -40px;
+  }
+  .bgset8 {
+    font-size: 25px;
+    margin-bottom: 25px;
+    margin-top: -40px;
+  }
+  .bgset10 {
+    font-size: 25px;
+    margin-bottom: 25px;
+    margin-top: -40px;
+  }
+  .bgset11 {
+    font-size: 25px;
+    margin-bottom: -22px;
+    margin-top: -40px;
+  }
+  .bgset12 {
+    font-size: 25px;
+    margin-bottom: -40px;
+    margin-top: -10px;
+  }
+  .bgset13 {
+    font-size: 25px;
+    margin-bottom: -20px;
+    margin-top: -30px;
+  }
+
+  .time {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: -20vh;
+    margin-top: 17vh;
+  }
+  .time3 {
+    font-size: 20px;
+    margin-top: 1vh;
+    margin-bottom: 13vh;
+    margin-left: -22vh;
+  }
+
+  .time4 {
+    margin-left: -25vh;
+    font-size: 20px;
+  }
+  .vr {
+    width: 60vh;
+    margin-left: -40px;
+    font-weight: bolder;
+    margin-top: -10px;
+  }
+
+  .vrs {
+    width: 60vh;
+    margin-left: -40px;
+    font-weight: bolder;
+    margin-top: 18px;
+  }
+
+  .vrabsb {
+    width: 64vh;
+    margin-left: 15px;
+    font-weight: bolder;
+    margin-top: -6px;
+  }
+  .sec {
+    margin-left: 11vh;
+    color: gray;
+    font-size: 30px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .x {
+    margin-left: 7vh;
+    color: gray;
+    font-size: 30px;
+
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .bgset {
+    margin-top: -2vh;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .che0 {
+    margin-top: -10px;
+    margin-bottom: 70px;
+    margin-left: 7.5rem;
+  }
+  .che1 {
+    margin-top: -2px;
+    margin-left: 17vh;
+    margin-bottom: 70px;
+    font-size: 30px;
+  }
+  .jjak {
+    margin-left: 26vh;
+
+    font-weight: bold;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .barm {
+    margin-left: 20vh;
+    font-size: 23px;
+  }
+  .bpun {
+    margin-left: 15vh;
+    font-size: 25px;
+  }
+  .bups {
+    margin-left: 16vh;
+    font-size: 25px;
+  }
+  .binch {
+    margin-left: 20vh;
+    font-size: 25px;
+  }
+  .bwal {
+    margin-left: 25vh;
+    font-size: 25px;
+  }
+
+  .btwist {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+  }
+  .htoch {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+  }
+  .bplk {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 18vh;
+    margin-left: 12vh;
+    font-weight: bold;
+  }
+  .bleg {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20vh;
+    font-weight: bold;
+  }
+  .btn {
+    font-size: 30px;
+    height: 60px;
+  }
+  .but {
+    margin-left: 12px;
+    margin-right: 10px;
+  }
+  .bbdy {
+    min-height: 123.5vh;
+    width: 52vh;
+    border: none;
+  }
+
+  .home {
+    font-size: 27.8px;
+  }
+  .animation {
+    margin-top: 15vh;
+  }
+  .doneOutOfRemaining {
+    font-size: 20px;
+  }
+  .jumtim {
+    font-size: 26px;
+  }
+  .congrats {
+    font-size: 35px;
+    margin-left: 3vh;
+    margin-top: 15vh;
+    color: rgb(255, 189, 22);
+    font-weight: bolder;
+  }
+
+  .phoneView {
+    margin-left: 25px;
+    margin-top: 14px;
+    margin-bottom: 75px;
+  }
+  .backIntermediateCongrats {
+    font-size: 30px;
+    margin-left: 4vh;
+    margin-top: 15vh;
+    color: rgb(255, 189, 22);
+    font-weight: bolder;
+  }
+  .armItermediate {
+    margin-top: -90px;
+    margin-bottom: 90px;
+    margin-left: 15vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(0, 116, 0);
+  }
+
+  .abbin {
+    margin-top: -18vh;
+    margin-bottom: 16vh;
+    margin-left: 15vh;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    font-weight: bolder;
+  }
+  .chest {
+    margin-top: -18vh;
+    margin-bottom: 16vh;
+    margin-left: 12vh;
+    color: white;
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+  }
+  .armb {
+    margin-bottom: 16vh;
+    margin-top: -18vh;
+    color: white;
+    margin-left: 15vh;
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+  }
+  .legb {
+    margin-bottom: 17vh;
+    margin-top: -18vh;
+    color: white;
+    margin-left: 16vh;
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+  }
+  .backb {
+    margin-bottom: 16vh;
+    margin-top: -17vh;
+    color: white;
+    margin-left: 14vh;
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+  }
+  .absi {
+    margin-bottom: 16vh;
+    margin-top: -18vh;
+    color: white;
+    margin-left: 10vh;
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+  }
+
+  .chesti {
+    margin-bottom: 16vh;
+    margin-top: -18vh;
+    color: white;
+    margin-left: 7vh;
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+  }
+  .armi {
+    margin-bottom: 16vh;
+    margin-top: -18vh;
+    color: white;
+    margin-left: 10vh;
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+  }
+  .legi {
+    margin-bottom: 16vh;
+    margin-top: -18vh;
+    color: white;
+    margin-left: 10vh;
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+  }
+  .backi {
+    margin-bottom: 19vh;
+    margin-top: -18vh;
+    color: white;
+    margin-left: 8vh;
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+  }
+
+  .absa {
+    margin-bottom: 16vh;
+    margin-top: -18vh;
+    color: white;
+    margin-left: 13vh;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+  }
+  .chesta {
+    margin-bottom: 16vh;
+    margin-top: -18vh;
+    color: white;
+    margin-left: 10vh;
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+  }
+  .arma {
+    margin-bottom: 16vh;
+    margin-top: -18vh;
+    color: white;
+    margin-left: 13vh;
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+  }
+
+  .lega {
+    margin-bottom: 16vh;
+    margin-top: -18vh;
+    color: white;
+    margin-left: 13vh;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+  }
+  .backa {
+    margin-bottom: 16vh;
+    margin-top: -18vh;
+    color: white;
+    margin-left: 12vh;
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+  }
+}
 /* Landscape */
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
 }
