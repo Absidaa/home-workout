@@ -2226,14 +2226,14 @@
   }
 
   .phoneView {
-    margin-left: 20px;
+    margin-left: 11vh;
     margin-top: 14px;
     margin-bottom: 75px;
   }
   .arm {
-    margin-top: -50px;
-    margin-bottom: 20px;
-    margin-left: 11vh;
+    margin-top: -14vh;
+    margin-bottom: 16vh;
+    margin-left: 16.5vh;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 35px;
     font-weight: bold;
@@ -2259,9 +2259,9 @@
     font-weight: bolder;
   }
   .abs {
-    margin-top: -5px;
-    margin-bottom: 5vh;
-    margin-left: 14vh;
+    margin-top: -14vh;
+    margin-bottom: 15vh;
+    margin-left: 19vh;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 35px;
     font-weight: bold;
@@ -2277,11 +2277,11 @@
     color: rgb(0, 116, 0);
   }
   .abs3 {
-    margin-top: 39px;
-    margin-bottom: 60px;
-    margin-left: 17.3vh;
+    margin-top: -10vh;
+    margin-bottom: 17vh;
+    margin-left: 19.1vh;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 23px;
+    font-size: 27px;
     font-weight: bold;
     color: rgb(0, 116, 0);
   }
@@ -2331,18 +2331,18 @@
     color: rgb(0, 116, 0);
   }
   .abs30 {
-    margin-top: 40px;
-    margin-bottom: 75px;
-    margin-left: 18.1vh;
+    margin-top: -10vh;
+    margin-bottom: 18vh;
+    margin-left: 19.3vh;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 25px;
+    font-size: 27px;
     font-weight: bold;
     color: rgb(0, 116, 0);
   }
   .leg1 {
-    margin-top: 40px;
-    margin-bottom: 60px;
-    margin-left: 10vh;
+    margin-top: -10.7vh;
+    margin-bottom: 15vh;
+    margin-left: 16vh;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 37px;
     font-weight: bold;
@@ -2355,17 +2355,17 @@
     font-size: 25px;
   }
   .bak1 {
-    margin-top: 35px;
-    margin-bottom: 60px;
-    margin-left: 10vh;
+    margin-top: -10vh;
+    margin-bottom: 17vh;
+    margin-left: 16vh;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 33px;
     font-weight: bolder;
     color: rgb(0, 116, 0);
   }
   .back2 {
-    margin-top: -20px;
-    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-bottom: 30px;
     margin-left: 10vh;
     font-size: 25px;
   }
@@ -2373,6 +2373,12 @@
     margin-top: 20px;
     margin-bottom: -50px;
     margin-left: -25vh;
+    font-size: 30px;
+  }
+  .back4 {
+    margin-top: 2px;
+    margin-bottom: -5px;
+    margin-left: 8.4vh;
     font-size: 30px;
   }
   .back5 {
@@ -2432,8 +2438,8 @@
   .bgsetabs {
     font-size: 20px;
     margin-left: 25vh;
-    margin-bottom: 41px;
-    margin-top: -40px;
+    margin-bottom: -3vh;
+    margin-top: -4vh;
   }
   .bgsetabss {
     font-size: 20px;
@@ -2547,15 +2553,20 @@
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
   }
+  .che {
+    margin-top: -5vh;
+    margin-bottom: 12vh;
+    margin-left: 0.6rem;
+  }
   .che0 {
     margin-top: -10px;
     margin-bottom: 70px;
     margin-left: 7.5rem;
   }
   .che1 {
-    margin-top: -2px;
-    margin-left: 17vh;
-    margin-bottom: 70px;
+    margin-top: -14vh;
+    margin-left: 19.5vh;
+    margin-bottom: 17vh;
     font-size: 30px;
   }
   .jjak {
@@ -2787,6 +2798,16 @@
     font-size: 30px;
     font-weight: bold;
     color: rgb(0, 116, 0);
+  }
+  .legBeginner {
+    margin-top: -14vh;
+    margin-bottom: 13vh;
+    margin-left: 20vh;
+  }
+  .backBeginner {
+    margin-top: -14vh;
+    margin-bottom: 13vh;
+    margin-left: 20vh;
   }
 }
 

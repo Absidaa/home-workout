@@ -54,12 +54,14 @@ export default function ArmRaises() {
           </div>
           <hr className={styles.vr} />
 
-          <Image
-            alt="guy with the greates image ever"
-            src={"/armraises.webp"}
-            height={200}
-            width={200}
-          />
+          <div className={styles.animation}>
+            <Image
+              alt="guy with the greates image ever"
+              src={"/armraises.webp"}
+              height={200}
+              width={200}
+            />
+          </div>
           <div className={styles.jumtim}>00:30</div>
 
           <div className="stopwatch">
