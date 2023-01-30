@@ -2241,9 +2241,9 @@
   }
 
   .absInt {
-    margin-top: -5px;
-    margin-bottom: 12vh;
-    margin-left: 14vh;
+    margin-top: -14.5vh;
+    margin-bottom: 19vh;
+    margin-left: 19vh;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 28px;
     font-weight: bold;
@@ -2268,9 +2268,9 @@
     color: rgb(0, 116, 0);
   }
   .abs2 {
-    margin-top: 38px;
-    margin-bottom: 70px;
-    margin-left: 16vh;
+    margin-top: -10vh;
+    margin-bottom: 18vh;
+    margin-left: 24vh;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 28px;
     font-weight: bold;
@@ -2279,16 +2279,16 @@
   .abs3 {
     margin-top: -10vh;
     margin-bottom: 17vh;
-    margin-left: 19.1vh;
+    margin-left: 18.9vh;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 27px;
     font-weight: bold;
     color: rgb(0, 116, 0);
   }
   .abs4 {
-    margin-top: 25px;
-    margin-bottom: 65px;
-    margin-left: 17vh;
+    margin-top: -14vh;
+    margin-bottom: 15vh;
+    margin-left: 20vh;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 26px;
     font-weight: bold;
@@ -2332,8 +2332,8 @@
   }
   .abs30 {
     margin-top: -10vh;
-    margin-bottom: 18vh;
-    margin-left: 19.3vh;
+    margin-bottom: 15vh;
+    margin-left: 23.3vh;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 27px;
     font-weight: bold;
@@ -2387,9 +2387,15 @@
     font-size: 30px;
   }
   .back6 {
-    margin-left: 80px;
+    margin-left: 13vh;
     margin-bottom: -30px;
     margin-top: -30px;
+    font-size: 30px;
+  }
+  .back7 {
+    margin-left: 13vh;
+    margin-bottom: -6vh;
+    margin-top: -3vh;
     font-size: 30px;
   }
   .back9 {
@@ -2532,7 +2538,7 @@
     width: 64vh;
     margin-left: 15px;
     font-weight: bolder;
-    margin-top: -6px;
+    margin-top: 6vh;
   }
   .sec {
     margin-left: 11vh;
@@ -2791,9 +2797,9 @@
     font-weight: bolder;
   }
   .armItermediate {
-    margin-top: 10px;
-    margin-bottom: 65px;
-    margin-left: 70px;
+    margin-top: -13vh;
+    margin-bottom: 18.4vh;
+    margin-left: 20vh;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
     font-weight: bold;

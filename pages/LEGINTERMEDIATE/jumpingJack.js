@@ -38,7 +38,7 @@ export default function JumpingJack() {
                 className={styles.im11}
               />
             </div>
-            <div className={styles.abs3}>LEG INTERMEDIATE</div>
+            <div className={styles.abs30}>LEG INTERMEDIATE</div>
 
             <Link href={"/"}>
               <button className={styles.back7}>
