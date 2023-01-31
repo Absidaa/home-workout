@@ -24,7 +24,7 @@ export default function AbsBeginner() {
                 className={styles.im}
               />
             </div>
-            <div className={styes.abs}>ABS BEGINNER</div>
+            <div className={styles.abs}>ABS BEGINNER</div>
 
             <Link href={"/"}>
               <button className={styles.back2}>

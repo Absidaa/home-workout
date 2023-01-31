@@ -27,18 +27,13 @@ export default function AbdominalCrunches() {
             <div className={styles.abs}>ABS BEGINNER</div>
 
             <Link href={"/"}>
-              <button className={styles.back2} style={{ marginTop: "-5vh" }}>
+              <button className={styles.back2}>
                 <div>
                   <MdHomeFilled />
                 </div>
               </button>
             </Link>
-            <h4
-              className={styles.bgsetabs}
-              style={{ marginBottom: "8px", marginTop: "-20px" }}
-            >
-              Abdominal Crunches
-            </h4>
+            <h4 className={styles.bgsetabs}>Abdominal Crunches</h4>
             <hr className={styles.vrabsb} />
           </div>
           <div className={styles.worksb} class="card">
