@@ -103,7 +103,7 @@
   }
 }
 
-@media only screen and (min-device-width: 395px) and (max-device-width: 420px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+@media only screen and (max-device-width: 415px) {
   .navbar {
     width: 56.2vh;
     margin-top: -1vh;
