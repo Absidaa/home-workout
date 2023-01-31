@@ -40,11 +40,9 @@ export default function ArmCircleClockWise() {
             </div>
             <div className={styles.abs7}>ARM ADVANCED</div>
 
-            <Link href={"/"}>
+            <Link href={"/ADVANCED/armAdvanced"}>
               <button className={styles.back7}>
-                <div>
-                  <MdHomeFilled />
-                </div>
+                <div>←</div>
               </button>
             </Link>
             <h4 className={styles.bgsetabs}>Arm Circles Clockwise</h4>

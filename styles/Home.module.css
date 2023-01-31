@@ -2295,27 +2295,27 @@
     color: rgb(0, 116, 0);
   }
   .abs7 {
-    margin-top: 38px;
-    margin-bottom: 72px;
-    margin-left: 19vh;
+    margin-top: -10vh;
+    margin-bottom: 18vh;
+    margin-left: 26vh;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
     font-weight: bold;
     color: rgb(0, 116, 0);
   }
   .abs8 {
-    margin-top: 40px;
-    margin-bottom: 65px;
-    margin-left: 16vh;
+    margin-top: -10.5vh;
+    margin-bottom: 18vh;
+    margin-left: 23.3vh;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
     font-weight: bold;
     color: rgb(0, 116, 0);
   }
   .abs9 {
-    margin-top: 38px;
-    margin-bottom: 63px;
-    margin-left: 18.4vh;
+    margin-top: -10vh;
+    margin-bottom: 15vh;
+    margin-left: 24.5vh;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 32px;
     font-weight: bold;
@@ -2324,7 +2324,7 @@
   .abs10 {
     margin-top: -10vh;
     margin-bottom: 15vh;
-    margin-left: 21.2vh;
+    margin-left: 21.9vh;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
     font-weight: bold;
@@ -2398,12 +2398,7 @@
     margin-top: -3vh;
     font-size: 30px;
   }
-  .back9 {
-    margin-left: 80px;
-    margin-bottom: 2px;
-    margin-top: -20px;
-    font-size: 30px;
-  }
+
   .back8 {
     margin-left: 80px;
     margin-bottom: 2px;
@@ -2411,13 +2406,13 @@
     font-size: 30px;
   }
   .back9 {
-    margin-left: 80px;
-    margin-bottom: 11px;
-    margin-top: -20px;
+    margin-left: 14vh;
+    margin-bottom: 15px;
+    margin-top: -20vh;
     font-size: 30px;
   }
   .back10 {
-    margin-left: 80px;
+    margin-left: 14vh;
     margin-bottom: 20px;
     margin-top: -20px;
     font-size: 30px;
