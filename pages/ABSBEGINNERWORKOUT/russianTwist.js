@@ -15,7 +15,6 @@ export default function RussianTwist() {
         <div className={styles.bbdy}>
           <div className={styles.absb}>
             <div className={styles.phoneView}>
-              {" "}
               <Image
                 style={{ borderRadius: "20px" }}
                 alt="guy"
@@ -25,20 +24,28 @@ export default function RussianTwist() {
                 className={styles.im}
               />
             </div>
-            <div className={styles.abs}>ABS BEGINNER</div>
+            <div className={styles.absBeginnerWorkoutDemonstration}>
+              ABS BEGINNER
+            </div>
 
             <Link href={"/"}>
-              <button className={styles.back2}>
+              <button
+                className={styles.absBeginnerWorkOutDemonstrationBackButton}
+              >
                 <div>
                   <MdHomeFilled />
                 </div>
               </button>
             </Link>
-            <h4 className={styles.bgsetabs}>Russian Twist</h4>
-            <hr className={styles.vrabsb} />
+            <h4 className={styles.absBeginnerWorkOutName}>Russian Twist</h4>
+            <hr
+              className={styles.absBeginnerWorkOutDemonstrationHorizontalLine}
+            />
           </div>
           <div className={styles.worksb} class="card">
-            <h5 className={styles.time}>▼20 mins• 16 workouts</h5>
+            <h5 className={styles.absBeginnerWorkOutDemonstrationTime}>
+              ▼20 mins • 16 workouts
+            </h5>
           </div>
           <hr className={styles.vr} />
 

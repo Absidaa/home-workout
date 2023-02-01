@@ -21,9 +21,7 @@ export default function Congrats() {
                   className={styles.im11}
                 />
               </div>
-              <div className={styles.backIntermediateCongrats}>
-                ABS BEGINNER
-              </div>
+              <div className={styles.absBeginnerCongrats}>ABS BEGINNER</div>
             </div>
             <div className={styles.worksb} class="card"></div>
             <hr className={styles.vr} style={{ marginTop: "13vh" }} />
@@ -51,7 +49,7 @@ export default function Congrats() {
             </div>
             <Link href={"/"}>
               <button
-                className={styles.back7}
+                className={styles.absBeginnerCongratsHomeButton}
                 style={{ marginLeft: "3vh", marginTop: "-10vh" }}
               >
                 <div>
