@@ -21,15 +21,17 @@ export default function ChestBeginner() {
             width={320}
             className={styles.im3}
           />
-          <div className={styles.che}>CHEST BEGINNER</div>
+          <div className={styles.chestBeginnerLayOut}>CHEST BEGINNER</div>
 
           <Link href={"/"}>
-            <button className={styles.back3}>←</button>
+            <button className={styles.chestBeginnerBackButton}>←</button>
           </Link>
-          <h4 className={styles.bgset2}>Set of Workouts</h4>
-          <hr className={styles.vr} />
+          <h4 className={styles.chestBeginnerSetOfWorkOut}>Set of Workouts</h4>
+          <hr className={styles.chestBeginnerHorizontalLine} />
           <div className={styles.worksb} class="card">
-            <h5 className={styles.time3}>▼11 mins• 11 workouts</h5>
+            <h5 className={styles.chestBeginnerWorkOutTime}>
+              ▼11 mins • 11 workouts
+            </h5>
           </div>
           <hr className={styles.vrche} style={{ marginTop: "-75px" }} />
 
