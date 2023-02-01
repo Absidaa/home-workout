@@ -35,21 +35,23 @@ export default function SideHop() {
                 src={"/leg.jpeg"}
                 height={170}
                 width={320}
-                className={styles.im}
+                className={styles.legBeginnerWorkOutImage}
               />
             </div>
-            <div className={styles.legBeginner}>LEG BEGINNER</div>
+            <div className={styles.legBeginnerWorkOut}>LEG BEGINNER</div>
 
             <Link href={"/BEGINNER/legBeginner"}>
-              <button className={styles.back2}>
+              <button className={styles.legBeginnerWorkOutBackButton}>
                 <div>←</div>
               </button>
             </Link>
-            <h4 className={styles.bgsetabs}>Side Hop</h4>
-            <hr className={styles.vrabsb} />
+            <h4 className={styles.legBeginnerWorkOutName}>Side Hop</h4>
+            <hr className={styles.legBeginnerWorkOutHorizontalLine} />
           </div>
           <div className={styles.worksb} class="card">
-            <h5 className={styles.time}>▼15 mins • 13 workouts</h5>
+            <h5 className={styles.legBeginnerWorkOutTime}>
+              ▼15 mins • 13 workouts
+            </h5>
           </div>
           <hr className={styles.vr} />
 

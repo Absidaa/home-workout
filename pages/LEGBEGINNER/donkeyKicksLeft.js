@@ -21,23 +21,25 @@ export default function DonkeyKickLeft() {
                 src={"/leg.jpeg"}
                 height={170}
                 width={320}
-                className={styles.im}
+                className={styles.legBeginnerWorkOutImage}
               />
             </div>
-            <div className={styles.legBeginner}>LEG BEGINNER</div>
+            <div className={styles.legBeginnerWorkOut}>LEG BEGINNER</div>
 
             <Link href={"/"}>
-              <button className={styles.back2}>
+              <button className={styles.legBeginnerWorkOutBackButton}>
                 <div>
                   <MdHomeFilled />
                 </div>
               </button>
             </Link>
-            <h4 className={styles.bgsetabs}>Donkey Kicks Left</h4>
-            <hr className={styles.vrabsb} />
+            <h4 className={styles.legBeginnerWorkOutName}>Donkey Kicks Left</h4>
+            <hr className={styles.legBeginnerWorkOutHorizontalLine} />
           </div>
           <div className={styles.worksb} class="card">
-            <h5 className={styles.time}>▼15 mins • 13 workouts</h5>
+            <h5 className={styles.legBeginnerWorkOutTime}>
+              ▼15 mins • 13 workouts
+            </h5>
           </div>
           <hr className={styles.vr} />
 

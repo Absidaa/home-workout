@@ -510,7 +510,7 @@
   background-color: rgb(5, 58, 88);
   border-radius: 25px;
   border-color: white;
-  margin-left: 60px;
+  margin-left: 20px;
 }
 .armBeginnerLayOutImage {
   margin-left: 26px;
@@ -598,7 +598,96 @@
   background-color: rgb(5, 58, 88);
   border-radius: 25px;
   border-color: white;
+  margin-left: 20px;
+}
+.legBeginnerLayOutImage {
+  margin-left: 23px;
+  margin-bottom: 40px;
+}
+.legBeginnerLayOut {
+  margin-top: -8.5vh;
+  margin-bottom: 9vh;
+  color: rgb(0, 116, 0);
+  margin-left: 8.5vh;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 35px;
+  font-weight: bold;
+}
+.legBeginnerBackButton {
+  color: white;
+  background-color: rgb(5, 58, 88);
+  border-radius: 25px;
+  border-color: white;
+  margin-left: 20px;
+}
+.legBeginnerSetOfWorkOut {
+  margin-top: -3vh;
+  margin-left: 20vh;
+  margin-bottom: -1.7vh;
+}
+.legBeginnerLayOutHorizontalLine {
+  margin-top: 1.8vh;
+  margin-bottom: 2vh;
+  width: 64vh;
+  margin-left: -2vh;
+}
+.legBeginnerLayOutTime {
+  margin-left: -28vh;
+  margin-top: 16.5vh;
+  margin-bottom: 3vh;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.legBeginnerWorkOutImage {
+  margin-left: 56px;
+  margin-bottom: 40px;
+}
+.legBeginnerWorkOut {
+  margin-top: -8.5vh;
+  margin-bottom: 9vh;
+  color: rgb(0, 116, 0);
+  margin-left: 13.5vh;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 35px;
+  font-weight: bold;
+}
+.legBeginnerWorkOutBackButton {
+  color: white;
+  background-color: rgb(5, 58, 88);
+  border-radius: 25px;
+  border-color: white;
   margin-left: 60px;
+}
+.legBeginnerWorkOutName {
+  margin-top: -3vh;
+  margin-left: 25vh;
+  margin-bottom: -1.7vh;
+}
+.legBeginnerWorkOutHorizontalLine {
+  margin-top: 1.8vh;
+  margin-bottom: 2vh;
+  width: 64vh;
+  margin-left: 3vh;
+}
+.legBeginnerWorkOutTime {
+  margin-left: -28vh;
+  margin-top: 16.5vh;
+  margin-bottom: 3vh;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.legbeginnerCongrats {
+  font-size: 33px;
+  margin-left: 5.4vh;
+  margin-top: 8px;
+  color: rgb(255, 189, 22);
+  font-weight: bolder;
+}
+.legBeginnerCongratsHomeButton {
+  color: white;
+  background-color: rgb(5, 58, 88);
+  border-radius: 25px;
+  border-color: white;
+  margin-left: 20px;
+  margin-top: -10px;
 }
 .absb {
   margin-top: -15px;

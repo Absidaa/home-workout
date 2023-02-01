@@ -22,21 +22,23 @@ export default function LegBeginner() {
                 src={"/leg.jpeg"}
                 height={170}
                 width={320}
-                className={styles.im4}
+                className={styles.legBeginnerLayOutImage}
               />
             </div>
-            <div className={styles.leg1}>LEG BEGINNER</div>
+            <div className={styles.legBeginnerLayOut}>LEG BEGINNER</div>
 
             <Link href={"/"}>
-              <button className={styles.back4}>
+              <button className={styles.legBeginnerBackButton}>
                 <div>←</div>
               </button>
             </Link>
-            <h4 className={styles.bgset3}>Set of Workouts</h4>
-            <hr className={styles.vrl} />
+            <h4 className={styles.legBeginnerSetOfWorkOut}>Set of Workouts</h4>
+            <hr className={styles.legBeginnerLayOutHorizontalLine} />
           </div>
           <div className={styles.worksb} class="card">
-            <h5 className={styles.time}>▼15 mins • 13 workouts</h5>
+            <h5 className={styles.legBeginnerLayOutTime}>
+              ▼15 mins • 13 workouts
+            </h5>
           </div>
           <hr className={styles.vr} />
 
