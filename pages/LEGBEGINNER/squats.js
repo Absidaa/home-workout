@@ -27,15 +27,13 @@ export default function Squats() {
             <div className={styles.legBeginner}>LEG BEGINNER</div>
 
             <Link href={"/"}>
-              <button className={styles.back2} style={{ marginTop: "25px" }}>
+              <button className={styles.back2}>
                 <div>
                   <MdHomeFilled />
                 </div>
               </button>
             </Link>
-            <h4 className={styles.bgsetabs} style={{ marginBottom: "4px" }}>
-              Squats
-            </h4>
+            <h4 className={styles.bgsetabs}>Squats</h4>
             <hr className={styles.vrabsb} />
           </div>
           <div className={styles.worksb} class="card">

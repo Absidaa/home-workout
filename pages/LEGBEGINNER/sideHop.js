@@ -41,13 +41,11 @@ export default function SideHop() {
             <div className={styles.legBeginner}>LEG BEGINNER</div>
 
             <Link href={"/BEGINNER/legBeginner"}>
-              <button className={styles.back2} style={{ marginTop: "25px" }}>
+              <button className={styles.back2}>
                 <div>←</div>
               </button>
             </Link>
-            <h4 className={styles.bgsetabs} style={{ marginBottom: "4px" }}>
-              Side Hop
-            </h4>
+            <h4 className={styles.bgsetabs}>Side Hop</h4>
             <hr className={styles.vrabsb} />
           </div>
           <div className={styles.worksb} class="card">

@@ -40,11 +40,9 @@ export default function JumpingJack() {
             </div>
             <div className={styles.abs30}>LEG INTERMEDIATE</div>
 
-            <Link href={"/"}>
+            <Link href={"/INTERMEDIATE/legIntermediate"}>
               <button className={styles.back7}>
-                <div>
-                  <MdHomeFilled />
-                </div>
+                <div>←</div>
               </button>
             </Link>
             <h4 className={styles.bgsetabs}>Jumping Jacks </h4>

@@ -11,20 +11,17 @@ export default function Congrats() {
         <div className={styles.abdy}>
           <div className={styles.bbdy}>
             <div className={styles.absb}>
-              <div className={styles.phoneView}>
+              <div className={styles.phoneViewCongrat}>
                 <Image
-                  style={{ borderRadius: "20px", marginLeft: "20px" }}
+                  style={{ borderRadius: "20px" }}
                   alt="guy"
                   src={"/ch.jpeg"}
                   height={175}
-                  width={300}
+                  width={320}
                   className={styles.im11}
                 />
               </div>
-              <div
-                className={styles.backIntermediateCongrats}
-                style={{ marginLeft: "12vh" }}
-              >
+              <div className={styles.backIntermediateCongrats}>
                 CHEST BEGINNER
               </div>
             </div>

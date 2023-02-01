@@ -11,9 +11,9 @@ export default function Congrats() {
         <div className={styles.abdy}>
           <div className={styles.bbdy}>
             <div className={styles.absb}>
-              <div className={styles.phoneView}>
+              <div className={styles.phoneViewCongrat}>
                 <Image
-                  style={{ borderRadius: "20px", marginLeft: "10px" }}
+                  style={{ borderRadius: "20px" }}
                   alt="guy"
                   src={"/bacad.jpeg"}
                   height={175}
