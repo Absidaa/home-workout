@@ -21,10 +21,7 @@ export default function Congrats() {
                   className={styles.im11}
                 />
               </div>
-              <div
-                className={styles.backIntermediateCongrats}
-                style={{ marginLeft: "12vh" }}
-              >
+              <div className={styles.backIntermediateCongrats}>
                 BACK BEGINNER
               </div>
             </div>

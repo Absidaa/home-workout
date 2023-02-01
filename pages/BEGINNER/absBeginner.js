@@ -24,18 +24,20 @@ export default function AbsBeginner() {
                 className={styles.im}
               />
             </div>
-            <div className={styles.abs}>ABS BEGINNER</div>
+            <div className={styles.absBeginnerLayOut}>ABS BEGINNER</div>
 
             <Link href={"/"}>
-              <button className={styles.back2}>
+              <button className={styles.absBeginnerLayOutBackButton}>
                 <div>←</div>
               </button>
             </Link>
-            <h4 className={styles.bgsetabs}>Set of Workouts</h4>
-            <hr className={styles.vrabsb} />
+            <h4 className={styles.absBeginnerSetOfWorkOut}>Set of Workouts</h4>
+            <hr className={styles.absBeginnerHorizotalLine} />
           </div>
           <div className={styles.worksb} class="card">
-            <h5 className={styles.time}>▼20 mins• 16 workouts</h5>
+            <h5 className={styles.absBeginnerWorkOuttime}>
+              ▼20 mins• 16 workouts
+            </h5>
           </div>
           <hr className={styles.vr} />
 

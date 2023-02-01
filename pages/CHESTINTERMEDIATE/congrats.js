@@ -21,7 +21,7 @@ export default function Congrats() {
                   className={styles.im11}
                 />
               </div>
-              <div className={styles.backIntermediateCongrats}>
+              <div className={styles.chestIntermediateCongrats}>
                 CHEST INTERMEDIATE
               </div>
             </div>

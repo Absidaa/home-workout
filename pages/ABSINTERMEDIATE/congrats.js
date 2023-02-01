@@ -21,8 +21,8 @@ export default function Congrats() {
                   className={styles.im11}
                 />
               </div>
-              <div className={styles.backIntermediateCongrats}>
-                CHEST INTERMEDIATE
+              <div className={styles.absIntermediateCongrats}>
+                ABS INTERMEDIATE
               </div>
             </div>
             <div className={styles.worksb} class="card"></div>
