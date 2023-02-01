@@ -35,31 +35,27 @@ export default function SideFloorKickLeft() {
                 src={"/back.webp"}
                 height={180}
                 width={320}
-                className={styles.im}
+                className={styles.backBeginnerWorkOutImage}
               />
             </div>
-            <div className={styles.backBeginner}>BACK BEGINNER</div>
+            <div className={styles.backBeginnerWorkOut}>BACK BEGINNER</div>
 
             <Link href={"/"}>
-              <button
-                className={styles.back9}
-                style={{ marginBottom: "-39px", marginTop: "20px" }}
-              >
+              <button className={styles.backBeginnerWorkOutBackButton}>
                 <div>
                   <MdHomeFilled />
                 </div>
               </button>
             </Link>
-            <h4
-              className={styles.bgsetabs}
-              style={{ marginBottom: "4px", marginTop: "-10px" }}
-            >
+            <h4 className={styles.backBeginnerWorkOutName}>
               Side-Lying Stretch Left
             </h4>
-            <hr className={styles.vrabsb} />
+            <hr className={styles.backBeginnerWorkOutHorizontalLine} />
           </div>
           <div className={styles.worksb} class="card">
-            <h5 className={styles.time}>▼11 mins • 12 workouts</h5>
+            <h5 className={styles.backBeginnerWorkOutTime}>
+              ▼11 mins • 12 workouts
+            </h5>
           </div>
           <hr className={styles.vr} />
 

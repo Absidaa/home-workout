@@ -20,21 +20,23 @@ export default function BackBeginner() {
               src={"/back.webp"}
               height={200}
               width={320}
-              className={styles.im5}
+              className={styles.backBeginnerLayOutImage}
             />
           </div>
-          <div className={styles.bak1}>BACK BEGINNER</div>
+          <div className={styles.backBeginnerLayOut}>BACK BEGINNER</div>
 
           <Link href={"/"}>
-            <button className={styles.back5}>
+            <button className={styles.backBeginnerLayOutBackButton}>
               <div>←</div>
             </button>
           </Link>
-          <h4 className={styles.bgset4}>Set of Workouts</h4>
-          <hr className={styles.vrl} />
+          <h4 className={styles.backBeginnerSetOfWorkOut}>Set of Workouts</h4>
+          <hr className={styles.backBeginnerLayOutHorizontalLine} />
         </div>
         <div className={styles.worksb} class="card">
-          <h5 className={styles.time4}>▼11 mins• 12 workouts</h5>
+          <h5 className={styles.backBeginnerLayOutTime}>
+            ▼11 mins • 12 workouts
+          </h5>
         </div>
         <hr className={styles.vr} />
 

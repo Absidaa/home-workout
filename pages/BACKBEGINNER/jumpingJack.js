@@ -35,21 +35,23 @@ export default function JumpingJack() {
                 src={"/back.webp"}
                 height={180}
                 width={320}
-                className={styles.im}
+                className={styles.backBeginnerWorkOutImage}
               />
             </div>
-            <div className={styles.backBeginner}>BACK BEGINNER</div>
+            <div className={styles.backBeginnerWorkOut}>BACK BEGINNER</div>
 
             <Link href={"/BEGINNER/backBeginner"}>
-              <button className={styles.back7}>
+              <button className={styles.backBeginnerWorkOutBackButton}>
                 <div>←</div>
               </button>
             </Link>
-            <h4 className={styles.bgsetabs}>Jumping Jack</h4>
-            <hr className={styles.vrabsb} />
+            <h4 className={styles.backBeginnerWorkOutName}>Jumping Jack</h4>
+            <hr className={styles.backBeginnerWorkOutHorizontalLine} />
           </div>
           <div className={styles.worksb} class="card">
-            <h5 className={styles.time}>▼11 mins • 12 workouts</h5>
+            <h5 className={styles.backBeginnerWorkOutTime}>
+              ▼11 mins • 12 workouts
+            </h5>
           </div>
           <hr className={styles.vr} />
 

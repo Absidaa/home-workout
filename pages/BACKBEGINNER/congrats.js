@@ -18,12 +18,10 @@ export default function Congrats() {
                   src={"/back.webp"}
                   height={175}
                   width={300}
-                  className={styles.im11}
+                  className={styles.backBeginnerWorkOutImage}
                 />
               </div>
-              <div className={styles.backIntermediateCongrats}>
-                BACK BEGINNER
-              </div>
+              <div className={styles.backBeginnerCongrats}>BACK BEGINNER</div>
             </div>
             <div className={styles.worksb} class="card"></div>
             <hr className={styles.vr} style={{ marginTop: "13vh" }} />
@@ -50,10 +48,7 @@ export default function Congrats() {
               </Link>
             </div>
             <Link href={"/"}>
-              <button
-                className={styles.back7}
-                style={{ marginLeft: "3vh", marginTop: "-10vh" }}
-              >
+              <button className={styles.backBeginnerCongratsHomeButton}>
                 <div>
                   <MdHomeFilled />
                 </div>
