@@ -20,22 +20,20 @@ export default function ArmBeginner() {
               src={"/ar.jpeg"}
               height={170}
               width={320}
-              className={styles.im2}
+              className={styles.armBeginnerLayOutImage}
             />
           </div>
-          <div className={styles.arm}>ARM BEGINNER</div>
+          <div className={styles.armBeginnerLayOut}>ARM BEGINNER</div>
           <Link href={"/"}>
-            <button className={styles.back}>
+            <button className={styles.armBeginnerBackButton}>
               <div>←</div>
             </button>
           </Link>
-          <h4 className={styles.bgset} style={{ fontSize: "16px" }}>
-            Set of workouts
-          </h4>
-          <hr className={styles.vrr} />
+          <h4 className={styles.armBeginnerSetOfWorkOut}>Set of workouts</h4>
+          <hr className={styles.armBeginnerHorzontalLine} />
         </div>
         <div className={styles.worksb} class="card">
-          <h5 className={styles.time}>▼14 mins • 16 workouts</h5>
+          <h5 className={styles.armBeginnerTime}>▼14 mins • 16 workouts</h5>
         </div>
         <hr className={styles.vr} />
         <Image

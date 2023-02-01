@@ -18,12 +18,10 @@ export default function Congrats() {
                   src={"/ar.jpeg"}
                   height={175}
                   width={300}
-                  className={styles.im11}
+                  className={styles.armBeginnerWorkOutDemonstrationImage}
                 />
               </div>
-              <div className={styles.backIntermediateCongrats}>
-                ARM BEGINNER
-              </div>
+              <div className={styles.armBeginnerCongrats}>ARM BEGINNER</div>
             </div>
             <div className={styles.worksb} class="card"></div>
             <hr className={styles.vr} style={{ marginTop: "13vh" }} />
@@ -51,7 +49,7 @@ export default function Congrats() {
             </div>
             <Link href={"/"}>
               <button
-                className={styles.back7}
+                className={styles.armBeginnerCongratsHomeButton}
                 style={{ marginLeft: "3vh", marginTop: "-10vh" }}
               >
                 <div>

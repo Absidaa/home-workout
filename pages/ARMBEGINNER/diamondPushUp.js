@@ -36,28 +36,31 @@ export default function DiamondPushUp() {
                 src={"/ar.jpeg"}
                 height={170}
                 width={320}
-                className={styles.im}
+                className={styles.armBeginnerWorkOutDemonstrationImage}
               />
             </div>
-            <div className={styles.che1}>ARM BEGINNER</div>
+            <div className={styles.armBeginnerDemonstration}>ARM BEGINNER</div>
 
             <Link href={"/"}>
-              <button className={styles.back2}>
+              <button
+                className={styles.armBeginnerWorkOutDemonstrationBackButton}
+              >
                 <div>
                   <MdHomeFilled />
                 </div>
               </button>
             </Link>
-            <h4
-              className={styles.bgsetabs}
-              style={{ marginBottom: "1vh", marginTop: "-20px" }}
-            >
+            <h4 className={styles.armBeginnerWorkOutDemonstrationName}>
               Diamond Push-Ups
             </h4>
-            <hr className={styles.vrabsb} />
+            <hr
+              className={styles.armBeginnerWorkOutDemonstrationHorizontalLine}
+            />
           </div>
           <div className={styles.worksb} class="card">
-            <h5 className={styles.time}>▼14 mins • 16 workouts</h5>
+            <h5 className={styles.armBeginnerWorkOutDemonstrationTime}>
+              ▼14 mins • 16 workouts
+            </h5>
           </div>
           <hr className={styles.vr} />
 
