@@ -36,27 +36,28 @@ export default function JumpingJack() {
                 src={"/ch.jpeg"}
                 height={170}
                 width={320}
-                className={styles.im}
+                className={styles.chestImageBeginner}
               />
             </div>
-            <div className={styles.che1}>CHEST BEGINNER</div>
+            <div className={styles.chestBeginnerWorkOutDemonstration}>
+              CHEST BEGINNER
+            </div>
 
             <Link href={"/BEGINNER/chestBeginner"}>
-              <button className={styles.back2}>
+              <button
+                className={styles.chestBeginnerWorkOutDemonstrationBackButton}
+              >
                 <div>←</div>
               </button>
             </Link>
-            <h4
-              className={styles.bgsetabs}
-              style={{ marginBottom: "1vh", marginTop: "-20px" }}
-            >
-              Jumping Jacks
-            </h4>
-            <hr className={styles.vrabsb} />
+            <h4 className={styles.chestBeginnerWorkOutName}>Jumping Jacks</h4>
+            <hr
+              className={styles.chestBeginnerWorkOutDemonstrationHorizotalLine}
+            />
           </div>
           <div className={styles.worksb} class="card">
-            <h5 className={styles.time} style={{ marginBottom: "15px" }}>
-              ▼11 mins • 11 workouts
+            <h5 className={styles.chestBeginnerWorkOutDemonstrationTime}>
+              ▼11 mins • 10 workouts
             </h5>
           </div>
           <hr className={styles.vr} />
@@ -96,7 +97,7 @@ export default function JumpingJack() {
             </Link>
           </div>
 
-          <h5 className={styles.doneOutOfRemaining}>1 out of 11</h5>
+          <h5 className={styles.doneOutOfRemaining}>1 out of 10</h5>
         </div>
       </div>
     </div>

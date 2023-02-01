@@ -13,14 +13,16 @@ export default function ChestBeginner() {
     <>
       <div className={styles.bdy}>
         <div className={styles.bbdy}>
-          <Image
-            style={{ borderRadius: "20px" }}
-            alt="guy"
-            src={"/ch.jpeg"}
-            height={170}
-            width={320}
-            className={styles.im3}
-          />
+          <div className={styles.phoneView}>
+            <Image
+              style={{ borderRadius: "20px" }}
+              alt="guy"
+              src={"/ch.jpeg"}
+              height={170}
+              width={320}
+              className={styles.chestImageLayOutBeginner}
+            />
+          </div>
           <div className={styles.chestBeginnerLayOut}>CHEST BEGINNER</div>
 
           <Link href={"/"}>
@@ -30,7 +32,7 @@ export default function ChestBeginner() {
           <hr className={styles.chestBeginnerHorizontalLine} />
           <div className={styles.worksb} class="card">
             <h5 className={styles.chestBeginnerWorkOutTime}>
-              ▼11 mins • 11 workouts
+              ▼11 mins • 10 workouts
             </h5>
           </div>
           <hr className={styles.vrche} style={{ marginTop: "-75px" }} />

@@ -22,28 +22,33 @@ export default function InclinePushUp2() {
                 src={"/ch.jpeg"}
                 height={170}
                 width={320}
-                className={styles.im}
+                className={styles.chestImageBeginner}
               />
             </div>
-            <div className={styles.che1}>CHEST BEGINNER</div>
+            <div className={styles.chestBeginnerWorkOutDemonstration}>
+              CHEST BEGINNER
+            </div>
 
             <Link href={"/"}>
-              <button className={styles.back2}>
+              <button
+                className={styles.chestBeginnerWorkOutDemonstrationBackButton}
+              >
                 <div>
                   <MdHomeFilled />
                 </div>
               </button>
             </Link>
-            <h4
-              className={styles.bgsetabs}
-              style={{ marginBottom: "1vh", marginTop: "-20px" }}
-            >
+            <h4 className={styles.chestBeginnerWorkOutName}>
               Incline Push-Ups
             </h4>
-            <hr className={styles.vrabsb} />
+            <hr
+              className={styles.chestBeginnerWorkOutDemonstrationHorizotalLine}
+            />
           </div>
           <div className={styles.worksb} class="card">
-            <h5 className={styles.time}>▼11 mins • 11 workouts</h5>
+            <h5 className={styles.chestBeginnerWorkOutDemonstrationTime}>
+              ▼11 mins • 10 workouts
+            </h5>
           </div>
           <hr className={styles.vr} />
 
@@ -69,7 +74,7 @@ export default function InclinePushUp2() {
             </Link>
           </div>
 
-          <h5 className={styles.doneOutOfRemaining}>6 out of 11</h5>
+          <h5 className={styles.doneOutOfRemaining}>5 out of 10</h5>
         </div>
       </div>
     </div>

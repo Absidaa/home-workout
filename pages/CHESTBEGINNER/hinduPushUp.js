@@ -15,35 +15,37 @@ export default function HinduPushUp() {
         <div className={styles.bbdy}>
           <div className={styles.absb}>
             <div className={styles.phoneView}>
-              {" "}
               <Image
                 style={{ borderRadius: "20px" }}
                 alt="guy"
                 src={"/ch.jpeg"}
                 height={170}
                 width={320}
-                className={styles.im}
+                className={styles.chestImageBeginner}
               />
             </div>
-            <div className={styles.che1}>CHEST BEGINNER</div>
+            <div className={styles.chestBeginnerWorkOutDemonstration}>
+              CHEST BEGINNER
+            </div>
 
             <Link href={"/"}>
-              <button className={styles.back2}>
+              <button
+                className={styles.chestBeginnerWorkOutDemonstrationBackButton}
+              >
                 <div>
                   <MdHomeFilled />
                 </div>
               </button>
             </Link>
-            <h4
-              className={styles.bgsetabs}
-              style={{ marginBottom: "1vh", marginTop: "-20px" }}
-            >
-              Hindu Push-Ups
-            </h4>
-            <hr className={styles.vrabsb} />
+            <h4 className={styles.chestBeginnerWorkOutName}>Hindu Push-Ups</h4>
+            <hr
+              className={styles.chestBeginnerWorkOutDemonstrationHorizotalLine}
+            />
           </div>
           <div className={styles.worksb} class="card">
-            <h5 className={styles.time}>▼11 mins• 11 workouts</h5>
+            <h5 className={styles.chestBeginnerWorkOutDemonstrationTime}>
+              ▼11 mins• 10 workouts
+            </h5>
           </div>
           <hr className={styles.vr} />
 
@@ -68,7 +70,7 @@ export default function HinduPushUp() {
             </Link>
           </div>
 
-          <h5 className={styles.doneOutOfRemaining}>9 out of 11</h5>
+          <h5 className={styles.doneOutOfRemaining}>8 out of 10</h5>
         </div>
       </div>
     </div>

@@ -18,12 +18,10 @@ export default function Congrats() {
                   src={"/ch.jpeg"}
                   height={175}
                   width={320}
-                  className={styles.im11}
+                  className={styles.chestImageBeginner}
                 />
               </div>
-              <div className={styles.backIntermediateCongrats}>
-                CHEST BEGINNER
-              </div>
+              <div className={styles.chestBeginnerCongrats}>CHEST BEGINNER</div>
             </div>
             <div className={styles.worksb} class="card"></div>
             <hr className={styles.vr} style={{ marginTop: "13vh" }} />
@@ -51,7 +49,7 @@ export default function Congrats() {
             </div>
             <Link href={"/"}>
               <button
-                className={styles.back7}
+                className={styles.chestBeginnerCongratsHomeButton}
                 style={{ marginLeft: "3vh", marginTop: "-10vh" }}
               >
                 <div>
