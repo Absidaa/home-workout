@@ -21,21 +21,24 @@ export default function ArmAdvanced() {
                 src={"/armad.jpeg"}
                 height={170}
                 width={320}
-                className={styles.im11}
+                className={styles.armAdvancedLayOutImage}
               />
             </div>
-            <div className={styles.abs9}>ARM ADVANCED</div>
+            <div className={styles.armAdvancedLayOut}>ARM ADVANCED</div>
 
             <Link href={"/"}>
-              <button className={styles.back11}>
+              41
+              <button className={styles.armAdvancedLayOutBackButton}>
                 <div>←</div>
               </button>
             </Link>
-            <h4 className={styles.bgset11}>Set of Workouts</h4>
-            <hr className={styles.vrarmad} />
+            <h4 className={styles.armAdvancedLayOutName}>Set of Workouts</h4>
+            <hr className={styles.armAdvancedLayOutHorizontalLine} />
           </div>
-          <div className={styles.worksb} class="card">
-            <h5 className={styles.time}>▼25 mins • 18 workouts</h5>
+          <div className={styles.worksb}>
+            <h5 className={styles.armAdvancedLayOutTime}>
+              ▼25 mins • 18 workouts
+            </h5>
           </div>
           <hr className={styles.vr} />
 

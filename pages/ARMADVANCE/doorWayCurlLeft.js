@@ -35,22 +35,26 @@ export default function DoorWayCurlLeft() {
               src={"/armad.jpeg"}
               height={170}
               width={320}
-              className={styles.im11}
+              className={styles.armAdvancedWorkOutImage}
             />
-            <div className={styles.abs7}>ARM ADVANCED</div>
+            <div className={styles.armAdvancedWorkOut}>ARM ADVANCED</div>
 
             <Link href={"/"}>
-              <button className={styles.back7}>
+              <button className={styles.armAdvancedWorkOutBackButton}>
                 <div>
                   <MdHomeFilled />
                 </div>
               </button>
             </Link>
-            <h4 className={styles.bgsetabs}>Door Way Curls Left</h4>
-            <hr className={styles.vrabsa} />
+            <h4 className={styles.armAdvancedWorkOutName}>
+              Door Way Curls Left
+            </h4>
+            <hr className={styles.armAdvancedWorkOutHorizontalLine} />
           </div>
           <div className={styles.worksb} class="card">
-            <h5 className={styles.time}>▼25 mins • 18 workouts</h5>
+            <h5 className={styles.armAdvancedWorkOutTime}>
+              ▼25 mins • 18 workouts
+            </h5>
           </div>
           <hr className={styles.vr} />
 
