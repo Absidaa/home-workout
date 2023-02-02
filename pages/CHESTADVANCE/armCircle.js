@@ -35,23 +35,25 @@ export default function ArmCircle() {
                 src={"/chead.jpeg"}
                 height={170}
                 width={320}
-                className={styles.im11}
+                className={styles.chestAdvancedWorkOutImage}
               />
             </div>
-            <div className={styles.abs8}>CHEST ADVANCED</div>
+            <div className={styles.chestAdvancedWorkOut}>CHEST ADVANCED</div>
 
             <Link href={"/"}>
-              <button className={styles.back7}>
+              <button className={styles.chestAdvancedWorkOutBackButton}>
                 <div>
                   <MdHomeFilled />
                 </div>
               </button>
             </Link>
-            <h4 className={styles.bgsetabs}>Arm Circles</h4>
-            <hr className={styles.vrchead} />
+            <h4 className={styles.chestAdvancedWorkOutName}>Arm Circles</h4>
+            <hr className={styles.chestAdvancedWorkOutHorizontalLine} />
           </div>
           <div className={styles.worksb} class="card">
-            <h5 className={styles.time}>▼15 mins • 13 workouts</h5>
+            <h5 className={styles.chestAdvancedWorkOutTime}>
+              ▼15 mins • 13 workouts
+            </h5>
           </div>
           <hr className={styles.vr} />
 
