@@ -19,21 +19,25 @@ export default function ArmInterMediate() {
               src={"/armi.jpeg"}
               height={155}
               width={310}
-              className={styles.im}
+              className={styles.armIntermediateLayOutImage}
             />
           </div>
-          <div className={styles.abs4}>ARM INTERMEDIATE</div>
+          <div className={styles.armIntermediateLayOut}>ARM INTERMEDIATE</div>
 
           <Link href={"/"}>
-            <button className={styles.back8}>
+            <button className={styles.armIntermediateLayOutBackButton}>
               <div>←</div>
             </button>
           </Link>
-          <h4 className={styles.bgset7}>Set of workouts</h4>
-          <hr className={styles.vrabsb} />
+          <h4 className={styles.armIntermediateSetOfWorkOut}>
+            Set of workouts
+          </h4>
+          <hr className={styles.armIntermediateLayOutHorizontalLine} />
         </div>
         <div className={styles.worksb} class="card">
-          <h5 className={styles.time}>▼11 mins • 13 workouts</h5>
+          <h5 className={styles.armintermediateLayOutTime}>
+            ▼11 mins • 13 workouts
+          </h5>
         </div>
         <hr className={styles.vr} />
 

@@ -784,6 +784,43 @@
   border-color: white;
   margin-left: 20px;
 }
+.armIntermediateLayOutImage {
+  margin-left: 23px;
+  margin-bottom: 40px;
+}
+.armIntermediateLayOut {
+  margin-top: -8.5vh;
+  margin-bottom: 9vh;
+  color: rgb(0, 116, 0);
+  margin-left: 8.5vh;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 33px;
+  font-weight: bold;
+}
+.armIntermediateLayOutBackButton {
+  color: white;
+  background-color: rgb(5, 58, 88);
+  border-radius: 25px;
+  border-color: white;
+  margin-left: 60px;
+}
+.armIntermediateSetOfWorkOut {
+  margin-top: -3vh;
+  margin-left: 25vh;
+  margin-bottom: -1.7vh;
+}
+.armIntermediateLayOutHorizontalLine {
+  margin-top: 1.8vh;
+  margin-bottom: 2vh;
+  width: 64vh;
+  margin-left: 2.7vh;
+}
+.armintermediateLayOutTime {
+  margin-left: -28vh;
+  margin-top: 14vh;
+  margin-bottom: 3vh;
+  font-family: Arial, Helvetica, sans-serif;
+}
 .legBeginnerLayOutImage {
   margin-left: 23px;
   margin-bottom: 40px;
