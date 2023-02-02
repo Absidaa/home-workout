@@ -29,33 +29,33 @@ export default function ArmCircle() {
         <div className={styles.bbdy}>
           <div className={styles.absb}>
             <div className={styles.phoneView}>
-              {" "}
               <Image
                 style={{ borderRadius: "20px" }}
                 alt="guy"
                 src={"/armi.jpeg"}
                 height={155}
                 width={310}
-                className={styles.im}
+                className={styles.armIntermediateWorkOutImage}
               />
             </div>
-            <div className={styles.armItermediate}>ARM INTERMEDIATE</div>
+            <div className={styles.armItermediateWorkOut}>ARM INTERMEDIATE</div>
 
             <Link href={"/INTERMEDIATE/armIntermediate"}>
-              <button className={styles.back7}>
+              <button className={styles.armIntermediateWorkOutBackButton}>
                 <div>←</div>
               </button>
             </Link>
-            <h4 className={styles.bgsetabs}>Arm Circles</h4>
-            <hr className={styles.vrabsb} />
+            <h4 className={styles.armIntermediatWorkOutName}>Arm Circles</h4>
+            <hr className={styles.armIntermediateWorkOutHorizontalLine} />
           </div>
           <div className={styles.worksb} class="card">
-            <h5 className={styles.time}>▼11 mins • 13 workouts</h5>
+            <h5 className={styles.armIntermediateWorkOutTime}>
+              ▼11 mins • 13 workouts
+            </h5>
           </div>
           <hr className={styles.vr} />
 
           <div className={styles.animation}>
-            {" "}
             <Image
               alt="guy with the greates image ever"
               src={"/ArmCirclesGif.gif"}

@@ -50,10 +50,7 @@ export default function Congrats() {
               </Link>
             </div>
             <Link href={"/"}>
-              <button
-                className={styles.back7}
-                style={{ marginLeft: "3vh", marginTop: "-10vh" }}
-              >
+              <button className={styles.armIntermediateCongratsHomeButton}>
                 <div>
                   <MdHomeFilled />
                 </div>

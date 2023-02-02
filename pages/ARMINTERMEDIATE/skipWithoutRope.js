@@ -35,23 +35,27 @@ export default function SkipWitouthRope() {
                 src={"/armi.jpeg"}
                 height={155}
                 width={310}
-                className={styles.im}
+                className={styles.armIntermediateWorkOutImage}
               />
             </div>
-            <div className={styles.armItermediate}>ARM INTERMEDIATE</div>
+            <div className={styles.armItermediateWorkOut}>ARM INTERMEDIATE</div>
 
             <Link href={"/"}>
-              <button className={styles.back7}>
+              <button className={styles.armIntermediateWorkOutBackButton}>
                 <div>
                   <MdHomeFilled />
                 </div>
               </button>
             </Link>
-            <h4 className={styles.bgsetabs}>Skipping Without Rope</h4>
-            <hr className={styles.vrabsb} />
+            <h4 className={styles.armIntermediatWorkOutName}>
+              Skipping Without Rope
+            </h4>
+            <hr className={styles.armIntermediateWorkOutHorizontalLine} />
           </div>
           <div className={styles.worksb} class="card">
-            <h5 className={styles.time}>▼11 mins • 13 workouts</h5>
+            <h5 className={styles.armIntermediateWorkOutTime}>
+              ▼11 mins • 13 workouts
+            </h5>
           </div>
           <hr className={styles.vr} />
 

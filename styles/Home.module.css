@@ -821,6 +821,58 @@
   margin-bottom: 3vh;
   font-family: Arial, Helvetica, sans-serif;
 }
+.armIntermediateWorkOutImage {
+  margin-left: 23px;
+  margin-bottom: 40px;
+}
+.armItermediateWorkOut {
+  margin-top: -8.5vh;
+  margin-bottom: 9vh;
+  color: rgb(0, 116, 0);
+  margin-left: 8.5vh;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 33px;
+  font-weight: bold;
+}
+.armIntermediateWorkOutBackButton {
+  color: white;
+  background-color: rgb(5, 58, 88);
+  border-radius: 25px;
+  border-color: white;
+  margin-left: 60px;
+}
+.armIntermediatWorkOutName {
+  margin-top: -3vh;
+  margin-left: 25vh;
+  margin-bottom: -1.7vh;
+}
+.armIntermediateWorkOutHorizontalLine {
+  margin-top: 1.8vh;
+  margin-bottom: 2vh;
+  width: 64vh;
+  margin-left: 3vh;
+}
+.armIntermediateWorkOutTime {
+  margin-left: -28vh;
+  margin-top: 14.5vh;
+  margin-bottom: 3vh;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.armIntermediateCongrats {
+  font-size: 28px;
+  margin-left: 3vh;
+  margin-top: 40px;
+  color: rgb(255, 189, 22);
+  font-weight: bolder;
+}
+.armIntermediateCongratsHomeButton {
+  color: white;
+  background-color: rgb(5, 58, 88);
+  border-radius: 25px;
+  border-color: white;
+  margin-left: 20px;
+}
 .legBeginnerLayOutImage {
   margin-left: 23px;
   margin-bottom: 40px;
@@ -1155,13 +1207,6 @@
 .backIntermediateCongrats {
   font-size: 33px;
   margin-left: 6vh;
-  margin-top: 40px;
-  color: rgb(255, 189, 22);
-  font-weight: bolder;
-}
-.armIntermediateCongrats {
-  font-size: 28px;
-  margin-left: 1vh;
   margin-top: 40px;
   color: rgb(255, 189, 22);
   font-weight: bolder;
