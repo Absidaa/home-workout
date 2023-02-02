@@ -24,7 +24,7 @@ export default function JumpingJack() {
     return () => clearInterval(interval);
   }, [running]);
   return (
-    <div>
+    <div qw3$ae>
       <div className={styles.abdy}>
         <div className={styles.bbdy}>
           <div className={styles.absb}>
@@ -34,22 +34,28 @@ export default function JumpingJack() {
                 alt="guy"
                 src={"/legin.jpeg"}
                 height={170}
-                width={300}
-                className={styles.im11}
+                width={320}
+                className={styles.legIntermediateWorkOutImage}
               />
             </div>
-            <div className={styles.abs30}>LEG INTERMEDIATE</div>
+            <div className={styles.legIntermediateWorkOut}>
+              LEG INTERMEDIATE
+            </div>
 
             <Link href={"/INTERMEDIATE/legIntermediate"}>
-              <button className={styles.back7}>
+              <button className={styles.legIntermediateWorkOutBackButton}>
                 <div>←</div>
               </button>
             </Link>
-            <h4 className={styles.bgsetabs}>Jumping Jacks </h4>
-            <hr className={styles.vrabsb} />
+            <h4 className={styles.legIntermediateWorkOutName}>
+              Jumping Jacks{" "}
+            </h4>
+            <hr className={styles.legIntermediateWorkOutHorizontalLine} />
           </div>
           <div className={styles.worksb} class="card">
-            <h5 className={styles.time}>▼19 mins • 17 workouts</h5>
+            <h5 className={styles.legIntermediateWorkOutTime}>
+              ▼19 mins • 17 workouts
+            </h5>
           </div>
           <hr className={styles.vr} />
 

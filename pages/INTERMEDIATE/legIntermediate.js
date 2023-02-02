@@ -18,22 +18,26 @@ export default function LegInterMediate() {
               alt="guy"
               src={"/legin.jpeg"}
               height={170}
-              width={300}
-              className={styles.im11}
+              width={320}
+              className={styles.legIntermediateLayOutImage}
             />
           </div>
-          <div className={styles.abs30}>LEG INTERMEDIATE</div>
+          <div className={styles.legIntermediateLayOut}>LEG INTERMEDIATE</div>
 
           <Link href={"/"}>
-            <button className={styles.back8}>
+            <button className={styles.legIntermediateLayOutBackButton}>
               <div>←</div>
             </button>
           </Link>
-          <h4 className={styles.bgset8}>Set of workouts</h4>
-          <hr className={styles.vrabsb} />
+          <h4 className={styles.legIntermediateSetOfWorkOut}>
+            Set of workouts
+          </h4>
+          <hr className={styles.legIntermediateLayOutHorizontalLine} />
         </div>
         <div className={styles.worksb} class="card">
-          <h5 className={styles.time}>▼19 mins• 17 workouts</h5>
+          <h5 className={styles.legIntermediateLayOutTime}>
+            ▼19 mins• 17 workouts
+          </h5>
         </div>
         <hr className={styles.vr} />
 
