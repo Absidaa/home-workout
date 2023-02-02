@@ -21,21 +21,23 @@ export default function AbsAdvanced() {
                 src={"/absad.jpeg"}
                 height={170}
                 width={320}
-                className={styles.im11}
+                className={styles.absAdvancedLayOutImage}
               />
             </div>
-            <div className={styles.abs7}>ABS ADVANCED</div>
+            <div className={styles.absAdvancedLayOut}>ABS ADVANCED</div>
 
             <Link href={"/"}>
-              <button className={styles.back9}>
+              <button className={styles.absAdvancedLayOutBackButoon}>
                 <div>←</div>
               </button>
             </Link>
-            <h4 className={styles.bgset10}>Set of Workouts</h4>
-            <hr className={styles.vrabsa} />
+            <h4 className={styles.absAdvancedSetOfWorkOut}>Set of Workouts</h4>
+            <hr className={styles.absAdvancedLayOutHorizontalLine} />
           </div>
           <div className={styles.worksb} class="card">
-            <h5 className={styles.time}>▼25 mins • 19 workouts</h5>
+            <h5 className={styles.absAdvancedLayOutTime}>
+              ▼25 mins • 19 workouts
+            </h5>
           </div>
           <hr className={styles.vr} />
 
