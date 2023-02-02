@@ -19,21 +19,25 @@ export default function BackInterMediate() {
               src={"/backi.jpeg"}
               height={170}
               width={320}
-              className={styles.im7}
+              className={styles.backIntermediateLayOutImage}
             />
           </div>
-          <div className={styles.abs3}>BACK INTERMEDIATE</div>
+          <div className={styles.backIntermediateLayOut}>BACK INTERMEDIATE</div>
 
           <Link href={"/"}>
-            <button className={styles.back9}>
+            <button className={styles.backIntermediateLayOutBackButton}>
               <div>←</div>
             </button>
           </Link>
-          <h4 className={styles.bgsetabs}>Set of workouts</h4>
-          <hr className={styles.vrabsb} />
+          <h4 className={styles.backIntermediateLayOutSetOfWorkOut}>
+            Set of workouts
+          </h4>
+          <hr className={styles.backIntermediateLayOutHorizontalLine} />
         </div>
-        <div className={styles.worksb} class="card">
-          <h5 className={styles.time}>▼14 mins • 12 workouts</h5>
+        <div className={styles.worksb}>
+          <h5 className={styles.backIntermediateLayOutTime}>
+            ▼14 mins • 12 workouts
+          </h5>
         </div>
         <hr className={styles.vr} />
 

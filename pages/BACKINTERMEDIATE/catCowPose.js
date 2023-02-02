@@ -35,23 +35,27 @@ export default function CatCowPose() {
                 src={"/backi.jpeg"}
                 height={170}
                 width={320}
-                className={styles.im7}
+                className={styles.backIntermediateWorkOutImage}
               />{" "}
             </div>
-            <div className={styles.abs3}>BACK INTERMEDIATE</div>
+            <div className={styles.backIntermediateWorkOut}>
+              BACK INTERMEDIATE
+            </div>
 
             <Link href={"/INTERMEDIATE/chestIntermediate"}>
-              <button className={styles.back7}>
+              <button className={styles.backIntermediateWorkOutBackButton}>
                 <div>
                   <MdHomeFilled />
                 </div>
               </button>
             </Link>
-            <h4 className={styles.bgsetabs}>Cat Cow Pose</h4>
-            <hr className={styles.vrabsb} />
+            <h4 className={styles.backIntermediateWorkOutName}>Cat Cow Pose</h4>
+            <hr className={styles.backIntermediateWorkOutHorizontalLine} />
           </div>
           <div className={styles.worksb} class="card">
-            <h5 className={styles.time}>▼14 mins • 12 workouts</h5>
+            <h5 className={styles.backIntermediateWorkOutTime}>
+              ▼14 mins • 12 workouts
+            </h5>
           </div>
           <hr className={styles.vr} />
 

@@ -16,9 +16,9 @@ export default function Congrats() {
                   style={{ borderRadius: "20px", marginLeft: "20px" }}
                   alt="guy"
                   src={"/backi.jpeg"}
-                  height={175}
-                  width={300}
-                  className={styles.im11}
+                  height={170}
+                  width={320}
+                  className={styles.backIntermediateWorkOutImage}
                 />
               </div>
               <div className={styles.backIntermediateCongrats}>
@@ -50,10 +50,7 @@ export default function Congrats() {
               </Link>
             </div>
             <Link href={"/"}>
-              <button
-                className={styles.back7}
-                style={{ marginLeft: "3vh", marginTop: "-10vh" }}
-              >
+              <button className={styles.backIntermediateCongratsHomeButton}>
                 <div>
                   <MdHomeFilled />
                 </div>
