@@ -398,7 +398,7 @@
   background-color: rgb(5, 58, 88);
   border-radius: 25px;
   border-color: white;
-  margin-left: 60px;
+  margin-left: 20px;
 }
 .absBeginnerWorkOutDemonstrationBackButton {
   color: white;
@@ -422,6 +422,100 @@
   margin-top: 14vh;
   margin-bottom: 4vh;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.absBeginnerCongrats {
+  font-size: 33px;
+  margin-left: 6vh;
+  margin-top: 40px;
+  color: rgb(255, 189, 22);
+  font-weight: bolder;
+}
+.absIntermediateImage {
+  margin-left: 58px;
+  margin-bottom: 40px;
+}
+.absIntermediateLayOut {
+  margin-top: -8vh;
+  margin-bottom: 9vh;
+  color: rgb(0, 116, 0);
+  margin-left: 11vh;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+}
+.absIntermediateLayOutBackButton {
+  color: white;
+  background-color: rgb(5, 58, 88);
+  border-radius: 25px;
+  border-color: white;
+  margin-left: 11vh;
+}
+.absIntermediateSetOfWorkOut {
+  margin-top: -3vh;
+  margin-left: 25vh;
+  margin-bottom: -1vh;
+}
+.absIntermediateLayOutHorizontalLine {
+  margin-bottom: -20vh;
+  width: 64vh;
+  margin-left: 3vh;
+}
+.absIntermediateLayOutTime {
+  margin-left: -28vh;
+  margin-top: 16vh;
+  margin-bottom: 4vh;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.absIntermediateWorkOutDemonstrationImage {
+  margin-left: 58px;
+  margin-bottom: 40px;
+}
+.absIntermediateWorkOutDemonstration {
+  margin-top: -9vh;
+  margin-bottom: 7vh;
+  color: rgb(0, 116, 0);
+  margin-left: 12vh;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+}
+.absIntermediateWorkOutDemonstrationBackButton {
+  color: white;
+  background-color: rgb(5, 58, 88);
+  border-radius: 25px;
+  border-color: white;
+  margin-left: 12vh;
+}
+.absIntermediateWorkOutDemonstrationName {
+  margin-top: -3vh;
+  margin-left: 25vh;
+  margin-bottom: -1vh;
+}
+.absIntermediateWorkOutDemonstrationHorizontalLine {
+  margin-bottom: -20vh;
+  width: 64vh;
+  margin-left: 3vh;
+}
+.absIntermediateWorkOutTime {
+  margin-left: -28vh;
+  margin-top: 13.6vh;
+  margin-bottom: 4vh;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.absIntermediateCongrats {
+  font-size: 30px;
+  margin-left: 3vh;
+  margin-top: 5px;
+  color: rgb(255, 189, 22);
+  font-weight: bolder;
+}
+.absIntermediateHomeCongratsButton {
+  color: white;
+  background-color: rgb(5, 58, 88);
+  border-radius: 25px;
+  border-color: white;
+  margin-left: 20px;
 }
 .chestBeginnerLayOut {
   margin-top: -8vh;
@@ -506,6 +600,96 @@
   font-weight: bolder;
 }
 .chestBeginnerCongratsHomeButton {
+  color: white;
+  background-color: rgb(5, 58, 88);
+  border-radius: 25px;
+  border-color: white;
+  margin-left: 20px;
+}
+.chestIntermediateLayOutImage {
+  margin-left: 61px;
+  margin-bottom: 40px;
+}
+.chestInterMediateLayOut {
+  margin-top: -8.5vh;
+  margin-bottom: 9vh;
+  color: rgb(0, 116, 0);
+  margin-left: 12.5vh;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+}
+.chestIntermediateLayOutBackButton {
+  color: white;
+  background-color: rgb(5, 58, 88);
+  border-radius: 25px;
+  border-color: white;
+  margin-left: 60px;
+}
+.chestIntermediateSetOfWorkOut {
+  margin-top: -3vh;
+  margin-left: 20vh;
+  margin-bottom: -2.7vh;
+}
+.chestIntermediateLayOutHorizontalLine {
+  margin-top: 2.8vh;
+  margin-bottom: 5vh;
+  width: 64vh;
+  margin-left: 2.9vh;
+}
+
+.chestIntermediateLayOutTime {
+  margin-left: -28vh;
+  margin-top: 15.5vh;
+  margin-bottom: 4vh;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.chestIntermediateWorkOutImage {
+  margin-left: 60px;
+  margin-bottom: 40px;
+}
+.chestIntermediateWorkOutDemonstration {
+  margin-top: -8.5vh;
+  margin-bottom: 10vh;
+  color: rgb(0, 116, 0);
+  margin-left: 12.5vh;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+}
+.chestIntermediateWorkOutDemonstrationBackButton {
+  color: white;
+  background-color: rgb(5, 58, 88);
+  border-radius: 25px;
+  border-color: white;
+  margin-left: 60px;
+}
+.chestIntermediateWorkOutDemonstrationName {
+  margin-top: -3vh;
+  margin-left: 25vh;
+  margin-bottom: -1.7vh;
+}
+.chestIntermediateWorkOutDemonstrationHorizontalLine {
+  margin-top: 1.8vh;
+  margin-bottom: 2vh;
+  width: 64vh;
+  margin-left: 3vh;
+}
+.chestIntermediateWorkOutDemonstrationTime {
+  margin-left: -28vh;
+  margin-top: 16.5vh;
+  margin-bottom: 3vh;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.chestIntermediateCongrats {
+  font-size: 28px;
+  margin-left: 1vh;
+  margin-top: 10px;
+  color: rgb(255, 189, 22);
+  font-weight: bolder;
+}
+.chestIntermediateCongratsHomeButton {
   color: white;
   background-color: rgb(5, 58, 88);
   border-radius: 25px;
@@ -931,13 +1115,6 @@
 .phoneViewCongrat {
   margin-left: -7vh;
 }
-.absBeginnerCongrats {
-  font-size: 33px;
-  margin-left: 6vh;
-  margin-top: 40px;
-  color: rgb(255, 189, 22);
-  font-weight: bolder;
-}
 .backIntermediateCongrats {
   font-size: 33px;
   margin-left: 6vh;
@@ -945,23 +1122,9 @@
   color: rgb(255, 189, 22);
   font-weight: bolder;
 }
-.chestIntermediateCongrats {
-  font-size: 28px;
-  margin-left: 1vh;
-  margin-top: 40px;
-  color: rgb(255, 189, 22);
-  font-weight: bolder;
-}
 .armIntermediateCongrats {
   font-size: 28px;
   margin-left: 1vh;
-  margin-top: 40px;
-  color: rgb(255, 189, 22);
-  font-weight: bolder;
-}
-.absIntermediateCongrats {
-  font-size: 30px;
-  margin-left: 3vh;
   margin-top: 40px;
   color: rgb(255, 189, 22);
   font-weight: bolder;

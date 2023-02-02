@@ -19,21 +19,27 @@ export default function ChestInterMediate() {
               src={"/cheinter.jpeg"}
               height={170}
               width={310}
-              className={styles.im6}
+              className={styles.chestIntermediateLayOutImage}
             />
           </div>
-          <div className={styles.abs3}>CHEST INTERMEDIATE</div>
+          <div className={styles.chestInterMediateLayOut}>
+            CHEST INTERMEDIATE
+          </div>
 
           <Link href={"/"}>
-            <button className={styles.back7}>
+            <button className={styles.chestIntermediateLayOutBackButton}>
               <div>←</div>
             </button>
           </Link>
-          <h4 className={styles.bgset6}>Set of workouts</h4>
-          <hr className={styles.vrchein} />
+          <h4 className={styles.chestIntermediateSetOfWorkOut}>
+            Set of workouts
+          </h4>
+          <hr className={styles.chestIntermediateLayOutHorizontalLine} />
         </div>
         <div className={styles.worksb} class="card">
-          <h5 className={styles.time}>▼11 mins • 13 workouts</h5>
+          <h5 className={styles.chestIntermediateLayOutTime}>
+            ▼11 mins • 13 workouts
+          </h5>
         </div>
         <hr className={styles.vr} />
 

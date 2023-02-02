@@ -19,21 +19,25 @@ export default function AbsInterMediate() {
               src={"/absi.jpeg"}
               height={170}
               width={320}
-              className={styles.im11}
+              className={styles.absIntermediateImage}
             />
           </div>
-          <div className={styles.abs2}>ABS INTERMEDIATE</div>
+          <div className={styles.absIntermediateLayOut}>ABS INTERMEDIATE</div>
 
           <Link href={"/"}>
-            <button className={styles.back6}>
+            <button className={styles.absIntermediateLayOutBackButton}>
               <div>←</div>
             </button>
           </Link>
-          <h4 className={styles.bgset5}>Set of workouts</h4>
-          <hr className={styles.vrabi} />
+          <h4 className={styles.absIntermediateSetOfWorkOut}>
+            Set of workouts
+          </h4>
+          <hr className={styles.absIntermediateLayOutHorizontalLine} />
         </div>
         <div className={styles.worksb} class="card">
-          <h5 className={styles.time}>▼10 mins • 10 workouts</h5>
+          <h5 className={styles.absIntermediateLayOutTime}>
+            ▼10 mins • 10 workouts
+          </h5>
         </div>
         <hr className={styles.vr} />
 

@@ -35,21 +35,33 @@ export default function JumpigJack() {
                 src={"/absi.jpeg"}
                 height={170}
                 width={320}
-                className={styles.im}
+                className={styles.absIntermediateWorkOutDemonstrationImage}
               />
             </div>
-            <div className={styles.absInt}>ABS INTERMEDIATE</div>
+            <div className={styles.absIntermediateWorkOutDemonstration}>
+              ABS INTERMEDIATE
+            </div>
 
             <Link href={"/INTERMEDIATE/absIntermediate"}>
-              <button className={styles.back7}>
+              <button
+                className={styles.absIntermediateWorkOutDemonstrationBackButton}
+              >
                 <div>←</div>
               </button>
             </Link>
-            <h4 className={styles.bgsetabs}>Jumping Jacks</h4>
-            <hr className={styles.vrabsb} />
+            <h4 className={styles.absIntermediateWorkOutDemonstrationName}>
+              Jumping Jacks
+            </h4>
+            <hr
+              className={
+                styles.absIntermediateWorkOutDemonstrationHorizontalLine
+              }
+            />
           </div>
-          <div className={styles.worksb} class="card">
-            <h5 className={styles.time}>▼10 mins • 11 workouts</h5>
+          <div className={styles.worksb}>
+            <h5 className={styles.absIntermediateWorkOutTime}>
+              ▼10 mins • 11 workouts
+            </h5>
           </div>
           <hr className={styles.vr} />
 

@@ -35,23 +35,37 @@ export default function HinduPushUp() {
                 src={"/cheinter.jpeg"}
                 height={170}
                 width={310}
-                className={styles.im11}
+                className={styles.chestIntermediateWorkOutImage}
               />
             </div>
-            <div className={styles.abs3}>CHEST INTERMEDIATE</div>
+            <div className={styles.chestIntermediateWorkOutDemonstration}>
+              CHEST INTERMEDIATE
+            </div>
 
             <Link href={"/"}>
-              <button className={styles.back7}>
+              <button
+                className={
+                  styles.chestIntermediateWorkOutDemonstrationBackButton
+                }
+              >
                 <div>
                   <MdHomeFilled />
                 </div>
               </button>
             </Link>
-            <h4 className={styles.bgsetabs}>Hindu Push-Ups</h4>
-            <hr className={styles.vrabsb} />
+            <h4 className={styles.chestIntermediateWorkOutDemonstrationName}>
+              Hindu Push-Ups
+            </h4>
+            <hr
+              className={
+                styles.chestIntermediateWorkOutDemonstrationHorizontalLine
+              }
+            />
           </div>
           <div className={styles.worksb} class="card">
-            <h5 className={styles.time}>▼11 mins • 13 workouts</h5>
+            <h5 className={styles.chestIntermediateWorkOutDemonstrationTime}>
+              ▼11 mins • 13 workouts
+            </h5>
           </div>
           <hr className={styles.vr} />
 

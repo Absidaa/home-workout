@@ -18,7 +18,7 @@ export default function Congrats() {
                   src={"/cheinter.jpeg"}
                   height={175}
                   width={300}
-                  className={styles.im11}
+                  className={styles.chestIntermediateWorkOutImage}
                 />
               </div>
               <div className={styles.chestIntermediateCongrats}>
@@ -50,10 +50,7 @@ export default function Congrats() {
               </Link>
             </div>
             <Link href={"/"}>
-              <button
-                className={styles.back7}
-                style={{ marginLeft: "3vh", marginTop: "-10vh" }}
-              >
+              <button className={styles.chestIntermediateCongratsHomeButton}>
                 <div>
                   <MdHomeFilled />
                 </div>

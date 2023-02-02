@@ -35,26 +35,39 @@ export default function JumpingJack() {
                 src={"/cheinter.jpeg"}
                 height={170}
                 width={310}
-                className={styles.im11}
+                className={styles.chestIntermediateWorkOutImage}
               />
             </div>
-            <div className={styles.abs3}>CHEST INTERMEDIATE</div>
+            <div className={styles.chestIntermediateWorkOutDemonstration}>
+              CHEST INTERMEDIATE
+            </div>
 
             <Link href={"/INTERMEDIATE/chestIntermediate"}>
-              <button className={styles.back7}>
+              <button
+                className={
+                  styles.chestIntermediateWorkOutDemonstrationBackButton
+                }
+              >
                 <div>←</div>
               </button>
             </Link>
-            <h4 className={styles.bgsetabs}>Jumping Jacks</h4>
-            <hr className={styles.vrabsb} />
+            <h4 className={styles.chestIntermediateWorkOutDemonstrationName}>
+              Jumping Jacks
+            </h4>
+            <hr
+              className={
+                styles.chestIntermediateWorkOutDemonstrationHorizontalLine
+              }
+            />
           </div>
-          <div className={styles.worksb} class="card">
-            <h5 className={styles.time}>▼11 mins • 13 workouts</h5>
+          <div className={styles.worksb}>
+            <h5 className={styles.chestIntermediateWorkOutDemonstrationTime}>
+              ▼11 mins • 13 workouts
+            </h5>
           </div>
           <hr className={styles.vr} />
 
           <div className={styles.animation}>
-            {" "}
             <Image
               alt="guy with the greates image ever"
               src={"/jumpingjackGif.gif"}
