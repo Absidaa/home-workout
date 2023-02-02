@@ -35,23 +35,33 @@ export default function CrossoverCrunches() {
                 src={"/absad.jpeg"}
                 height={170}
                 width={320}
-                className={styles.im11}
+                className={styles.absAdvacedWorkOutImage}
               />
             </div>
-            <div className={styles.abs7}>ABS ADVANCED</div>
+            <div className={styles.absAdvancedWorkOutDemonstration}>
+              ABS ADVANCED
+            </div>
 
             <Link href={"/"}>
-              <button className={styles.back7}>
+              <button
+                className={styles.absAdvancedWorkOutDemonstrationBackButton}
+              >
                 <div>
                   <MdHomeFilled />
                 </div>
               </button>
             </Link>
-            <h4 className={styles.bgsetabs}>Crossover Crunch</h4>
-            <hr className={styles.vrabsa} />
+            <h4 className={styles.absAdvancedWorkOutDemonstrationName}>
+              Crossover Crunch
+            </h4>
+            <hr
+              className={styles.absAdvancedWorkOutDemonstrationHorizontalLine}
+            />
           </div>
           <div className={styles.worksb} class="card">
-            <h5 className={styles.time}>▼25 mins • 19 workouts</h5>
+            <h5 className={styles.absAdavancedWorkOutDemonstrationTime}>
+              ▼25 mins • 19 workouts
+            </h5>
           </div>
           <hr className={styles.vr} />
 

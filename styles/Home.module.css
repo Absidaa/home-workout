@@ -910,6 +910,58 @@
   margin-bottom: 3vh;
   font-family: Arial, Helvetica, sans-serif;
 }
+.absAdvacedWorkOutImage {
+  margin-left: 60px;
+  margin-bottom: 40px;
+}
+.absAdvancedWorkOutDemonstration {
+  margin-top: -8.5vh;
+  margin-bottom: 9vh;
+  color: rgb(0, 116, 0);
+  margin-left: 14.5vh;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 33px;
+  font-weight: bold;
+}
+.absAdvancedWorkOutDemonstrationBackButton {
+  color: white;
+  background-color: rgb(5, 58, 88);
+  border-radius: 25px;
+  border-color: white;
+  margin-left: 60px;
+}
+.absAdvancedWorkOutDemonstrationName {
+  margin-top: -3vh;
+  margin-left: 25vh;
+  margin-bottom: -1.7vh;
+}
+.absAdvancedWorkOutDemonstrationHorizontalLine {
+  margin-top: 1.8vh;
+  margin-bottom: 2vh;
+  width: 65vh;
+  margin-left: 3.4vh;
+}
+.absAdavancedWorkOutDemonstrationTime {
+  margin-left: -28vh;
+  margin-top: 16vh;
+  margin-bottom: 3vh;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.absAdvancedCongrats {
+  font-size: 36px;
+  margin-left: 6vh;
+  margin-top: 10px;
+  color: rgb(255, 189, 22);
+  font-weight: bolder;
+}
+.absAvancedWorkOutHomeButton {
+  color: white;
+  background-color: rgb(5, 58, 88);
+  border-radius: 25px;
+  border-color: white;
+  margin-left: 20px;
+}
 .legBeginnerLayOutImage {
   margin-left: 23px;
   margin-bottom: 40px;
@@ -1414,13 +1466,6 @@
   font-size: 30px;
   font-weight: bold;
   color: rgb(0, 116, 0);
-}
-.congrats {
-  font-size: 31px;
-  margin-left: 6vh;
-  margin-top: 40px;
-  color: rgb(255, 189, 22);
-  font-weight: bolder;
 }
 .phoneViewCongrat {
   margin-left: -7vh;
