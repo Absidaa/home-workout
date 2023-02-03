@@ -35,23 +35,25 @@ export default function PikePushUp() {
                 src={"/bacad.jpeg"}
                 height={170}
                 width={320}
-                className={styles.im11}
+                className={styles.backAdvancedWorkOutImage}
               />
             </div>
-            <div className={styles.abs10}>BACK ADVANCED</div>
+            <div className={styles.backAdvancedWorkOut}>BACK ADVANCED</div>
 
             <Link href={"/"}>
-              <button className={styles.back7}>
+              <button className={styles.backAdvancedWorkOutBackButton}>
                 <div>
                   <MdHomeFilled />
                 </div>
               </button>
             </Link>
-            <h4 className={styles.bgsetabs}>Pike Push-Ups</h4>
-            <hr className={styles.vrchead} />
+            <h4 className={styles.backAdvancedWorkOutName}>Pike Push-Ups</h4>
+            <hr className={styles.backAdvancedWorkOutHorizontalLine} />
           </div>
           <div className={styles.worksb} class="card">
-            <h5 className={styles.time}>▼15 mins • 10 workouts</h5>
+            <h5 className={styles.backAdvancedWorkOutTime}>
+              ▼15 mins • 10 workouts
+            </h5>
           </div>
           <hr className={styles.vr} />
 
