@@ -21,21 +21,23 @@ export default function BackAdvanced() {
                 src={"/bacad.jpeg"}
                 height={170}
                 width={320}
-                className={styles.im11}
+                className={styles.backAdvancedLayOutImage}
               />
             </div>
-            <div className={styles.abs10}>BACK ADVANCED</div>
+            <div className={styles.backAdvancedLayOut}>BACK ADVANCED</div>
 
             <Link href={"/"}>
-              <button className={styles.back12}>
+              <button className={styles.backAdvancedLayOutBackButton}>
                 <div>←</div>
               </button>
             </Link>
-            <h4 className={styles.bgset13}>Set of Workouts</h4>
-            <hr className={styles.vrbacad} />
+            <h4 className={styles.backAdvancedSetOfWorkOut}>Set of Workouts</h4>
+            <hr className={styles.backAdvancedLayOutHorizontalLine} />
           </div>
           <div className={styles.worksb} class="card">
-            <h5 className={styles.time}>▼15 mins • 10 workouts</h5>
+            <h5 className={styles.backAdvancedLayOutTime}>
+              ▼15 mins • 10 workouts
+            </h5>
           </div>
           <hr className={styles.vr} />
 
