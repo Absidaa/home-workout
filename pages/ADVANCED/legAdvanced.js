@@ -21,21 +21,23 @@ export default function LegAdvanced() {
                 src={"/lega.jpeg"}
                 height={170}
                 width={320}
-                className={styles.im11}
+                className={styles.legAdvancedLayOutImage}
               />
             </div>
-            <div className={styles.abs9}>LEG ADVANCED</div>
+            <div className={styles.legAdvancedLayOut}>LEG ADVANCED</div>
 
             <Link href={"/"}>
-              <button className={styles.back12}>
+              <button className={styles.legAdvancedLayOutBackButton}>
                 <div>←</div>
               </button>
             </Link>
-            <h4 className={styles.bgset12}>Set of Workouts</h4>
-            <hr className={styles.vrlegad} />
+            <h4 className={styles.legAdvancedSetOfWorkOut}>Set of Workouts</h4>
+            <hr className={styles.legAdvancedLayOutHorizontalLine} />
           </div>
           <div className={styles.worksb} class="card">
-            <h5 className={styles.time}>▼16 mins • 13 workouts</h5>
+            <h5 className={styles.legAdvancedLayOutTime}>
+              ▼16 mins • 13 workouts
+            </h5>
           </div>
           <hr className={styles.vr} />
 

@@ -1319,6 +1319,45 @@
   margin-left: 20px;
   margin-top: -10px;
 }
+.legAdvancedLayOutImage {
+  margin-left: 57px;
+  margin-bottom: 40px;
+}
+.legAdvancedLayOut {
+  margin-top: -8.5vh;
+  margin-bottom: 9vh;
+  color: rgb(0, 116, 0);
+  margin-left: 14vh;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 33px;
+  font-weight: bold;
+}
+.legAdvancedLayOutBackButton {
+  color: white;
+  background-color: rgb(5, 58, 88);
+  border-radius: 25px;
+  border-color: white;
+  margin-left: 60px;
+  margin-top: -10px;
+}
+
+.legAdvancedSetOfWorkOut {
+  margin-top: -3vh;
+  margin-left: 25vh;
+  margin-bottom: -1.7vh;
+}
+.legAdvancedLayOutHorizontalLine {
+  margin-top: 1.8vh;
+  margin-bottom: 2vh;
+  width: 64vh;
+  margin-left: 3vh;
+}
+.legAdvancedLayOutTime {
+  margin-left: -28vh;
+  margin-top: 16vh;
+  margin-bottom: 4vh;
+  font-family: Arial, Helvetica, sans-serif;
+}
 .backBeginnerLayOutImage {
   margin-left: 22px;
   margin-bottom: 40px;
