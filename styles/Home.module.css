@@ -1358,6 +1358,60 @@
   margin-bottom: 4vh;
   font-family: Arial, Helvetica, sans-serif;
 }
+.legAdvancedWorkoutImage {
+  margin-left: 58px;
+  margin-bottom: 40px;
+}
+.legAdvancedWorkout {
+  margin-top: -8.5vh;
+  margin-bottom: 9vh;
+  color: rgb(0, 116, 0);
+  margin-left: 14.7vh;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 33px;
+  font-weight: bold;
+}
+.legAdvancedWorkOutBackButton {
+  color: white;
+  background-color: rgb(5, 58, 88);
+  border-radius: 25px;
+  border-color: white;
+  margin-left: 60px;
+  margin-top: -10px;
+}
+.legAdvancedWorkOutName {
+  margin-top: -3vh;
+  margin-left: 25vh;
+  margin-bottom: -1.7vh;
+}
+.LegAdvanceWorkOutHorizontalLine {
+  margin-top: 1.8vh;
+  margin-bottom: 2vh;
+  width: 64vh;
+  margin-left: 3vh;
+}
+.legAdvancedWorkOutTime {
+  margin-left: -28vh;
+  margin-top: 16vh;
+  margin-bottom: 4vh;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.legAdvancedCongrats {
+  font-size: 33px;
+  margin-left: 7.5vh;
+  margin-top: 8px;
+  color: rgb(255, 189, 22);
+  font-weight: bolder;
+}
+.legAdvancedCongratsHomeButton {
+  color: white;
+  background-color: rgb(5, 58, 88);
+  border-radius: 25px;
+  border-color: white;
+  margin-left: 20px;
+  margin-top: -10px;
+}
+
 .backBeginnerLayOutImage {
   margin-left: 22px;
   margin-bottom: 40px;

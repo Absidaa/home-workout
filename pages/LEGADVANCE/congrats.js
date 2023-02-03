@@ -15,13 +15,13 @@ export default function Congrats() {
                 <Image
                   style={{ borderRadius: "20px", marginLeft: "20px" }}
                   alt="guy"
-                  src={"/armad.jpeg"}
-                  height={175}
-                  width={300}
-                  className={styles.im11}
+                  src={"/lega.jpeg"}
+                  height={170}
+                  width={320}
+                  className={styles.legAdvancedWorkoutImage}
                 />
               </div>
-              <div className={styles.congrats}>LEG ADVANCED</div>
+              <div className={styles.legAdvancedCongrats}>LEG ADVANCED</div>
             </div>
             <div className={styles.worksb} class="card"></div>
             <hr className={styles.vr} style={{ marginTop: "13vh" }} />
@@ -48,10 +48,7 @@ export default function Congrats() {
               </Link>
             </div>
             <Link href={"/"}>
-              <button
-                className={styles.back7}
-                style={{ marginLeft: "3vh", marginTop: "-10vh" }}
-              >
+              <button className={styles.legAdvancedCongratsHomeButton}>
                 <div>
                   <MdHomeFilled />
                 </div>

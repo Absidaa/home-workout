@@ -35,23 +35,25 @@ export default function CurtsyLunge() {
                 src={"/lega.jpeg"}
                 height={170}
                 width={320}
-                className={styles.im11}
+                className={styles.legAdvancedWorkoutImage}
               />
             </div>
-            <div className={styles.abs7}>LEG ADVANCED</div>
+            <div className={styles.legAdvancedWorkout}>LEG ADVANCED</div>
 
             <Link href={"/"}>
-              <button className={styles.back9}>
+              <button className={styles.legAdvancedWorkOutBackButton}>
                 <div>
                   <MdHomeFilled />
                 </div>
               </button>
             </Link>
-            <h4 className={styles.bgsetabs}>Curtsy Lunges </h4>
-            <hr className={styles.vrabsa} />
+            <h4 className={styles.legAdvancedWorkOutName}>Curtsy Lunges </h4>
+            <hr className={styles.LegAdvanceWorkOutHorizontalLine} />
           </div>
           <div className={styles.worksb} class="card">
-            <h5 className={styles.time}>▼16 mins • 13 workouts</h5>
+            <h5 className={styles.legAdvancedWorkOutTime}>
+              ▼16 mins • 13 workouts
+            </h5>
           </div>
           <hr className={styles.vr} />
 
