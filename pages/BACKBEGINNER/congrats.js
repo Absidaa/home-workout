@@ -16,9 +16,9 @@ export default function Congrats() {
                   style={{ borderRadius: "20px", marginLeft: "20px" }}
                   alt="guy"
                   src={"/back.webp"}
-                  height={175}
-                  width={300}
-                  className={styles.backBeginnerWorkOutImage}
+                  height={170}
+                  width={320}
+                  className={styles.backBeginnerCongratsImage}
                 />
               </div>
               <div className={styles.backBeginnerCongrats}>BACK BEGINNER</div>

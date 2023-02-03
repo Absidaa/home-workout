@@ -18,7 +18,7 @@ export default function Congrats() {
                   src={"/backi.jpeg"}
                   height={170}
                   width={320}
-                  className={styles.backIntermediateWorkOutImage}
+                  className={styles.backIntermediatCongratsImage}
                 />
               </div>
               <div className={styles.backIntermediateCongrats}>
