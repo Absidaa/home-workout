@@ -48,12 +48,9 @@ export default function PushUp() {
               </button>
             </Link>
             <h4 className={styles.armIntermediatWorkOutName}>Push-Ups</h4>
-            <hr className={styles.vrabsb} />
+            <hr className={styles.armIntermediateWorkOutHorizontalLine} />
           </div>
-          <div
-            className={styles.armIntermediateWorkOutHorizontalLine}
-            class="card"
-          >
+          <div className={styles.s} class="card">
             <h5 className={styles.armIntermediateWorkOutTime}>
               ▼11 mins • 13 workouts
             </h5>

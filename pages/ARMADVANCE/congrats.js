@@ -16,9 +16,9 @@ export default function Congrats() {
                   style={{ borderRadius: "20px", marginLeft: "20px" }}
                   alt="guy"
                   src={"/armad.jpeg"}
-                  height={175}
+                  height={170}
                   width={320}
-                  className={styles.armAdvancedWorkOutImage}
+                  className={styles.armAdvancedCongratsImage}
                 />
               </div>
               <div className={styles.armAdvancedCongrats}>ARM ADVANCED</div>
