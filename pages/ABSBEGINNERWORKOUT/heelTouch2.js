@@ -22,7 +22,7 @@ export default function HeelTouch() {
                 src={"/absb.jpeg"}
                 height={170}
                 width={320}
-                className={styles.im}
+                className={styles.absBeginnerWorkOutImage}
               />
             </div>
             <div className={styles.absBeginnerWorkoutDemonstration}>

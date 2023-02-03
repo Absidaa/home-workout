@@ -21,7 +21,7 @@ export default function AbsBeginner() {
                 src={"/absb.jpeg"}
                 height={170}
                 width={315}
-                className={styles.im}
+                className={styles.absBeginnerLayOutImage}
               />
             </div>
             <div className={styles.absBeginnerLayOut}>ABS BEGINNER</div>
