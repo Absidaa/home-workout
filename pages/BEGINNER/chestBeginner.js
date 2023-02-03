@@ -35,7 +35,7 @@ export default function ChestBeginner() {
               ▼11 mins • 10 workouts
             </h5>
           </div>
-          <hr className={styles.vrche} style={{ marginTop: "-75px" }} />
+          <hr className={styles.vr} style={{ marginTop: "-75px" }} />
 
           <Image
             style={{

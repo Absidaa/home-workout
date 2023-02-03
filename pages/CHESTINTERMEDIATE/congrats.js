@@ -16,9 +16,9 @@ export default function Congrats() {
                   style={{ borderRadius: "20px", marginLeft: "20px" }}
                   alt="guy"
                   src={"/cheinter.jpeg"}
-                  height={175}
-                  width={300}
-                  className={styles.chestIntermediateWorkOutImage}
+                  height={170}
+                  width={320}
+                  className={styles.chestIntermediateCongratsImage}
                 />
               </div>
               <div className={styles.chestIntermediateCongrats}>

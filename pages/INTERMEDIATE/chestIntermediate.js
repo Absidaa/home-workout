@@ -24,7 +24,7 @@ export default function ChestInterMediate() {
           </div>
           <div className={styles.chestInterMediateLayOut}>
             CHEST INTERMEDIATE
-          </div>
+          </div >
 
           <Link href={"/"}>
             <button className={styles.chestIntermediateLayOutBackButton}>
