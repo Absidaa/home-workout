@@ -19,7 +19,7 @@ export default function Squats() {
                 style={{ borderRadius: "20px" }}
                 alt="guy"
                 src={"/leg.jpeg"}
-                height={165}
+                height={170}
                 width={320}
                 className={styles.legBeginnerWorkOutImage}
               />

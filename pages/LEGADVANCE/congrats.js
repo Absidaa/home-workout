@@ -18,7 +18,7 @@ export default function Congrats() {
                   src={"/lega.jpeg"}
                   height={170}
                   width={320}
-                  className={styles.legAdvancedWorkoutImage}
+                  className={styles.legAdvancedCongratsImage}
                 />
               </div>
               <div className={styles.legAdvancedCongrats}>LEG ADVANCED</div>
