@@ -216,9 +216,14 @@
   margin-bottom: 4vh;
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.absIntermediateCongratsImage {
+  margin-left: 3.8vh;
+  margin-bottom: 6vh;
+}
 .absIntermediateCongrats {
   font-size: 30px;
-  margin-left: 3vh;
+  margin-left: 5vh;
   margin-top: 5px;
   color: rgb(255, 189, 22);
   font-weight: bolder;
@@ -304,6 +309,11 @@
   margin-top: 16vh;
   margin-bottom: 3vh;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.absAdvacedCongratsImage {
+  margin-right: 0.1vh;
+  margin-bottom: 5vh;
 }
 
 .absAdvancedCongrats {
@@ -1787,6 +1797,9 @@
     margin-right: 10%;
   }
 
+  .but {
+    margin-left: 0.5vh;
+  }
   .arbak {
     margin-top: -15px;
     height: 30vh;
@@ -1797,10 +1810,10 @@
     margin-bottom: 40px;
   }
   .absBeginnerLayOut {
-    margin-top: -9vh;
-    margin-bottom: 7vh;
+    margin-top: -8vh;
+    margin-bottom: 9vh;
     color: rgb(0, 116, 0);
-    margin-left: 13vh;
+    margin-left: 15vh;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 35px;
     font-weight: bold;
@@ -1829,14 +1842,14 @@
     font-family: Arial, Helvetica, sans-serif;
   }
   .absBeginnerWorkOutImage {
-    margin-left: 58px;
+    margin-left: 50px;
     margin-bottom: 40px;
   }
   .absBeginnerWorkoutDemonstration {
-    margin-top: -9vh;
-    margin-bottom: 7vh;
+    margin-top: -8vh;
+    margin-bottom: 9vh;
     color: rgb(0, 116, 0);
-    margin-left: 13vh;
+    margin-left: 14vh;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 35px;
     font-weight: bold;
@@ -1862,8 +1875,8 @@
   }
   .absBeginnerWorkOutDemonstrationHorizontalLine {
     margin-bottom: -20vh;
-    width: 64vh;
-    margin-left: 3vh;
+    width: 65vh;
+    margin-left: 2.5vh;
   }
   .absBeginnerWorkOutDemonstrationTime {
     margin-left: -28vh;
@@ -1874,8 +1887,8 @@
 
   .absBeginnerCongrats {
     font-size: 33px;
-    margin-left: 6vh;
-    margin-top: 40px;
+    margin-left: 4vh;
+    margin-top: 60px;
     color: rgb(255, 189, 22);
     font-weight: bolder;
   }
@@ -1884,12 +1897,12 @@
     margin-bottom: 40px;
   }
   .absIntermediateLayOut {
-    margin-top: -8vh;
-    margin-bottom: 9vh;
+    margin-top: -8.2vh;
+    margin-bottom: 12vh;
     color: rgb(0, 116, 0);
-    margin-left: 11vh;
+    margin-left: 15vh;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 30px;
+    font-size: 28px;
     font-weight: bold;
   }
   .absIntermediateLayOutBackButton {
@@ -1916,16 +1929,16 @@
     font-family: Arial, Helvetica, sans-serif;
   }
   .absIntermediateWorkOutDemonstrationImage {
-    margin-left: 58px;
+    margin-left: 54px;
     margin-bottom: 40px;
   }
   .absIntermediateWorkOutDemonstration {
-    margin-top: -9vh;
-    margin-bottom: 7vh;
+    margin-top: -8vh;
+    margin-bottom: 9vh;
     color: rgb(0, 116, 0);
-    margin-left: 12vh;
+    margin-left: 14vh;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 30px;
+    font-size: 28px;
     font-weight: bold;
   }
   .absIntermediateWorkOutDemonstrationBackButton {
@@ -1951,9 +1964,13 @@
     margin-bottom: 4vh;
     font-family: Arial, Helvetica, sans-serif;
   }
+  .absIntermediateCongratsImage {
+    margin-left: -1vh;
+    margin-bottom: 10vh;
+  }
   .absIntermediateCongrats {
     font-size: 30px;
-    margin-left: 3vh;
+    margin-left: 4vh;
     margin-top: 5px;
     color: rgb(255, 189, 22);
     font-weight: bolder;
@@ -1971,10 +1988,10 @@
     margin-bottom: 40px;
   }
   .absAdvancedLayOut {
-    margin-top: -8.5vh;
-    margin-bottom: 9vh;
+    margin-top: -8vh;
+    margin-bottom: 10vh;
     color: rgb(0, 116, 0);
-    margin-left: 14.5vh;
+    margin-left: 16vh;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 33px;
     font-weight: bold;
@@ -1999,7 +2016,7 @@
   }
   .absAdvancedLayOutTime {
     margin-left: -28vh;
-    margin-top: 16vh;
+    margin-top: 15.5vh;
     margin-bottom: 3vh;
     font-family: Arial, Helvetica, sans-serif;
   }
@@ -2008,10 +2025,10 @@
     margin-bottom: 40px;
   }
   .absAdvancedWorkOutDemonstration {
-    margin-top: -8.5vh;
-    margin-bottom: 9vh;
+    margin-top: -8vh;
+    margin-bottom: 11vh;
     color: rgb(0, 116, 0);
-    margin-left: 14.5vh;
+    margin-left: 16vh;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 33px;
     font-weight: bold;
@@ -2040,10 +2057,13 @@
     margin-bottom: 3vh;
     font-family: Arial, Helvetica, sans-serif;
   }
-
+  .absAdvacedCongratsImage {
+    margin-right: 4vh;
+    margin-bottom: 8vh;
+  }
   .absAdvancedCongrats {
     font-size: 36px;
-    margin-left: 6vh;
+    margin-left: 9vh;
     margin-top: 10px;
     color: rgb(255, 189, 22);
     font-weight: bolder;
@@ -3286,5 +3306,9 @@
     font-size: 19px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
+  }
+
+  .phoneView {
+    margin-left: 3vh;
   }
 }

@@ -13,12 +13,12 @@ export default function Congrats() {
             <div className={styles.absb}>
               <div className={styles.phoneView}>
                 <Image
-                  style={{ borderRadius: "20px", marginLeft: "20px" }}
+                  style={{ borderRadius: "20px" }}
                   alt="guy"
                   src={"/absi.jpeg"}
-                  height={175}
-                  width={300}
-                  className={styles.absIntermediateWorkOutDemonstrationImage}
+                  height={170}
+                  width={320}
+                  className={styles.absIntermediateCongratsImage}
                 />
               </div>
               <div className={styles.absIntermediateCongrats}>
@@ -50,10 +50,7 @@ export default function Congrats() {
               </Link>
             </div>
             <Link href={"/"}>
-              <button
-                className={styles.absIntermediateHomeCongratsButton}
-                style={{ marginLeft: "3vh", marginTop: "-10vh" }}
-              >
+              <button className={styles.absIntermediateHomeCongratsButton}>
                 <div>
                   <MdHomeFilled />
                 </div>

@@ -18,7 +18,7 @@ export default function Congrats() {
                   src={"/absad.jpeg"}
                   height={170}
                   width={320}
-                  className={styles.absAdvacedWorkOutImage}
+                  className={styles.absAdvacedCongratsImage}
                 />
               </div>
               <div className={styles.absAdvancedCongrats}>ABS ADVANCED</div>
