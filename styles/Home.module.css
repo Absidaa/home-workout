@@ -4028,14 +4028,14 @@
     margin-left: 20px;
   }
   .armBeginnerLayOutImage {
-    margin-left: 26px;
+    margin-left: 36px;
     margin-bottom: 40px;
   }
   .armBeginnerLayOut {
-    margin-top: -8.5vh;
-    margin-bottom: 9vh;
+    margin-top: -6vh;
+    margin-bottom: 12vh;
     color: rgb(0, 116, 0);
-    margin-left: 10vh;
+    margin-left: 15vh;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 35px;
     font-weight: bold;
@@ -4046,6 +4046,7 @@
     border-radius: 25px;
     border-color: white;
     margin-left: 30px;
+    margin-bottom: 1.5vh;
   }
   .armBeginnerSetOfWorkOut {
     margin-top: -3vh;
@@ -4060,19 +4061,19 @@
   }
   .armBeginnerTime {
     margin-left: -28vh;
-    margin-top: 13.5vh;
+    margin-top: 10vh;
     margin-bottom: 4vh;
     font-family: Arial, Helvetica, sans-serif;
   }
   .armBeginnerWorkOutDemonstrationImage {
-    margin-left: 56px;
+    margin-left: 70px;
     margin-bottom: 40px;
   }
   .armBeginnerDemonstration {
-    margin-top: -8.5vh;
-    margin-bottom: 10vh;
+    margin-top: -6vh;
+    margin-bottom: 15vh;
     color: rgb(0, 116, 0);
-    margin-left: 14.5vh;
+    margin-left: 20.5vh;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 35px;
     font-weight: bold;
@@ -4082,7 +4083,8 @@
     background-color: rgb(5, 58, 88);
     border-radius: 25px;
     border-color: white;
-    margin-left: 60px;
+    margin-left: 10vh;
+    margin-bottom: 1.5vh;
   }
   .armBeginnerWorkOutDemonstrationName {
     margin-top: -3vh;
@@ -4092,23 +4094,23 @@
   .armBeginnerWorkOutDemonstrationHorizontalLine {
     margin-top: 1.8vh;
     margin-bottom: 2vh;
-    width: 64vh;
-    margin-left: 3vh;
+    width: 65vh;
+    margin-left: 3.4vh;
   }
   .armBeginnerWorkOutDemonstrationTime {
     margin-left: -28vh;
-    margin-top: 14.5vh;
+    margin-top: 13vh;
     margin-bottom: 3vh;
     font-family: Arial, Helvetica, sans-serif;
   }
   .armBeginnerDemonstrationCongratsImage {
-    margin-left: 2vh;
+    margin-left: 3vh;
     margin-bottom: 8vh;
   }
   .armBeginnerCongrats {
     font-size: 33px;
     margin-left: 6vh;
-    margin-top: 10px;
+    margin-top: 11vh;
     color: rgb(255, 189, 22);
     font-weight: bolder;
   }
@@ -4124,10 +4126,10 @@
     margin-bottom: 40px;
   }
   .armIntermediateLayOut {
-    margin-top: -8vh;
-    margin-bottom: 11vh;
+    margin-top: -6vh;
+    margin-bottom: 14vh;
     color: rgb(0, 116, 0);
-    margin-left: 8.5vh;
+    margin-left: 18vh;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 33px;
     font-weight: bold;
@@ -4137,7 +4139,8 @@
     background-color: rgb(5, 58, 88);
     border-radius: 25px;
     border-color: white;
-    margin-left: 60px;
+    margin-left: 10vh;
+    margin-bottom: 1.5vh;
   }
   .armIntermediateSetOfWorkOut {
     margin-top: -3vh;
@@ -4147,12 +4150,12 @@
   .armIntermediateLayOutHorizontalLine {
     margin-top: 1.8vh;
     margin-bottom: 2vh;
-    width: 64vh;
-    margin-left: 2.7vh;
+    width: 65vh;
+    margin-left: 3.4vh;
   }
   .armintermediateLayOutTime {
     margin-left: -28vh;
-    margin-top: 14vh;
+    margin-top: 10vh;
     margin-bottom: 3vh;
     font-family: Arial, Helvetica, sans-serif;
   }
@@ -4161,10 +4164,10 @@
     margin-bottom: 40px;
   }
   .armItermediateWorkOut {
-    margin-top: -8vh;
-    margin-bottom: 11.6vh;
+    margin-top: -6vh;
+    margin-bottom: 14vh;
     color: rgb(0, 116, 0);
-    margin-left: 10vh;
+    margin-left: 17vh;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 33px;
     font-weight: bold;
@@ -4174,7 +4177,8 @@
     background-color: rgb(5, 58, 88);
     border-radius: 25px;
     border-color: white;
-    margin-left: 60px;
+    margin-left: 10vh;
+    margin-bottom: 1.5vh;
   }
   .armIntermediatWorkOutName {
     margin-top: -3vh;
@@ -4189,7 +4193,7 @@
   }
   .armIntermediateWorkOutTime {
     margin-left: -28vh;
-    margin-top: 14.5vh;
+    margin-top: 11vh;
     margin-bottom: 3vh;
     font-family: Arial, Helvetica, sans-serif;
   }
@@ -4198,8 +4202,8 @@
   }
   .armIntermediateCongrats {
     font-size: 28px;
-    margin-left: 6vh;
-    margin-top: 40px;
+    margin-left: 10vh;
+    margin-top: 12vh;
     color: rgb(255, 189, 22);
     font-weight: bolder;
   }
@@ -4211,14 +4215,14 @@
     margin-left: 20px;
   }
   .armAdvancedLayOutImage {
-    margin-left: 62px;
+    margin-left: 72px;
     margin-bottom: 40px;
   }
   .armAdvancedLayOut {
-    margin-top: -8vh;
-    margin-bottom: 11vh;
+    margin-top: -6vh;
+    margin-bottom: 15vh;
     color: rgb(0, 116, 0);
-    margin-left: 16vh;
+    margin-left: 21vh;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 33px;
     font-weight: bold;
@@ -4228,7 +4232,8 @@
     background-color: rgb(5, 58, 88);
     border-radius: 25px;
     border-color: white;
-    margin-left: 45px;
+    margin-left: 10vh;
+    margin-bottom: 1.5vh;
   }
   .armAdvancedLayOutName {
     margin-top: -3vh;
@@ -4243,19 +4248,19 @@
   }
   .armAdvancedLayOutTime {
     margin-left: -28vh;
-    margin-top: 16vh;
+    margin-top: 12vh;
     margin-bottom: 3vh;
     font-family: Arial, Helvetica, sans-serif;
   }
   .armAdvancedWorkOutImage {
-    margin-left: 60px;
+    margin-left: 72px;
     margin-bottom: 40px;
   }
   .armAdvancedWorkOut {
-    margin-top: -8vh;
-    margin-bottom: 11vh;
+    margin-top: -6vh;
+    margin-bottom: 15vh;
     color: rgb(0, 116, 0);
-    margin-left: 15.7vh;
+    margin-left: 21vh;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 33px;
     font-weight: bold;
@@ -4265,7 +4270,8 @@
     background-color: rgb(5, 58, 88);
     border-radius: 25px;
     border-color: white;
-    margin-left: 63px;
+    margin-left: 10vh;
+    margin-bottom: 1.5vh;
   }
   .armAdvancedWorkOutName {
     margin-top: -3vh;
@@ -4280,18 +4286,18 @@
   }
   .armAdvancedWorkOutTime {
     margin-left: -28vh;
-    margin-top: 16.5vh;
+    margin-top: 12.5vh;
     margin-bottom: 3vh;
     font-family: Arial, Helvetica, sans-serif;
   }
   .armAdvancedCongratsImage {
-    margin-right: 3vh;
+    margin-right: 8vh;
     margin-bottom: 8vh;
   }
   .armAdvancedCongrats {
     font-size: 35px;
-    margin-left: 8vh;
-    margin-top: 10px;
+    margin-left: 14.5vh;
+    margin-top: 10vh;
     color: rgb(255, 189, 22);
     font-weight: bolder;
   }

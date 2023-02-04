@@ -28,15 +28,16 @@ export default function FloorTricepDip() {
       <div className={styles.abdy}>
         <div className={styles.bbdy}>
           <div className={styles.absb}>
-            <div className={styles.phoneView}></div>
-            <Image
-              style={{ borderRadius: "20px" }}
-              alt="guy"
-              src={"/armad.jpeg"}
-              height={170}
-              width={320}
-              className={styles.armAdvancedWorkOutImage}
-            />
+            <div className={styles.phoneView}>
+              <Image
+                style={{ borderRadius: "20px" }}
+                alt="guy"
+                src={"/armad.jpeg"}
+                height={170}
+                width={320}
+                className={styles.armAdvancedWorkOutImage}
+              />
+            </div>
             <div className={styles.armAdvancedWorkOut}>ARM ADVANCED</div>
 
             <Link href={"/"}>
