@@ -6229,7 +6229,7 @@
 
   .backBeginnerLayOutImage {
     margin-left: 30px;
-    margin-bottom: 40px;
+    margin-bottom: 37px;
   }
   .backBeginnerLayOut {
     margin-top: -6vh;
@@ -6261,17 +6261,17 @@
   }
   .backBeginnerLayOutTime {
     margin-left: -28vh;
-    margin-top: 12.5vh;
+    margin-top: 14vh;
     margin-bottom: 4vh;
     font-family: Arial, Helvetica, sans-serif;
   }
   .backBeginnerWorkOutImage {
-    margin-left: 70px;
+    margin-left: 68px;
     margin-bottom: 40px;
   }
   .backBeginnerWorkOut {
     margin-top: -6vh;
-    margin-bottom: 14vh;
+    margin-bottom: 12vh;
     color: rgb(0, 116, 0);
     margin-left: 20vh;
     font-family: Arial, Helvetica, sans-serif;
@@ -6305,7 +6305,7 @@
   }
   .backBeginnerCongratsImage {
     margin-right: 8vh;
-    margin-bottom: 9vh;
+    margin-bottom: 8vh;
   }
   .backBeginnerCongrats {
     font-size: 33px;
@@ -6324,7 +6324,7 @@
   }
   .backIntermediateLayOutImage {
     margin-left: 75px;
-    margin-bottom: 40px;
+    margin-bottom: 39px;
   }
   .backIntermediateLayOut {
     margin-top: -6vh;
@@ -6361,8 +6361,8 @@
     font-family: Arial, Helvetica, sans-serif;
   }
   .backIntermediateWorkOutImage {
-    margin-left: 72px;
-    margin-bottom: 40px;
+    margin-left: 70px;
+    margin-bottom: 38px;
   }
   .backIntermediateWorkOut {
     margin-top: -6vh;
@@ -6400,7 +6400,7 @@
   }
   .backIntermediatCongratsImage {
     margin-right: 8vh;
-    margin-bottom: 8vh;
+    margin-bottom: 7vh;
   }
   .backIntermediateCongrats {
     font-size: 29px;
@@ -6419,7 +6419,7 @@
     margin-top: -10px;
   }
   .backAdvancedLayOutImage {
-    margin-left: 75px;
+    margin-left: 70px;
     margin-bottom: 40px;
   }
   .backAdvancedLayOut {
@@ -6452,12 +6452,12 @@
   }
   .backAdvancedLayOutTime {
     margin-left: -28vh;
-    margin-top: 12.6vh;
+    margin-top: 13vh;
     margin-bottom: 3vh;
     font-family: Arial, Helvetica, sans-serif;
   }
   .backAdvancedWorkOutImage {
-    margin-left: 72px;
+    margin-left: 70px;
     margin-bottom: 40px;
   }
   .backAdvancedWorkOut {
@@ -6490,13 +6490,13 @@
   }
   .backAdvancedWorkOutTime {
     margin-left: -28vh;
-    margin-top: 12.6vh;
+    margin-top: 13vh;
     margin-bottom: 3vh;
     font-family: Arial, Helvetica, sans-serif;
   }
   .backAdvancedCongratsImage {
     margin-left: 4vh;
-    margin-bottom: 8vh;
+    margin-bottom: 7vh;
   }
   .backAdvancedCongrats {
     font-size: 33px;
@@ -6510,7 +6510,7 @@
     background-color: rgb(5, 58, 88);
     border-radius: 25px;
     border-color: white;
-    margin-left: 20px;
+    margin-left: 21px;
     margin-top: -10px;
   }
   .absb {
