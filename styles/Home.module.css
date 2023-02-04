@@ -4310,14 +4310,14 @@
   }
 
   .legBeginnerLayOutImage {
-    margin-left: 23px;
+    margin-left: 27px;
     margin-bottom: 40px;
   }
   .legBeginnerLayOut {
-    margin-top: -8.5vh;
-    margin-bottom: 10vh;
+    margin-top: -6vh;
+    margin-bottom: 15vh;
     color: rgb(0, 116, 0);
-    margin-left: 10vh;
+    margin-left: 16vh;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 35px;
     font-weight: bold;
@@ -4327,11 +4327,12 @@
     background-color: rgb(5, 58, 88);
     border-radius: 25px;
     border-color: white;
-    margin-left: 20px;
+    margin-left: 5vh;
+    margin-bottom: 1.5vh;
   }
   .legBeginnerSetOfWorkOut {
     margin-top: -3vh;
-    margin-left: 20vh;
+    margin-left: 25vh;
     margin-bottom: -1.7vh;
   }
   .legBeginnerLayOutHorizontalLine {
@@ -4342,19 +4343,19 @@
   }
   .legBeginnerLayOutTime {
     margin-left: -28vh;
-    margin-top: 15vh;
+    margin-top: 12vh;
     margin-bottom: 3vh;
     font-family: Arial, Helvetica, sans-serif;
   }
   .legBeginnerWorkOutImage {
-    margin-left: 56px;
+    margin-left: 72px;
     margin-bottom: 40px;
   }
   .legBeginnerWorkOut {
-    margin-top: -8vh;
-    margin-bottom: 11vh;
+    margin-top: -6vh;
+    margin-bottom: 15vh;
     color: rgb(0, 116, 0);
-    margin-left: 15vh;
+    margin-left: 21vh;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 35px;
     font-weight: bold;
@@ -4364,7 +4365,8 @@
     background-color: rgb(5, 58, 88);
     border-radius: 25px;
     border-color: white;
-    margin-left: 60px;
+    margin-left: 10vh;
+    margin-bottom: 1.5vh;
   }
   .legBeginnerWorkOutName {
     margin-top: -3vh;
@@ -4374,23 +4376,23 @@
   .legBeginnerWorkOutHorizontalLine {
     margin-top: 1.8vh;
     margin-bottom: 2vh;
-    width: 64vh;
-    margin-left: 3vh;
+    width: 65vh;
+    margin-left: 3.4vh;
   }
   .legBeginnerWorkOutTime {
     margin-left: -28vh;
-    margin-top: 16vh;
+    margin-top: 12.5vh;
     margin-bottom: 3vh;
     font-family: Arial, Helvetica, sans-serif;
   }
   .legBeginnerCongratsImage {
-    margin-left: 2vh;
+    margin-left: 3vh;
     margin-bottom: 9vh;
   }
   .legbeginnerCongrats {
     font-size: 33px;
     margin-left: 7vh;
-    margin-top: 9px;
+    margin-top: 9vh;
     color: rgb(255, 189, 22);
     font-weight: bolder;
   }
@@ -4403,14 +4405,14 @@
     margin-top: -10px;
   }
   .legIntermediateLayOutImage {
-    margin-left: 57px;
+    margin-left: 72px;
     margin-bottom: 40px;
   }
   .legIntermediateLayOut {
-    margin-top: -8vh;
-    margin-bottom: 11.5vh;
+    margin-top: -6vh;
+    margin-bottom: 15.5vh;
     color: rgb(0, 116, 0);
-    margin-left: 15vh;
+    margin-left: 21vh;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 28px;
     font-weight: bold;
@@ -4420,35 +4422,35 @@
     background-color: rgb(5, 58, 88);
     border-radius: 25px;
     border-color: white;
-    margin-left: 60px;
-    margin-top: -10px;
+    margin-left: 10vh;
+    margin-bottom: 1.5vh;
   }
   .legIntermediateSetOfWorkOut {
     margin-top: -3vh;
-    margin-left: 25vh;
+    margin-left: 27vh;
     margin-bottom: -1.7vh;
   }
   .legIntermediateLayOutHorizontalLine {
     margin-top: 1.8vh;
     margin-bottom: 2vh;
-    width: 64vh;
-    margin-left: 3vh;
+    width: 65vh;
+    margin-left: 3.4vh;
   }
   .legIntermediateLayOutTime {
     margin-left: -28vh;
-    margin-top: 15.5vh;
+    margin-top: 11.5vh;
     margin-bottom: 4vh;
     font-family: Arial, Helvetica, sans-serif;
   }
   .legIntermediateWorkOutImage {
-    margin-left: 55px;
+    margin-left: 72px;
     margin-bottom: 40px;
   }
   .legIntermediateWorkOut {
-    margin-top: -8vh;
-    margin-bottom: 11vh;
+    margin-top: -6vh;
+    margin-bottom: 15vh;
     color: rgb(0, 116, 0);
-    margin-left: 15vh;
+    margin-left: 21vh;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 28px;
     font-weight: bold;
@@ -4458,8 +4460,8 @@
     background-color: rgb(5, 58, 88);
     border-radius: 25px;
     border-color: white;
-    margin-left: 60px;
-    margin-top: -10px;
+    margin-left: 10vh;
+    margin-bottom: 1.5vh;
   }
   .legIntermediateWorkOutName {
     margin-top: -3vh;
@@ -4469,23 +4471,23 @@
   .legIntermediateWorkOutHorizontalLine {
     margin-top: 1.8vh;
     margin-bottom: 2vh;
-    width: 64vh;
-    margin-left: 3vh;
+    width: 65vh;
+    margin-left: 3.4vh;
   }
   .legIntermediateWorkOutTime {
     margin-left: -28vh;
-    margin-top: 14vh;
+    margin-top: 11vh;
     margin-bottom: 4vh;
     font-family: Arial, Helvetica, sans-serif;
   }
   .legIntermediateCongratsImage {
-    margin-right: 4vh;
+    margin-right: 7.5vh;
     margin-bottom: 9vh;
   }
   .legIntermediateCongrats {
     font-size: 30px;
-    margin-left: 7vh;
-    margin-top: 8px;
+    margin-left: 14vh;
+    margin-top: 8vh;
     color: rgb(255, 189, 22);
     font-weight: bolder;
   }
@@ -4498,14 +4500,14 @@
     margin-top: -10px;
   }
   .legAdvancedLayOutImage {
-    margin-left: 57px;
+    margin-left: 72px;
     margin-bottom: 40px;
   }
   .legAdvancedLayOut {
-    margin-top: -8vh;
-    margin-bottom: 11vh;
+    margin-top: -6vh;
+    margin-bottom: 15vh;
     color: rgb(0, 116, 0);
-    margin-left: 16vh;
+    margin-left: 21.5vh;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 33px;
     font-weight: bold;
@@ -4515,36 +4517,36 @@
     background-color: rgb(5, 58, 88);
     border-radius: 25px;
     border-color: white;
-    margin-left: 60px;
-    margin-top: -10px;
+    margin-left: 10vh;
+    margin-bottom: 1.5vh;
   }
 
   .legAdvancedSetOfWorkOut {
     margin-top: -3vh;
-    margin-left: 25vh;
+    margin-left: 27vh;
     margin-bottom: -1.7vh;
   }
   .legAdvancedLayOutHorizontalLine {
     margin-top: 1.8vh;
     margin-bottom: 2vh;
-    width: 64vh;
-    margin-left: 3vh;
+    width: 65vh;
+    margin-left: 3.4vh;
   }
   .legAdvancedLayOutTime {
     margin-left: -28vh;
-    margin-top: 16vh;
+    margin-top: 12vh;
     margin-bottom: 4vh;
     font-family: Arial, Helvetica, sans-serif;
   }
   .legAdvancedWorkoutImage {
-    margin-left: 58px;
+    margin-left: 72px;
     margin-bottom: 40px;
   }
   .legAdvancedWorkout {
-    margin-top: -8vh;
-    margin-bottom: 11vh;
+    margin-top: -6vh;
+    margin-bottom: 15vh;
     color: rgb(0, 116, 0);
-    margin-left: 16vh;
+    margin-left: 21.5vh;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 33px;
     font-weight: bold;
@@ -4554,8 +4556,8 @@
     background-color: rgb(5, 58, 88);
     border-radius: 25px;
     border-color: white;
-    margin-left: 60px;
-    margin-top: -10px;
+    margin-left: 10vh;
+    margin-bottom: 1.5vh;
   }
   .legAdvancedWorkOutName {
     margin-top: -3vh;
@@ -4565,23 +4567,23 @@
   .LegAdvanceWorkOutHorizontalLine {
     margin-top: 1.8vh;
     margin-bottom: 2vh;
-    width: 64vh;
-    margin-left: 3vh;
+    width: 65vh;
+    margin-left: 3.4vh;
   }
   .legAdvancedWorkOutTime {
     margin-left: -28vh;
-    margin-top: 15.5vh;
+    margin-top: 12.5vh;
     margin-bottom: 4vh;
     font-family: Arial, Helvetica, sans-serif;
   }
   .legAdvancedCongratsImage {
-    margin-right: 3.5vh;
+    margin-right: 8vh;
     margin-bottom: 8vh;
   }
   .legAdvancedCongrats {
     font-size: 33px;
-    margin-left: 10vh;
-    margin-top: 8px;
+    margin-left: 15.5vh;
+    margin-top: 9vh;
     color: rgb(255, 189, 22);
     font-weight: bolder;
   }

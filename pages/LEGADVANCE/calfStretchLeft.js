@@ -28,15 +28,16 @@ export default function CalfStretchLeft() {
       <div className={styles.abdy}>
         <div className={styles.bbdy}>
           <div className={styles.absb}>
-            <div className={styles.phoneView}></div>
-            <Image
-              style={{ borderRadius: "20px" }}
-              alt="guy"
-              src={"/lega.jpeg"}
-              height={170}
-              width={320}
-              className={styles.legAdvancedWorkoutImage}
-            />
+            <div className={styles.phoneView}>
+              <Image
+                style={{ borderRadius: "20px" }}
+                alt="guy"
+                src={"/lega.jpeg"}
+                height={170}
+                width={320}
+                className={styles.legAdvancedWorkoutImage}
+              />
+            </div>
             <div className={styles.legAdvancedWorkout}>LEG ADVANCED</div>
 
             <Link href={"/"}>
