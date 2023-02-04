@@ -5941,12 +5941,12 @@
   }
 
   .legBeginnerLayOutImage {
-    margin-left: 27px;
+    margin-left: 25px;
     margin-bottom: 40px;
   }
   .legBeginnerLayOut {
     margin-top: -6vh;
-    margin-bottom: 15vh;
+    margin-bottom: 13vh;
     color: rgb(0, 116, 0);
     margin-left: 16vh;
     font-family: Arial, Helvetica, sans-serif;
@@ -5979,12 +5979,12 @@
     font-family: Arial, Helvetica, sans-serif;
   }
   .legBeginnerWorkOutImage {
-    margin-left: 72px;
+    margin-left: 70px;
     margin-bottom: 40px;
   }
   .legBeginnerWorkOut {
     margin-top: -6vh;
-    margin-bottom: 15vh;
+    margin-bottom: 13vh;
     color: rgb(0, 116, 0);
     margin-left: 21vh;
     font-family: Arial, Helvetica, sans-serif;
@@ -6018,7 +6018,7 @@
   }
   .legBeginnerCongratsImage {
     margin-left: 3vh;
-    margin-bottom: 9vh;
+    margin-bottom: 8vh;
   }
   .legbeginnerCongrats {
     font-size: 33px;
@@ -6041,7 +6041,7 @@
   }
   .legIntermediateLayOut {
     margin-top: -6vh;
-    margin-bottom: 15.5vh;
+    margin-bottom: 13.5vh;
     color: rgb(0, 116, 0);
     margin-left: 21vh;
     font-family: Arial, Helvetica, sans-serif;
@@ -6074,12 +6074,12 @@
     font-family: Arial, Helvetica, sans-serif;
   }
   .legIntermediateWorkOutImage {
-    margin-left: 72px;
+    margin-left: 68px;
     margin-bottom: 40px;
   }
   .legIntermediateWorkOut {
     margin-top: -6vh;
-    margin-bottom: 15vh;
+    margin-bottom: 13vh;
     color: rgb(0, 116, 0);
     margin-left: 21vh;
     font-family: Arial, Helvetica, sans-serif;
@@ -6113,11 +6113,11 @@
   }
   .legIntermediateCongratsImage {
     margin-right: 7.5vh;
-    margin-bottom: 9vh;
+    margin-bottom: 8vh;
   }
   .legIntermediateCongrats {
     font-size: 30px;
-    margin-left: 14vh;
+    margin-left: 13vh;
     margin-top: 8vh;
     color: rgb(255, 189, 22);
     font-weight: bolder;
@@ -6136,7 +6136,7 @@
   }
   .legAdvancedLayOut {
     margin-top: -6vh;
-    margin-bottom: 15vh;
+    margin-bottom: 13vh;
     color: rgb(0, 116, 0);
     margin-left: 21.5vh;
     font-family: Arial, Helvetica, sans-serif;
@@ -6170,12 +6170,12 @@
     font-family: Arial, Helvetica, sans-serif;
   }
   .legAdvancedWorkoutImage {
-    margin-left: 72px;
+    margin-left: 70px;
     margin-bottom: 40px;
   }
   .legAdvancedWorkout {
     margin-top: -6vh;
-    margin-bottom: 15vh;
+    margin-bottom: 13vh;
     color: rgb(0, 116, 0);
     margin-left: 21.5vh;
     font-family: Arial, Helvetica, sans-serif;
