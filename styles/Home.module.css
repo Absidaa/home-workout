@@ -9470,14 +9470,14 @@
   }
 
   .backBeginnerLayOutImage {
-    margin-left: -1vh;
-    margin-bottom: 37px;
+    margin-left: 0.4vh;
+    margin-bottom: 40px;
   }
   .backBeginnerLayOut {
-    margin-top: -7vh;
-    margin-bottom: 10vh;
+    margin-top: -8vh;
+    margin-bottom: 8vh;
     color: rgb(0, 116, 0);
-    margin-left: 12vh;
+    margin-left: 9vh;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 33px;
     font-weight: bold;
@@ -9488,7 +9488,6 @@
     border-radius: 25px;
     border-color: white;
     margin-left: 5vh;
-    margin-bottom: 1vh;
   }
   .backBeginnerSetOfWorkOut {
     margin-top: -3vh;
@@ -9503,19 +9502,19 @@
   }
   .backBeginnerLayOutTime {
     margin-left: -28vh;
-    margin-top: 15.5vh;
+    margin-top: 20vh;
     margin-bottom: 4vh;
     font-family: Arial, Helvetica, sans-serif;
   }
   .backBeginnerWorkOutImage {
-    margin-left: 33px;
+    margin-left: 38px;
     margin-bottom: 40px;
   }
   .backBeginnerWorkOut {
-    margin-top: -7vh;
+    margin-top: -8vh;
     margin-bottom: 10vh;
     color: rgb(0, 116, 0);
-    margin-left: 17vh;
+    margin-left: 14vh;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 33px;
     font-weight: bold;
@@ -9526,7 +9525,6 @@
     border-radius: 25px;
     border-color: white;
     margin-left: 10vh;
-    margin-bottom: 1vh;
   }
   .backBeginnerWorkOutName {
     margin-top: -3vh;
@@ -9541,18 +9539,18 @@
   }
   .backBeginnerWorkOutTime {
     margin-left: -28vh;
-    margin-top: 13vh;
+    margin-top: 19vh;
     margin-bottom: 3vh;
     font-family: Arial, Helvetica, sans-serif;
   }
   .backBeginnerCongratsImage {
-    margin-right: 8vh;
-    margin-bottom: 5vh;
+    margin-right: 5vh;
+    margin-bottom: 3vh;
   }
   .backBeginnerCongrats {
     font-size: 33px;
-    margin-left: 15vh;
-    margin-top: 8vh;
+    margin-left: 11vh;
+    margin-top: 5vh;
     color: rgb(255, 189, 22);
     font-weight: bolder;
   }
@@ -9565,14 +9563,14 @@
     margin-top: -10px;
   }
   .backIntermediateLayOutImage {
-    margin-left: 33px;
-    margin-bottom: 39px;
+    margin-left: 38px;
+    margin-bottom: 40px;
   }
   .backIntermediateLayOut {
-    margin-top: -7vh;
-    margin-bottom: 10vh;
+    margin-top: -8vh;
+    margin-bottom: 8vh;
     color: rgb(0, 116, 0);
-    margin-left: 17vh;
+    margin-left: 15vh;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 26px;
     font-weight: bold;
@@ -9583,7 +9581,6 @@
     border-radius: 25px;
     border-color: white;
     margin-left: 10vh;
-    margin-bottom: 1vh;
   }
   .backIntermediateLayOutSetOfWorkOut {
     margin-top: -3vh;
@@ -9598,19 +9595,19 @@
   }
   .backIntermediateLayOutTime {
     margin-left: -28vh;
-    margin-top: 12vh;
+    margin-top: 15vh;
     margin-bottom: 3vh;
     font-family: Arial, Helvetica, sans-serif;
   }
   .backIntermediateWorkOutImage {
-    margin-left: 33px;
-    margin-bottom: 38px;
+    margin-left: 37px;
+    margin-bottom: 40px;
   }
   .backIntermediateWorkOut {
-    margin-top: -6.5vh;
+    margin-top: -8vh;
     margin-bottom: 10vh;
     color: rgb(0, 116, 0);
-    margin-left: 17vh;
+    margin-left: 14.5vh;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 26px;
     font-weight: bold;
@@ -9621,7 +9618,6 @@
     border-radius: 25px;
     border-color: white;
     margin-left: 10vh;
-    margin-bottom: 1.5vh;
   }
   .backIntermediateWorkOutName {
     margin-top: -3vh;
@@ -9636,18 +9632,18 @@
   }
   .backIntermediateWorkOutTime {
     margin-left: -28vh;
-    margin-top: 12vh;
+    margin-top: 16.5vh;
     margin-bottom: 3vh;
     font-family: Arial, Helvetica, sans-serif;
   }
   .backIntermediatCongratsImage {
-    margin-right: 8vh;
-    margin-bottom: 5vh;
+    margin-right: 5vh;
+    margin-bottom: 3vh;
   }
   .backIntermediateCongrats {
-    font-size: 29px;
-    margin-left: 12.5vh;
-    margin-top: 9vh;
+    font-size: 27px;
+    margin-left: 10vh;
+    margin-top: 6vh;
     color: rgb(255, 189, 22);
     font-weight: bolder;
   }
@@ -9661,14 +9657,14 @@
     margin-top: -10px;
   }
   .backAdvancedLayOutImage {
-    margin-left: 33px;
+    margin-left: 38px;
     margin-bottom: 40px;
   }
   .backAdvancedLayOut {
-    margin-top: -6.7vh;
-    margin-bottom: 10vh;
+    margin-top: -8vh;
+    margin-bottom: 8vh;
     color: rgb(0, 116, 0);
-    margin-left: 18vh;
+    margin-left: 15vh;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
     font-weight: bold;
@@ -9679,7 +9675,6 @@
     border-radius: 25px;
     border-color: white;
     margin-left: 10vh;
-    margin-bottom: 1.5vh;
   }
   .backAdvancedSetOfWorkOut {
     margin-top: -3vh;
@@ -9694,19 +9689,19 @@
   }
   .backAdvancedLayOutTime {
     margin-left: -28vh;
-    margin-top: 13vh;
+    margin-top: 16vh;
     margin-bottom: 3vh;
     font-family: Arial, Helvetica, sans-serif;
   }
   .backAdvancedWorkOutImage {
-    margin-left: 33px;
+    margin-left: 38px;
     margin-bottom: 40px;
   }
   .backAdvancedWorkOut {
-    margin-top: -6.7vh;
+    margin-top: -8vh;
     margin-bottom: 10vh;
     color: rgb(0, 116, 0);
-    margin-left: 18vh;
+    margin-left: 15vh;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 31px;
     font-weight: bold;
@@ -9717,7 +9712,6 @@
     border-radius: 25px;
     border-color: white;
     margin-left: 10vh;
-    margin-bottom: 1vh;
   }
   .backAdvancedWorkOutName {
     margin-top: -3vh;
@@ -9732,18 +9726,18 @@
   }
   .backAdvancedWorkOutTime {
     margin-left: -28vh;
-    margin-top: 13vh;
+    margin-top: 17vh;
     margin-bottom: 3vh;
     font-family: Arial, Helvetica, sans-serif;
   }
   .backAdvancedCongratsImage {
     margin-left: 4vh;
-    margin-bottom: 5vh;
+    margin-bottom: 3vh;
   }
   .backAdvancedCongrats {
     font-size: 33px;
-    margin-left: 6vh;
-    margin-top: 9vh;
+    margin-left: 7vh;
+    margin-top: 6vh;
     color: rgb(255, 189, 22);
     font-weight: bolder;
   }
