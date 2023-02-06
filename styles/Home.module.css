@@ -5100,10 +5100,10 @@
     margin-bottom: 40px;
   }
   .absBeginnerLayOut {
-    margin-top: -8vh;
-    margin-bottom: 8vh;
+    margin-top: -6.5vh;
+    margin-bottom: 7vh;
     color: rgb(0, 116, 0);
-    margin-left: 16vh;
+    margin-left: 20vh;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 33px;
     font-weight: bold;
@@ -5114,6 +5114,7 @@
     border-radius: 25px;
     border-color: white;
     margin-left: 10vh;
+    margin-bottom: 1vh;
   }
   .absBeginnerSetOfWorkOut {
     margin-top: -3vh;
@@ -5127,19 +5128,19 @@
   }
   .absBeginnerWorkOuttime {
     margin-left: -28vh;
-    margin-top: 15vh;
-    margin-bottom: 4vh;
+    margin-top: 4vh;
+    margin-bottom: 3vh;
     font-family: Arial, Helvetica, sans-serif;
   }
   .absBeginnerWorkOutImage {
-    margin-left: 30px;
+    margin-left: 40px;
     margin-bottom: 40px;
   }
   .absBeginnerWorkoutDemonstration {
-    margin-top: -8vh;
+    margin-top: -6.5vh;
     margin-bottom: 10vh;
     color: rgb(0, 116, 0);
-    margin-left: 13.5vh;
+    margin-left: 19.5vh;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 35px;
     font-weight: bold;
@@ -5150,6 +5151,7 @@
     border-radius: 25px;
     border-color: white;
     margin-left: 8vh;
+    margin-bottom: 1vh;
   }
   .absBeginnerWorkOutName {
     margin-top: -3vh;
@@ -5163,15 +5165,15 @@
   }
   .absBeginnerWorkOutDemonstrationTime {
     margin-left: -28vh;
-    margin-top: 17.5vh;
+    margin-top: 9vh;
     margin-bottom: 4vh;
     font-family: Arial, Helvetica, sans-serif;
   }
 
   .absBeginnerCongrats {
     font-size: 35px;
-    margin-left: 3vh;
-    margin-top: 8vh;
+    margin-left: 2vh;
+    margin-top: 15vh;
     color: rgb(255, 189, 22);
     font-weight: bolder;
   }
@@ -5184,14 +5186,14 @@
     margin-left: 20px;
   }
   .absIntermediateImage {
-    margin-left: 40px;
+    margin-left: 43px;
     margin-bottom: 40px;
   }
   .absIntermediateLayOut {
-    margin-top: -8vh;
+    margin-top: -6.5vh;
     margin-bottom: 8vh;
     color: rgb(0, 116, 0);
-    margin-left: 16vh;
+    margin-left: 19vh;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 28px;
     font-weight: bold;
@@ -5207,6 +5209,7 @@
     margin-top: -3vh;
     margin-left: 27vh;
     margin-bottom: -1vh;
+    margin-bottom: 1vh;
   }
   .absIntermediateLayOutHorizontalLine {
     margin-bottom: -20vh;
@@ -5215,19 +5218,19 @@
   }
   .absIntermediateLayOutTime {
     margin-left: -28vh;
-    margin-top: 15vh;
+    margin-top: 6.5vh;
     margin-bottom: 4vh;
     font-family: Arial, Helvetica, sans-serif;
   }
   .absIntermediateWorkOutDemonstrationImage {
-    margin-left: 30px;
+    margin-left: 40px;
     margin-bottom: 40px;
   }
   .absIntermediateWorkOutDemonstration {
-    margin-top: -8vh;
+    margin-top: -6.5vh;
     margin-bottom: 10vh;
     color: rgb(0, 116, 0);
-    margin-left: 13vh;
+    margin-left: 19vh;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 28px;
     font-weight: bold;
@@ -5238,6 +5241,7 @@
     border-radius: 25px;
     border-color: white;
     margin-left: 8vh;
+    margin-bottom: 1vh;
   }
   .absIntermediateWorkOutDemonstrationName {
     margin-top: -3vh;
@@ -5251,18 +5255,18 @@
   }
   .absIntermediateWorkOutTime {
     margin-left: -28vh;
-    margin-top: 17.5vh;
+    margin-top: 8vh;
     margin-bottom: 4vh;
     font-family: Arial, Helvetica, sans-serif;
   }
   .absIntermediateCongratsImage {
-    margin-left: -2vh;
-    margin-bottom: 8vh;
+    margin-left: -60px;
+    margin-bottom: 10vh;
   }
   .absIntermediateCongrats {
     font-size: 30px;
-    margin-left: 5vh;
-    margin-top: 10px;
+    margin-left: 6vh;
+    margin-top: 30px;
     color: rgb(255, 189, 22);
     font-weight: bolder;
   }
@@ -5275,14 +5279,14 @@
   }
 
   .absAdvancedLayOutImage {
-    margin-left: 42px;
+    margin-left: 45px;
     margin-bottom: 40px;
   }
   .absAdvancedLayOut {
-    margin-top: -8vh;
+    margin-top: -6.5vh;
     margin-bottom: 8vh;
     color: rgb(0, 116, 0);
-    margin-left: 15vh;
+    margin-left: 20vh;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 33px;
     font-weight: bold;
@@ -5293,6 +5297,7 @@
     border-radius: 25px;
     border-color: white;
     margin-left: 10vh;
+    margin-bottom: 1vh;
   }
   .absAdvancedSetOfWorkOut {
     margin-top: -3vh;
@@ -5307,19 +5312,19 @@
   }
   .absAdvancedLayOutTime {
     margin-left: -28vh;
-    margin-top: 15vh;
+    margin-top: 7vh;
     margin-bottom: 3vh;
     font-family: Arial, Helvetica, sans-serif;
   }
   .absAdvacedWorkOutImage {
-    margin-left: 33px;
+    margin-left: 40px;
     margin-bottom: 40px;
   }
   .absAdvancedWorkOutDemonstration {
-    margin-top: -8vh;
+    margin-top: -6.5vh;
     margin-bottom: 10vh;
     color: rgb(0, 116, 0);
-    margin-left: 14vh;
+    margin-left: 20vh;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 33px;
     font-weight: bold;
@@ -5345,7 +5350,7 @@
   }
   .absAdavancedWorkOutDemonstrationTime {
     margin-left: -28vh;
-    margin-top: 17vh;
+    margin-top: 8vh;
     margin-bottom: 3vh;
     font-family: Arial, Helvetica, sans-serif;
   }
@@ -5355,8 +5360,8 @@
   }
   .absAdvancedCongrats {
     font-size: 36px;
-    margin-left: 12vh;
-    margin-top: 20px;
+    margin-left: 15vh;
+    margin-top: 70px;
     color: rgb(255, 189, 22);
     font-weight: bolder;
   }
@@ -6631,7 +6636,7 @@
   }
 
   .phoneView {
-    margin-left: 5vh;
+    margin-left: 11.5vh;
   }
 }
 
