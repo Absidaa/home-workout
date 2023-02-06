@@ -1809,7 +1809,7 @@
     width: 30vh;
     border: none;
     background-color: hsl(60, 100%, 50%);
-    margin-left: 10%;
+    margin-left: 10.5%;
   }
   .bdy {
     width: 56.2vh;
@@ -9897,7 +9897,7 @@
   }
 }
 
-@media only screen and (min-device-width: 410px) and (max-device-width: 411px) and (max-device-height: 823px) {
+@media only screen and (min-device-width: 410px) and (max-device-width: 411px) {
   .main {
     display: flex;
     flex-direction: column;
